@@ -25,3 +25,5 @@ build ()
     run 5.2
     run 5.3
 }
+
+# vim: ft=sh

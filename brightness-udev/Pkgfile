@@ -14,3 +14,5 @@ build ()
 
     install -Dm664 90-brightnessctl.rules "$PKG/etc/udev/rules.d/90-brightnessctl.rules"
 }
+
+# vim: ft=sh

@@ -14,3 +14,5 @@ build ()
 
     install -Dm755 "$name" "$PKG/usr/bin/$name"
 }
+
+# vim: ft=sh

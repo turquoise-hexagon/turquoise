@@ -10,11 +10,13 @@ source=("https://github.com/devnev/$name/archive/$name-$version.tar.gz")
 
 build ()
 {
-	cd "$name-$name-$version"
+    cd "$name-$name-$version"
 
-	./autogen.sh
-	./configure --prefix=/usr
+    ./autogen.sh
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR="$PKG" install
+    make
+    make DESTDIR="$PKG" install
 }
+
+# vim: ft=sh

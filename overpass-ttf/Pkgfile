@@ -43,8 +43,10 @@ build ()
 
     orig="webfonts/${name//-*}-mono-webfont/${name//-*}"
 
-    install -Dm644 "$orig-mono-light.ttf"	 "$dest/Mono-Light.ttf"
-    install -Dm644 "$orig-mono-semibold.ttf"	 "$dest/Mono-SemiBold.ttf"
+    install -Dm644 "$orig-mono-light.ttf"        "$dest/Mono-Light.ttf"
+    install -Dm644 "$orig-mono-semibold.ttf"     "$dest/Mono-SemiBold.ttf"
     install -Dm644 "$orig-mono-bold.ttf"         "$dest/Mono-Bold.ttf"
-    install -Dm644 "$orig-mono-regular.ttf"	 "$dest/Mono-Regular.ttf"
+    install -Dm644 "$orig-mono-regular.ttf"      "$dest/Mono-Regular.ttf"
 }
+
+# vim: ft=sh

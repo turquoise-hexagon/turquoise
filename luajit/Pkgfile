@@ -17,3 +17,5 @@ build ()
 
     ln -s "/usr/include/$name-2.0" "$PKG/usr/include/$name"
 }
+
+# vim: ft=sh

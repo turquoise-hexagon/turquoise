@@ -26,3 +26,5 @@ build ()
     install -Dm755 "$name.so" "$PKG/usr/lib/$lang/5.3/$name.so"
     install -Dm644 "re.$lang" "$PKG/usr/share/$lang/5.3/re.$lang"
 }
+
+# vim: ft=sh
