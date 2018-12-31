@@ -4,7 +4,7 @@
 # Depends on  : startup-notification xorg-xcb-util-wm xcb-util-xrm libxkbcommon librsvg
 
 name=rofi
-version=1.5.1
+version=1.5.2
 release=1
 source=("https://github.com/davedavenport/$name/releases/download/$version/$name-$version.tar.gz")
 
