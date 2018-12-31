@@ -1,0 +1,27 @@
+# Description : Simple implementation of msgpack in C
+# URL         : https://github.com/tarruda/libmpack
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : lua51 lua52 lua
+
+name=libmpack
+version=1.0.4
+release=1
+source=("https://github.com/tarruda/$name/archive/$version.tar.gz")
+
+run ()
+{
+    gcc -O2 -fPIC "-I/usr/include/lua$1" -c binding/lua/lmpack.c -o lmpack.o
+    gcc -shared -o "mpack.so.$1" lmpack.o
+    install -Dm755 "mpack.so.$1" "$PKG/usr/lib/lua/$1/mpack.so"
+}
+
+build ()
+{
+    cd "$name-$version"
+
+    make PREFIX=/usr
+    
+    run 5.1
+    run 5.2
+    run 5.3
+}

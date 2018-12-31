@@ -1,0 +1,17 @@
+# Description : a terminfo parsing library
+# URL         : https://github.com/mauke/unibilium
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=unibilium
+version=2.0.0
+release=1
+source=("https://github.com/mauke/$name/archive/v$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}

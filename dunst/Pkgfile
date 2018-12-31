@@ -1,0 +1,17 @@
+# Description : Lightweight and customizable notification daemon
+# URL         : https://github.com/dunst-project/dunst
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : dbus libnotify libdxdg-basedir
+
+name=dunst
+version=1.3.2
+release=1
+source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr install
+}

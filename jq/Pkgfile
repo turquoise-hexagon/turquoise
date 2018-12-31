@@ -1,0 +1,21 @@
+# Description : Command-line JSON preprocessor
+# URL         : https://stedolan.github.io/jq
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=jq
+version=1.5
+release=1
+source=("https://github.com/stedolan/$name/releases/download/$name-$version/$name-$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
+}

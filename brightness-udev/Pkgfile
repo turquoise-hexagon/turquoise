@@ -1,0 +1,16 @@
+# Description : Control backlight brightness - udev rules
+# URL         : https://github.com/hummer12007/brightnessctl
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : udev
+
+name=brightness-udev
+version=0.4
+release=1
+source=("https://github.com/hummer12007/brightnessctl/archive/$version.tar.gz")
+
+build ()
+{
+    cd "brightnessctl-$version"
+
+    install -Dm664 90-brightnessctl.rules "$PKG/etc/udev/rules.d/90-brightnessctl.rules"
+}

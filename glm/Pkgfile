@@ -1,0 +1,22 @@
+# Description : OpenGL Mathematics (GLM)
+# URL         : https://github.com/g-truc/glm
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : cmake
+
+name=glm
+version=0.9.9.3
+release=1
+source=("https://github.com/g-truc/$name/archive/$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    cmake . \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_CXX_COMPILER_ID=GNU \
+        -DCMAKE_CXX_FLAGS=" -std=c++14"
+
+    make
+    make DESTDIR="$PKG" install
+}

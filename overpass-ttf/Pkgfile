@@ -1,0 +1,50 @@
+# Description : An open source font family
+# URL         : http://overpassfont.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : fontconfig
+
+name=overpass-ttf
+version=3.0.3
+release=1
+source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
+
+build ()
+{
+    var=${name//-*}; var=${var^}
+
+    cd "$var-$version"
+
+    dest="$PKG/usr/share/fonts/X11/TTF/$var"
+    orig="webfonts/${name//-*}-webfont/${name//-*}"
+
+    install -Dm644 "$orig-semibold.ttf"          "$dest/SemiBold.ttf"
+    install -Dm644 "$orig-semibold-italic.ttf"   "$dest/SemiBold-Italic.ttf"
+
+    install -Dm644 "$orig-regular.ttf"           "$dest/Regular.ttf"
+    install -Dm644 "$orig-italic.ttf"            "$dest/Italic.ttf"
+
+    install -Dm644 "$orig-bold.ttf"              "$dest/Bold.ttf"
+    install -Dm644 "$orig-bold-italic.ttf"       "$dest/Bold-Italic.ttf"
+
+    install -Dm644 "$orig-extrabold.ttf"         "$dest/ExtraBold.ttf"
+    install -Dm644 "$orig-extrabold-italic.ttf"  "$dest/ExtraBold-Italic.ttf"
+
+    install -Dm644 "$orig-light.ttf"             "$dest/Light.ttf"
+    install -Dm644 "$orig-light-italic.ttf"      "$dest/Light-Italic.ttf"
+
+    install -Dm644 "$orig-thin.ttf"              "$dest/Thin.ttf"
+    install -Dm644 "$orig-thin-italic.ttf"       "$dest/Thin-Italic.ttf"
+
+    install -Dm644 "$orig-heavy.ttf"             "$dest/Heavy.ttf"
+    install -Dm644 "$orig-heavy-italic.ttf"      "$dest/Heavy-Italic.ttf"
+
+    install -Dm644 "$orig-extralight.ttf"        "$dest/ExtraLight.ttf"
+    install -Dm644 "$orig-extralight-italic.ttf" "$dest/ExtraLight-Italic.ttf"
+
+    orig="webfonts/${name//-*}-mono-webfont/${name//-*}"
+
+    install -Dm644 "$orig-mono-light.ttf"	 "$dest/Mono-Light.ttf"
+    install -Dm644 "$orig-mono-semibold.ttf"	 "$dest/Mono-SemiBold.ttf"
+    install -Dm644 "$orig-mono-bold.ttf"         "$dest/Mono-Bold.ttf"
+    install -Dm644 "$orig-mono-regular.ttf"	 "$dest/Mono-Regular.ttf"
+}

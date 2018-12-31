@@ -1,0 +1,20 @@
+# Description : MessagePack implementation for C and C++
+# URL         : https://github.com/msgpack/msgpack-c
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : cmake
+
+name=msgpack-c
+version=3.1.1
+release=1
+source=("https://github.com/msgpack/$name/archive/cpp-$version.tar.gz")
+
+build ()
+{
+    cd "$name-cpp-$version"
+
+    cmake . \
+        -DCMAKE_INSTALL_PREFIX=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}

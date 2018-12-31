@@ -1,0 +1,17 @@
+# Description : Telegram Desktop messsaging app
+# URL         : https://telegram.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=telegram
+version=1.5.4
+release=1
+source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
+
+build ()
+{
+    cd Telegram
+
+    install -Dm755 Telegram "$PKG/usr/bin/telegram"
+    install -Dm755 Updater  "$PKG/usr/bin/updater"
+}

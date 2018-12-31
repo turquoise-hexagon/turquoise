@@ -1,0 +1,17 @@
+# Description : A featherweight, lemon-scented bar based on xcb
+# URL         : https://github.com/lemonboy/lemonbar
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-libxcb
+
+name=bar
+version=1.3
+release=1
+source=("https://github.com/lemonboy/$name/archive/v$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
+}

@@ -1,0 +1,28 @@
+# Description : Pattern matching library for Lua
+# URL         : http://www.inf.puc-rio.br/~roberto/lpeg
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : lua51 lua52 lua
+
+name=lua-lpeg
+version=1.0.1
+release=1
+source=("http://www.inf.puc-rio.br/~roberto/${name//*-}/${name//*-}-$version.tar.gz")
+
+build ()
+{
+    lang=${name//-*}
+    name=${name//*-}
+    
+    cd "$name-$version"
+
+    make LUADIR="/usr/include/${lang}jit" "$lang=${lang}jit"
+
+    install -Dm755 "$name.so" "$PKG/usr/lib/$lang/5.1/$name.so"
+    install -Dm644 "re.$lang" "$PKG/usr/share/$lang/5.1/re.$lang"
+
+    install -Dm755 "$name.so" "$PKG/usr/lib/$lang/5.2/$name.so"
+    install -Dm644 "re.$lang" "$PKG/usr/share/$lang/5.2/re.$lang"
+
+    install -Dm755 "$name.so" "$PKG/usr/lib/$lang/5.3/$name.so"
+    install -Dm644 "re.$lang" "$PKG/usr/share/$lang/5.3/re.$lang"
+}

@@ -1,0 +1,22 @@
+# Description : Bitmap Font Editor
+# URL         : http://sofia.nmsu.edu/~mleisher/Software/gbdfed
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : gtk
+
+name=gbdfed
+version=1.6
+release=1
+source=("http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+    sed -i 's/-D.*_DEPRECATED\s*\\*//' Makefile.in
+
+    ./configure --prefix=/usr
+
+    make
+
+    install -Dm755 "$name" "$PKG/usr/bin/$name"
+    install -Dm644 "$name.man" "$PKG/usr/share/man/man1/$name.1"
+}

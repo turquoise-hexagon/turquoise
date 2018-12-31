@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/chkstow
+-rwxr-xr-x	root/root	usr/bin/stow
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/
+-rw-r--r--	root/root	usr/lib/perl5/site_perl/5.26/Stow.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/Stow/
+-rw-r--r--	root/root	usr/lib/perl5/site_perl/5.26/Stow/Util.pm
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man8/
+-rw-r--r--	root/root	usr/man/man8/stow.8.gz
+drwxr-xr-x	root/root	usr/share/
