@@ -20,7 +20,7 @@ build ()
     cd "$name-$version"
 
     make PREFIX=/usr
-    
+
     run 5.1
     run 5.2
     run 5.3

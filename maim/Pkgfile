@@ -1,6 +1,6 @@
 # Description : maim (make image) takes screenshots of your desktop
 # URL         : https://github.com/naelstrof/maim
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues 
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : freetype slop xorg-libxcomposite xorg-libxrandr
 
 name=maim

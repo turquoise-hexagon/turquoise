@@ -12,7 +12,7 @@ build ()
 {
     lang=${name//-*}
     name=${name//*-}
-    
+
     cd "$name-$version"
 
     make LUADIR="/usr/include/${lang}jit" "$lang=${lang}jit"
