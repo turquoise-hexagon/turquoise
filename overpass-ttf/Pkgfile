@@ -10,7 +10,10 @@ source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
 run ()
 {
-    var=${1//*overpass-}
+    var=$1
+
+    var=${var//*overpass-mono-}
+    var=${var//*overpass-}
     var=${var/semi/Semi}
     var=${var/thin/Thin}
     var=${var/mono/Mono}
