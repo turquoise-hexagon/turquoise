@@ -25,7 +25,6 @@ d:dunst
 d:libvterm
 d:libuv
 d:xcb-util-xrm
-d:bspwm
 d:glm
 d:xdo
 d:jemalloc
@@ -111,9 +110,6 @@ f:432a38a10d407e6ae5546c1281aa8521:libuv/Pkgfile
 f:490aa170c89fb1aff2039326c715240a:xcb-util-xrm/.md5sum
 f:80e849824bbe614b2a87b956bf7fa46a:xcb-util-xrm/.footprint
 f:b00e83da699ee6f90cd53a96387c0d43:xcb-util-xrm/Pkgfile
-f:3ab93185e213e7654f35e466bcef12ac:bspwm/.md5sum
-f:c40f0ac679ed2fe1d68a3d69edab38b0:bspwm/.footprint
-f:cc8923d5dea61b878ef116c57ae03711:bspwm/Pkgfile
 f:b377386bd97b8662b792389b619603f8:glm/.md5sum
 f:8afe9000d5b8ed817aaadae43d0e479b:glm/.footprint
 f:ce42608b072c884b6e773d8d8923428c:glm/Pkgfile
