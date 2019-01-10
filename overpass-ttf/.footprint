@@ -6,10 +6,10 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/Overpass/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Bold-Italic.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Bold.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/ExtraBold-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/ExtraBold.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/ExtraLight-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/ExtraLight.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Extrabold-Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Extrabold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Extralight-Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Extralight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Heavy-Italic.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Heavy.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Italic.ttf
@@ -19,9 +19,9 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/Light.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/Regular.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/SemiBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Mono/Semibold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Regular.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/SemiBold-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/SemiBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Semibold-Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Semibold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Thin-Italic.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/Overpass/Thin.ttf

@@ -10,19 +10,14 @@ source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
 run ()
 {
-    var=$1
+    IFS=-
 
-    var=${var//*overpass-mono-}
-    var=${var//*overpass-}
-    var=${var/semi/Semi}
-    var=${var/thin/Thin}
-    var=${var/mono/Mono}
-    var=${var/bold/Bold}
-    var=${var/extra/Extra}
-    var=${var/light/Light}
-    var=${var/heavy/Heavy}
-    var=${var/italic/Italic}
-    var=${var/regular/Regular}
+    ! [[ $1 =~ mono ]] &&
+        var=(${1##*${name//-*}-}) ||
+        var=(${1##*${name//-*}-mono-})
+
+    var=${var[@]^}  # uppercase
+    var=${var// /-} # reset dashes
 
     install -Dm644 "$1" "$2/$var"
 }
