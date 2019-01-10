@@ -13,9 +13,7 @@ build ()
     cd "$name-$version"
 
     cmake . \
-        -DCMAKE_INSTALL_PREFIX=/usr \
-        -DCMAKE_CXX_COMPILER_ID=GNU \
-        -DCMAKE_CXX_FLAGS=" -std=c++14"
+        -DCMAKE_INSTALL_PREFIX=/usr
 
     make
     make DESTDIR="$PKG" install
