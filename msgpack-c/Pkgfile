@@ -12,8 +12,7 @@ build ()
 {
     cd "$name-cpp-$version"
 
-    cmake . \
-        -DCMAKE_INSTALL_PREFIX=/usr
+    cmake -DCMAKE_INSTALL_PREFIX=/usr
 
     make
     make DESTDIR="$PKG" install
