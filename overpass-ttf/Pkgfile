@@ -12,7 +12,7 @@ run ()
 {
     [[ $1 =~ mono ]] && var=${1##*${name//-*}-mono-} || var=${1##*${name//-*}-}
 
-    IFS=- read -ra var <<< "$var"
+    IFS=- read -ra var <<< $var
 
     var=${var[*]^}  # uppercase
     var=${var// /-} # reset dashes
