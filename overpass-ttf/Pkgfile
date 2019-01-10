@@ -10,13 +10,11 @@ source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
 run ()
 {
-    IFS=-
+    [[ $1 =~ mono ]] && var=${1##*${name//-*}-mono-} || var=${1##*${name//-*}-}
 
-    ! [[ $1 =~ mono ]] &&
-        var=(${1##*${name//-*}-}) ||
-        var=(${1##*${name//-*}-mono-})
+    IFS=- read -ra var <<< "$var"
 
-    var=${var[@]^}  # uppercase
+    var=${var[*]^}  # uppercase
     var=${var// /-} # reset dashes
 
     install -Dm644 "$1" "$2/$var"
