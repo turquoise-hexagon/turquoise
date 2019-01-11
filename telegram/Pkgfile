@@ -4,7 +4,7 @@
 # Depends on  :
 
 name=telegram
-version=1.5.7
+version=1.5.4
 release=1
 source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
