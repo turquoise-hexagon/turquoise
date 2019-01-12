@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dir=/usr/share/fonts/X11/misc
+
+fc-cache -f
+mkfontdir   "$dir"
+mkfontscale "$dir"

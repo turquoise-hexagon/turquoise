@@ -7,6 +7,7 @@ d:rofi
 d:unibilium
 d:android-tools
 d:libxdg-basedir
+d:cherry-pcf
 d:ncmpcpp
 d:telegram
 d:shellcheck
@@ -56,6 +57,10 @@ f:58bf3a8394416f1257229d040bddf665:android-tools/Pkgfile
 f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:47c8b70d62741e5d4d0ecaeece0a65ff:libxdg-basedir/Pkgfile
+f:7fa029bb87ee57ce26f6c3fccd463435:cherry-pcf/.md5sum
+f:9f2ba8846c69cbed14280503029ad0d8:cherry-pcf/.footprint
+f:b7837d07ae588d16feef8ef76e174f35:cherry-pcf/Pkgfile
+f:ef5b2bdcefea23624ff4ac7992799a36:cherry-pcf/post-install
 f:a4a9644e2f1796aabd67d9aadec5cf0c:ncmpcpp/.md5sum
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp/.footprint
 f:2986e9fae32b0df7e9142abdf4a3b731:ncmpcpp/Pkgfile
@@ -66,8 +71,9 @@ f:b75ac19f8ddb1e53385d207a476471b3:shellcheck/.md5sum
 f:a5b383048b11c04f6357ae51c977f49f:shellcheck/.footprint
 f:5684fd0e17cd918186c2b22e4112f7d4:shellcheck/Pkgfile
 f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
-f:b993d706992d29a49b6de110cdc7917c:overpass-ttf/.footprint
-f:ee0a92c42ab9a9a64c322105c69c35c4:overpass-ttf/Pkgfile
+f:0e4ec40ebcb05d53365234f51d0affc0:overpass-ttf/.footprint
+f:22f11b16a9ca8da87dfc4f52dcc8cbb5:overpass-ttf/Pkgfile
+f:37b01dbb25533083a9a47ceb01f8ef38:overpass-ttf/post-install
 f:5d611b547965213ea71dd5600d19ba75:luajit/.md5sum
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
 f:6365dc81b35b1ec1d5602c87b31dcf34:luajit/Pkgfile

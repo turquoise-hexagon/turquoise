@@ -1,7 +1,7 @@
 # Description : An open source font family
 # URL         : http://overpassfont.org
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : fontconfig
+# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=overpass-ttf
 version=3.0.3
@@ -10,26 +10,23 @@ source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
 run ()
 {
-    [[ $1 =~ mono ]] && var=${1##*${name//-*}-mono-} || var=${1##*${name//-*}-}
-
-    IFS=- read -ra var <<< $var
+    IFS=- read -ra var <<< ${1##*webfont\/}
 
     var=${var[*]^}  # uppercase
     var=${var// /-} # reset dashes
 
-    install -Dm644 "$1" "$2/$var"
+    install -Dm644 "$font" "$PKG/usr/share/fonts/X11/TTF/$var"
 }
 
 build ()
 {
     cd "Overpass-$version"
 
-    for font in "webfonts/${name//-*}-webfont/"*.ttf; do
-        run "$font" "$PKG/usr/share/fonts/X11/TTF/Overpass"
-    done
-
-    for font in "webfonts/${name//-*}-mono-webfont/"*.ttf; do
-        run "$font" "$PKG/usr/share/fonts/X11/TTF/Overpass/Mono"
+    for font in \
+        "webfonts/${name//-*}-webfont/"*.ttf \
+        "webfonts/${name//-*}-mono-webfont/"*.ttf
+    do
+        run "$font"
     done
 }
 
