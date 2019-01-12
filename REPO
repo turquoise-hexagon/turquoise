@@ -28,6 +28,7 @@ d:libuv
 d:xcb-util-xrm
 d:glm
 d:xdo
+d:hsetroot
 d:jemalloc
 d:jq
 f:115112aed4fb0338c16edd93e43e9dce:bar/.md5sum
@@ -122,6 +123,9 @@ f:c067a029c7464263bc1d70475c5e8667:glm/Pkgfile
 f:7daaa9d472e3adb9984cca674d6ae592:xdo/.md5sum
 f:be6f016669919c53b11b08e8580abac7:xdo/.footprint
 f:b7167e5320ce7cfd4c870d48225107f1:xdo/Pkgfile
+f:9fc4bc6578a0cd759d7235483b9714fb:hsetroot/.md5sum
+f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
+f:a6d6ae1d511dfb6d280d5fe36272eb8f:hsetroot/Pkgfile
 f:32e1e0cd9b3f20a8e388580ea2fd4b03:jemalloc/.md5sum
 f:c4d276f14034da4c961e9048fa575b71:jemalloc/.footprint
 f:d335ed5263b0d9df547cda93bf6ddae7:jemalloc/Pkgfile

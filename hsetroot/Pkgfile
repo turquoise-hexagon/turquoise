@@ -1,0 +1,21 @@
+# Description : A tool which allows you to compose wallpapers for X
+# URL         : http://pkgsrc.se/x11/hsetroot
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : imlib2 xorg-server
+
+name=hsetroot
+version=1.0.2
+release=1
+source=("https://ftp.netbsd.org/pub/pkgsrc/distfiles/$name-$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make LDFLAGS=-lX11
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
