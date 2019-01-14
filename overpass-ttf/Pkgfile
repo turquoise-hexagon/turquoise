@@ -5,7 +5,7 @@
 
 name=overpass-ttf
 version=3.0.3
-release=1
+release=2
 source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
 run ()
@@ -22,10 +22,7 @@ build ()
 {
     cd "Overpass-$version"
 
-    for font in \
-        "webfonts/${name//-*}-webfont/"*.ttf \
-        "webfonts/${name//-*}-mono-webfont/"*.ttf
-    do
+    for font in webfonts/"${name//-*}"{-,-mono-}webfont/*.ttf; do
         run "$font"
     done
 }
