@@ -40,9 +40,9 @@ f:45ff00db29be8987f6d5bcf732c86c07:brightness-udev/Pkgfile
 f:9c70f36585f74898c373a6a03755b861:libtermkey/.md5sum
 f:e10efd09857bd89ddad68931b8a7b87e:libtermkey/.footprint
 f:ef1d057411bd1d8bfa285ac331c15207:libtermkey/Pkgfile
-f:b96e509051d34b00ea46c509cb146b69:neovim/.md5sum
+f:b200b363af7a90115e97f7870a0c4ed7:neovim/.md5sum
 f:551d2c1a25199ae8a20925bbcd61b261:neovim/.footprint
-f:5a121619f5ba71d26f5881ad961a7339:neovim/Pkgfile
+f:5846248e9f307ce5e5788ad387dc5010:neovim/Pkgfile
 f:43c1b152773fe66a411138c8c22a6716:maim/.md5sum
 f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
 f:dfb05247a7960590318304747ac4aa30:maim/Pkgfile

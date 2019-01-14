@@ -4,7 +4,7 @@
 # Depends on  : luajit jemalloc libuv msgpack-c lua-lpeg libmpack-lua libvterm libtermkey
 
 name=neovim
-version=0.3.3
+version=0.3.4
 release=1
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
