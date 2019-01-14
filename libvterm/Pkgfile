@@ -1,4 +1,4 @@
-# Description : An abstract C99 library which implements a VT220 or xterm-like terminal emulator.
+# Description : An abstract C99 library which implements a VT220 or xterm-like terminal emulator
 # URL         : http://www.leonerd.org.uk/code/libvterm
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :

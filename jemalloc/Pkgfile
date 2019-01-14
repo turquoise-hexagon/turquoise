@@ -1,4 +1,4 @@
-# Description : jemalloc is a general purpose malloc implementation
+# Description : A general purpose malloc implementation
 # URL         : http://jemalloc.net
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :

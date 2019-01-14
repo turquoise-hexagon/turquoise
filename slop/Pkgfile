@@ -1,4 +1,4 @@
-# Description : slop (select operation) is an application that queries for a selection from the user and prints the region to stdout
+# Description : An application that queries for a selection from the user and prints the region to stdout
 # URL         : https://github.com/naelstrof/slop
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : glew glm glu icu xorg-libxext
