@@ -5,26 +5,15 @@
 
 name=overpass-ttf
 version=3.0.3
-release=2
+release=3
 source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
-
-run ()
-{
-    IFS=- read -ra var <<< ${1##*webfont\/}
-
-    var=${var[*]^}  # uppercase
-    var=${var// /-} # reset dashes
-
-    install -Dm644 "$font" "$PKG/usr/share/fonts/X11/TTF/$var"
-}
 
 build ()
 {
     cd "Overpass-$version"
 
-    for font in webfonts/"${name//-*}"{-,-mono-}webfont/*.ttf; do
-        run "$font"
-    done
+    install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF/$var" \
+        webfonts/"${name//-*}"{-,-mono-}webfont/*.ttf
 }
 
 # vim: ft=sh
