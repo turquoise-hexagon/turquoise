@@ -5,20 +5,19 @@
 
 name=stow
 version=2.2.2
-release=1
+release=2
 source=("https://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
 
 build ()
 {
     cd "$name-$version"
 
-    ./configure --prefix=/usr --mandir=/usr/man
+    ./configure --prefix=/usr
 
     make
     make DESTDIR="$PKG" install
 
-    rm -rf "$PKG/usr/share/doc"
-    rm -rf "$PKG/usr/share/info"
+    rm -rf "$PKG"/usr/share/{doc,info}
 }
 
 # vim: ft=sh

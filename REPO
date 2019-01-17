@@ -29,8 +29,8 @@ d:xcb-util-xrm
 d:glm
 d:xdo
 d:hsetroot
+d:jshon
 d:jemalloc
-d:jq
 f:115112aed4fb0338c16edd93e43e9dce:bar/.md5sum
 f:eff5abd4a9dc6b034f4d5a40b30d9810:bar/.footprint
 f:7ed66a6a82e29839e636fbc9c2243162:bar/Pkgfile
@@ -97,8 +97,8 @@ f:a26be315733da0556639fff8e7b850d2:wmutils-core/.md5sum
 f:d41fea460f60876a5d441c05dd7f4f7f:wmutils-core/.footprint
 f:9294cae627f94fc2bc87276e8c6669ef:wmutils-core/Pkgfile
 f:e386c97c6079c03462e64c6e0a96253a:stow/.md5sum
-f:17da4e7659a28edb300b77701bde81a2:stow/.footprint
-f:a96c374152d3ac8c9792c9600a51af37:stow/Pkgfile
+f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
+f:9ef96c1204ffa25d2736590955f50c1e:stow/Pkgfile
 f:bc542c9fbdf1f3edbf5c92dcc42ff00c:wmutils-opt/.md5sum
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint
 f:89d7eaf50ba2f8ce656b04520b331475:wmutils-opt/Pkgfile
@@ -126,9 +126,9 @@ f:b7167e5320ce7cfd4c870d48225107f1:xdo/Pkgfile
 f:9fc4bc6578a0cd759d7235483b9714fb:hsetroot/.md5sum
 f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
 f:a6d6ae1d511dfb6d280d5fe36272eb8f:hsetroot/Pkgfile
+f:872898e226dbbeb9f527741a41c15e18:jshon/.md5sum
+f:0f4a6beb923b32818da6c983698af3fc:jshon/.footprint
+f:21e013a2c76197a1cf6ebabf38bf1de5:jshon/Pkgfile
 f:32e1e0cd9b3f20a8e388580ea2fd4b03:jemalloc/.md5sum
 f:c4d276f14034da4c961e9048fa575b71:jemalloc/.footprint
 f:06b066f9c7a2410ff855d347d7e674ee:jemalloc/Pkgfile
-f:4215db7fc2b91c150fa63c4d619e572f:jq/.md5sum
-f:6cedf08cfff140306b7487a578274f6a:jq/.footprint
-f:e89549eccc021d35a1bf01d1bd011006:jq/Pkgfile
