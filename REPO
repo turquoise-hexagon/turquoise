@@ -13,6 +13,7 @@ d:telegram
 d:shellcheck
 d:overpass-ttf
 d:luajit
+d:chezscheme
 d:stalonetray
 d:libmpack-lua
 d:gbdfed
@@ -73,11 +74,14 @@ f:a5b383048b11c04f6357ae51c977f49f:shellcheck/.footprint
 f:5684fd0e17cd918186c2b22e4112f7d4:shellcheck/Pkgfile
 f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
 f:c8137d152f50c15383891cdf7d7bf42a:overpass-ttf/.footprint
-f:8b71651d2f516b38527c0f62fd6103fb:overpass-ttf/Pkgfile
+f:7e1663f4ce262e80e6b0e1c8ef6f9e6e:overpass-ttf/Pkgfile
 f:37b01dbb25533083a9a47ceb01f8ef38:overpass-ttf/post-install
 f:5d611b547965213ea71dd5600d19ba75:luajit/.md5sum
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
 f:6365dc81b35b1ec1d5602c87b31dcf34:luajit/Pkgfile
+f:ffc956729a16e5389a0b78755dbcebf5:chezscheme/.md5sum
+f:6c42fc60173c68c111ab3875b2a520a1:chezscheme/.footprint
+f:cdc77156c3b0d052bacf1d58f1822953:chezscheme/Pkgfile
 f:a3c455851977a053a44b5146443ba6f6:stalonetray/.md5sum
 f:5e42c6fbb423fd0b94b2a7ac6a2effad:stalonetray/.footprint
 f:9a72b5ef2a30404d9bca42255ec009e6:stalonetray/Pkgfile

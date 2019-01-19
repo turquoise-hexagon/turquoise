@@ -1,0 +1,24 @@
+# Description : Chez Scheme
+# URL         : https://github.com/cisco/chezscheme
+# Maintainer  : marin, https://github.com/turquoise-hexagon/issues
+# Depends on  :
+
+name=chezscheme
+commit=6d44fee2b3126b9dbcca8b87694738e14e753927
+version=18012019
+release=1
+source=("https://github.com/cisco/$name/archive/$commit.tar.gz")
+
+build ()
+{
+    cd "ChezScheme-$commit"
+
+    ./configure \
+        --temproot="$PKG" \
+        --installprefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
