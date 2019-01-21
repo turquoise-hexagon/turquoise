@@ -6,14 +6,14 @@
 name=colorpicker
 version=14012018
 commit=287676947e6e3b5b0cee784aeb1638cf22f0ce17
-release=1
+release=2
 source=("https://github.com/ancurio/$name/archive/$commit.tar.gz")
 
 build ()
 {
-	cd "$name-$commit"
+    cd "$name-$commit"
 
-	make
+    make
     install -Dm755 "$name" "$PKG/usr/bin/$name"
 }
 
