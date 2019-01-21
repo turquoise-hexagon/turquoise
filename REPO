@@ -67,9 +67,9 @@ f:ef5b2bdcefea23624ff4ac7992799a36:cherry-pcf/post-install
 f:a4a9644e2f1796aabd67d9aadec5cf0c:ncmpcpp/.md5sum
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp/.footprint
 f:2986e9fae32b0df7e9142abdf4a3b731:ncmpcpp/Pkgfile
-f:1ac9d83bd0e3dec0ea473bbef7468834:telegram/.md5sum
+f:c3980c7c37615a22f16f0e537241bc12:telegram/.md5sum
 f:8242d94a3f3c0903a2006e7863dd5438:telegram/.footprint
-f:c5751da6791cd6dac3ca6566ff25fd5f:telegram/Pkgfile
+f:69c366664786145f30bc8cf453231484:telegram/Pkgfile
 f:b75ac19f8ddb1e53385d207a476471b3:shellcheck/.md5sum
 f:a5b383048b11c04f6357ae51c977f49f:shellcheck/.footprint
 f:5684fd0e17cd918186c2b22e4112f7d4:shellcheck/Pkgfile
