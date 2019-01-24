@@ -8,7 +8,7 @@ version=1.5.8
 release=1
 source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
-build ()
+build()
 {
     cd Telegram
 

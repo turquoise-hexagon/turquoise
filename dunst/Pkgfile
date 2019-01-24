@@ -8,7 +8,7 @@ version=1.3.2
 release=1
 source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
 
-build ()
+build()
 {
     cd "$name-$version"
 

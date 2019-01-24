@@ -8,7 +8,7 @@ version=0.6.0
 release=1
 source=("https://storage.googleapis.com/shellcheck/shellcheck-v$version.linux.x86_64.tar.xz")
 
-build ()
+build()
 {
     cd "$name-v$version"
 

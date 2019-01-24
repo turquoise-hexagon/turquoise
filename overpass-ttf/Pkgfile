@@ -8,7 +8,7 @@ version=3.0.3
 release=4
 source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
 
-build ()
+build()
 {
     cd "Overpass-$version"
 

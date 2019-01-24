@@ -8,7 +8,7 @@ version=1.6
 release=1
 source=("http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz")
 
-build ()
+build()
 {
     cd "$name-$version"
     sed -i 's/-D.*_DEPRECATED\s*\\*//' Makefile.in

@@ -8,7 +8,7 @@ version=0.5.7
 release=1
 source=("https://github.com/baskerville/$name/archive/$version.tar.gz")
 
-build ()
+build()
 {
     cd "$name-$version"
 

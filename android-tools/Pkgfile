@@ -8,7 +8,7 @@ version=r28.0.1
 release=2
 source=("https://dl.google.com/android/repository/platform-tools_$version-linux.zip")
 
-build ()
+build()
 {
     cd platform-tools
 
