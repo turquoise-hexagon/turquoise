@@ -1,12 +1,12 @@
 # Description : A tiling window manager based on binary space partitioning
 # URL         : https://github.com/baskerville/bspwm
 # Maintainer  : marin, https://github.com/baskerville/bspwm
-# Depends on  :  xorg-xcb-util xorg-xcb-util-keysyms xorg-xcb-util-wm
+# Depends on  : xorg-xcb-util xorg-xcb-util-keysyms xorg-xcb-util-wm
 
 name=bspwm
 commit=644b20028f131db1bccdf8457e9b7e00773efc70
 version=21012019
-release=1
+release=2
 source=("https://github.com/baskerville/$name/archive/$commit.tar.gz")
 
 build ()
