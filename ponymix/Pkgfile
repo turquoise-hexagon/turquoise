@@ -1,0 +1,19 @@
+# Description : CLI volume control for PulseAudio
+# URL         : https://github.com/falconindy/ponymix
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : libnotify pulseaudio
+
+name=ponymix
+version=5
+release=1
+source=("https://github.com/falconindy/$name/archive/$version.tar.gz")
+
+build ()
+{
+    cd "$name-$version"
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh

@@ -11,6 +11,7 @@ d:cherry-pcf
 d:ncmpcpp
 d:telegram
 d:shellcheck
+d:ponymix
 d:overpass-ttf
 d:luajit
 d:chezscheme
@@ -73,6 +74,9 @@ f:7e58b528bfe71c580d96e9bbbfb22611:telegram/Pkgfile
 f:b75ac19f8ddb1e53385d207a476471b3:shellcheck/.md5sum
 f:a5b383048b11c04f6357ae51c977f49f:shellcheck/.footprint
 f:f56fd4f3a296e2734eef0c07b058f858:shellcheck/Pkgfile
+f:ab015e84de54423a365fb1fd4345fc2e:ponymix/.md5sum
+f:ffa583160c8943b198ea7c7ec95275af:ponymix/.footprint
+f:6de10f57877db38c036259b2c7d366e5:ponymix/Pkgfile
 f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
 f:c8137d152f50c15383891cdf7d7bf42a:overpass-ttf/.footprint
 f:dc0e5a2cdea90937e95f41297e71269e:overpass-ttf/Pkgfile
