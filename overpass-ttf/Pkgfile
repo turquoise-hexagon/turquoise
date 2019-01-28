@@ -3,7 +3,7 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
-name=overpass-otf
+name=overpass-ttf
 version=3.0.3
 release=1
 source=("https://github.com/redhatbrand/${name//-*}/archive/$version.tar.gz")
@@ -13,7 +13,7 @@ build()
     cd "Overpass-$version"
 
     install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF/" \
-        desktop-fonts/"${name//-*}"{-mono,}/*.otf
+        webfonts/"${name//-*}"{-,-mono-}webfont/*.ttf
 }
 
 # vim: ft=sh
