@@ -3,14 +3,14 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-xcb-util
 
-name=xcb-util-xrm
+name=xorg-xcb-util-xrm
 version=1.3
 release=1
-source=("https://github.com/airblader/$name/releases/download/v$version/$name-$version.tar.gz")
+source=("https://github.com/airblader/${name#*-}/releases/download/v$version/${name#*-}-$version.tar.gz")
 
 build()
 {
-    cd "$name-$version"
+    cd "${name#*-}-$version"
 
     ./configure --prefix=/usr
 

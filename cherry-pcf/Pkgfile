@@ -6,11 +6,11 @@
 name=cherry-pcf
 version=1.2
 release=1
-source=("https://github.com/turquoise-hexagon/${name//-*}/archive/$version.tar.gz")
+source=("https://github.com/turquoise-hexagon/${name%-*}/archive/$version.tar.gz")
 
 build()
 {
-    cd "${name//-*}-$version"
+    cd "${name%-*}-$version"
 
     ./make.sh
 

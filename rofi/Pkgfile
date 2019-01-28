@@ -1,7 +1,7 @@
 # Description : A window switcher, application launcher and dmenu replacement
 # URL         : https://github.com/davedavenport/rofi
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : startup-notification xorg-xcb-util-wm xcb-util-xrm libxkbcommon librsvg
+# Depends on  : startup-notification xorg-xcb-util-wm xorg-xcb-util-xrm libxkbcommon librsvg
 
 name=rofi
 version=1.5.2
