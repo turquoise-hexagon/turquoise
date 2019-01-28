@@ -4,6 +4,7 @@ d:libtermkey
 d:neovim
 d:maim
 d:rofi
+d:overpass-otf
 d:unibilium
 d:android-tools
 d:libxdg-basedir
@@ -12,7 +13,6 @@ d:ncmpcpp
 d:telegram
 d:shellcheck
 d:ponymix
-d:overpass-ttf
 d:luajit
 d:chezscheme
 d:stalonetray
@@ -52,6 +52,10 @@ f:8d508959d66143776e454ab8c3cc6649:maim/Pkgfile
 f:a9d0761c88b36db667da967ce1ecf48b:rofi/.md5sum
 f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
 f:ab56ff8fd1d1d4dcd47edbbb654a4aae:rofi/Pkgfile
+f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-otf/.md5sum
+f:a4602777499d2737dabb7bfd7df8309b:overpass-otf/.footprint
+f:e342c80639e8e63f1aa74757f56e2029:overpass-otf/Pkgfile
+f:37b01dbb25533083a9a47ceb01f8ef38:overpass-otf/post-install
 f:ab45146651831d6cacbe25391db57a21:unibilium/.md5sum
 f:ac758abfb25599cebfb80034fe08ef42:unibilium/.footprint
 f:031da946555f2b6e5217e6b467fd6063:unibilium/Pkgfile
@@ -77,10 +81,6 @@ f:f56fd4f3a296e2734eef0c07b058f858:shellcheck/Pkgfile
 f:ab015e84de54423a365fb1fd4345fc2e:ponymix/.md5sum
 f:ffa583160c8943b198ea7c7ec95275af:ponymix/.footprint
 f:6de10f57877db38c036259b2c7d366e5:ponymix/Pkgfile
-f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
-f:c8137d152f50c15383891cdf7d7bf42a:overpass-ttf/.footprint
-f:dc0e5a2cdea90937e95f41297e71269e:overpass-ttf/Pkgfile
-f:37b01dbb25533083a9a47ceb01f8ef38:overpass-ttf/post-install
 f:5d611b547965213ea71dd5600d19ba75:luajit/.md5sum
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
 f:b216de49e4788527a065005cd3501034:luajit/Pkgfile
