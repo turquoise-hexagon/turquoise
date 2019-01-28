@@ -17,6 +17,7 @@ d:luajit
 d:chezscheme
 d:stalonetray
 d:colorpicker
+d:pcf2bdf
 d:libmpack-lua
 d:gbdfed
 d:slop
@@ -93,6 +94,9 @@ f:17d5edb11ab5a545450636c03eaed026:stalonetray/Pkgfile
 f:30f34383d77d7c6e155d613680a44422:colorpicker/.md5sum
 f:5564ce42d09626ec399f36abcd5454aa:colorpicker/.footprint
 f:c8aa68daac39e90eba4f40774b67ee5e:colorpicker/Pkgfile
+f:498228cf8be5accabe93e097f2f7db8f:pcf2bdf/.md5sum
+f:cb21103e755b48187391002af7a42266:pcf2bdf/.footprint
+f:df60a563ef7f3421501213f421956456:pcf2bdf/Pkgfile
 f:d5be47d09a01e35f4543d25fb2ecdae7:libmpack-lua/.md5sum
 f:e32aa834907c58b6aec9fc547bb3acd2:libmpack-lua/.footprint
 f:9eaf8e24df97ba82aa646c5acecd6e1e:libmpack-lua/Pkgfile
