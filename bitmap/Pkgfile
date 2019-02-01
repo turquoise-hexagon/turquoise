@@ -10,12 +10,12 @@ source=("https://www.x.org/archive/individual/app/$name-$version.tar.gz")
 
 build()
 {
-	cd "$name-$version"
+    cd "$name-$version"
 
-	./configure --prefix=/usr
+    ./configure --prefix=/usr
 
-	make
-	make DESTDIR="$PKG" install
+    make
+    make DESTDIR="$PKG" install
 }
 
 # vim: ft=sh
