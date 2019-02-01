@@ -26,6 +26,7 @@ d:msgpack-c
 d:wmutils-core
 d:stow
 d:wmutils-opt
+d:bitmap
 d:lua-lpeg
 d:dunst
 d:libvterm
@@ -80,7 +81,7 @@ f:80e849824bbe614b2a87b956bf7fa46a:xorg-xcb-util-xrm/.footprint
 f:a6b8ea8566787ea7287f57e88b7d4486:xorg-xcb-util-xrm/Pkgfile
 f:ab015e84de54423a365fb1fd4345fc2e:ponymix/.md5sum
 f:ffa583160c8943b198ea7c7ec95275af:ponymix/.footprint
-f:6de10f57877db38c036259b2c7d366e5:ponymix/Pkgfile
+f:81fc2b9e84f45860e931a936290760c7:ponymix/Pkgfile
 f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
 f:c8137d152f50c15383891cdf7d7bf42a:overpass-ttf/.footprint
 f:5b09321c6000e4f71d8e6cc2b75b654f:overpass-ttf/Pkgfile
@@ -99,7 +100,7 @@ f:5564ce42d09626ec399f36abcd5454aa:colorpicker/.footprint
 f:c8aa68daac39e90eba4f40774b67ee5e:colorpicker/Pkgfile
 f:498228cf8be5accabe93e097f2f7db8f:pcf2bdf/.md5sum
 f:cb21103e755b48187391002af7a42266:pcf2bdf/.footprint
-f:df60a563ef7f3421501213f421956456:pcf2bdf/Pkgfile
+f:19bac6ff97cea08d24591f529f9cba5d:pcf2bdf/Pkgfile
 f:d5be47d09a01e35f4543d25fb2ecdae7:libmpack-lua/.md5sum
 f:e32aa834907c58b6aec9fc547bb3acd2:libmpack-lua/.footprint
 f:7125d14fa16c5d8ab0593f8c5f9c375a:libmpack-lua/Pkgfile
@@ -121,6 +122,9 @@ f:c12010a899c077bc1685c91f1b6145e1:stow/Pkgfile
 f:bc542c9fbdf1f3edbf5c92dcc42ff00c:wmutils-opt/.md5sum
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint
 f:5931d0f38d1cde8c49e7c7c14b1a3d66:wmutils-opt/Pkgfile
+f:2bb85636ddd29a954deacff40b8b5857:bitmap/.md5sum
+f:6e80a7bdebf0850486b8cdac3fad48af:bitmap/.footprint
+f:24dc42a03fb02e298d2698f98d9910da:bitmap/Pkgfile
 f:9851fdd9e046016762d1f88881e110f0:lua-lpeg/.md5sum
 f:715936ebcfaf0d1b2015d89cc04d92ab:lua-lpeg/.footprint
 f:a9ed399fb226a49c40bd71cfa6b10cc3:lua-lpeg/Pkgfile
