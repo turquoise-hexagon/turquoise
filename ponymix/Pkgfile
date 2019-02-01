@@ -8,7 +8,7 @@ version=5
 release=1
 source=("https://github.com/falconindy/$name/archive/$version.tar.gz")
 
-build ()
+build()
 {
     cd "$name-$version"
 
