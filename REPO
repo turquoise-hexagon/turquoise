@@ -5,6 +5,7 @@ d:neovim
 d:maim
 d:rofi
 d:unibilium
+d:bspwm-git
 d:android-tools
 d:libxdg-basedir
 d:cherry-pcf
@@ -57,6 +58,9 @@ f:e805a1cf42816c0adebfcd98a9e6cc8a:rofi/Pkgfile
 f:ab45146651831d6cacbe25391db57a21:unibilium/.md5sum
 f:ac758abfb25599cebfb80034fe08ef42:unibilium/.footprint
 f:031da946555f2b6e5217e6b467fd6063:unibilium/Pkgfile
+f:d41d8cd98f00b204e9800998ecf8427e:bspwm-git/.md5sum
+f:820f5f45a7e0a21223cda34b3786c781:bspwm-git/.footprint
+f:ea67bd5266e076173d5d8a7d686e2d00:bspwm-git/Pkgfile
 f:cd14b7900585d08ef96379f3c4f0523d:android-tools/.md5sum
 f:6ee4881828c75d53849ff835945dbb47:android-tools/.footprint
 f:47c98b62d4a35063f9ec38e07d96219e:android-tools/Pkgfile
