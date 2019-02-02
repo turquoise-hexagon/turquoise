@@ -1,7 +1,7 @@
-# Description :
-# URL         :
-# Maintainer  :
-# Depends on  :
+# Description : A tiling window manager based on binary space partitioning
+# URL         : https://github.com/baskerville/bspwm
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-xcb-util xorg-xcb-util-keysyms xorg-xcb-util-wm
 
 name=bspwm-git
 version=git
