@@ -1,6 +1,6 @@
 # Description : Chez Scheme
 # URL         : https://github.com/cisco/chezscheme
-# Maintainer  : marin, https://github.com/turquoise-hexagon/issues
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=chezscheme
