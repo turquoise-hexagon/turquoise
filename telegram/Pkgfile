@@ -5,12 +5,12 @@
 
 name=telegram
 version=1.5.11
-release=1
+release=2
 source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
 build()
 {
-    cd Telegram
+    cd "${name^}"
 
     install -Dm755 Telegram "$PKG/usr/bin/telegram"
     install -Dm755 Updater  "$PKG/usr/bin/updater"
