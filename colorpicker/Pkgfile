@@ -6,7 +6,7 @@
 name=colorpicker
 version=14012018
 commit=287676947e6e3b5b0cee784aeb1638cf22f0ce17
-release=2
+release=3
 source=("https://github.com/ancurio/$name/archive/$commit.tar.gz")
 
 build()
@@ -14,7 +14,7 @@ build()
     cd "$name-$commit"
 
     make
-    install -Dm755 "$name" "$PKG/usr/bin/$name"
+    install -Dm755 "$name" -t "$PKG/usr/bin"
 }
 
 # vim: ft=sh
