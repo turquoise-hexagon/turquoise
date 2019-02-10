@@ -70,7 +70,7 @@ f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:001ba3fa4ee2b467e82732fe80e6df9e:libxdg-basedir/Pkgfile
 f:7fa029bb87ee57ce26f6c3fccd463435:cherry-pcf/.md5sum
 f:9f2ba8846c69cbed14280503029ad0d8:cherry-pcf/.footprint
-f:4439898c5c1abbc82b77bece999db529:cherry-pcf/Pkgfile
+f:715670275d0745ea55a8edfccd0d9b52:cherry-pcf/Pkgfile
 f:ef5b2bdcefea23624ff4ac7992799a36:cherry-pcf/post-install
 f:a4a9644e2f1796aabd67d9aadec5cf0c:ncmpcpp/.md5sum
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp/.footprint
@@ -89,7 +89,7 @@ f:ffa583160c8943b198ea7c7ec95275af:ponymix/.footprint
 f:81fc2b9e84f45860e931a936290760c7:ponymix/Pkgfile
 f:4f6cc9d3160baf1b568e255a50b7e36d:overpass-ttf/.md5sum
 f:c8137d152f50c15383891cdf7d7bf42a:overpass-ttf/.footprint
-f:5b09321c6000e4f71d8e6cc2b75b654f:overpass-ttf/Pkgfile
+f:589011cc0a33dc40e3ad69b20048dd53:overpass-ttf/Pkgfile
 f:37b01dbb25533083a9a47ceb01f8ef38:overpass-ttf/post-install
 f:5d611b547965213ea71dd5600d19ba75:luajit/.md5sum
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
@@ -107,7 +107,7 @@ f:5e42c6fbb423fd0b94b2a7ac6a2effad:stalonetray/.footprint
 f:17d5edb11ab5a545450636c03eaed026:stalonetray/Pkgfile
 f:30f34383d77d7c6e155d613680a44422:colorpicker/.md5sum
 f:5564ce42d09626ec399f36abcd5454aa:colorpicker/.footprint
-f:c8aa68daac39e90eba4f40774b67ee5e:colorpicker/Pkgfile
+f:9fcb2e00169cd2f23712599b24d5bce7:colorpicker/Pkgfile
 f:498228cf8be5accabe93e097f2f7db8f:pcf2bdf/.md5sum
 f:cb21103e755b48187391002af7a42266:pcf2bdf/.footprint
 f:19bac6ff97cea08d24591f529f9cba5d:pcf2bdf/Pkgfile
@@ -137,10 +137,10 @@ f:6e80a7bdebf0850486b8cdac3fad48af:bitmap/.footprint
 f:b6c4cc655a2595537dc1962bee198956:bitmap/Pkgfile
 f:9851fdd9e046016762d1f88881e110f0:lua-lpeg/.md5sum
 f:715936ebcfaf0d1b2015d89cc04d92ab:lua-lpeg/.footprint
-f:a9ed399fb226a49c40bd71cfa6b10cc3:lua-lpeg/Pkgfile
+f:e0fc6c0eae171b04f4413f86501d5151:lua-lpeg/Pkgfile
 f:a597056ad1e10228f3d88ee7f9ca379a:dunst/.md5sum
 f:8b4a2627dbe986895307763e3d2427dd:dunst/.footprint
-f:823214f96a9301489409cb603a6ea475:dunst/Pkgfile
+f:2d552bf0773ceca56919a159d2a3bb38:dunst/Pkgfile
 f:ab7180aba7f0d6af5f3ca90fe9660a7b:libvterm/.md5sum
 f:15c1e599c2eac2105278219aad174086:libvterm/.footprint
 f:e09fdf45f80f55f1494843522036b09d:libvterm/Pkgfile

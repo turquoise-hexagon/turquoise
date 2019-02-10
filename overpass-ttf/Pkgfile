@@ -5,14 +5,14 @@
 
 name=overpass-ttf
 version=3.0.3
-release=1
+release=2
 source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
 
 build()
 {
     cd "Overpass-$version"
 
-    install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF/" \
+    install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF" \
         webfonts/"${name%-*}"{-,-mono-}webfont/*.ttf
 }
 
