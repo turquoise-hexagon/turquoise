@@ -6,7 +6,7 @@
 name=noto-cjk-ttc
 version=30112018
 commit=28bd7c47c25f675d9aad3f73327d031fd6869634
-release=3
+release=4
 source=(
 "https://github.com/googlei18n/${name%-*}/archive/$commit.tar.gz"
 70-noto-cjk.conf)
@@ -15,7 +15,7 @@ build()
 {
     cd "${name%-*}-$commit"
 
-    install -Dm644 -t "$PKG/usr/share/fonts/X11/TTC/" *.ttc
+    install -Dm644 *.ttc -t "$PKG/usr/share/fonts/X11/TTC"
     install -Dm644 "$SRC/70-noto-cjk.conf" -t "$PKG/etc/fonts/conf.avail"
 }
 
