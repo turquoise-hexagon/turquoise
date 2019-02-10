@@ -5,14 +5,14 @@
 
 name=android-tools
 version=r28.0.1
-release=2
+release=3
 source=("https://dl.google.com/android/repository/platform-tools_$version-linux.zip")
 
 build()
 {
     cd platform-tools
 
-    install -Dm755 -t "$PKG/usr/bin" {adb,fastboot}
+    install -Dm755 {adb,fastboot} -t "$PKG/usr/bin"
 }
 
 # vim: ft=sh
