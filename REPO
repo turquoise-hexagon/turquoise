@@ -94,10 +94,11 @@ f:37b01dbb25533083a9a47ceb01f8ef38:overpass-ttf/post-install
 f:5d611b547965213ea71dd5600d19ba75:luajit/.md5sum
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
 f:b216de49e4788527a065005cd3501034:luajit/Pkgfile
-f:e58c37bcd556218328b71610b7c6d535:noto-cjk-ttc/.md5sum
-f:c5e3f9fa5489e40b0e846f862b3679f4:noto-cjk-ttc/.footprint
-f:9c6e7d8cefd3e1ba94dd8f749d17a559:noto-cjk-ttc/Pkgfile
-f:37b01dbb25533083a9a47ceb01f8ef38:noto-cjk-ttc/post-install
+f:5e3fa2f82fee9cb1aff70113d36d6976:noto-cjk-ttc/.md5sum
+f:d00d70e55a3267f61e87c73c8ab651d7:noto-cjk-ttc/70-noto-cjk.conf
+f:fbaeb20d8c42793b585d89b219c9d1be:noto-cjk-ttc/.footprint
+f:8cbd18561c6bf7c51312d5656f5152f9:noto-cjk-ttc/Pkgfile
+f:c3a625a1d699865c28754e8743762d33:noto-cjk-ttc/post-install
 f:ffc956729a16e5389a0b78755dbcebf5:chezscheme/.md5sum
 f:6c42fc60173c68c111ab3875b2a520a1:chezscheme/.footprint
 f:8bde0a9414777da875a2b1a1971f7cb7:chezscheme/Pkgfile
