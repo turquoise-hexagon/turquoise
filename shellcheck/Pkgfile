@@ -5,14 +5,14 @@
 
 name=shellcheck
 version=0.6.0
-release=1
+release=2
 source=("https://storage.googleapis.com/shellcheck/shellcheck-v$version.linux.x86_64.tar.xz")
 
 build()
 {
     cd "$name-v$version"
 
-    install -Dm755 "$name" "$PKG/usr/bin/$name"
+    install -Dm755 "$name" -t "$PKG/usr/bin"
 }
 
 # vim: ft=sh

@@ -64,7 +64,7 @@ f:820f5f45a7e0a21223cda34b3786c781:bspwm-git/.footprint
 f:8e3047325b5f6cb0057b828433192909:bspwm-git/Pkgfile
 f:cd14b7900585d08ef96379f3c4f0523d:android-tools/.md5sum
 f:6ee4881828c75d53849ff835945dbb47:android-tools/.footprint
-f:47c98b62d4a35063f9ec38e07d96219e:android-tools/Pkgfile
+f:c927daf0ad22ef375fba53cce884b315:android-tools/Pkgfile
 f:56b0b38248c1460420ec432f5d325fb2:libxdg-basedir/.md5sum
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:001ba3fa4ee2b467e82732fe80e6df9e:libxdg-basedir/Pkgfile
@@ -80,7 +80,7 @@ f:8242d94a3f3c0903a2006e7863dd5438:telegram/.footprint
 f:e310d82df0cc35fc82ae76969f9c2d3e:telegram/Pkgfile
 f:b75ac19f8ddb1e53385d207a476471b3:shellcheck/.md5sum
 f:a5b383048b11c04f6357ae51c977f49f:shellcheck/.footprint
-f:f56fd4f3a296e2734eef0c07b058f858:shellcheck/Pkgfile
+f:a3c56388a294f003164c0d40e243b3b3:shellcheck/Pkgfile
 f:490aa170c89fb1aff2039326c715240a:xorg-xcb-util-xrm/.md5sum
 f:80e849824bbe614b2a87b956bf7fa46a:xorg-xcb-util-xrm/.footprint
 f:a6b8ea8566787ea7287f57e88b7d4486:xorg-xcb-util-xrm/Pkgfile
