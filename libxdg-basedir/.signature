@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw5dujeSqIyAU2H7QGpXg54WwXI0vzslfIb/6TaTnK9kdvGdVQboi+O58d/jc5WlSKe4XjHZwAZHVyQ7on/isBQE=
+RWTOjBUiTG/Uw9mxalaScWpK2va3+GocLKGVcLKY4drmlBnzLd/5Wn1og6ehILFqM8v+JgDa6ZvWny0XBdlAdYXeiaow1Rc0QQs=
+SHA256 (Pkgfile) = c274ef51dc9a6885b6f3e6d1bc23e27eeab11b6e12de48a165a01ff8bc76d25a
+SHA256 (.footprint) = 9bebe11b48966f10b1311b9995a2ae64722ce578ae1f2689d67876030a5229d7
+SHA256 (libxdg-basedir-1.2.0.tar.gz) = 1c2b0032a539033313b5be2e48ddd0ae94c84faf21d93956d53562eef4614868
