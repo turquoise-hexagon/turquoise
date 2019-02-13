@@ -100,9 +100,9 @@ f:d00d70e55a3267f61e87c73c8ab651d7:noto-cjk-ttc/70-noto-cjk.conf
 f:e0172fb5dbffaccbe6f159b4c67ce11e:noto-cjk-ttc/.footprint
 f:c0a92d24cdce48d73c9f0bf82cc0bfb1:noto-cjk-ttc/Pkgfile
 f:c3a625a1d699865c28754e8743762d33:noto-cjk-ttc/post-install
-f:c22ef84fb1bc1313c9ee180d9357a517:chezscheme/.signature
+f:4334d2244b02254b7f47812f601d5ee3:chezscheme/.signature
 f:6c42fc60173c68c111ab3875b2a520a1:chezscheme/.footprint
-f:8bde0a9414777da875a2b1a1971f7cb7:chezscheme/Pkgfile
+f:46cc221d5aa63724571bcb609045eae5:chezscheme/Pkgfile
 f:83b978422d18530c9a31c94466d78971:stalonetray/.signature
 f:5e42c6fbb423fd0b94b2a7ac6a2effad:stalonetray/.footprint
 f:17d5edb11ab5a545450636c03eaed026:stalonetray/Pkgfile

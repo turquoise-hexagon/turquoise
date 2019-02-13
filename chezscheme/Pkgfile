@@ -4,8 +4,8 @@
 # Depends on  :
 
 name=chezscheme
-commit=6d44fee2b3126b9dbcca8b87694738e14e753927
-version=18012019
+commit=4967118dc03e3dd4a8fb8ea29672e5cafdc6a0b1
+version=12022019
 release=1
 source=("https://github.com/cisco/$name/archive/$commit.tar.gz")
 
