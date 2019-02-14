@@ -4,8 +4,8 @@
 # Depends on  : xorg-libx11
 
 name=meh
-version=22102018
 commit=69f653a1f16d11b12e5b600e808a740898f3223e
+version=22102018
 release=1
 source=("https://github.com/jhawthorn/$name/archive/$commit.tar.gz")
 
