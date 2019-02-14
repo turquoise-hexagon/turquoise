@@ -4,8 +4,8 @@
 # Depends on  : gtk
 
 name=colorpicker
-version=14012018
 commit=287676947e6e3b5b0cee784aeb1638cf22f0ce17
+version=14012018
 release=3
 source=("https://github.com/ancurio/$name/archive/$commit.tar.gz")
 

@@ -1,0 +1,20 @@
+# Description : A small, simple, super fast image viewer using raw XLib
+# URL         : https://www.johnhawthorn.com/meh
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-libx11
+
+name=meh
+version=22102018
+commit=69f653a1f16d11b12e5b600e808a740898f3223e
+release=1
+source=("https://github.com/jhawthorn/$name/archive/$commit.tar.gz")
+
+build()
+{
+    cd "$name-$commit"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr install
+}
+
+# vim: ft=sh

@@ -1,5 +1,6 @@
 d:bar
 d:brightness-udev
+d:meh
 d:libtermkey
 d:neovim
 d:maim
@@ -44,6 +45,9 @@ f:0abec73bc4148fc98b84932b18cf29da:bar/Pkgfile
 f:d23d314732bc75900079868cf52d7a87:brightness-udev/.signature
 f:f71149e01c45b1ecb8b01da1966b46b2:brightness-udev/.footprint
 f:9a45d365ec15f92a45e32e5801a8267d:brightness-udev/Pkgfile
+f:5e4ff9efa140257c778999351fbcbac7:meh/.signature
+f:98465b7c0102d9f26ccecfd1c0fb08e6:meh/.footprint
+f:cd64084a5c1f9530937981d55d6d8b9f:meh/Pkgfile
 f:34ba93642ea3bf74bfafd313e639c890:libtermkey/.signature
 f:e10efd09857bd89ddad68931b8a7b87e:libtermkey/.footprint
 f:f14c8210f73ae7d6301119a08bc06b6f:libtermkey/Pkgfile
@@ -95,10 +99,10 @@ f:169f9ce3da50c199c4e06730bdb0dbf8:turquoise.pub
 f:048aca18c066f2e2d8dcc1833c0d775b:luajit/.signature
 f:8a3bef9500a53dc29e838f647b9acf85:luajit/.footprint
 f:b216de49e4788527a065005cd3501034:luajit/Pkgfile
-f:a4b7adfcaa8505a81c61734696c953ce:noto-cjk-ttc/.signature
+f:a7f57a5224196dd4189d8c806fa7942c:noto-cjk-ttc/.signature
 f:d00d70e55a3267f61e87c73c8ab651d7:noto-cjk-ttc/70-noto-cjk.conf
 f:e0172fb5dbffaccbe6f159b4c67ce11e:noto-cjk-ttc/.footprint
-f:c0a92d24cdce48d73c9f0bf82cc0bfb1:noto-cjk-ttc/Pkgfile
+f:41a6547d1456c29c3c29fd5252ad743a:noto-cjk-ttc/Pkgfile
 f:c3a625a1d699865c28754e8743762d33:noto-cjk-ttc/post-install
 f:4334d2244b02254b7f47812f601d5ee3:chezscheme/.signature
 f:6c42fc60173c68c111ab3875b2a520a1:chezscheme/.footprint
@@ -106,9 +110,9 @@ f:46cc221d5aa63724571bcb609045eae5:chezscheme/Pkgfile
 f:83b978422d18530c9a31c94466d78971:stalonetray/.signature
 f:5e42c6fbb423fd0b94b2a7ac6a2effad:stalonetray/.footprint
 f:17d5edb11ab5a545450636c03eaed026:stalonetray/Pkgfile
-f:bafaec80993ccc6e67b2a5167146559c:colorpicker/.signature
+f:64b002c0c3ee3d04a5dbf4c66351a136:colorpicker/.signature
 f:5564ce42d09626ec399f36abcd5454aa:colorpicker/.footprint
-f:9fcb2e00169cd2f23712599b24d5bce7:colorpicker/Pkgfile
+f:273a2773958b108fcf812ae115562891:colorpicker/Pkgfile
 f:fdcde041a9ae325a0e4ec2dfdbea9008:pcf2bdf/.signature
 f:cb21103e755b48187391002af7a42266:pcf2bdf/.footprint
 f:19bac6ff97cea08d24591f529f9cba5d:pcf2bdf/Pkgfile
