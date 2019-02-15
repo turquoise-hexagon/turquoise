@@ -4,13 +4,19 @@
 # Depends on  :
 
 name=chezscheme
-commit=4967118dc03e3dd4a8fb8ea29672e5cafdc6a0b1
-version=12022019
+version=9.5
 release=1
-source=("https://github.com/cisco/$name/archive/$commit.tar.gz")
+source=(
+"https://github.com/cisco/$name/releases/download/v$version/csv$version.tar.gz"
+symlink.patch
+locale.patch
+)
 
 build() {
-    cd "ChezScheme-$commit"
+    cd "csv$version"
+
+    patch -p1 -i "$SRC/symlink.patch"
+    patch -p1 -i "$SRC/locale.patch"
 
     ./configure \
         --temproot="$PKG" \

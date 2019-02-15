@@ -1,0 +1,12 @@
+--- old/c/expeditor.c	2017-06-08 05:52:53.000000000 +0200
++++ new/c/expeditor.c	2019-02-15 10:37:24.180082925 +0100
+@@ -546,7 +546,9 @@
+ #include <sys/ioctl.h>
+ #include <wchar.h>
+ #include <locale.h>
++#ifndef __GLIBC__
+ #include <xlocale.h>
++#endif
+ 
+ #if defined(TIOCGWINSZ) && defined(SIGWINCH) && defined(EINTR)
+ #define HANDLE_SIGWINCH
