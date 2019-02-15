@@ -8,8 +8,7 @@ version=git
 release=2
 source=()
 
-build()
-{
+build() {
     cd "$PKGMK_SOURCE_DIR"
 
     if [[ -d ${name%-*} ]]; then

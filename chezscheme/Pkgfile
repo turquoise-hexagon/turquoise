@@ -9,8 +9,7 @@ version=12022019
 release=1
 source=("https://github.com/cisco/$name/archive/$commit.tar.gz")
 
-build()
-{
+build() {
     cd "ChezScheme-$commit"
 
     ./configure \

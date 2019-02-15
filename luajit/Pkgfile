@@ -8,8 +8,7 @@ version=2.0.5
 release=1
 source=("http://$name.org/download/LuaJIT-$version.tar.gz")
 
-build()
-{
+build() {
     cd "LuaJIT-$version"
 
     make PREFIX=/usr amalg

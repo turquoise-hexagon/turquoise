@@ -11,8 +11,7 @@ source=(
 "https://github.com/googlei18n/${name%-*}/archive/$commit.tar.gz"
 70-noto-cjk.conf)
 
-build()
-{
+build() {
     cd "${name%-*}-$commit"
 
     install -Dm644 *.ttc -t "$PKG/usr/share/fonts/X11/TTC"

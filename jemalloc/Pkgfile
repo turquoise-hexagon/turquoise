@@ -8,8 +8,7 @@ version=5.1.0
 release=1
 source=("https://github.com/$name/$name/releases/download/$version/$name-$version.tar.bz2")
 
-build()
-{
+build() {
     cd "$name-$version"
 
     ./configure --prefix=/usr

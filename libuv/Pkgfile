@@ -8,8 +8,7 @@ version=1.25.0
 release=1
 source=("https://github.com/neovim/$name/archive/v$version.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$version"
 
     ./autogen.sh

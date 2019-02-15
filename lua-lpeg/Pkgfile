@@ -8,8 +8,7 @@ version=1.0.1
 release=2
 source=("http://www.inf.puc-rio.br/~roberto/${name#*-}/${name#*-}-$version.tar.gz")
 
-build()
-{
+build() {
     cd "${name#*-}-$version"
 
     make LUADIR="/usr/include/${name%-*}jit" "${name%-*}=${name%-*}jit"

@@ -9,8 +9,7 @@ version=14012018
 release=3
 source=("https://github.com/ancurio/$name/archive/$commit.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$commit"
 
     make

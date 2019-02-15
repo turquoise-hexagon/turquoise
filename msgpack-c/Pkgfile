@@ -8,8 +8,7 @@ version=3.1.1
 release=1
 source=("https://github.com/msgpack/$name/archive/cpp-$version.tar.gz")
 
-build()
-{
+build() {
     cd "$name-cpp-$version"
 
     cmake . \

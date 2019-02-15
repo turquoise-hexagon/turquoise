@@ -9,8 +9,7 @@ version=26112018
 release=1
 source=("https://github.com/neovim/$name/archive/$commit.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$commit"
 
     make

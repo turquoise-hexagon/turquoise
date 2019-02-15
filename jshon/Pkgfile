@@ -8,8 +8,7 @@ version=20131105
 release=1
 source=("https://github.com/keenerd/$name/archive/$version.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$version"
 
     make

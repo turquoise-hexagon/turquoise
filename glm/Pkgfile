@@ -8,8 +8,7 @@ version=0.9.9.3
 release=1
 source=("https://github.com/g-truc/$name/archive/$version.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$version"
 
     cmake . \

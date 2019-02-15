@@ -8,8 +8,7 @@ version=1.5.15
 release=1
 source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
-build()
-{
+build() {
     cd "${name^}"
 
     install -Dm755 Telegram "$PKG/usr/bin/telegram"

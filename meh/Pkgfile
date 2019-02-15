@@ -9,8 +9,7 @@ version=22102018
 release=1
 source=("https://github.com/jhawthorn/$name/archive/$commit.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$commit"
 
     make

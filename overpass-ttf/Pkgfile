@@ -8,8 +8,7 @@ version=3.0.3
 release=2
 source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
 
-build()
-{
+build() {
     cd "Overpass-$version"
 
     install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF" \

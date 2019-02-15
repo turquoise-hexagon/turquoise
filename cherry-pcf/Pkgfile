@@ -8,8 +8,7 @@ version=1.2
 release=2
 source=("https://github.com/turquoise-hexagon/${name%-*}/archive/$version.tar.gz")
 
-build()
-{
+build() {
     cd "${name%-*}-$version"
 
     ./make.sh

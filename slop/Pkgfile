@@ -8,8 +8,7 @@ version=7.4
 release=1
 source=("https://github.com/naelstrof/$name/archive/v$version.tar.gz")
 
-build()
-{
+build() {
     cd "$name-$version"
 
     cmake . \
