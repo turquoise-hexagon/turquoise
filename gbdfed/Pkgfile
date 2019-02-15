@@ -5,19 +5,18 @@
 
 name=gbdfed
 version=1.6
-release=2
+release=3
 source=("http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz")
 
 build() {
     cd "$name-$version"
-    sed -i 's/-D.*_DEPRECATED\s*\\*//' Makefile.in
+
+    sed -i 's/-D.*_DEPRECATED\s*\\*//' Makefile.in # fix makefile
 
     ./configure --prefix=/usr
 
     make
-
-    install -Dm755 "$name" -t "$PKG/usr/bin"
-    install -Dm644 "$name.man" "$PKG/usr/share/man/man1/$name.1"
+    make DESTDIR="$PKG" install
 }
 
 # vim: ft=sh
