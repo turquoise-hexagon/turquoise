@@ -9,7 +9,8 @@ version=30112018
 release=4
 source=(
 "https://github.com/googlei18n/${name%-*}/archive/$commit.tar.gz"
-70-noto-cjk.conf)
+70-noto-cjk.conf
+)
 
 build() {
     cd "${name%-*}-$commit"
