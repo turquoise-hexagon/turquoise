@@ -1,0 +1,25 @@
+# Description : Bash loadable builtins
+# URL         : https://www.gnu.org/software/bash
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : bash
+
+name=bash-builtins
+version=4.4
+release=1
+source=("http://ftp.gnu.org/gnu/${name%-*}/${name%-*}-$version.tar.gz")
+
+build()
+{
+    cd "${name%-*}-$version"
+
+    ./configure --prefix=/usr
+
+    make
+
+    cd examples/loadables
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
