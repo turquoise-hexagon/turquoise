@@ -80,9 +80,9 @@ f:ef5b2bdcefea23624ff4ac7992799a36:cherry-pcf/post-install
 f:5376282c7131ca7857f13b5fa9f09f5d:ncmpcpp/.signature
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp/.footprint
 f:63765de339d03d9a25f9be1d51f9a448:ncmpcpp/Pkgfile
-f:b688d6933e88c35ff820e1247d32619d:bash-builtins/.signature
+f:cc2d39add89eb0be4558b8e1a1f95249:bash-builtins/.signature
 f:284b6d2941537cf4230813cc4164dfff:bash-builtins/.footprint
-f:7905f6a3659428f63509972f31b5df99:bash-builtins/Pkgfile
+f:26de867cea0a9a0dd5b483953103ff05:bash-builtins/Pkgfile
 f:fdb73ce0dde23ea32fc91bf16d30bc4a:telegram/.signature
 f:8242d94a3f3c0903a2006e7863dd5438:telegram/.footprint
 f:a68c8dcb5ae631824dd747f5c113d9f2:telegram/Pkgfile
