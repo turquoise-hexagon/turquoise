@@ -18,7 +18,7 @@ build() {
     patch -p1 -i "$SRC/symlink.patch"
     patch -p1 -i "$SRC/locale.patch"
 
-    ./configure \
+    ./configure           \
         --temproot="$PKG" \
         --installprefix=/usr
 

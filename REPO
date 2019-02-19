@@ -59,9 +59,9 @@ f:f3cbc44fc1fdd1d1df1810c8d6ecb32e:neovim/Pkgfile
 f:738cfe8566fee61f8fbe2821d5057a3b:maim/.signature
 f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
 f:dc9dfd7af203c6e6239f8c648615ae44:maim/Pkgfile
-f:0df1f59f694af93e4840751e00e4cee8:rofi/.signature
+f:9d4f0ae1d0a3e7faa6ed755da09faba4:rofi/.signature
 f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
-f:cef80ea57ac74db5417e52af4c874e61:rofi/Pkgfile
+f:3c973e6e7d691c5ef3928c0e05913458:rofi/Pkgfile
 f:4ca6dcd2fd8e24a1544b0a41d2c5fa39:unibilium/.signature
 f:ac758abfb25599cebfb80034fe08ef42:unibilium/.footprint
 f:12daf3c8b983386c4b874beebc3ce72f:unibilium/Pkgfile
@@ -109,9 +109,9 @@ f:d00d70e55a3267f61e87c73c8ab651d7:noto-cjk-ttc/70-noto-cjk.conf
 f:e0172fb5dbffaccbe6f159b4c67ce11e:noto-cjk-ttc/.footprint
 f:a51f5afb48b9b058eff10d8a0a4d4faa:noto-cjk-ttc/Pkgfile
 f:c3a625a1d699865c28754e8743762d33:noto-cjk-ttc/post-install
-f:6d349e76ce546cd6b06d6769b86567e5:chezscheme/.signature
+f:7a5356a630fa0f36645f147165bfaa7d:chezscheme/.signature
 f:b00203bf2410b2fe84dc7523202f1a79:chezscheme/.footprint
-f:e8d409f8c8225ed852467e059d761918:chezscheme/Pkgfile
+f:b77d47486dd32875b7c30d829889ff82:chezscheme/Pkgfile
 f:555bfe9d245dbb11d54c31a5fd168018:chezscheme/symlink.patch
 f:10302e4508ff542c7ba8c4324c2cdd73:chezscheme/locale.patch
 f:0d97bca5e29126e24549d06a707ef3b2:stalonetray/.signature

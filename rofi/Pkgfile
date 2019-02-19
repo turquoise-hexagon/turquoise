@@ -11,7 +11,9 @@ source=("https://github.com/davedavenport/$name/releases/download/$version/$name
 build() {
     cd "$name-$version"
 
-    ./configure --prefix=/usr --disable-check
+    ./configure       \
+        --prefix=/usr \
+        --disable-check
 
     make
     make DESTDIR="$PKG" install
