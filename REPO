@@ -141,9 +141,9 @@ f:fa3c09799ec6c989341ea0424d41eda8:wmutils-core/Pkgfile
 f:b9375b9e5f9b56d489270be757618f78:stow/.signature
 f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
 f:ec2ad6ce99bc15d8df9e08938f7d19fe:stow/Pkgfile
-f:d73f1295d93fedf180d183b391217bc8:bash/.signature
+f:f0e95b1137a502af045630651efc2c59:bash/.signature
 f:32248d3becedd8e01816be2c3a698ecf:bash/.footprint
-f:5062dbcfd7f35ba9fed6110e738b4500:bash/Pkgfile
+f:8b83c76d1f91badb90bbf52eb1f55faa:bash/Pkgfile
 f:5113c074bcbb93558611e4605c05cad1:bash/profile
 f:f12f2cf570f5460997b29afa35e12a06:wmutils-opt/.signature
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint
