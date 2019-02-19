@@ -141,10 +141,10 @@ f:fa3c09799ec6c989341ea0424d41eda8:wmutils-core/Pkgfile
 f:b9375b9e5f9b56d489270be757618f78:stow/.signature
 f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
 f:ec2ad6ce99bc15d8df9e08938f7d19fe:stow/Pkgfile
-f:96f6dc7728a5b1db86bbe912183d13c4:bash/.signature
+f:026d852ca0a7e3d585d5ada3859277ea:bash/.signature
 f:32248d3becedd8e01816be2c3a698ecf:bash/.footprint
 f:36b3c1e0d3f7cde657299a814fc6d797:bash/Pkgfile
-f:6bd7e59f190d7ffdbbcf052703c43d6c:bash/profile
+f:4d0ed238fec93d266e1b273b7de8b8f9:bash/profile
 f:f12f2cf570f5460997b29afa35e12a06:wmutils-opt/.signature
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint
 f:b5f9e999d6b3a0b7222ed65a88820bc0:wmutils-opt/Pkgfile
