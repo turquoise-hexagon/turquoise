@@ -3,13 +3,13 @@
 #
 
 if [ "$UID" -eq 0 ]; then
-	PATH="/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin"
+    PATH="/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin"
 else
-	PATH="/bin:/usr/bin:/opt/bin"
+    PATH="/bin:/usr/bin:/opt/bin"
 fi
 
 if [ ! -f ~/.inputrc ]; then
-	INPUTRC="/etc/inputrc"
+    INPUTRC="/etc/inputrc"
 fi
 
 LESS="-R"
