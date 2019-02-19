@@ -29,6 +29,7 @@ d:slop
 d:msgpack-c
 d:wmutils-core
 d:stow
+d:bash
 d:wmutils-opt
 d:bitmap
 d:lua-lpeg
@@ -80,9 +81,9 @@ f:ef5b2bdcefea23624ff4ac7992799a36:cherry-pcf/post-install
 f:5376282c7131ca7857f13b5fa9f09f5d:ncmpcpp/.signature
 f:785840174d9f2a38abafd277e94806cd:ncmpcpp/.footprint
 f:63765de339d03d9a25f9be1d51f9a448:ncmpcpp/Pkgfile
-f:cc2d39add89eb0be4558b8e1a1f95249:bash-builtins/.signature
-f:284b6d2941537cf4230813cc4164dfff:bash-builtins/.footprint
-f:26de867cea0a9a0dd5b483953103ff05:bash-builtins/Pkgfile
+f:d249a775d086dd0ca2753c9deae3a4e9:bash-builtins/.signature
+f:416db97f2fa715d4ad5f173c49b67909:bash-builtins/.footprint
+f:2e0c1b8425b7d9d5fcc7e0a9d69acf18:bash-builtins/Pkgfile
 f:fdb73ce0dde23ea32fc91bf16d30bc4a:telegram/.signature
 f:8242d94a3f3c0903a2006e7863dd5438:telegram/.footprint
 f:a68c8dcb5ae631824dd747f5c113d9f2:telegram/Pkgfile
@@ -140,6 +141,10 @@ f:fa3c09799ec6c989341ea0424d41eda8:wmutils-core/Pkgfile
 f:b9375b9e5f9b56d489270be757618f78:stow/.signature
 f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
 f:ec2ad6ce99bc15d8df9e08938f7d19fe:stow/Pkgfile
+f:d73f1295d93fedf180d183b391217bc8:bash/.signature
+f:32248d3becedd8e01816be2c3a698ecf:bash/.footprint
+f:5062dbcfd7f35ba9fed6110e738b4500:bash/Pkgfile
+f:5113c074bcbb93558611e4605c05cad1:bash/profile
 f:f12f2cf570f5460997b29afa35e12a06:wmutils-opt/.signature
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint
 f:b5f9e999d6b3a0b7222ed65a88820bc0:wmutils-opt/Pkgfile
