@@ -3,6 +3,7 @@ d:brightness-udev
 d:meh
 d:libtermkey
 d:neovim
+d:setroot
 d:maim
 d:rofi
 d:unibilium
@@ -38,7 +39,6 @@ d:libvterm
 d:libuv
 d:glm
 d:xdo
-d:hsetroot
 d:jshon
 d:jemalloc
 f:b7ba34a7a04d4c2b0ad1df29019d0220:bar/.signature
@@ -56,6 +56,9 @@ f:3eab840a8a1e9ff6d16d8c4317e5fa51:libtermkey/Pkgfile
 f:896e96888cad89acc076c574abfba2d8:neovim/.signature
 f:551d2c1a25199ae8a20925bbcd61b261:neovim/.footprint
 f:f3cbc44fc1fdd1d1df1810c8d6ecb32e:neovim/Pkgfile
+f:2e8ab6b344aadcb5ca714e6bb41df724:setroot/.signature
+f:d8d1225e77385f8f9728275706ac2b66:setroot/.footprint
+f:fb898cf545e0259882dc28473a0fd9ce:setroot/Pkgfile
 f:738cfe8566fee61f8fbe2821d5057a3b:maim/.signature
 f:5c0114f94e8de44ca67aae8c6e97c8f4:maim/.footprint
 f:dc9dfd7af203c6e6239f8c648615ae44:maim/Pkgfile
@@ -169,9 +172,6 @@ f:e1397efe6774122c5f1336645c072543:glm/Pkgfile
 f:441f9752ed9239eaf1d56c0c47eeae32:xdo/.signature
 f:be6f016669919c53b11b08e8580abac7:xdo/.footprint
 f:12a5e5dc530d5b39added62abf1fdc01:xdo/Pkgfile
-f:918eac343cea2cd16e8bad2db2a3c5d8:hsetroot/.signature
-f:d64797667b8f07a033863f005796ba42:hsetroot/.footprint
-f:4eea91a46dab93eaa89e5d322d9e4fdd:hsetroot/Pkgfile
 f:9c33cdbd1b26892ed56fc2901bd2a79c:jshon/.signature
 f:0f4a6beb923b32818da6c983698af3fc:jshon/.footprint
 f:c2a0b17f1a4e44b63aaaf0b9bbc5c4ab:jshon/Pkgfile
