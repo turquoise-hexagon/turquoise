@@ -12,7 +12,7 @@ build() {
     cd "$name-$version"
 
     make
-    make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
+    make DESTDIR="$PKG" install
 }
 
 # vim: ft=sh

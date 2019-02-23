@@ -41,9 +41,9 @@ d:glm
 d:xdo
 d:jshon
 d:jemalloc
-f:b7ba34a7a04d4c2b0ad1df29019d0220:bar/.signature
+f:04260eecc92975d1689d0669ba3f0eb1:bar/.signature
 f:eff5abd4a9dc6b034f4d5a40b30d9810:bar/.footprint
-f:af7f8c40327d9e4da36ccc7e0ea49a50:bar/Pkgfile
+f:bb598404a9c7e9ede8c33c6eb5643a4a:bar/Pkgfile
 f:72cee912a22c55c61ac872a9acf38710:brightness-udev/.signature
 f:f71149e01c45b1ecb8b01da1966b46b2:brightness-udev/.footprint
 f:1dd67f5b4ee4222eaf9473474fcc9671:brightness-udev/Pkgfile
