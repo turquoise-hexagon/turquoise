@@ -1,0 +1,27 @@
+# Description : Package compiler and linker metadata toolkit
+# URL         : https://github.com/pkgconf/pkgconf
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=pkgconf
+version=1.6.0
+release=1
+source=("https://github.com/$name/$name/archive/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$name-$version"
+
+    ./autogen.sh
+    ./configure       \
+        --prefix=/usr \
+        --with-system-libdir=/lib:/usr/lib
+
+    make
+    make DESTDIR="$PKG" install
+
+    ln -sf /usr/bin/pkgconf "$PKG/usr/bin/pkg-config"
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh
