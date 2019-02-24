@@ -1,5 +1,6 @@
 d:bar
 d:brightness-udev
+d:meh
 d:libtermkey
 d:neovim
 d:setroot
@@ -47,6 +48,9 @@ f:bb598404a9c7e9ede8c33c6eb5643a4a:bar/Pkgfile
 f:72cee912a22c55c61ac872a9acf38710:brightness-udev/.signature
 f:f71149e01c45b1ecb8b01da1966b46b2:brightness-udev/.footprint
 f:1dd67f5b4ee4222eaf9473474fcc9671:brightness-udev/Pkgfile
+f:6537189937f1ac7717e853ff79b7ff87:meh/.signature
+f:98465b7c0102d9f26ccecfd1c0fb08e6:meh/.footprint
+f:c7118f8e60c20b967662edf4a75dd13a:meh/Pkgfile
 f:41c9100a7c30e6a35e734a7fcc9aa2b7:libtermkey/.signature
 f:e10efd09857bd89ddad68931b8a7b87e:libtermkey/.footprint
 f:3eab840a8a1e9ff6d16d8c4317e5fa51:libtermkey/Pkgfile
@@ -145,9 +149,11 @@ f:fa3c09799ec6c989341ea0424d41eda8:wmutils-core/Pkgfile
 f:b9375b9e5f9b56d489270be757618f78:stow/.signature
 f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
 f:ec2ad6ce99bc15d8df9e08938f7d19fe:stow/Pkgfile
-f:026d852ca0a7e3d585d5ada3859277ea:bash/.signature
+f:3dc91a86e571497a25503e69d946a071:bash/.signature
 f:32248d3becedd8e01816be2c3a698ecf:bash/.footprint
-f:36b3c1e0d3f7cde657299a814fc6d797:bash/Pkgfile
+f:b026862ab596a5883bb4f0d1077a3819:bash/bash-5.0-001.patch
+f:2f4a7787365790ae57f36b311701ea7e:bash/bash-5.0-002.patch
+f:95dc7bd0af8741ff6e337a8250a207fb:bash/Pkgfile
 f:4d0ed238fec93d266e1b273b7de8b8f9:bash/profile
 f:f12f2cf570f5460997b29afa35e12a06:wmutils-opt/.signature
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint

@@ -4,15 +4,20 @@
 # Depends on  : readline
 
 name=bash
-version=5.0
+version=5.0.2
 release=1
 source=(
-"http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz"
+"http://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
+bash-5.0-001.patch
+bash-5.0-002.patch
 profile
 )
 
 build() {
-    cd "$name-$version"
+    cd "$name-${version%.*}"
+
+    patch -p0 -i "$SRC/$name-${version%.*}-001.patch"
+    patch -p0 -i "$SRC/$name-${version%.*}-002.patch"
 
     ./configure        \
         --prefix=/usr  \
