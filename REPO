@@ -111,6 +111,7 @@ f:c11f0047f7ee95e38b3800408f627ac6:luajit/Pkgfile
 f:4c1621eae5a7d3ecc9617fe95f764424:pkgconf/.signature
 f:f1a5087214341b08903aaef6b2743291:pkgconf/.footprint
 f:1760925d43b255ab3bebebf1615d8660:pkgconf/Pkgfile
+f:35586e3741a9cb20acf2415262ffa3a2:pkgconf/post-install
 f:b7d4aefce0d615bf06b5187ec1840ea9:noto-cjk-ttc/.signature
 f:d00d70e55a3267f61e87c73c8ab651d7:noto-cjk-ttc/70-noto-cjk.conf
 f:e0172fb5dbffaccbe6f159b4c67ce11e:noto-cjk-ttc/.footprint
