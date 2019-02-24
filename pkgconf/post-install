@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 var='pkgconf: pkg-config'
 dir='/var/lib/pkg/prt-get.aliases'
 
-[[ $(< "$dir") =~ $var ]] &&
-    echo "$var" >> "$dir"
+grep -q "$var" "$dir" || echo "$var" >> "$dir"
