@@ -145,11 +145,11 @@ f:fa3c09799ec6c989341ea0424d41eda8:wmutils-core/Pkgfile
 f:b9375b9e5f9b56d489270be757618f78:stow/.signature
 f:84a9027282403b0c4c9793ed6e380e81:stow/.footprint
 f:ec2ad6ce99bc15d8df9e08938f7d19fe:stow/Pkgfile
-f:3dc91a86e571497a25503e69d946a071:bash/.signature
+f:b026862ab596a5883bb4f0d1077a3819:bash/bash-5.0-1.patch
+f:9ab04232f1ebd100816acb58ed3ba530:bash/.signature
 f:32248d3becedd8e01816be2c3a698ecf:bash/.footprint
-f:b026862ab596a5883bb4f0d1077a3819:bash/bash-5.0-001.patch
-f:2f4a7787365790ae57f36b311701ea7e:bash/bash-5.0-002.patch
-f:95dc7bd0af8741ff6e337a8250a207fb:bash/Pkgfile
+f:2f4a7787365790ae57f36b311701ea7e:bash/bash-5.0-2.patch
+f:cf99179b5c90048374c616d0083e1f66:bash/Pkgfile
 f:4d0ed238fec93d266e1b273b7de8b8f9:bash/profile
 f:f12f2cf570f5460997b29afa35e12a06:wmutils-opt/.signature
 f:9e0b78b451a25a3315c2ad567a076b92:wmutils-opt/.footprint

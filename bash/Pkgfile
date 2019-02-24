@@ -8,16 +8,16 @@ version=5.0.2
 release=1
 source=(
 "http://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
-bash-5.0-001.patch
-bash-5.0-002.patch
+bash-5.0-1.patch
+bash-5.0-2.patch
 profile
 )
 
 build() {
     cd "$name-${version%.*}"
 
-    patch -p0 -i "$SRC/$name-${version%.*}-001.patch"
-    patch -p0 -i "$SRC/$name-${version%.*}-002.patch"
+    patch -p0 -i "$SRC/$name-${version%.*}-1.patch"
+    patch -p0 -i "$SRC/$name-${version%.*}-2.patch"
 
     ./configure        \
         --prefix=/usr  \
