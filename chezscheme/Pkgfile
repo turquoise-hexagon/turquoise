@@ -8,8 +8,8 @@ version=9.5
 release=1
 source=(
 "https://github.com/cisco/$name/releases/download/v$version/csv$version.tar.gz"
-symlink.patch
-locale.patch
+patches/symlink.patch
+patches/locale.patch
 )
 
 build() {
