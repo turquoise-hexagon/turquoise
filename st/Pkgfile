@@ -9,15 +9,14 @@ release=1
 source=(
 "https://dl.suckless.org/$name/$name-$version.tar.gz"
 patches/fonts.patch
+patches/config.patch
 )
 
 build() {
     cd "$name-$version"
 
     patch -p1 -i "$SRC/fonts.patch"
-
-    [[ -f $PKGMK_ROOT/config.h ]] &&
-        cp "$PKGMK_ROOT/config.h" .
+    patch -p1 -i "$SRC/config.patch"
 
     make CC=gcc
     make DESTDIR="$PKG" PREFIX=/usr TERMINFO="$PKG/usr/share/terminfo" install

@@ -1,0 +1,108 @@
+--- old/config.def.h	2019-03-05 18:51:18.247233273 +0100
++++ new/config.def.h	2019-03-05 18:51:30.350233561 +0100
+@@ -5,13 +5,13 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+-static int borderpx = 2;
++static char *font = "kiwi:size=7";
++static int borderpx = 20;
+ 
+ /* disable bold, italic and roman fonts */
+-int disablebold = 0;
+-int disableitalic = 0;
+-int disableroman = 0;
++int disablebold = 1;
++int disableitalic = 1;
++int disableroman = 1;
+ 
+ /*
+  * What program is execed by st depends of these precedence rules:
+@@ -21,7 +21,7 @@
+  * 4: value of shell in /etc/passwd
+  * 5: value of shell in config.h
+  */
+-static char *shell = "/bin/sh";
++static char *shell = "/bin/bash";
+ char *utmp = NULL;
+ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
+ 
+@@ -54,7 +54,7 @@
+  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
+  * attribute.
+  */
+-static unsigned int blinktimeout = 800;
++static unsigned int blinktimeout = 0;
+ 
+ /*
+  * thickness of underline and bar cursors
+@@ -85,38 +85,37 @@
+  *
+  *	stty tabs
+  */
+-unsigned int tabspaces = 8;
++unsigned int tabspaces = 4;
+ 
+ /* Terminal colors (16 first used in escape sequence) */
+ static const char *colorname[] = {
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++	"#021B21",
++	"#C2454E",
++	"#7CBF9E",
++	"#8A7A63",
++	"#2E3340",
++	"#FF5879",
++	"#44B5B1",
++	"#E8DFD6",
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++	"#234149",
++	"#EF5847",
++	"#A2D9B1",
++	"#BEB090",
++	"#61778D",
++	"#FF99A1",
++	"#9ED9D8",
++	"#F6F6C9",
+ 
+ 	[255] = 0,
+ 
+ 	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
++	"#E8DFD6",
++	"#021B21"
+ };
+ 
+-
+ /*
+  * Default colors (colorname index)
+  * foreground, background, cursor, reverse cursor
+@@ -138,9 +137,8 @@
+ /*
+  * Default columns and rows numbers
+  */
+-
+ static unsigned int cols = 80;
+-static unsigned int rows = 24;
++static unsigned int rows = 30;
+ 
+ /*
+  * Default colour and shape of the mouse cursor
