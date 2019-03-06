@@ -1,5 +1,5 @@
---- old/config.def.h	2019-03-05 18:51:18.247233273 +0100
-+++ new/config.def.h	2019-03-05 18:51:30.350233561 +0100
+--- old/config.def.h	2019-03-06 10:51:45.656011756 +0100
++++ new/config.def.h	2019-03-06 10:52:26.938012738 +0100
 @@ -5,13 +5,13 @@
   *
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
@@ -37,13 +37,7 @@
  
  /*
   * thickness of underline and bar cursors
-@@ -85,38 +85,37 @@
-  *
-  *	stty tabs
-  */
--unsigned int tabspaces = 8;
-+unsigned int tabspaces = 4;
- 
+@@ -90,33 +90,32 @@
  /* Terminal colors (16 first used in escape sequence) */
  static const char *colorname[] = {
  	/* 8 normal colors */
