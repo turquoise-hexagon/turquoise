@@ -1,7 +1,7 @@
 # Description : libmpack lua bindings
 # URL         : https://github.com/libmpack/libmpack-lua
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : lua51 lua52 lua
+# Depends on  : lua
 
 name=libmpack-lua
 version=1.0.7
