@@ -5,18 +5,18 @@
 
 name=bspwm-git
 version=git
-release=2
+release=3
 source=()
 
 build() {
     cd "$PKGMK_SOURCE_DIR"
 
-    if [[ -d ${name%-*} ]]; then
-        cd "${name%-*}"
+    if [[ -d $name ]]; then
+        cd "$name"
         git pull
     else
-        git clone "https://github.com/baskerville/${name%-*}"
-        cd "${name%-*}"
+        git clone "https://github.com/baskerville/${name%-*}" "$name"
+        cd "$name"
     fi
 
     make
