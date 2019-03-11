@@ -5,13 +5,18 @@
 
 name=gbdfed
 version=1.6
-release=3
-source=("http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz")
+release=4
+source=(
+"http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz"
+patches/num_signals.patch
+patches/makefile.patch
+)
 
 build() {
     cd "$name-$version"
 
-    sed -i 's/-D.*_DEPRECATED\s*\\*//' Makefile.in # fix makefile
+    patch -p1 -i "$SRC/makefile.patch"
+    patch -p1 -i "$SRC/num_signals.patch"
 
     ./configure --prefix=/usr
 
