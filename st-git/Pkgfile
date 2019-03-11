@@ -1,0 +1,28 @@
+# Description : st is a simple terminal implementation for X
+# URL         : https://st.suckless.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-libxext xorg-libxft
+
+name=st
+version=git
+release=1
+source=()
+
+build() {
+    cd "$PKGMK_SOURCE_DIR"
+
+    if [[ -d ${name%-*} ]]; then
+        cd "${name%-*}"
+        git pull
+    else
+        git clone "https://github.com/turquoise-hexagon/${name%-*}"
+        cd "${name%-*}"
+    fi
+
+    make CC=gcc
+    make DESTDIR="$PKG" PREFIX=/usr TERMINFO="$PKG/usr/share/terminfo" install
+
+    rm -rf "$PKG/usr/share/terminfo"
+}
+
+# vim: ft=sh
