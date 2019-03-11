@@ -3,7 +3,7 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-libxext xorg-libxft
 
-name=st
+name=st-git
 version=git
 release=1
 source=()
