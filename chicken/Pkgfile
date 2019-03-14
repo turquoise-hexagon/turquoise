@@ -1,0 +1,19 @@
+# Description : A practical and portable scheme system
+# URL         : http://www.call-cc.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=chicken
+version=5.0.0
+release=1
+source=("https://code.call-cc.org/releases/$version/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make -j1 PLATFORM=linux PREFIX=/usr DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/$name/doc"
+}
+
+# vim: ft=sh
