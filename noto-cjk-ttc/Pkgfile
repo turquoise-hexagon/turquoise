@@ -18,5 +18,3 @@ build() {
     install -Dm644 *.ttc -t "$PKG/usr/share/fonts/X11/TTC"
     install -Dm644 "$SRC/70-noto-cjk.conf" -t "$PKG/etc/fonts/conf.avail"
 }
-
-# vim: ft=sh

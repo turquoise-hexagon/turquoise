@@ -32,5 +32,3 @@ build() {
     install -Dm644 "$SRC/profile" -t "$PKG/etc"
     install -Dm644 "doc/$name.1"  -t "$PKG/usr/share/man/man1"
 }
-
-# vim: ft=sh

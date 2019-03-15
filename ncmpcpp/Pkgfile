@@ -19,5 +19,3 @@ build() {
 
     rm -rf "$PKG/usr/share/doc"
 }
-
-# vim: ft=sh

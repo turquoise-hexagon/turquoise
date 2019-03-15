@@ -15,5 +15,3 @@ build() {
     make
     make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
 }
-
-# vim: ft=sh

@@ -14,5 +14,3 @@ build() {
     install -Dm755 Telegram "$PKG/usr/bin/telegram"
     install -Dm755 Updater  "$PKG/usr/bin/updater"
 }
-
-# vim: ft=sh

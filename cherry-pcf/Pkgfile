@@ -15,5 +15,3 @@ build() {
 
     install -Dm644 *.pcf -t "$PKG/usr/share/fonts/X11/misc"
 }
-
-# vim: ft=sh

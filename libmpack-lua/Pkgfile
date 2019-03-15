@@ -20,5 +20,3 @@ build() {
         install -Dm755 "mpack.so.$version" "$PKG/usr/lib/lua/$version/mpack.so"
     done
 }
-
-# vim: ft=sh
