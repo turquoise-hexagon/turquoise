@@ -5,13 +5,14 @@
 
 name=chicken
 version=5.0.0
-release=1
+release=2
 source=("https://code.call-cc.org/releases/$version/$name-$version.tar.gz")
 
 build() {
     cd "$name-$version"
 
-    make -j1 PLATFORM=linux PREFIX=/usr DESTDIR="$PKG" install
+    make -j1 C_COMPILER_OPTIMIZATION_OPTIONS="$CFLAGS" \
+        PLATFORM=linux PREFIX=/usr DESTDIR="$PKG" install
 
     rm -rf "$PKG/usr/share/$name/doc"
 }
