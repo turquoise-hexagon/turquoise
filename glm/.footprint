@@ -101,6 +101,8 @@ drwxr-xr-x	root/root	usr/include/glm/detail/
 drwxr-xr-x	root/root	usr/include/glm/ext/
 -rw-r--r--	root/root	usr/include/glm/ext/matrix_clip_space.hpp
 -rw-r--r--	root/root	usr/include/glm/ext/matrix_clip_space.inl
+-rw-r--r--	root/root	usr/include/glm/ext/matrix_common.hpp
+-rw-r--r--	root/root	usr/include/glm/ext/matrix_common.inl
 -rw-r--r--	root/root	usr/include/glm/ext/matrix_double2x2.hpp
 -rw-r--r--	root/root	usr/include/glm/ext/matrix_double2x2_precision.hpp
 -rw-r--r--	root/root	usr/include/glm/ext/matrix_double2x3.hpp
