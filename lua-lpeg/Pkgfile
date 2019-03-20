@@ -4,8 +4,8 @@
 # Depends on  : lua lua51
 
 name=lua-lpeg
-version=1.0.1
-release=2
+version=1.0.2
+release=1
 source=("http://www.inf.puc-rio.br/~roberto/${name#*-}/${name#*-}-$version.tar.gz")
 
 build() {
