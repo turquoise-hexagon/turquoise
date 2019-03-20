@@ -4,7 +4,7 @@
 # Depends on  : xorg-libxaw xorg-xbitmaps
 
 name=bitmap
-version=1.0.8
+version=1.0.9
 release=1
 source=("https://www.x.org/archive/individual/app/$name-$version.tar.gz")
 
