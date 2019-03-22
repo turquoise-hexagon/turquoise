@@ -1,13 +1,20 @@
-# /etc/profile : system-wide defaults for bash login shells
+# /etc/profile
+#
+# system-wide defaults for bash login shells
 
-[ "$UID" -ne 0 ] && PATH="/bin:/usr/bin:/opt/bin" ||
+if [ "$UID" -eq 0 ]; then
     PATH="/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin"
+else
+    PATH="/bin:/usr/bin:/opt/bin"
+fi
 
-[ ! -f ~/.inputrc ] && INPUTRC="/etc/inputrc"
+if [ ! -f ~/.inputrc ]; then
+    INPUTRC="/etc/inputrc"
+fi
 
 LESS="-R"
-PS1="\[\e[1m\]\\$ \[\e[0m\]"
-PS2="\[\e[1m\]> \[\e[0m\]"
+PS1="\[\e[1m\]\\$ \[\e[m\]"
+PS2="\[\e[1m\]> \[\e[m\]"
 
 export PATH INPUTRC LESS PS1 PS2
 
