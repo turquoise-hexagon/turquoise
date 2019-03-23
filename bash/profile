@@ -1,5 +1,3 @@
-# /etc/profile
-#
 # system-wide defaults for bash login shells
 
 if [ "$UID" -eq 0 ]; then
@@ -13,8 +11,8 @@ if [ ! -f ~/.inputrc ]; then
 fi
 
 LESS="-R"
-PS1="\[\e[1m\]\\$ \[\e[m\]"
-PS2="\[\e[1m\]> \[\e[m\]"
+PS1="\[\033[1m\]\\$ \[\033[m\]"
+PS2="\[\033[1m\]> \[\033[m\]"
 
 export PATH INPUTRC LESS PS1 PS2
 
