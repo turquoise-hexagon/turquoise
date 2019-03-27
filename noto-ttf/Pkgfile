@@ -6,18 +6,12 @@
 name=noto-ttf
 commit=4bff97c612daf65d4409c9ebc26dfbd6a3d83a7e
 version=15032019
-release=1
-source=(
-"https://github.com/googlei18n/${name%-*}-fonts/archive/$commit.tar.gz"
-"66-${name%-*}-serif.conf"
-"66-${name%-*}-mono.conf"
-"66-${name%-*}-sans.conf"
-)
+release=2
+source=("https://github.com/googlei18n/${name%-*}-fonts/archive/$commit.tar.gz")
 
 build() {
     cd "${name%-*}-fonts-$commit"
 
-    install -Dm644 "$SRC"/66-*.conf    -t "$PKG/etc/fonts/conf.avail"
     install -Dm644 unhinted/Noto*.ttf  -t "$PKG/usr/share/fonts/X11/TTF"
     install -Dm644 hinted/Noto*.ttf    -t "$PKG/usr/share/fonts/X11/TTF"
 }
