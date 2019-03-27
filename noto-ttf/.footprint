@@ -9,14 +9,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/X11/
 drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Arimo-Bold.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Arimo-BoldItalic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Arimo-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Arimo-Regular.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Cousine-Bold.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Cousine-BoldItalic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Cousine-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Cousine-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoMusic-Regular.ttf
@@ -1845,7 +1837,3 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-Thin.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Tinos-Bold.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Tinos-BoldItalic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Tinos-Italic.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/Tinos-Regular.ttf
