@@ -1,0 +1,22 @@
+# Description : Noto fonts
+# URL         : https://www.google.com/get/noto
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
+
+name=noto-ttf
+version=15032019
+commit=4bff97c612daf65d4409c9ebc26dfbd6a3d83a7e
+release=1
+source=(
+"https://github.com/googlei18n/${name%-*}-fonts/archive/$commit.tar.gz"
+"66-${name%-*}-serif.conf"
+"66-${name%-*}-mono.conf"
+"66-${name%-*}-sans.conf"
+)
+
+build() {
+    cd "${name%-*}-fonts-$commit"
+
+    install -Dm644 "$SRC"/*.conf -t "$PKG/etc/fonts/conf.avail"
+    install -Dm644 hinted/*.ttf  -t "$PKG/usr/share/fonts/X11/TTF"
+}
