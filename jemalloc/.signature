@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uwz7TWcrx0lPmr+7s+ln6a2a/2ny0JTwoyyL5pJwGf6dqvu5zcm4g7uwmC42ciSIh221jl+282oRPTx6YpQ/u/QQ=
-SHA256 (Pkgfile) = e5686deca61bad053d177b56cdf79de06a8b39214cf13fac56f0441b8c49adf6
+RWTOjBUiTG/Uw2JuVXsD5QDqZyEYKk34n4IHQDp8ujY08TSkO6Qx6Y6YrF1qu0B8M9kjTzwGff4jtUzdWxPZKEbh0P/5uHy0pwk=
+SHA256 (Pkgfile) = 09a6215a841826b853a5ab1e1328d1a8d9cd772cedc66c95b04ff4a5b327fa06
 SHA256 (.footprint) = 761b3606bc79a55a3d72e01cf1eeca145a2272d0b8bfd60108512ed097ddf38b
-SHA256 (jemalloc-5.1.0.tar.bz2) = 5396e61cc6103ac393136c309fae09e44d74743c86f90e266948c50f3dbb7268
+SHA256 (jemalloc-5.2.0.tar.bz2) = 74be9f44a60d2a99398e706baa921e4efde82bf8fd16e5c0643c375c5851e3b4

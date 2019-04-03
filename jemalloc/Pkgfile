@@ -4,7 +4,7 @@
 # Depends on  :
 
 name=jemalloc
-version=5.1.0
+version=5.2.0
 release=1
 source=("https://github.com/$name/$name/releases/download/$version/$name-$version.tar.bz2")
 
@@ -15,7 +15,7 @@ build() {
 
     make
 
-    for i in bin include lib_shared lib_static lib_pc; do
-        make DESTDIR="$PKG" "install_$i"
-    done
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
 }
