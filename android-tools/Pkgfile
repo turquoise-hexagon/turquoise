@@ -4,8 +4,8 @@
 # Depends on  :
 
 name=android-tools
-version=r28.0.1
-release=3
+version=r28.0.2
+release=1
 source=("https://dl.google.com/android/repository/platform-tools_$version-linux.zip")
 
 build() {
