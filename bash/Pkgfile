@@ -4,8 +4,8 @@
 # Depends on  : readline
 
 name=bash
-version=5.0.3
-release=3
+version=5.0.7
+release=1
 source=(
 "http://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
 patches.tar.gz
