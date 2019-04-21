@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#
+# update bash patches
+
+set -xe
+
+dir=patches
+
+# preparation
+! test -d "$dir"
+
+. Pkgfile
+
+ver=${version%.*}
+max=${version##*.}
+lvl=${ver/.}
+
+# download patches
+for ((; i++ < max;)) {
+    cur=$(printf '%03d' "$i")
+
+    wget "https://ftp.gnu.org/gnu/$name/$name-$ver-$dir/$name$lvl-$cur" -P "$dir"
+}
+
+# archive & cleanup
+tar czvf "$dir.tar.gz" "$dir"; rm -rf "$dir"
