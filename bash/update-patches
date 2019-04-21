@@ -6,7 +6,7 @@ set -xe
 
 dir=patches
 
-# preparation
+# prepare
 ! test -d "$dir"
 
 . Pkgfile
@@ -15,11 +15,11 @@ ver=${version%.*}
 max=${version##*.}
 lvl=${ver/.}
 
-# download patches
+# download
 for ((; i++ < max;)) {
     cur=$(printf '%03d' "$i")
 
-    wget "https://ftp.gnu.org/gnu/$name/$name-$ver-$dir/$name$lvl-$cur" -P "$dir"
+    wget "https://ftp.gnu.org/gnu/$name/$name-$ver-patches/$name$lvl-$cur" -P "$dir"
 }
 
 # archive & cleanup
