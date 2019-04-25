@@ -1,0 +1,20 @@
+# Description : Snes9x - portable SNES emulator
+# URL         : https://github.com/snes9xgit/snes9x
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : gtk libsdl2 xorg-server meson ninja
+
+name=snes9x
+version=1.60
+release=1
+source=("https://github.com/${name}git/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    cd gtk
+    meson build --prefix=/usr --buildtype=release --strip
+    cd build
+
+    ninja
+    DESTDIR="$PKG" ninja install
+}
