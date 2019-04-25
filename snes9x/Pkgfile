@@ -5,16 +5,21 @@
 
 name=snes9x
 version=1.60
-release=1
+release=2
 source=("https://github.com/${name}git/$name/archive/$version.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-$version/gtk"
 
-    cd gtk
-    meson build --prefix=/usr --buildtype=release --strip
+    meson build             \
+        --strip             \
+        --prefix=/usr       \
+        --buildtype=release
+
     cd build
 
     ninja
     DESTDIR="$PKG" ninja install
+
+    rm -rf "$PKG/usr/share/locale"
 }
