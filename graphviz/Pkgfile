@@ -1,0 +1,20 @@
+# Description : Graphviz is open source graph visualization software
+# URL         : http://www.graphviz.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : pango libgd
+
+name=graphviz
+version=2.40.1
+release=1
+source=("https://$name.gitlab.io/pub/$name/stable/SOURCES/$name.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm "$PKG/usr/share/$name/doc/"{AUTHORS,COPYING,ChangeLog,NEWS}
+}
