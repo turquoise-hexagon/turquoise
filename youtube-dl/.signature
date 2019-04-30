@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw5VXn3XXiqOjNtaQIpNLTdgGblN3WbRBb74pVQcxWmeylTvNq+9uq0O/1Ns/gLQ1Xt5jjn5YNcGgXK354QY9xQc=
-SHA256 (Pkgfile) = a5d67ff6f49f21629b72f54be1a1cccb11f949929a85c985ab1ad2e084eb71de
-SHA256 (.footprint) = fb6cff75b4c398d8e06782899a273501e3b5688a8c56f8cabbacde7252966faf
-SHA256 (youtube-dl-2019.04.24.tar.gz) = 1fbf54fb2f1ba3050da0cefe3cfa23604d445c8dc944202caf281d83851fffcf
+RWTOjBUiTG/UwyrDKrtZ4Zf9AFg8yTnCKz3BRq9gYofFMrKI2omQE6xu3sAc8iCuzn/Dat3rOq/wwelIJpUL7AQ3B1snw5FWQg4=
+SHA256 (Pkgfile) = 98d5fb69a6c0bdf64df59d99136c9f7cac35d7ec233bdeca71c9f30150a1a9cd
+SHA256 (.footprint) = 02b7c790542877fc0a2266bd42119bd0af25448582db31fa7bce1b5bfa9889ed
+SHA256 (youtube-dl-2019.04.30.tar.gz) = e18f4291bd52e44f8587d28c3d0423edf95ab3f138d657b9845e213f6d5383e8
