@@ -1,8 +1,0 @@
-#!/bin/sh
-
-old=/usr/bin/vim
-new=/usr/bin/nvim
-
-if ! test -x "$old"; then
-    ln -s "$new" "$old"
-fi

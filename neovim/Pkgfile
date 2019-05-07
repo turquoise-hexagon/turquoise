@@ -22,5 +22,7 @@ build() {
     make
     make DESTDIR="$PKG" install
 
+    ln -sf /usr/bin/nvim "$PKG/usr/bin/vim"
+
     rm -rf "$PKG/usr/share/locale"
 }
