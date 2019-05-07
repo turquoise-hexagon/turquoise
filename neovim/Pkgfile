@@ -1,21 +1,23 @@
 # Description : Vim-fork focused on extensibility and usability
 # URL         : https://github.com/neovim/neovim
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : luajit jemalloc libuv msgpack-c lua-lpeg libmpack-lua libvterm libtermkey
+# Depends on  : luajit libuv msgpack-c lua-lpeg libmpack-lua libvterm libtermkey
 
 name=neovim
 version=0.3.5
-release=1
+release=2
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
 
-    mkdir build; cd build
+    mkdir build
+    cd    build
 
-    cmake .. \
-        -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_INSTALL_PREFIX=/usr
+    cmake ..                          \
+        -DCMAKE_BUILD_TYPE=MinSizeRel \
+        -DCMAKE_INSTALL_PREFIX=/usr   \
+        -DENABLE_JEMALLOC=FALSE
 
     make
     make DESTDIR="$PKG" install
