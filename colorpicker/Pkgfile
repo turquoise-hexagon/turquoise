@@ -1,13 +1,13 @@
 # Description : Click on a pixel on your screen and print its color value in RGB
 # URL         : https://github.com/ancurio/colorpicker
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : gtk
+# Depends on  : xorg-libx11
 
 name=colorpicker
-commit=287676947e6e3b5b0cee784aeb1638cf22f0ce17
-version=14012018
-release=3
-source=("https://github.com/ancurio/$name/archive/$commit.tar.gz")
+commit=df06bced18cfa4e8958ffc6697a6ac237d89f1ff
+version=16022019
+release=1
+source=("https://github.com/ym1234/$name/archive/$commit.tar.gz")
 
 build() {
     cd "$name-$commit"
