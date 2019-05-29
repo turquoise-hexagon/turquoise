@@ -4,7 +4,7 @@
 # Depends on  : cmake
 
 name=msgpack-c
-version=3.1.1
+version=3.2.0
 release=1
 source=("https://github.com/msgpack/$name/archive/cpp-$version.tar.gz")
 
