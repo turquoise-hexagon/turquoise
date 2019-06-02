@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw3cIvMDO8cRvIlytnLcGlk/lN08sSXqQSYMQs6FYIHc2Fje28FXcnj/qOpSnWrJ+cX9gY0pC0vIjt/U2Ifof6Qw=
+SHA256 (Pkgfile) = 8dd3742f61fbceef9f269aa2b27aac8f0b72a57223d7b68c294efa32aec9a755
+SHA256 (.footprint) = 315e8ff41371df2d2ee46f89e400e1f52b563056d1a9429bdf36110f3c10fcd0
+SHA256 (mpdas-0.4.5.tar.gz) = c9103d7b897e76cd11a669e1c062d74cb73574efc7ba87de3b04304464e8a9ca
+SHA256 (mpdas.conf) = c4fa5fa68c6fdde5746a228419d2ed5218df37a8cac0c3e38312bddcd5341573
+SHA256 (mpdas) = d14d77319e916370b9ccc2018da60e99a60c0a142405f2f5c25d4e25d34395f2

@@ -1,0 +1,31 @@
+# Description : A C++ client to submit tracks to audioscrobble
+# URL         : https://50hz.ws/mpdas
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : libmpdclient curl
+
+name=mpdas
+version=0.4.5
+release=1
+source=(
+"https://50hz.ws/$name/$name-$version.tar.gz"
+"$name.conf"
+"$name"
+)
+
+build() {
+    cd "$name-$version"
+
+    sed -i 's/mpdasrc/mpdas.conf/g' *
+
+    make PREFIX=/usr CONFIG=/etc
+
+    make                              \
+        DESTDIR="$PKG"                \
+        PREFIX=/usr                   \
+        CONFIG=/etc                   \
+        MANPREFIX=/usr/share/man/man1 \
+        install
+
+    install -Dm644 "$name.conf" -t /etc
+    install -Dm755 "$name"      -t /etc/rc.d
+}
