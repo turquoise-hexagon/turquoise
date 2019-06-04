@@ -1,15 +1,15 @@
 # Description : Package compiler and linker metadata toolkit
-# URL         : https://github.com/pkgconf/pkgconf
+# URL         : https://git.dereferenced.org/pkgconf/pkgconf
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=pkgconf
-version=1.6.0
+version=1.6.1
 release=1
-source=("https://github.com/$name/$name/archive/$name-$version.tar.gz")
+source=("https://git.dereferenced.org/$name/$name/archive/$name-$version.tar.gz")
 
 build() {
-    cd "$name-$name-$version"
+    cd "$name"
 
     ./autogen.sh
     ./configure       \
