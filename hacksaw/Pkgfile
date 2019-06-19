@@ -1,0 +1,18 @@
+# Description : hacksaw (select operation)
+# URL         : https://github.com/nexromancers/hacksaw
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=hacksaw
+commit=0bee951e22240dc87b27dacc944653c9a741a1d0
+version=12032019
+release=1
+source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    cargo build --release --locked
+
+    install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
+}
