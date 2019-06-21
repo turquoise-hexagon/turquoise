@@ -4,8 +4,8 @@
 # Depends on  :
 
 name=hacksaw
-commit=931a4ade0ff3b07fed499836230b1bea94808f21
-version=19062019
+commit=c90cc2a3479d637d392122015ef265eea5dd76ff
+version=20062019
 release=1
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
