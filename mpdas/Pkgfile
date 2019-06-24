@@ -7,7 +7,7 @@ name=mpdas
 version=0.4.5
 release=1
 source=(
-"https://50hz.ws/$name/$name-$version.tar.gz"
+"https://github.com/hrkfdn/$name/archive/$version.tar.gz"
 "$name.conf"
 "$name"
 )
