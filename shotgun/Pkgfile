@@ -1,11 +1,11 @@
 # Description : Minimal X screenshot utility
 # URL         : https://github.com/nexromancers/shotgun
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  : xorg-libxrandr
+# Depends on  : xorg-libxrandr rust
 
 name=shotgun
 version=2.1.0
-release=1
+release=2
 source=("https://github.com/nexromancers/$name/archive/v$version.tar.gz")
 
 build() {
