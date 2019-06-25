@@ -1,12 +1,12 @@
 # Description : hacksaw (select operation)
 # URL         : https://github.com/nexromancers/hacksaw
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  :
+# Depends on  : rust
 
 name=hacksaw
 commit=c90cc2a3479d637d392122015ef265eea5dd76ff
 version=20062019
-release=1
+release=2
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
 build() {
