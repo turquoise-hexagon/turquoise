@@ -11,6 +11,7 @@ source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/
 build() {
     cd "${name^}"
 
-    install -Dm755 Telegram "$PKG/usr/bin/telegram"
-    install -Dm755 Updater  "$PKG/usr/bin/updater"
+    for i in Telegram Updater; do
+        install -Dm755 "$i" "$PKG/usr/bin/${i,}"
+    done
 }
