@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# start / stop rngd
+# start / stop haveged
 
 SSD=/sbin/start-stop-daemon
 PROG=/usr/sbin/haveged
