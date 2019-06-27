@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# start / stop rngd
+
+SSD=/sbin/start-stop-daemon
+PROG=/usr/sbin/haveged
+PID=/var/run/haveged.pid
+OPTS=
+
+case $1 in
+    start) $SSD -S -p $PID -x $PROG -- $OPTS;;
+    stop)  $SSD -K -R 10 -p $PID;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    status)
+        $SSD -T -p $PID
+
+        case $? in
+            3) echo "$PROG isn't running";;
+            0) echo "$PROG is running with pid $(cat $PID)";;
+            1) echo "$PROG isn't running but the pid file $PID exists";;
+            4) echo "unable to determine program status"
+        esac
+        ;;
+    *) echo "usage : ${0##/*} [start|stop|restart|status]"
+esac
