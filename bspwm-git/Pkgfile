@@ -5,19 +5,17 @@
 
 name=bspwm-git
 version=git
-release=3
+release=4
 source=()
 
 build() {
     cd "$PKGMK_SOURCE_DIR"
 
-    if [[ -d $name ]]; then
-        cd "$name"
-        git pull
-    else
-        git clone "https://github.com/baskerville/${name%-*}" "$name"
-        cd "$name"
-    fi
+    [[ -d $name ]] && rm -rf "$name"
+
+    git clone "https://github.com/baskerville/${name%-*}" --depth 1 "$name"
+
+    cd "$name"
 
     make
     make DESTDIR="$PKG" DOCPREFIX="/usr/share/${name%-*}" PREFIX=/usr install
