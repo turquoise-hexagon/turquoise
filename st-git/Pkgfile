@@ -5,19 +5,17 @@
 
 name=st-git
 version=git
-release=2
+release=3
 source=()
 
 build() {
     cd "$PKGMK_SOURCE_DIR"
 
-    if [[ -d $name ]]; then
-        cd "$name"
-        git pull
-    else
-        git clone "https://github.com/turquoise-hexagon/${name%-*}" "$name"
-        cd "$name"
-    fi
+    [[ -d $name ]] && rm -rf "$name"
+
+    git clone "https://github.com/turquoise-hexagon/${name%-*}" --depth 1 "$name"
+
+    cd "$name"
 
     make CC=gcc
     make DESTDIR="$PKG" PREFIX=/usr TERMINFO="$PKG/usr/share/terminfo" install
