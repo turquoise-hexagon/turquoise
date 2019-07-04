@@ -1,0 +1,16 @@
+# Description : Simple X background setter inspired by imlibsetroot and feh.
+# URL         : https://github.com/ttzhou/setroot
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : imlib2 xorg-server
+
+name=setroot
+version=2.0.2
+release=1
+source=("https://github.com/ttzhou/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr install
+}

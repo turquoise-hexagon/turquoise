@@ -1,0 +1,15 @@
+# Description : Android platform tools
+# URL         : https://developer.android.com/studio
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=android-tools
+version=29.0.1
+release=1
+source=("https://dl.google.com/android/repository/platform-tools_r$version-linux.zip")
+
+build() {
+    cd platform-tools
+
+    install -Dm755 {adb,fastboot} -t "$PKG/usr/bin"
+}

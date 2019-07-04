@@ -1,0 +1,34 @@
+# Description : Bash is an sh-compatible shell
+# URL         : https://www.gnu.org/software/bash
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : readline
+
+name=bash
+version=5.0.7
+release=1
+source=(
+"https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
+patches.tar.gz
+profile
+)
+
+build() {
+    cd "$name-${version%.*}"
+
+    for patch in "$SRC"/patches/*; do
+        patch -p0 -i "$patch"
+    done
+
+    ./configure        \
+        --prefix=/usr  \
+        --exec-prefix= \
+        --disable-nls  \
+        --with-curses  \
+        --with-installed-readline
+
+    make
+
+    install -Dm755 "$name"        -t "$PKG/bin"
+    install -Dm644 "$SRC/profile" -t "$PKG/etc"
+    install -Dm644 "doc/$name.1"  -t "$PKG/usr/share/man/man1"
+}

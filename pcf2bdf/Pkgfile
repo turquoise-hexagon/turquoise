@@ -1,0 +1,16 @@
+# Description : Convert PCF to BDF
+# URL         : https://github.com/ganaware/pcf2bdf
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=pcf2bdf
+version=1.05
+release=1
+source=("https://github.com/ganaware/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make -f Makefile.gcc
+    make -f Makefile.gcc DESTDIR="$PKG" PREFIX=/usr install
+}

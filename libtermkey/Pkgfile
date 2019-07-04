@@ -1,0 +1,17 @@
+# Description : Easy processing of keyboard entry from terminal programs
+# URL         : http://www.leonerd.org.uk/code/libtermkey
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : unibilium
+
+name=libtermkey
+commit=b7fe3af141c53cce71a244282b69ea860452120a
+version=27062019
+release=1
+source=("https://github.com/neovim/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}

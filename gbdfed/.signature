@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/UwyTT4XTL2eHpkZNiNojfz7f+Pi1gyWcRqGbOQKIHZE4yMfVxjY+kfiQCwBmCwFLVCPuCykij0rLM80fZ2s90sgo=
+SHA256 (Pkgfile) = ba95ce8f6fe8c59c047b967e92da74ed31770044988065e30c00feace8014573
+SHA256 (.footprint) = 1e65014ba6d60ef6c9b774e800a9a380d015c7aaeb8fea808434f3a86d3a9b1c
+SHA256 (gbdfed-1.6.tar.gz) = 8042575d23a55a3c38192e67fcb5eafd8f7aa8d723012c374acb2e0a36022943
+SHA256 (num_signals.patch) = 02f78ae6efb392f27796922f05b5238fd5d3749071129a3b88f307da22db6433
+SHA256 (makefile.patch) = 471e48c1cf3a535c940cba33d4f66c7bf12531234d7407e83ed1523ab951e487

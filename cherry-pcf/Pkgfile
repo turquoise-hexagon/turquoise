@@ -1,0 +1,17 @@
+# Description : A bitmap font made for latin-1
+# URL         : https://github.com/turquoise-hexagon/cherry
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-mkfontdir xorg-mkfontscale xorg-bdftopcf fontconfig
+
+name=cherry-pcf
+version=1.3
+release=1
+source=("https://github.com/turquoise-hexagon/${name%-*}/archive/$version.tar.gz")
+
+build() {
+    cd "${name%-*}-$version"
+
+    ./make.sh
+
+    install -Dm644 *.pcf -t "$PKG/usr/share/fonts/X11/misc"
+}
