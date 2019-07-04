@@ -1,0 +1,31 @@
+# Description : Various ports scripts
+# URL         : https://github.com/turquoise-hexagon/prtutils
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=prtutils
+version=git
+release=1
+source=()
+
+download() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+		git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+		git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+	else
+		git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+	fi
+
+	cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
+
+build() {
+    download "https://github.com/turquoise-hexagon/$name" master
+
+    cd "$name"
+
+    for i in *; do
+        test -x "$i" && install -Dm755 "$i" -t "$PKG/usr/bin"
+    done
+}
