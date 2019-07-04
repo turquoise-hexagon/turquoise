@@ -1,9 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/prtcommit
--rwxr-xr-x	root/root	usr/bin/prtgithub
--rwxr-xr-x	root/root	usr/bin/prtlistorphans
--rwxr-xr-x	root/root	usr/bin/prtmissing
--rwxr-xr-x	root/root	usr/bin/prtmissingdeps
--rwxr-xr-x	root/root	usr/bin/prtorphans
--rwxr-xr-x	root/root	usr/bin/prtupdate
