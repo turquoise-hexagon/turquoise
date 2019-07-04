@@ -1,0 +1,16 @@
+# Description : Fake keyboard/mouse input, window management, and more
+# URL         : https://github.com/jordansissel/xdotool
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : libxkbcommon xorg-libxinerama xorg-libxtst
+
+name=xdotool
+version=3.20160805.1
+release=1
+source=("https://github.com/jordansissel/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make PREFIX=/usr
+    make PREFIX=/usr DESTDIR="$PKG" install
+}
