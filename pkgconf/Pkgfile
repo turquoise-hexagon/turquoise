@@ -4,7 +4,7 @@
 # Depends on  :
 
 name=pkgconf
-version=1.6.1
+version=1.6.2
 release=1
 source=("https://distfiles.dereferenced.org/$name/$name-$version.tar.gz")
 
