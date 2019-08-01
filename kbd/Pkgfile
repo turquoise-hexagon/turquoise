@@ -1,0 +1,35 @@
+# Description : Keytable files and keyboard utilities
+# URL         : http://kbd-project.org
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=kbd
+version=2.2.0
+release=1
+source=("https://www.kernel.org/pub/linux/utils/$name/$name-$version.tar.xz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure                  \
+        --prefix=/usr            \
+        --datadir=/usr/share/kbd \
+        --disable-vlock          \
+        --disable-nls
+
+    make
+    make DESTDIR="$PKG" install
+
+    ln -sf default8x16.psfu.gz "$PKG"/usr/share/kbd/consolefonts/default.gz
+
+    for i in                                                     \
+        "$PKG"/usr/share/man/man1/psf*table.1                    \
+        "$PKG"/usr/share/kbd/keymaps/{ppc,mac,atari,amiga,sun}   \
+        "$PKG"/usr/bin/{loadunimap,mapscrn,resizecons,psf*table} \
+        "$PKG"/usr/share/man/man8/{loadunimap,mapscrn,resizecons}.8
+    do
+        rm -rf "$i"
+    done
+
+    find "$PKG"/usr/share/kbd/ -type f -name 'README*' -delete
+}
