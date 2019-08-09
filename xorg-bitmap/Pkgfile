@@ -3,13 +3,13 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-libxaw xorg-xbitmaps
 
-name=bitmap
+name=xorg-bitmap
 version=1.0.9
 release=1
-source=("https://www.x.org/archive/individual/app/$name-$version.tar.gz")
+source=("https://www.x.org/archive/individual/app/${name#*-}-$version.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "${name#*-}-$version"
 
     ./configure --prefix=/usr
 
