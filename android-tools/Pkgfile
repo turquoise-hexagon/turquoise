@@ -4,7 +4,7 @@
 # Depends on  :
 
 name=android-tools
-version=29.0.1
+version=29.0.2
 release=1
 source=("https://dl.google.com/android/repository/platform-tools_r$version-linux.zip")
 
