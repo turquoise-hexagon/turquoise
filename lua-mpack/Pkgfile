@@ -3,13 +3,13 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : lua lua51
 
-name=libmpack-lua
+name=lua-mpack
 version=1.0.8
 release=1
-source=("https://github.com/${name%-*}/$name/archive/$version.tar.gz")
+source=("https://github.com/${name/lua-/lib}/${name/lua-/lib}-${name%-*}/archive/$version.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "${name/lua-/lib}-${name%-*}-$version"
 
     make
     make -C mpack-src
