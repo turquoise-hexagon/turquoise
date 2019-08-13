@@ -4,15 +4,13 @@
 # Depends on  : freetype
 
 name=fonttosfnt
-commit=c214ab0d7deae30acdf90933ed14b223118dcf67
-version=10012019
+version=1.0.5
 release=1
-source=("https://gitlab.freedesktop.org/xorg/app/$name/-/archive/$commit/$name-$commit.tar.gz")
+source=("https://www.x.org/archive/individual/app/$name-$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
-    ./autogen.sh
     ./configure --prefix=/usr
 
     make
