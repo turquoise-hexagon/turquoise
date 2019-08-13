@@ -3,14 +3,14 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : freetype
 
-name=xorg-fonttosfnt
+name=fonttosfnt
 commit=c214ab0d7deae30acdf90933ed14b223118dcf67
 version=10012019
 release=1
-source=("https://gitlab.freedesktop.org/xorg/app/${name#*-}/-/archive/$commit/${name#*-}-$commit.tar.gz")
+source=("https://gitlab.freedesktop.org/xorg/app/$name/-/archive/$commit/$name-$commit.tar.gz")
 
 build() {
-    cd "${name#*-}-$commit"
+    cd "$name-$commit"
 
     ./autogen.sh
     ./configure --prefix=/usr
