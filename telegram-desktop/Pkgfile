@@ -3,13 +3,13 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
-name=telegram
+name=telegram-desktop
 version=1.8.1
 release=1
-source=("https://github.com/${name}desktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
+source=("https://github.com/${name/-}/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
 build() {
-    cd "${name^}"
+    cd Telegram
 
     for i in Telegram Updater; do
         install -Dm755 "$i" "$PKG/usr/bin/${i,}"
