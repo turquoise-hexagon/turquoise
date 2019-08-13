@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/include/msgpack/adaptor/cpp11/
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/forward_list.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/reference_wrapper.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/shared_ptr.hpp
+-rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/timespec.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/tuple.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/unique_ptr.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/cpp11/unordered_map.hpp
@@ -71,6 +72,7 @@ drwxr-xr-x	root/root	usr/include/msgpack/adaptor/tr1/
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/vector_bool.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/vector_char.hpp
 -rw-r--r--	root/root	usr/include/msgpack/adaptor/vector_unsigned_char.hpp
+-rw-r--r--	root/root	usr/include/msgpack/adaptor/wstring.hpp
 -rw-r--r--	root/root	usr/include/msgpack/cpp_config.hpp
 -rw-r--r--	root/root	usr/include/msgpack/cpp_config_decl.hpp
 -rw-r--r--	root/root	usr/include/msgpack/create_object_visitor.hpp
@@ -608,6 +610,7 @@ drwxr-xr-x	root/root	usr/include/msgpack/v1/adaptor/cpp11/
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/forward_list.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/reference_wrapper.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/shared_ptr.hpp
+-rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/timespec.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/tuple.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/unique_ptr.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/cpp11/unordered_map.hpp
@@ -665,6 +668,7 @@ drwxr-xr-x	root/root	usr/include/msgpack/v1/adaptor/tr1/
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/vector_bool.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/vector_char.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/vector_unsigned_char.hpp
+-rw-r--r--	root/root	usr/include/msgpack/v1/adaptor/wstring.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/cpp_config.hpp
 -rw-r--r--	root/root	usr/include/msgpack/v1/cpp_config_decl.hpp
 drwxr-xr-x	root/root	usr/include/msgpack/v1/detail/

@@ -3,13 +3,13 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : cmake
 
-name=msgpack-c
+name=msgpack
 version=3.2.0
 release=1
-source=("https://github.com/msgpack/$name/archive/cpp-$version.tar.gz")
+source=("https://github.com/msgpack/$name-c/archive/cpp-$version.tar.gz")
 
 build() {
-    cd "$name-cpp-$version"
+    cd "$name-c-cpp-$version"
 
     cmake . \
         -DCMAKE_INSTALL_PREFIX=/usr
