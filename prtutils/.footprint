@@ -8,3 +8,4 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/prtorphans
 -rwxr-xr-x	root/root	usr/bin/prtsize
 -rwxr-xr-x	root/root	usr/bin/prtupdate
+-rwxr-xr-x	root/root	usr/bin/prtversion
