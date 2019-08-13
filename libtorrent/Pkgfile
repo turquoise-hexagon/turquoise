@@ -4,17 +4,12 @@
 # Depends on  : libsigc++ curl
 
 name=libtorrent
-version=0.13.7
+version=0.13.8
 release=1
-source=(
-"https://github.com/rakshasa/$name/archive/v$version.tar.gz"
-openssl.patch
-)
+source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
-
-    patch -p1 -i "$SRC/openssl.patch"
 
     sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
 
