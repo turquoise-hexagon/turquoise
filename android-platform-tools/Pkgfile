@@ -3,13 +3,13 @@
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
-name=android-tools
+name=android-platform-tools
 version=29.0.2
 release=1
-source=("https://dl.google.com/android/repository/platform-tools_r$version-linux.zip")
+source=("https://dl.google.com/android/repository/${name#*-}_r$version-linux.zip")
 
 build() {
-    cd platform-tools
+    cd "${name#*-}"
 
     install -Dm755 {adb,fastboot} -t "$PKG/usr/bin"
 }
