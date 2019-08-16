@@ -5,7 +5,7 @@
 
 name=bash-builtins
 version=5.0
-release=1
+release=2
 source=("http://ftp.gnu.org/gnu/${name%-*}/${name%-*}-$version.tar.gz")
 
 build() {
@@ -17,6 +17,13 @@ build() {
 
     cd examples/loadables
 
-    make
-    make DESTDIR="$PKG" install
+    make everything
+    make DESTDIR="$PKG" install-dev
+
+    # install all builtins
+    install -Dm755 $(
+        for i in *; {
+            [[ -x $i && -f $i ]] && echo "$i"
+        }
+    ) -t "$PKG/usr/lib/bash"
 }
