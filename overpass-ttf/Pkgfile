@@ -11,6 +11,6 @@ source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
 build() {
     cd "Overpass-$version"
 
-    install -Dm644 -t "$PKG/usr/share/fonts/X11/TTF" \
-        webfonts/"${name%-*}"{-,-mono-}webfont/*.ttf
+    install -Dm644 webfonts/"${name%-*}"{-,-mono-}webfont/*.ttf \
+        -t "$PKG/usr/share/fonts/X11/TTF"
 }
