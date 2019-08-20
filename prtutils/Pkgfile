@@ -5,7 +5,7 @@
 
 name=prtutils
 version=git
-release=5
+release=6
 source=()
 
 download() {
