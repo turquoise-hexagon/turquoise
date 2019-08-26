@@ -4,10 +4,10 @@
 # Depends on  :
 
 name=haveged
-version=1.9.4
+version=1.9.6
 release=1
 source=(
-"https://github.com/jirka-h/$name/archive/$version.tar.gz"
+"https://github.com/jirka-h/$name/archive/v$version.tar.gz"
 "$name"
 )
 
