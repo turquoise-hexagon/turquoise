@@ -5,7 +5,7 @@
 
 name=bash-builtins
 version=5.0
-release=2
+release=3
 source=("http://ftp.gnu.org/gnu/${name%-*}/${name%-*}-$version.tar.gz")
 
 build() {
@@ -22,8 +22,8 @@ build() {
 
     # install all builtins
     install -Dm755 $(
-        for i in *; {
+        for i in *; do
             [[ -x $i && -f $i ]] && echo "$i"
-        }
+        done
     ) -t "$PKG/usr/lib/bash"
 }
