@@ -6,12 +6,13 @@
 name=noto-ttf
 commit=7ed21abcee08f671a476d226c00dd24c3fe3b44c
 version=22082019
-release=1
+release=2
 source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
 
 build() {
     cd "${name%-*}-fonts-$commit"
 
-    install -Dm644 unhinted/Noto*/Noto*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
-    install -Dm644   hinted/Noto*/Noto*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
+    for i in unhinted hinted; do
+        install -Dm644 "$i"/Noto*/Noto*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
+    done
 }
