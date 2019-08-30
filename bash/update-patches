@@ -17,7 +17,7 @@ lvl=${ver/.}
 
 # download
 for ((; i++ < max;)) {
-    cur=$(printf '%03d' "$i")
+    printf -v cur '%03d' "$i"
 
     wget "https://ftp.gnu.org/gnu/$name/$name-$ver-patches/$name$lvl-$cur" -P "$dir"
 }
