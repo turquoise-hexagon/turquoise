@@ -1,8 +1,3 @@
-drwxr-xr-x	root/root	home/
-drwxr-xr-x	root/root	home/camille/
-drwxr-xr-x	root/root	home/camille/.crawl/
-drwxr-xr-x	root/root	home/camille/.crawl/morgue/
-drwxr-xr-x	root/root	home/camille/.crawl/saves/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/crawl

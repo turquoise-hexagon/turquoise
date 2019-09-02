@@ -19,7 +19,7 @@ build() {
 
     make                           \
         DESTDIR="$PKG"             \
-        SAVEDIR=~/.crawl           \
+        SAVEDIR="~/.crawl"         \
         DATADIR="/usr/share/$name" \
         USE_UNICODE=y              \
         install
