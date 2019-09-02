@@ -1,0 +1,18 @@
+# Description : PyYAML is a YAML parser and emitter for Python
+# URL         : https://pyyaml.org/wiki/PyYAML
+# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=python-yaml
+version=5.1
+release=1
+source=("http://pyyaml.org/download/pyyaml/PyYAML-$version.tar.gz")
+
+build() {
+    cd "PyYAML-$version"
+
+    python setup.py build
+    python setup.py install --root="$PKG"
+
+    find "$PKG" -name "*.egg-info" -delete
+}
