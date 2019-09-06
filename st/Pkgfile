@@ -5,7 +5,7 @@
 
 name=st
 version=git
-release=1
+release=2
 source=()
 
 download() {
@@ -25,7 +25,7 @@ build() {
 
     cd "$name"
 
-    make CC=gcc
+    make
     make DESTDIR="$PKG" PREFIX=/usr TERMINFO="$PKG/usr/share/terminfo" install
 
     rm -rf "$PKG/usr/share/terminfo"
