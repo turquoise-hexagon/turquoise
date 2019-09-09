@@ -1,6 +1,6 @@
 # Description : Easy processing of keyboard entry from terminal programs
 # URL         : http://www.leonerd.org.uk/code/libtermkey
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : unibilium
 
 name=libtermkey

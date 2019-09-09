@@ -1,6 +1,6 @@
 # Description : Control backlight brightness - udev rule
 # URL         : https://github.com/hummer12007/brightnessctl
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : udev
 
 name=brightness-udev

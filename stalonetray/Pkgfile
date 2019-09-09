@@ -1,6 +1,6 @@
 # Description : Stalonetray is a stand-alone system tray for X11
 # URL         : http://stalonetray.sourceforge.net
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=stalonetray

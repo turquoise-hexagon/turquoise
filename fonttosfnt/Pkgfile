@@ -1,6 +1,6 @@
 # Description : fonttosfnt wraps a set of bdf or pcf bitmap fonts in a sfnt wrapper
 # URL         : http://www.x.org
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : freetype xorg-libfontenc
 
 name=fonttosfnt

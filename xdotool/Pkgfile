@@ -1,6 +1,6 @@
 # Description : Fake keyboard/mouse input, window management, and more
 # URL         : https://github.com/jordansissel/xdotool
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : libxkbcommon xorg-libxinerama xorg-libxtst
 
 name=xdotool

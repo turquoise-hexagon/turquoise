@@ -1,6 +1,6 @@
 # Description : torrent library
 # URL         : https://rakshasa.github.io/rtorrent
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : libsigc++ curl
 
 name=libtorrent

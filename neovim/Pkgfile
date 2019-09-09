@@ -1,6 +1,6 @@
 # Description : Vim-fork focused on extensibility and usability
 # URL         : https://github.com/neovim/neovim
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : luajit libuv msgpack lua-lpeg lua-mpack libvterm libtermkey
 
 name=neovim

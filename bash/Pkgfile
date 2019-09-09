@@ -1,6 +1,6 @@
 # Description : Bash is an sh-compatible shell
 # URL         : https://www.gnu.org/software/bash
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : readline
 
 name=bash

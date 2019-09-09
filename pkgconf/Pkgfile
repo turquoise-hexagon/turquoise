@@ -1,6 +1,6 @@
 # Description : Package compiler and linker metadata toolkit
 # URL         : https://git.dereferenced.org/pkgconf/pkgconf
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=pkgconf

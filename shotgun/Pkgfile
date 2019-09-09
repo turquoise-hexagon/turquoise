@@ -1,6 +1,6 @@
 # Description : Minimal X screenshot utility
 # URL         : https://github.com/nexromancers/shotgun
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-libxrandr rust
 
 name=shotgun

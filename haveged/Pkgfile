@@ -1,6 +1,6 @@
 # Description : Entropy daemon
 # URL         : https://github.com/jirka-h/haveged
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=haveged

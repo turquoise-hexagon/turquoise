@@ -1,6 +1,6 @@
 # Description : Various ports scripts
 # URL         : https://github.com/turquoise-hexagon/prtutils
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=prtutils

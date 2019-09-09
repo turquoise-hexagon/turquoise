@@ -1,6 +1,6 @@
 # Description : GNU Stow is a symlink farm manager
 # URL         : https://gnu.org/software/stow
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=stow

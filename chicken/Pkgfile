@@ -1,6 +1,6 @@
 # Description : A practical and portable scheme system
 # URL         : http://www.call-cc.org
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=chicken

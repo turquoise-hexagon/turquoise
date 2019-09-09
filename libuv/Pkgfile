@@ -1,6 +1,6 @@
 # Description : Cross-platform asynchronous I/O
 # URL         : https://github.com/libuv/libuv
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=libuv

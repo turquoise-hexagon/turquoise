@@ -1,6 +1,6 @@
 # Description : Convert PCF to BDF
 # URL         : https://github.com/ganaware/pcf2bdf
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=pcf2bdf

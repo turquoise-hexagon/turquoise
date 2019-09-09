@@ -1,6 +1,6 @@
 # Description : Dungeon Crawl Stone Soup
 # URL         : http://crawl.develz.org
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : ncurses python-yaml lua51
 
 name=crawl

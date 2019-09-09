@@ -1,6 +1,6 @@
 # Description : Click on a pixel on your screen and print its color value in RGB
 # URL         : https://github.com/ancurio/colorpicker
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-libx11
 
 name=colorpicker

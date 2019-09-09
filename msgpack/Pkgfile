@@ -1,6 +1,6 @@
 # Description : MessagePack implementation for C and C++
 # URL         : https://github.com/msgpack/msgpack-c
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : cmake
 
 name=msgpack

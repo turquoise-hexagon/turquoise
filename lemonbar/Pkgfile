@@ -1,6 +1,6 @@
 # Description : A featherweight, lemon-scented bar based on xcb
 # URL         : https://github.com/lemonboy/lemonbar
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : xorg-libxcb
 
 name=lemonbar

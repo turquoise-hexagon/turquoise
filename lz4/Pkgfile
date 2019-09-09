@@ -1,6 +1,6 @@
 # Description : Extremely fast compression algorithm
 # URL         : https://github.com/lz4/lz4
-# Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  :
 
 name=lz4
