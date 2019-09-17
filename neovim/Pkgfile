@@ -4,8 +4,8 @@
 # Depends on  : luajit libuv msgpack lua-lpeg lua-mpack libvterm libtermkey
 
 name=neovim
-version=0.3.8
-release=3
+version=0.4.2
+release=1
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
 build() {
