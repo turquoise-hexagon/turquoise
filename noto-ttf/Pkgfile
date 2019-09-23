@@ -5,8 +5,8 @@
 
 name=noto-ttf
 commit=7ed21abcee08f671a476d226c00dd24c3fe3b44c
-version=22082019
-release=2
+version=19092019
+release=1
 source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
 
 build() {
