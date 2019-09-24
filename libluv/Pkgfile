@@ -1,11 +1,11 @@
-# Description : Bare libuv bindings for lua 
+# Description : Bare libuv bindings for lua
 # URL         : https://github.com/luvit/luv
 # Maintainer  : marin, https://github.com/turquoise-hexagon/ports/issues
 # Depends on  : libuv luajit ninja cmake
 
 name=libluv
 version=1.30.1
-release=4
+release=5
 source=("https://github.com/luvit/${name#lib}/releases/download/$version-1/${name#lib}-$version-1.tar.gz")
 
 build() {
@@ -14,12 +14,12 @@ build() {
     mkdir build
     cd    build
 
-    cmake .. \
-        -GNinja \
-        -DWITH_SHARED_LIBUV=ON \
+    cmake ..                    \
+        -GNinja                 \
+        -DWITH_SHARED_LIBUV=ON  \
         -DLUA_BUILD_TYPE=System \
-        -DBUILD_MODULE=OFF \
-        -DBUILD_SHARED_LIBS=ON \
+        -DBUILD_MODULE=OFF      \
+        -DBUILD_SHARED_LIBS=ON  \
         -DCMAKE_INSTALL_PREFIX=/usr
 
     ninja
