@@ -5,7 +5,7 @@
 
 name=gbdfed
 version=1.6
-release=4
+release=1
 source=(
 "http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz"
 patches/num_signals.patch
