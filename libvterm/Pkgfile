@@ -1,0 +1,16 @@
+# Description : An abstract C99 library which implements a VT220 or xterm-like terminal emulator
+# URL         : http://www.leonerd.org.uk/code/libvterm
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=libvterm
+version=0.1.1
+release=1
+source=("http://www.leonerd.org.uk/code/$name/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}

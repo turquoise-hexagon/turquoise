@@ -1,0 +1,16 @@
+# Description : Noto CJK fonts
+# URL         : https://www.google.com/get/noto
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
+
+name=noto-cjk-ttc
+commit=be6c059ac1587e556e2412b27f5155c8eb3ddbe6
+version=16042019
+release=1
+source=("https://github.com/googlefonts/${name%-*}/archive/$commit.tar.gz")
+
+build() {
+    cd "${name%-*}-$commit"
+
+    install -Dm644 *.ttc -t "$PKG/usr/share/fonts/X11/TTC"
+}

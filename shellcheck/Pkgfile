@@ -1,0 +1,15 @@
+# Description : Shellcheck, a static analysis tool for shell scripts
+# URL         : https://github.com/koalaman/shellcheck
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=shellcheck
+version=0.7.0
+release=1
+source=("https://storage.googleapis.com/shellcheck/shellcheck-v$version.linux.x86_64.tar.xz")
+
+build() {
+    cd "$name-v$version"
+
+    install -Dm755 "$name" -t "$PKG/usr/bin"
+}

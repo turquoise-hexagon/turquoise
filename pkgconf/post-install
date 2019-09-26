@@ -1,0 +1,6 @@
+#!/bin/sh
+
+var='pkgconf: pkg-config'
+dir='/var/lib/pkg/prt-get.aliases'
+
+grep -q "$var" "$dir" || echo "$var" >> "$dir"

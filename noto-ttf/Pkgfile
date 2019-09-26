@@ -1,0 +1,18 @@
+# Description : Noto fonts
+# URL         : https://www.google.com/get/noto
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
+
+name=noto-ttf
+commit=7ed21abcee08f671a476d226c00dd24c3fe3b44c
+version=19092019
+release=1
+source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
+
+build() {
+    cd "${name%-*}-fonts-$commit"
+
+    for i in unhinted hinted; do
+        install -Dm644 "$i"/Noto*/Noto*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
+    done
+}

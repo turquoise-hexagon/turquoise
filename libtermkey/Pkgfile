@@ -1,0 +1,16 @@
+# Description : Easy processing of keyboard entry from terminal programs
+# URL         : http://www.leonerd.org.uk/code/libtermkey
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  : unibilium
+
+name=libtermkey
+version=0.22
+release=1
+source=("http://www.leonerd.org.uk/code/$name/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}

@@ -1,0 +1,20 @@
+# Description : GNU Stow is a symlink farm manager
+# URL         : https://gnu.org/software/stow
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=stow
+version=2.3.1
+release=1
+source=("https://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG"/usr/share/{doc,info}
+}
