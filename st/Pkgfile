@@ -5,7 +5,7 @@
 
 name=st
 version=git
-release=3
+release=1
 source=()
 
 download() {
