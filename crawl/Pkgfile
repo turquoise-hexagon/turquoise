@@ -26,3 +26,5 @@ build() {
 
     rm -rf "$PKG/usr/share/$name/dat/descript"/*/
 }
+
+# vim: ft=sh

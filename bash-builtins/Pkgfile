@@ -27,3 +27,5 @@ build() {
         done
     ) -t "$PKG/usr/lib/bash"
 }
+
+# vim: ft=sh

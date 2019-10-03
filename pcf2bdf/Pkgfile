@@ -14,3 +14,5 @@ build() {
     make -f Makefile.gcc
     make -f Makefile.gcc DESTDIR="$PKG" PREFIX=/usr install
 }
+
+# vim: ft=sh

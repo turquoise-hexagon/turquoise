@@ -26,3 +26,5 @@ build() {
 
     DESTDIR="$PKG" ninja install
 }
+
+# vim: ft=sh

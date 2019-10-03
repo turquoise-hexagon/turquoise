@@ -30,3 +30,5 @@ build() {
 
     rm -rf "$PKG/usr/share/terminfo"
 }
+
+# vim: ft=sh

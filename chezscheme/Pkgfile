@@ -1,0 +1,23 @@
+# Description : Chez Scheme
+# URL         : https://www.scheme.com/
+# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Depends on  :
+
+name=chezscheme
+version=9.5.2
+release=1
+source=("https://github.com/cisco/$name/releases/download/v$version/csv$version.tar.gz")
+
+build() {
+    cd "csv$version"
+
+    ./configure              \
+        --installprefix=/usr \
+        --temproot="$PKG"    \
+        --threads
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh

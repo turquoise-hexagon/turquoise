@@ -26,3 +26,5 @@ build() {
 
     rm -rf "$PKG/usr/share/locale"
 }
+
+# vim: ft=sh

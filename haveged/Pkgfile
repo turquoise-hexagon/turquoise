@@ -24,3 +24,5 @@ build() {
 
     install -Dm755 "$SRC/$name" -t "$PKG/etc/rc.d"
 }
+
+# vim: ft=sh

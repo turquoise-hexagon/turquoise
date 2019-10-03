@@ -30,3 +30,5 @@ build() {
 
     find "$PKG/usr/share/$name" -name "*.md" -delete
 }
+
+# vim: ft=sh

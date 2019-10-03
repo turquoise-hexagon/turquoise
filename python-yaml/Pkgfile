@@ -16,3 +16,5 @@ build() {
 
     find "$PKG" -name "*.egg-info" -delete
 }
+
+# vim: ft=sh

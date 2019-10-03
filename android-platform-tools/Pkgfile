@@ -13,3 +13,5 @@ build() {
 
     install -Dm755 {adb,fastboot} -t "$PKG/usr/bin"
 }
+
+# vim: ft=sh
