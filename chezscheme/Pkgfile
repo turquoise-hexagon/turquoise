@@ -1,11 +1,11 @@
 # Description : Chez Scheme
 # URL         : https://www.scheme.com/
 # Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
-# Depends on  :
+# Depends on  : util-linux ncurses
 
 name=chezscheme
 version=9.5.2
-release=1
+release=2
 source=("https://github.com/cisco/$name/releases/download/v$version/csv$version.tar.gz")
 
 build() {
