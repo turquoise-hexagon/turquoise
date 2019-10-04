@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/X11/
+drwxr-xr-x	root/root	usr/share/fonts/X11/misc/
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-10-b.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-10-r.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-11-b.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-11-r.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-12-b.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-12-r.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-13-b.otb
+-rw-r--r--	root/root	usr/share/fonts/X11/misc/cherry-13-r.otb
