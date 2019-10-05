@@ -4,20 +4,26 @@
 # Depends on  : readline
 
 name=bash
-version=5.0.11
+version=git
 release=1
-source=(
-"https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
-patches.tar.gz
-profile
-)
+source=(profile)
+
+download() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+		git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+		git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+	else
+		git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+	fi
+
+	cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
 
 build() {
-    cd "$name-${version%.*}"
+    download "https://git.savannah.gnu.org/git/$name.git" master
 
-    for patch in "$SRC"/patches/*; do
-        patch -p0 -i "$patch"
-    done
+    cd "$name"
 
     ./configure        \
         --prefix=/usr  \
