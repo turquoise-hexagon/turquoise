@@ -17,8 +17,6 @@ build() {
 
     sed -i 's/mpdasrc/mpdas.conf/g' *
 
-    make PREFIX=/usr CONFIG=/etc
-
     make                              \
         DESTDIR="$PKG"                \
         PREFIX=/usr                   \

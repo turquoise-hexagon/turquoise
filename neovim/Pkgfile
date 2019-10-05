@@ -19,7 +19,6 @@ build() {
         -DCMAKE_INSTALL_PREFIX=/usr   \
         -DENABLE_JEMALLOC=FALSE
 
-    make
     make DESTDIR="$PKG" install
 
     ln -sf /usr/bin/nvim "$PKG/usr/bin/vim"

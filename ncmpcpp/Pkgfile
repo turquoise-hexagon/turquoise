@@ -14,7 +14,7 @@ build() {
     ./autogen.sh
     ./configure --prefix=/usr
 
-    make
+    # make
     make DESTDIR="$PKG" install
 
     rm -rf "$PKG/usr/share/doc"

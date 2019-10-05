@@ -26,7 +26,7 @@ build() {
     cd "$name"
 
     make
-    make DESTDIR="$PKG" DOCPREFIX="/usr/share/$name" PREFIX=/usr install
+    make PREFIX=/usr DOCPREFIX="/usr/share/$name" DESTDIR="$PKG" install
 
     find "$PKG/usr/share/$name" -name "*.md" -delete
 }

@@ -11,7 +11,6 @@ source=("http://www.brain-dump.org/projects/$name/$name-$version.tar.gz")
 build() {
     cd "$name-$version"
 
-    make all
     make PREFIX=/usr DESTDIR="$PKG" install
 }
 

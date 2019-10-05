@@ -25,7 +25,6 @@ build() {
 
     cd "$name"
 
-    make
     make DESTDIR="$PKG" PREFIX=/usr TERMINFO="$PKG/usr/share/terminfo" install
 
     rm -rf "$PKG/usr/share/terminfo"

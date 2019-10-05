@@ -12,7 +12,6 @@ source=("https://github.com/${name%-*}/${name#*-}/archive/$commit.tar.gz")
 build() {
     cd "${name#*-}-$commit"
 
-    make
     make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
 }
 

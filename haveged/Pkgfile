@@ -19,7 +19,6 @@ build() {
         --bindir=/usr/bin \
         --sbindir=/usr/sbin
 
-    make
     make DESTDIR="$PKG" install
 
     install -Dm755 "$SRC/$name" -t "$PKG/etc/rc.d"

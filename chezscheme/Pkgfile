@@ -16,7 +16,6 @@ build() {
         --temproot="$PKG"    \
         --threads
 
-    make
     make DESTDIR="$PKG" install
 }
 
