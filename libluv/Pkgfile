@@ -1,11 +1,11 @@
 # Description : Bare libuv bindings for lua
 # URL         : https://github.com/luvit/luv
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : libuv luajit ninja cmake
 
 name=libluv
 version=1.30.1
-release=2
+release=1
 source=("https://github.com/luvit/${name#lib}/releases/download/$version-1/${name#lib}-$version-1.tar.gz")
 
 build() {

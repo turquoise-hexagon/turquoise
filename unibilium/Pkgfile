@@ -1,6 +1,6 @@
 # Description : A terminfo parsing library
 # URL         : https://github.com/mauke/unibilium
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  :
 
 name=unibilium

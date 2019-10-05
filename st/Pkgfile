@@ -1,6 +1,6 @@
 # Description : st is a simple terminal implementation for X
 # URL         : https://st.suckless.org
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : xorg-libxext xorg-libxft
 
 name=st

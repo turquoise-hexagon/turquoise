@@ -1,6 +1,6 @@
 # Description : Featureful ncurses based MPD client inspired by ncmpc
 # URL         : https://github.com/arybczak/ncmpcpp
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : boost libmpdclient taglib
 
 name=ncmpcpp

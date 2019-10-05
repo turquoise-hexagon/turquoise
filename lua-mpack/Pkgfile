@@ -1,6 +1,6 @@
 # Description : libmpack lua bindings
 # URL         : https://github.com/libmpack/libmpack-lua
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : lua lua51
 
 name=lua-mpack

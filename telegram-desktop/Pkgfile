@@ -1,6 +1,6 @@
 # Description : Telegram Desktop messsaging app
 # URL         : https://telegram.org
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  :
 
 name=telegram-desktop

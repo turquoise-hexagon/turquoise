@@ -1,6 +1,6 @@
 # Description : Set of window manipulation tools
 # URL         : https://github.com/wmutils/core
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : xorg-libxcb xorg-xcb-util
 
 name=wmutils-core

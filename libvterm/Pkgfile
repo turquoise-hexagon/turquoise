@@ -1,6 +1,6 @@
 # Description : An abstract C99 library which implements a VT220 or xterm-like terminal emulator
 # URL         : http://www.leonerd.org.uk/code/libvterm
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  :
 
 name=libvterm

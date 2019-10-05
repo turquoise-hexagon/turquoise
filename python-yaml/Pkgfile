@@ -1,6 +1,6 @@
 # Description : PyYAML is a YAML parser and emitter for Python
 # URL         : https://pyyaml.org/wiki/PyYAML
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : python
 
 name=python-yaml

@@ -1,6 +1,6 @@
 # Description : Simple X background setter inspired by imlibsetroot and feh.
 # URL         : https://github.com/ttzhou/setroot
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : imlib2 xorg-server
 
 name=setroot

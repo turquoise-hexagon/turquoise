@@ -1,6 +1,6 @@
 # Description : Noto CJK fonts
 # URL         : https://www.google.com/get/noto
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=noto-cjk-ttc

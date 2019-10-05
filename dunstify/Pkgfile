@@ -1,6 +1,6 @@
 # Description : Dunstify is an alternative to the notify-send command
 # URL         : https://github.com/dunst-project/dunst
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : dunst libnotify
 
 name=dunstify

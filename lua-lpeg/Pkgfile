@@ -1,6 +1,6 @@
 # Description : Pattern matching library for Lua
 # URL         : http://www.inf.puc-rio.br/~roberto/lpeg
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : lua lua51
 
 name=lua-lpeg

@@ -1,6 +1,6 @@
 # Description : hacksaw (select operation)
 # URL         : https://github.com/nexromancers/hacksaw
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  : rust
 
 name=hacksaw

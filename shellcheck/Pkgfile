@@ -1,6 +1,6 @@
 # Description : Shellcheck, a static analysis tool for shell scripts
 # URL         : https://github.com/koalaman/shellcheck
-# Maintainer  : camille, https://github.com/turquoise-hexagon/ports/issues
+# Maintainer  : camille, camille@laserbat.pw
 # Depends on  :
 
 name=shellcheck
