@@ -2,11 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/prtcommit
 -rwxr-xr-x	root/root	usr/bin/prtexport
--rwxr-xr-x	root/root	usr/bin/prtlistorphans
 -rwxr-xr-x	root/root	usr/bin/prtmissing
 -rwxr-xr-x	root/root	usr/bin/prtmissingdeps
 -rwxr-xr-x	root/root	usr/bin/prtmissinglibs
+-rwxr-xr-x	root/root	usr/bin/prtnewdeps
 -rwxr-xr-x	root/root	usr/bin/prtomitteddeps
+-rwxr-xr-x	root/root	usr/bin/prtorphaned
 -rwxr-xr-x	root/root	usr/bin/prtorphans
 -rwxr-xr-x	root/root	usr/bin/prtsize
 -rwxr-xr-x	root/root	usr/bin/prtupdate
