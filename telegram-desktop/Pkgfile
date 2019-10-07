@@ -4,9 +4,9 @@
 # Depends on  :
 
 name=telegram-desktop
-version=1.8.13
+version=1.8.15
 release=1
-source=("https://github.com/${name/-}/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
+source=("https://updates.tdesktop.com/tlinux/tsetup.$version.tar.xz")
 
 build() {
     cd Telegram
