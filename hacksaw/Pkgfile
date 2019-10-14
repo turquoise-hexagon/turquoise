@@ -6,7 +6,7 @@
 name=hacksaw
 commit=47eb6231354c9671d8b7c3301b1348086ffb86ec
 version=14102019
-release=1
+release=2
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
 build() {
