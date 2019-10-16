@@ -1,0 +1,15 @@
+# Description : cloc counts blank lines, comment lines, and physical lines of source code
+# URL         : https://github.com/aldanial/cloc
+# Maintainer  : camille, camille@laserbat.pw
+# Depends on  :
+
+name=cloc
+version=1.84
+release=1
+source=("https://github.com/aldanial/$name/releases/download/$version/$name-$version.pl")
+
+build() {
+    install -Dm755 "$name-$version.pl" "$PKG/usr/bin/$name"
+}
+
+# vim: ft=sh
