@@ -251,6 +251,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/dist_bones/
 drwxr-xr-x	root/root	usr/share/crawl/dat/dlua/
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/debug.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/dungeon.lua
+-rw-r--r--	root/root	usr/share/crawl/dat/dlua/explorer.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/fnwrap.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/gauntlet.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/ghost.lua
