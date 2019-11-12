@@ -3,10 +3,15 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/X11/
 drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Black.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Extrabold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Extralight.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Light.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Medium.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Semibold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoKufiArabic-Thin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoMusic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoNaskhArabic-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoNaskhArabic-Regular.ttf
@@ -489,6 +494,7 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGujarati-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGujaratiUI-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGujaratiUI-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGunjalaGondi-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGurmukhi-Black.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGurmukhi-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansGurmukhi-Condensed.ttf
@@ -831,7 +837,10 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLimbu-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLinearA-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLinearB-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLisu-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLisu-Medium.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLisu-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLisu-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLycian-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansLydian-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMahajani-Regular.ttf
@@ -910,6 +919,7 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMandaic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansManichaean-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMarchen-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMasaramGondi-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMath-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMayanNumerals-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMeeteiMayek-Regular.ttf
@@ -1033,7 +1043,10 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansNewTaiLue-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansNewa-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOgham-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOlChiki-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOlChiki-Medium.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOlChiki-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOlChiki-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOldHungarian-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOldItalic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansOldNorthArabian-Regular.ttf
@@ -1133,7 +1146,9 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSinhalaUI-SemiCondensedSemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSinhalaUI-SemiCondensedThin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSinhalaUI-Thin.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSogdian-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSoraSompeng-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSoyombo-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSundanese-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSylotiNagri-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansSymbols-Black.ttf
@@ -1387,6 +1402,7 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansTirhuta-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansUgaritic-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansVai-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansWancho-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansWarangCiti-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansYi-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansZanabazarSquare-Regular.ttf
