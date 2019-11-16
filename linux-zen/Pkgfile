@@ -11,10 +11,10 @@ source=("https://github.com/${name#*-}-kernel/${name#*-}-kernel/archive/v$versio
 build() {
     cd "${name#*-}-kernel-$version"
 
-    [[ $PKGMK_ROOT/config ]] &&
+    [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
 
-    mkdir firmware
+    mkdir firmware; shopt -s nullglob
 
     for i in "$PKGMK_ROOT/"*.ucode; do
         cp "$i" firmware
@@ -30,6 +30,9 @@ build() {
 
     make olddefconfig
     make all
+
+    grep -q 'CONFIG_MODULES=y' .config &&
+        make DESTDIR="$PKG" modules_install
 
     install -Dm644 System.map -t            "$PKG/boot"
     install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz"

@@ -5,3 +5,5 @@
 !*/.footprint
 !*/Pkgfile
 !*/*.patch
+!*/post-install
+!*/README
