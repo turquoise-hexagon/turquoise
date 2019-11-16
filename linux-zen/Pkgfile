@@ -4,12 +4,12 @@
 # Depends on  :
 
 name=linux-zen
-version=5.3.11-zen1
+version=5.3.11.1
 release=1
-source=("https://github.com/${name#*-}-kernel/${name#*-}-kernel/archive/v$version.tar.gz")
+source=("https://github.com/${name#*-}-kernel/${name#*-}-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
-    cd "${name#*-}-kernel-$version"
+    cd "${name#*-}-kernel-${version%.*}-zen${version##*.}"
 
     [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
