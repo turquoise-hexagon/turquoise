@@ -1,0 +1,38 @@
+# Description : Zen Patched Kernel
+# URL         : http://zen-kernel.org
+# Maintainer  : camille, camille@laserbat.pw
+# Depends on  :
+
+name=linux-zen
+version=5.3.11-zen1
+release=1
+source=("https://github.com/${name#*-}-kernel/${name#*-}-kernel/archive/v$version.tar.gz")
+
+build() {
+    cd "${name#*-}-kernel-$version"
+
+    [[ $PKGMK_ROOT/config ]] &&
+        cp "$PKGMK_ROOT/config" .config
+
+    mkdir firmware
+
+    for i in "$PKGMK_ROOT/"*.ucode; do
+        cp "$i" firmware
+    done
+
+    # remove extraversion
+    sed -Ei 's|(EXTRAVERSION =).*|\1|' Makefile
+
+    # compile with Ofast
+    grep -R -- '-O3' |
+        cut -d : -f1 |
+        xargs sed -i 's/-O3/-Ofast/g'
+
+    make olddefconfig
+    make all
+
+    install -Dm644 System.map -t            "$PKG/boot"
+    install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz"
+}
+
+# vim: ft=sh

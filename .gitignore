@@ -1,0 +1,7 @@
+*
+!.gitignore
+!*/
+!*/.signature
+!*/.footprint
+!*/Pkgfile
+!*/*.patch
