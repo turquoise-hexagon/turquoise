@@ -1,6 +1,6 @@
 # Description : Vim-fork focused on extensibility and usability
 # URL         : https://github.com/neovim/neovim
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey
 
 name=neovim

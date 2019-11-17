@@ -1,6 +1,6 @@
 # Description : Easy processing of keyboard entry from terminal programs
 # URL         : http://www.leonerd.org.uk/code/libtermkey
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : unibilium
 
 name=libtermkey

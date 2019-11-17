@@ -1,6 +1,6 @@
 # Description : Zen Patched Kernel
 # URL         : http://zen-kernel.org
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  :
 
 name=linux-zen

@@ -1,6 +1,6 @@
 # Description : Pattern matching library for Lua
 # URL         : http://www.inf.puc-rio.br/~roberto/lpeg
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : lua lua51
 
 name=lua-lpeg

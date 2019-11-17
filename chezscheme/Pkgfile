@@ -1,6 +1,6 @@
 # Description : Chez Scheme
 # URL         : https://www.scheme.com/
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : util-linux ncurses
 
 name=chezscheme

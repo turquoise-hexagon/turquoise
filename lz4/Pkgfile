@@ -1,6 +1,6 @@
 # Description : Extremely fast compression algorithm
 # URL         : https://github.com/lz4/lz4
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  :
 
 name=lz4

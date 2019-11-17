@@ -1,6 +1,6 @@
 # Description : Bash is an sh-compatible shell
 # URL         : https://www.gnu.org/software/bash
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : readline
 
 name=bash

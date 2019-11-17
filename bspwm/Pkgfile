@@ -1,6 +1,6 @@
 # Description : A tiling window manager based on binary space partitioning
 # URL         : https://github.com/baskerville/bspwm
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : xorg-xcb-util xorg-xcb-util-keysyms xorg-xcb-util-wm
 
 name=bspwm

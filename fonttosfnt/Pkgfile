@@ -1,6 +1,6 @@
 # Description : fonttosfnt wraps a set of bdf or pcf bitmap fonts in a sfnt wrapper
 # URL         : http://www.x.org
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : freetype xorg-libfontenc
 
 name=fonttosfnt

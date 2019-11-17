@@ -1,6 +1,6 @@
 # Description : Dungeon Crawl Stone Soup
 # URL         : http://crawl.develz.org
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : ncurses python-yaml lua51
 
 name=crawl

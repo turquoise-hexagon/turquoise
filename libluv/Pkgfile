@@ -1,6 +1,6 @@
 # Description : Bare libuv bindings for lua
 # URL         : https://github.com/luvit/luv
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : libuv luajit ninja cmake
 
 name=libluv

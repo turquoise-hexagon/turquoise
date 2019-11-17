@@ -1,6 +1,6 @@
 # Description : A C++ client to submit tracks to audioscrobble
 # URL         : https://50hz.ws/mpdas
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : libmpdclient curl
 
 name=mpdas

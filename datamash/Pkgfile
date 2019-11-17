@@ -1,6 +1,6 @@
 # Description : program which performs basic operations on input files
 # URL         : https://www.gnu.org/software/datamash
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  :
 
 name=datamash

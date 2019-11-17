@@ -1,6 +1,6 @@
 # Description : Convert PCF to BDF
 # URL         : https://github.com/ganaware/pcf2bdf
-# Maintainer  : camille, camille@laserbat.pw
+# Maintainer  : camille, camille at laserbat dot pw
 # Depends on  :
 
 name=pcf2bdf
