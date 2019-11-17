@@ -1,0 +1,21 @@
+# Description : Programmable completion functions for bash
+# URL         : https://github.com/scop/bash-completion
+# Maintainer  : camille, camille@laserbat.pw
+# Depends on  :
+
+name=bash-completion
+version=2.9
+release=1
+source=("https://github.com/scop/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    autoreconf -i
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
