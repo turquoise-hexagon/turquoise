@@ -6,10 +6,10 @@
 name=linux-zen
 version=5.3.11.1
 release=1
-source=("https://github.com/${name#*-}-kernel/${name#*-}-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
+source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
-    cd "${name#*-}-kernel-${version%.*}-zen${version##*.}"
+    cd "zen-kernel-${version%.*}-zen${version##*.}"
 
     [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
