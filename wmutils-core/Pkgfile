@@ -4,12 +4,13 @@
 # Depends on  : xorg-libxcb xorg-xcb-util xorg-xcb-util-cursor
 
 name=wmutils-core
-version=1.5
+commit=6131b2b8fe4244fe8b26364c7a293ff1590c62ff
+version=20191121
 release=1
-source=("https://github.com/${name%-*}/${name#*-}/archive/v$version.tar.gz")
+source=("https://github.com/${name%-*}/${name#*-}/archive/$commit.tar.gz")
 
 build() {
-    cd "${name#*-}-$version"
+    cd "${name#*-}-$commit"
 
     make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
 }
