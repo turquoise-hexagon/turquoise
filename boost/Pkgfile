@@ -1,0 +1,32 @@
+# Description : Free peer-reviewed portable C++ source libraries
+# URL         : http://www.boost.org
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : python
+
+name=boost
+version=1.71.0
+release=1
+source=("https://dl.bintray.com/${name}org/release/$version/source/${name}_${version//./_}.tar.gz")
+
+build() {
+    cd "${name}_${version//./_}"
+
+    [ -e /usr/bin/icu-config ] && ICU=--with-icu
+
+    ./bootstrap.sh          \
+        --prefix="$PKG/usr" \
+        --with-toolset=gcc  \
+        "$ICU"
+
+     ./b2 stage             \
+        variant=release     \
+        threading=multi     \
+        runtime-link=shared \
+        link=shared,static  \
+        debug-symbols=off   \
+        -j "${JOBS:-1}"
+
+    threading=multi link=shared ./b2 install 
+}
+
+# vim: ft=sh
