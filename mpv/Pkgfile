@@ -1,7 +1,7 @@
 # Description : A free, open source, and cross-platform media player    
 # URL         : https://mpv.io
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  : youtube-dl libquvi libdvdnav libbluray libcdio-paranoia libvdpau rubberband
+# Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver
 
 name=mpv
 version=0.30.0
