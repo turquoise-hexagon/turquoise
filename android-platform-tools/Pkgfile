@@ -1,7 +1,6 @@
 # Description : Android platform tools
 # URL         : https://developer.android.com/studio
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=android-platform-tools
 version=29.0.5

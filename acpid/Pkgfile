@@ -1,7 +1,6 @@
 # Description : A completely flexible, totally extensible daemon for delivering ACPI events
 # URL         : https://sourceforge.net/projects/acpid2
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=acpid
 version=2.0.32

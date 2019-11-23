@@ -1,7 +1,6 @@
 # Description : A terminfo parsing library
 # URL         : https://github.com/mauke/unibilium
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=unibilium
 version=2.0.0

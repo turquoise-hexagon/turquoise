@@ -1,7 +1,6 @@
 # Description : Telegram Desktop messsaging app
 # URL         : https://telegram.org
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=telegram-desktop
 version=1.8.15

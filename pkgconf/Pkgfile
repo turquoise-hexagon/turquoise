@@ -1,7 +1,6 @@
 # Description : Package compiler and linker metadata toolkit
 # URL         : https://git.dereferenced.org/pkgconf/pkgconf
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=pkgconf
 version=1.6.3

@@ -1,7 +1,6 @@
 # Description : Programmable completion functions for bash
 # URL         : https://github.com/scop/bash-completion
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=bash-completion
 version=2.9

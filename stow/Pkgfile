@@ -1,7 +1,6 @@
 # Description : GNU Stow is a symlink farm manager
 # URL         : https://gnu.org/software/stow
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  :
 
 name=stow
 version=2.3.1
