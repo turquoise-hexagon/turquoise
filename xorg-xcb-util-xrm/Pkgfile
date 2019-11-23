@@ -1,5 +1,5 @@
 # Description : XCB utility functions for the X resource manager
-# URL         : https://github.com/Airblader/xcb-util-xrm
+# URL         : https://github.com/airblader/xcb-util-xrm
 # Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : xorg-xcb-util
 
