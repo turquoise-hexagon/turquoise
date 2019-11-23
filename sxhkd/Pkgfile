@@ -1,0 +1,20 @@
+# Description : Simple X hotkey daemon
+# URL         : https://github.com/baskerville/sxhkd
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : xorg-xcb-util xorg-xcb-util-keysyms
+
+name=sxhkd
+version=0.6.1
+release=1
+source=("https://github.com/baskerville/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh
