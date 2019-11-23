@@ -1,0 +1,34 @@
+# Description : A flexible, powerful, server-side application for playing music
+# URL         : https://www.musicpd.org
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : libmad libvorbis libid3tag glib boost meson ninja
+
+name=mpd
+version=0.21.6
+release=1
+source=(
+"https://www.musicpd.org/download/$name/${version%.*}/$name-$version.tar.xz"
+"$name"
+)
+
+build() {
+    cd "$name-$version"
+
+    meson . build         \
+        --prefix=/usr     \
+        --sysconfdir=/etc \
+        -Dmpcdec=disabled
+
+    ninja -C build
+
+    DESTDIR="$PKG" ninja -C build install
+
+    install -Dm644 doc/mpdconf.example   "$PKG/etc/$name.conf"
+    install -Dm755 "$SRC/$name"       -t "$PKG/etc/rc.d"
+    install -Dm644 "doc/$name.1"      -t "$PKG/usr/share/man/man1"
+    install -Dm644 "doc/$name.conf.5" -t "$PKG/usr/share/man/man5"
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh
