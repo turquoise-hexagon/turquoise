@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw7x8jF9919aWadDfr89qywMIZjEjTfWt9dEKPCk6IFvfgYbaE8H2xWGnF29bi0yQjM36NzSFoS8wQeGlel6UrAw=
+SHA256 (Pkgfile) = 23dee6bb34036bc54c6cd5c39c918558139e078074d08e9e88fafa5bed205ec4
+SHA256 (.footprint) = c0c2898c7cacffbc31f11aeb9e8a65fe1b37b3e3fb26eed10d0d86a325284473
+SHA256 (LuaJIT-2.0.5.tar.gz) = 874b1f8297c697821f561f9b73b57ffd419ed8f4278c82e05b48806d30c1e979

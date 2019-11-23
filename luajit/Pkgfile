@@ -1,0 +1,20 @@
+# Description : A Just-In-Time Compiler for Lua
+# URL         : https://luajit.org
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  :
+
+name=luajit
+version=2.0.5
+release=1
+source=("https://$name.org/download/LuaJIT-$version.tar.gz")
+
+build() {
+    cd "LuaJIT-$version"
+
+    make CFLAGS+=' -fPIC' amalg
+    make PREFIX=/usr DESTDIR="$PKG" install
+
+    ln -s "$name-2.0" "$PKG/usr/include/$name"
+}
+
+# vim: ft=sh
