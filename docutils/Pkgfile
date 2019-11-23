@@ -1,0 +1,19 @@
+# Description : An open-source text processing system for processing plaintext documentation 
+# URL         : http://docutils.sourceforge.net
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : python
+
+name=docutils
+version=0.15
+release=1
+source=("https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    python setup.py install --root="$PKG"
+
+    find "$PKG" -name README.txt -delete
+}
+
+# vim: ft=sh
