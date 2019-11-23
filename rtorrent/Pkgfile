@@ -1,0 +1,31 @@
+# Description : rTorrent BitTorrent client
+# URL         : https://rakshasa.github.io/rtorrent
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : libtorrent
+
+name=rtorrent
+version=0.9.8
+release=1
+source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    # remove cppunit dependency
+    sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
+
+    ./autogen.sh
+
+    ./configure       \
+        --prefix=/usr \
+        --enable-debug=no
+
+    make
+    make DESTDIR="$PKG" install
+
+    install                       \
+        -Dm 644 "doc/old/$name.1" \
+        -t "$PKG/usr/share/man/man1"
+}
+
+# vim: ft=sh
