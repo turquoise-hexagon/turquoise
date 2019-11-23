@@ -1,0 +1,22 @@
+# Description : A stable, documented, asynchronous API library for interfacing MPD
+# URL         : http://www.musicpd.org/libs/libmpdclient
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : 
+
+name=libmpdclient
+version=2.16
+release=1
+source=("https://www.musicpd.org/download/$name/2/$name-$version.tar.xz")
+
+build() {
+    cd "$name-$version"
+
+    meson  . build --prefix=/usr
+    ninja -C build
+
+    DESTDIR="$PKG" ninja -C build install
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh
