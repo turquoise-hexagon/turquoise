@@ -1,9 +1,0 @@
-*
-!.gitignore
-!*/
-!*/.signature
-!*/.footprint
-!*/Pkgfile
-!*/*.patch
-!*/post-install
-!*/README
