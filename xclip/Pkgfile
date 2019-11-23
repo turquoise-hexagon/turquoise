@@ -1,0 +1,21 @@
+# Description : Command line interface to the X11 clipboard
+# URL         : https://github.com/astrand/xclip
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : xorg-libxmu
+
+name=xclip
+version=0.13
+release=1
+source=("https://github.com/astrand/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./bootstrap
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
