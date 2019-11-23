@@ -5,7 +5,7 @@
 SSD=/sbin/start-stop-daemon
 PROG=/usr/sbin/acpid
 PID=/var/run/acpid.pid
-OPTS=
+OPTS='-c /etc/acpi/events'
 
 case $1 in
     start) $SSD -S -p $PID -x $PROG -- $OPTS;;
