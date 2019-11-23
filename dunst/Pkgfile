@@ -1,0 +1,21 @@
+# Description : Dunst is a lightweight replacement for the notification daemons
+# URL         : https://dunst-project.org
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
+
+name=dunst
+version=1.4.1
+release=1
+source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+
+    make dunstify
+    install -Dm755 "$name" -t "$PKG/usr/bin"
+}
+
+# vim: ft=sh
