@@ -4,14 +4,14 @@
 # Depends on  : python
 
 name=docutils
-version=0.15
+version=0.15.2
 release=1
-source=("https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz")
+source=("https://files.pythonhosted.org/packages/source/d/$name/$name-$version.tar.gz")
 
 build() {
     cd "$name-$version"
 
-    python setup.py install --root="$PKG"
+    python3 setup.py install --root="$PKG"
 
     find "$PKG" -name README.txt -delete
 }
