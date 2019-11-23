@@ -1,0 +1,20 @@
+# Description : libass is a portable subtitle renderer for the ASS/SSA
+# URL         : https://github.com/libass/libass
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : fribidi harfbuzz libpng
+
+name=libass
+version=0.14.0
+release=1
+source=("https://github.com/$name/$name/releases/download/$version/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
