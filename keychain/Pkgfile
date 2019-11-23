@@ -1,0 +1,18 @@
+# Description : A frontend to ssh-agent and ssh-add
+# URL         : https://www.funtoo.org/keychain
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  :
+
+name=keychain
+version=2.8.5
+release=1
+source=("https://github.com/funtoo/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    install -Dm755 "$name"   -t "$PKG/usr/bin"
+    install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
+}
+
+# vim: ft=sh
