@@ -1,0 +1,26 @@
+# Description :
+# URL         :
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : libsigc++ curl
+
+name=libtorrent
+version=0.13.8
+release=1
+source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    # remove cppunit dependency
+    sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
+
+    ./autogen.sh
+
+    ./configure       \
+        --prefix=/usr \
+        --enable-debug=no
+
+    make
+    make DESTDIR="$PKG" install
+}
+# vim: ft=sh
