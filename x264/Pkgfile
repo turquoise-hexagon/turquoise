@@ -1,0 +1,24 @@
+# Description : A free software library and application for encoding video streams
+# URL         : https://www.videolan.org/developers/x264.html
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=x264
+version=20191122-2245
+release=1
+source=("https://download.videolan.org/pub/videolan/$name/snapshots/$name-snapshot-$version-stable.tar.bz2")
+
+build() {
+    cd "$name-snapshot-$version-stable"
+
+    ./configure         \
+        --prefix=/usr   \
+        --enable-shared \
+        --enable-pic    \
+        --enable-lto    \
+        --disable-avs
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
