@@ -1,0 +1,18 @@
+# Description : A portable command-line mass tagger
+# URL         : https://squell.github.io/id3
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  :
+
+name=id3
+version=0.80
+release=1
+source=("https://github.com/squell/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make prefix=/usr mandir=/usr/share/man DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
