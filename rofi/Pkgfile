@@ -1,0 +1,20 @@
+# Description : A window switcher, application launcher and dmenu replacement
+# URL         : https://github.com/davatorium/rofi
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : pango startup-notification libxkbcommon xorg-xcb-util-xrm librsvg check xorg-xcb-util-wm
+
+name=rofi
+version=1.5.4
+release=1
+source=("https://github.com/davatorium/$name/releases/download/$version/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
