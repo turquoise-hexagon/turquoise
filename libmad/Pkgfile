@@ -1,0 +1,20 @@
+# Description : A high-quality MPEG audio decoder
+# URL         : https://www.underbit.com/products/mad
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  :
+
+name=libmad
+version=0.15.1b
+release=1
+source=("ftp://ftp.mars.org/pub/mpeg/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
