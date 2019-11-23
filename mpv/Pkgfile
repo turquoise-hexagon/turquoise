@@ -1,0 +1,35 @@
+# Description : A free, open source, and cross-platform media player    
+# URL         : https://mpv.io
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : youtube-dl libquvi libdvdnav libbluray libcdio-paranoia libvdpau rubberband
+
+name=mpv
+version=0.30.0
+release=1
+source=(
+"https://github.com/$name-player/$name/archive/v$version.tar.gz"
+https://waf.io/waf-2.0.18
+)
+
+build() {
+    cd "$name-$version"
+
+    install -m755 "$SRC/waf-2.0.18" waf
+
+    [[ -e /usr/lib/pkgconfig/libcdio_cdda.pc ]] && PKGMK_MPV+=' --enable-cdda'
+    [[ -e /usr/lib/pkgconfig/dvdnav.pc       ]] && PKGMK_MPV+=' --enable-dvdnav'
+
+    ./waf configure            \
+        $PKGMK_MPV             \
+        --prefix=/usr          \
+        --enable-libarchive    \
+        --enable-libmpv-shared \
+        -j "${JOBS:-1}"
+
+    ./waf build
+    ./waf install --destdir="$PKG"
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh
