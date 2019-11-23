@@ -5,13 +5,17 @@
 
 name=xdotool
 version=3.20160805.1
-release=1
+release=2
 source=("https://github.com/jordansissel/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
 
     make PREFIX=/usr DESTDIR="$PKG" install
+
+    # fix man
+    mkdir -p          "$PKG/usr/share"
+    mv "$PKG/usr/man" "$PKG/usr/share/man"
 }
 
 # vim: ft=sh
