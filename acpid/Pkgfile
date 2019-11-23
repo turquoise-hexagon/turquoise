@@ -1,0 +1,31 @@
+# Description : A completely flexible, totally extensible daemon for delivering ACPI events
+# URL         : https://sourceforge.net/projects/acpid2
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  :
+
+name=acpid
+version=2.0.32
+release=1
+source=(
+"https://downloads.sourceforge.net/project/${name}2/$name-$version.tar.xz"
+"$name"
+default
+default.sh
+)
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    install -Dm755 "$SRC/$name"      -t "$PKG/etc/rc.d"
+    install -Dm755 "$SRC/default"    -t "$PKG/etc/acpi/events"
+    install -Dm755 "$SRC/default.sh" -t "$PKG/etc/acpi"
+
+    rm -rf "$PKG/usr/share/doc"
+}
+
+# vim: ft=sh

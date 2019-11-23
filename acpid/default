@@ -1,0 +1,4 @@
+# acpid events configuration
+
+event=.*
+action=/etc/acpi/default.sh %e
