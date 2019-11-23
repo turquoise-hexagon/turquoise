@@ -1,0 +1,26 @@
+# Description : A minimalist command line interface to MPD
+# URL         : https://www.musicpd.org/clients/mpc
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : libmpdclient meson ninja
+
+name=mpc
+version=0.33
+release=1
+source=("https://www.musicpd.org/download/$name/0/$name-$version.tar.xz")
+
+build() {
+    cd "$name-$version"
+
+    meson  . build --prefix=/usr
+    ninja -C build
+
+    DESTDIR="$PKG" ninja -C build install
+
+    rm -rf "$PKG/usr/share"
+
+    install                                \
+        -Dm644 contrib/mpc-completion.bash \
+        "$PKG/usr/share/bash-completion/completions/$name"
+}
+
+# vim: ft=sh
