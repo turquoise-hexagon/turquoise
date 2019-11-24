@@ -1,4 +1,4 @@
-# Description : A free, open source, and cross-platform media player    
+# Description : A free, open source, and cross-platform media player
 # URL         : https://mpv.io
 # Maintainer  : camille, camille at laserbat dot pw
 # Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver

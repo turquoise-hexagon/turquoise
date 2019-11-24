@@ -1,7 +1,7 @@
 # Description : A stable, documented, asynchronous API library for interfacing MPD
 # URL         : http://www.musicpd.org/libs/libmpdclient
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  : 
+# Depends on  :
 
 name=libmpdclient
 version=2.16
