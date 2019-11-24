@@ -23,8 +23,8 @@ build() {
     make
     make DESTDIR="$PKG" install
 
-    install                       \
-        -Dm 644 "doc/old/$name.1" \
+    install                      \
+        -Dm644 "doc/old/$name.1" \
         -t "$PKG/usr/share/man/man1"
 }
 
