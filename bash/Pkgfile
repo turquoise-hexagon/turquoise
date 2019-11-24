@@ -9,15 +9,15 @@ release=3
 source=(profile)
 
 download() {
-	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-		git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
-		git -C "$PKGMK_SOURCE_DIR/$name" clean -f
-		git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
-	else
-		git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
-	fi
+    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    else
+        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+    fi
 
-	cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
 }
 
 build() {
