@@ -1,7 +1,7 @@
 # Description : A command-line program to download videos from YouTube.com and a few more sites
 # URL         : https://ytdl-org.github.io/youtube-dl/index.html
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  : python-setuptools
+# Depends on  : python
 
 name=youtube-dl
 version=2019.11.22
