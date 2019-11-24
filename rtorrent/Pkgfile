@@ -1,7 +1,7 @@
 # Description : rTorrent BitTorrent client
 # URL         : https://rakshasa.github.io/rtorrent
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  : libtorrent
+# Depends on  : libtorrent ncurses
 
 name=rtorrent
 version=0.9.8
