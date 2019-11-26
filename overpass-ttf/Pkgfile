@@ -4,7 +4,7 @@
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=overpass-ttf
-version=3.0.3
+version=3.0.4
 release=1
 source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
 
