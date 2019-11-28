@@ -10,7 +10,7 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2019.11.22-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2019.11.28-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.pyc
@@ -1763,9 +1763,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamable.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamable.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamable.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamango.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamango.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamango.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamcloud.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamcloud.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/streamcloud.pyo
