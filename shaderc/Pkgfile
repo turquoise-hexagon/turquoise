@@ -1,0 +1,50 @@
+# Description : Collection of tools, libraries and tests for shader compilation.
+# URL         : https://github.com/google/shaderc
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : glslang
+
+name=shaderc
+version=2019.0
+release=1
+source=(
+"https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz"
+glslang.patch
+man.tar.gz
+)
+
+build() {
+    cd "$name-$version"
+
+    patch -p0 -i "$SRC/glslang.patch"
+
+    sed '/examples/d;/third_party/d' -i CMakeLists.txt
+    sed '/build-version/d' -i     glslc/CMakeLists.txt
+
+    {
+        printf '"%s\\n"\n' "$version"
+        printf '"%s\\n"\n' "$(prt-get current spirv-tools | cut -d - -f1)"
+        printf '"%s\\n"\n' "$(prt-get current glslang     | cut -d - -f1)"
+    } \
+        > glslc/src/build-version.inc
+
+    mkdir build
+    cd    build
+
+    CXXFLAGS="-I/usr/include/glslang"
+
+    cmake ..                        \
+        -DCMAKE_BUILD_TYPE=Release  \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=lib  \
+        -DSHADERC_SKIP_TESTS=ON     \
+        -GNinja                     \
+        -DSHADERC_ENABLE_NV_EXTENSIONS=OFF
+
+    ninja -j "${JOBS:-1}"
+
+    DESTDIR="$PKG" ninja install
+
+    install -Dm644 "$SRC/man/"{glslc,spvc}.1 -t "$PKG/usr/share/man/man1"
+}
+
+# vim: ft=sh
