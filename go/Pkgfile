@@ -32,8 +32,7 @@ build() {
     mkdir -p "$PKG/usr/"{lib,bin}
 
     cp -r "$SRC/go" "$PKG/usr/lib"
-    ln -s "/usr/lib/go/bin/go"    "$PKG/usr/bin"
-    ln -s "/usr/lib/go/bin/gofmt" "$PKG/usr/bin"
+    ln -s /usr/lib/go/bin/go{fmt,} "$PKG/usr/bin"
 
     find "$PKG" \( -name '*.a' -o -name '*.go' \) -exec chmod 644 '{}' \;
     find "$PKG" \( -name 'README*' -o -name AUTHORS -o -name TODO \) -delete
