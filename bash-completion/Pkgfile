@@ -5,13 +5,14 @@
 name=bash-completion
 version=2.9
 release=1
-source=("https://github.com/scop/$name/archive/$version.tar.gz")
+source=("https://github.com/scop/$name/releases/download/$version/$name-$version.tar.xz")
 
 build() {
     cd "$name-$version"
 
-    autoreconf -i
-    ./configure --prefix=/usr
+    ./configure       \
+        --prefix=/usr \
+        --sysconfdir=/etc
 
     make
     make DESTDIR="$PKG" install
