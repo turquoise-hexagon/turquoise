@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at laserbat dot pw
 
 name=go
-version=1.13.4
+version=1.13.5
 release=1
 source=(
 "https://dl.google.com/$name/$name$version.src.tar.gz"
