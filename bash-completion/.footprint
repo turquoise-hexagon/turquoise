@@ -94,6 +94,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/autoupdate -> autosca
 -rw-r--r--	root/root	usr/share/bash-completion/completions/bind
 -rw-r--r--	root/root	usr/share/bash-completion/completions/bk
 -rw-r--r--	root/root	usr/share/bash-completion/completions/brctl
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/bsdtar -> tar
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/btdownloadcurses.py -> btdownloadheadless.py
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/btdownloadgui.py -> btdownloadheadless.py
 -rw-r--r--	root/root	usr/share/bash-completion/completions/btdownloadheadless.py
@@ -102,6 +103,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/btdownloadgui.py -> b
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/c++ -> gcc
 -rw-r--r--	root/root	usr/share/bash-completion/completions/cancel
 -rw-r--r--	root/root	usr/share/bash-completion/completions/cardctl
+-rw-r--r--	root/root	usr/share/bash-completion/completions/carton
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/cc -> gcc
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ccache
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ccze
@@ -163,6 +165,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/dfutool -> hcitool
 -rw-r--r--	root/root	usr/share/bash-completion/completions/dhclient
 -rw-r--r--	root/root	usr/share/bash-completion/completions/dict
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/display -> convert
+-rw-r--r--	root/root	usr/share/bash-completion/completions/dmypy
 -rw-r--r--	root/root	usr/share/bash-completion/completions/dnssec-keygen
 -rw-r--r--	root/root	usr/share/bash-completion/completions/dnsspoof
 -rw-r--r--	root/root	usr/share/bash-completion/completions/dot
@@ -272,6 +275,8 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gpgv2 -> gpgv
 -rw-r--r--	root/root	usr/share/bash-completion/completions/groupmod
 -rw-r--r--	root/root	usr/share/bash-completion/completions/growisofs
 -rw-r--r--	root/root	usr/share/bash-completion/completions/grpck
+-rw-r--r--	root/root	usr/share/bash-completion/completions/gssdp-discover
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/gtar -> tar
 -rw-r--r--	root/root	usr/share/bash-completion/completions/gzip
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/hciattach -> hcitool
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/hciconfig -> hcitool
@@ -299,6 +304,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/ifstatus -> ifup
 -rw-r--r--	root/root	usr/share/bash-completion/completions/iftop
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ifup
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/import -> convert
+-rw-r--r--	root/root	usr/share/bash-completion/completions/influx
 -rw-r--r--	root/root	usr/share/bash-completion/completions/info
 -rw-r--r--	root/root	usr/share/bash-completion/completions/inject
 -rw-r--r--	root/root	usr/share/bash-completion/completions/inotifywait
@@ -631,6 +637,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/spovray -> povray
 -rw-r--r--	root/root	usr/share/bash-completion/completions/sshfs
 -rw-r--r--	root/root	usr/share/bash-completion/completions/sshmitm
 -rw-r--r--	root/root	usr/share/bash-completion/completions/sshow
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/star -> tar
 -rw-r--r--	root/root	usr/share/bash-completion/completions/strace
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/stream -> convert
 -rw-r--r--	root/root	usr/share/bash-completion/completions/strings
@@ -696,6 +703,8 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/vigr -> vipw
 -rw-r--r--	root/root	usr/share/bash-completion/completions/wget
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/whatis -> man
 -rw-r--r--	root/root	usr/share/bash-completion/completions/wine
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/wine-development -> wine
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/wine-stable -> wine
 -rw-r--r--	root/root	usr/share/bash-completion/completions/withlist
 -rw-r--r--	root/root	usr/share/bash-completion/completions/wodim
 -rw-r--r--	root/root	usr/share/bash-completion/completions/wol
@@ -715,6 +724,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/xpovray -> povray
 -rw-r--r--	root/root	usr/share/bash-completion/completions/xrandr
 -rw-r--r--	root/root	usr/share/bash-completion/completions/xrdb
 -rw-r--r--	root/root	usr/share/bash-completion/completions/xsltproc
+-rw-r--r--	root/root	usr/share/bash-completion/completions/xvfb-run
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/xvnc4viewer -> vncviewer
 -rw-r--r--	root/root	usr/share/bash-completion/completions/xxd
 -rw-r--r--	root/root	usr/share/bash-completion/completions/xz
