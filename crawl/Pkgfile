@@ -4,18 +4,33 @@
 # Depends on  : ncurses python-yaml lua51
 
 name=crawl
-version=0.24.0
+version=git
 release=1
-source=("https://github.com/$name/$name/archive/$version.tar.gz")
+source=()
+
+download() {
+    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    else
+        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+    fi
+
+    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
 
 build() {
-    cd "$name-$version/crawl-ref/source"
+    download "https://github.com/$name/$name" master
 
-    echo "$version" > util/release_ver
+    cd "$name/crawl-ref/source"
 
-    sed -i 's|bin_prefix    := bin|bin_prefix    := usr/bin|' Makefile
-    sed -i 's/INSTALL_UGRP := games:games/INSTALL_UGRP := root:root/' Makefile
-    sed -i 's|MCHMOD := 2755|MCHMOD := 755|' Makefile
+    git log --format='%H' | sed 's|[A-z]||g;s|$|.0|' \
+        > util/release_ver
+
+    sed -i 's|bin_prefix    := bin|bin_prefix    := usr/bin|
+            s|INSTALL_UGRP := games:games|INSTALL_UGRP := root:root|
+            s|MCHMOD := 2755|MCHMOD := 755|' Makefile
 
     make                           \
         DESTDIR="$PKG"             \
