@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/prtlastcommit
 -rwxr-xr-x	root/root	usr/bin/prtmissing
 -rwxr-xr-x	root/root	usr/bin/prtmissingdeps
+-rwxr-xr-x	root/root	usr/bin/prtmissingfiles
 -rwxr-xr-x	root/root	usr/bin/prtmissinglibs
 -rwxr-xr-x	root/root	usr/bin/prtnewdeps
 -rwxr-xr-x	root/root	usr/bin/prtomitteddeps
