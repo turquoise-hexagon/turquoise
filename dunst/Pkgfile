@@ -13,9 +13,6 @@ build() {
 
     make
     make PREFIX=/usr DESTDIR="$PKG" install
-
-    make dunstify
-    install -Dm755 dunstify -t "$PKG/usr/bin"
 }
 
 # vim: ft=sh

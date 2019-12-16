@@ -4,12 +4,13 @@
 # Depends on  : xorg-libxcb
 
 name=lemonbar
-version=1.3
+commit=e85c5565c02d08fde795cb1f6ce2ffd05ffb28ef
+version=20190423
 release=1
-source=("https://github.com/lemonboy/${name#lemon}/archive/v$version.tar.gz")
+source=("https://github.com/expectocode/bar/archive/$commit.tar.gz")
 
 build() {
-    cd "${name#lemon}-$version"
+    cd "bar-$commit"
 
     make DESTDIR="$PKG" install
 }
