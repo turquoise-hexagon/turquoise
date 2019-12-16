@@ -1,0 +1,19 @@
+# Description : Return the pixel height of the given strings for the given font
+# URL         : https://github.com/neeasade/txth
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : cairo
+
+name=txth
+commit=0916f5f46f032affae4bba41c1b5fa97cb1b86ea
+version=20180214
+release=1
+source=("https://github.com/neeasade/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
