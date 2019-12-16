@@ -1,0 +1,19 @@
+# Description : Return the pixel width of the given strings for the given font
+# URL         : https://github.com/baskerville/txtw
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : cairo
+
+name=txtw
+commit=ec95badbdf84d71045b13869bc9d1e3ad114cd92
+version=20160412
+release=1
+source=("https://github.com/baskerville/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
