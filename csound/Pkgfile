@@ -19,8 +19,6 @@ build() {
     make
     make DESTDIR="$PKG" install
 
-    shopt -s extglob
-
     for i in "$PKG/usr/share/locale/"*; do
         [[ -d $i && ! $i =~ en_US$ ]] && rm -rf "$i"
     done
