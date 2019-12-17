@@ -1,7 +1,7 @@
 # Description : A sound and music computing system
 # URL         : https://csound.com
 # Maintainer  : camille, camille at laserbat dot pw
-# Depends on  : libsndfile clang
+# Depends on  : libsndfile cmake
 
 name=csound
 version=6.13.0
