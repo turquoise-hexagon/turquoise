@@ -28,5 +28,3 @@ build() {
 
     threading=multi link=shared ./b2 install
 }
-
-# vim: ft=sh

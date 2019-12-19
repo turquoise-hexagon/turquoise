@@ -30,5 +30,3 @@ build() {
         done
     ) -t "$PKG/usr/bin"
 }
-
-# vim: ft=sh

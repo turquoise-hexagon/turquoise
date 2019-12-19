@@ -36,5 +36,3 @@ build() {
     install -Dm644 System.map -t            "$PKG/boot"
     install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz"
 }
-
-# vim: ft=sh

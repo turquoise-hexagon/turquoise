@@ -15,5 +15,3 @@ build() {
 
     find "$PKG" -name README.txt -delete
 }
-
-# vim: ft=sh

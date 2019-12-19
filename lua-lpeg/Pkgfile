@@ -18,5 +18,3 @@ build() {
         install -Dm644 "re.${name%-*}" -t "$PKG/usr/share/${name%-*}/$version"
     done
 }
-
-# vim: ft=sh

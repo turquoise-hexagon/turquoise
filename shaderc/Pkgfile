@@ -46,5 +46,3 @@ build() {
 
     install -Dm644 "$SRC/man/"{glslc,spvc}.1 -t "$PKG/usr/share/man/man1"
 }
-
-# vim: ft=sh

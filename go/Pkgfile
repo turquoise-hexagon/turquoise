@@ -39,5 +39,3 @@ build() {
 
     rm "$PKG/usr/lib/go/src/"*.bat
 }
-
-# vim: ft=sh

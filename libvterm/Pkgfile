@@ -12,5 +12,3 @@ build() {
 
     make PREFIX=/usr DESTDIR="$PKG" install
 }
-
-# vim: ft=sh

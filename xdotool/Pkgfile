@@ -17,5 +17,3 @@ build() {
     mkdir -p          "$PKG/usr/share"
     mv "$PKG/usr/man" "$PKG/usr/share/man"
 }
-
-# vim: ft=sh

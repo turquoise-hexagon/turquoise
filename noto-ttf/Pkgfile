@@ -16,5 +16,3 @@ build() {
         install -Dm644 "$i"/Noto*/Noto*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
     done
 }
-
-# vim: ft=sh

@@ -22,5 +22,3 @@ build() {
         -Dm644 contrib/mpc-completion.bash \
         "$PKG/usr/share/bash-completion/completions/$name"
 }
-
-# vim: ft=sh

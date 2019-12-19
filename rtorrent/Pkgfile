@@ -27,5 +27,3 @@ build() {
         -Dm644 "doc/old/$name.1" \
         -t "$PKG/usr/share/man/man1"
 }
-
-# vim: ft=sh

@@ -27,5 +27,3 @@ build() {
     install -Dm644 "$SRC/$name.conf" -t "$PKG/etc"
     install -Dm755 "$SRC/$name"      -t "$PKG/etc/rc.d"
 }
-
-# vim: ft=sh

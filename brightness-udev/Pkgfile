@@ -13,5 +13,3 @@ build() {
 
     install -Dm644 90-brightnessctl.rules -t "$PKG/etc/udev/rules.d"
 }
-
-# vim: ft=sh

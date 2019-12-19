@@ -13,5 +13,3 @@ build() {
     install -Dm755 "$name"   -t "$PKG/usr/bin"
     install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
 }
-
-# vim: ft=sh

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw/oeR+pbDTjpOuTzCIYmLJNYqVDr9eT23jgYhIXE1jee3qikYKCnWbOVZN2g+3UcxhsQdUnzLGLxKo/w3iWg8gs=
-SHA256 (Pkgfile) = a146397106749d298cfa79e33bc36027917c79c7f96460277ccf632908ecb591
+RWTOjBUiTG/Uw4DMMPPFLiePTwNbkyXnaMgkgiLwS3ccwlCfsEIGBBuZvuRveeYqXb7pCA5DOVUhplH4FKvbantxK4xcgoXPfgw=
+SHA256 (Pkgfile) = 853634db14d60bc83322402be1c4745814944e97590a18c326fb621e06e87780
 SHA256 (.footprint) = c19929a4998b48b24de051040af9471dad471bf873bbf052011c2461dd3efc56
 SHA256 (stalonetray-0.8.3.tar.gz) = f47468a4ecabf93d22774e3fb5e1aba76e8e8d2d76e878975c7c43b65a8353e3

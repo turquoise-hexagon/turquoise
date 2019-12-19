@@ -14,5 +14,3 @@ build() {
     install -Dm644 webfonts/"${name%-*}"{-,-mono-}webfont/*.ttf \
         -t "$PKG/usr/share/fonts/X11/TTF"
 }
-
-# vim: ft=sh

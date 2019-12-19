@@ -11,5 +11,3 @@ source=("https://github.com/aldanial/$name/releases/download/$version/$name-$ver
 build() {
     install -Dm755 "$name-$version.pl" "$PKG/usr/bin/$name"
 }
-
-# vim: ft=sh

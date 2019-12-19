@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9VGyW3G5YDt0Fm6oDIAlwtXwxqBuERKQuV5c+Vdc4hBs2czpUmni55N0lN+i88RC9+gyBgzRsSw4jZrcJ6DnAA=
-SHA256 (Pkgfile) = d2620667761df093abfad9a9a3b7a894dfa69971979cdf23fc6da3121fc45e03
+RWTOjBUiTG/Uw3D4GVq3rcVmZXtMDVYy7JN4ZOHfFcEeqXoEjPvrM5SG4RmJ/0+JGi+0684XhqkPr98BgAScYpgC6z60RTo/4wU=
+SHA256 (Pkgfile) = 0c824721bf5039eaec9e56de5ccd9fba327dd1dd85732623ae4423f0dc0a13a2
 SHA256 (.footprint) = fed12bd71d3741d2b4dfe6b15af4b07ec135a42dd87f8276d7b080aaa13e8c01
 SHA256 (stow-2.3.1.tar.gz) = 09d5d99671b78537fd9b2c0b39a5e9761a7a0e979f6fdb7eabfa58ee45f03d4b

@@ -14,5 +14,3 @@ build() {
         install -Dm755 "$i" "$PKG/usr/bin/${i,}"
     done
 }
-
-# vim: ft=sh

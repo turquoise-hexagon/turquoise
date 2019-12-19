@@ -15,5 +15,3 @@ build() {
 
     install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
 }
-
-# vim: ft=sh
