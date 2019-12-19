@@ -1,0 +1,17 @@
+# Description : An inotify based directory and file watch
+# URL         : https://git.z3bra.org/wendy/file/README.html
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=wendy
+version=1.0
+release=1
+source=("http://dl.z3bra.org/releases/$name-$version.tar.bz2")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make PREFIX=/usr DESTDIR="$PKG" install
+}
+
+# vim: ft=sh
