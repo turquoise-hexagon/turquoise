@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw74ytBuOgh8ipTP3DvDOxf+uzfvjF8koZ3I5gSXmbxzdIjxYn87a73yiPfYqjuWZ0ZycVQ4NO135oVmFLppjsgM=
-SHA256 (Pkgfile) = 8d918c00c45126a514ce5e7d1e4a4712f70a3c9208ceeac16b0de3226563d457
+RWTOjBUiTG/Uw+ODC0Wi2CWmPwOfIa/ztgdWUnxnEsBImTcYQYFe0yVdnVT4rjhVgZd6IyKWwDgSsp/WT2eTR1cKKliEPGXXGQg=
+SHA256 (Pkgfile) = 05070b4123c7cd8d1424b4e029fcd63ac492165b25fe1428e265c45f8edb0e54
 SHA256 (.footprint) = 6b20063107c006f2c028261db288e057b00c16fb0cd7dac4c6db821ff2769df4
-SHA256 (x264-snapshot-20191206-2245-stable.tar.bz2) = 9ad2cdff0b9f7bbc1895aba0fc5a173ed9d1e444d08904b91e476460553d46db
+SHA256 (x264-snapshot-20191217-2245-stable.tar.bz2) = b2495c8f2930167d470994b1ce02b0f4bfb24b3317ba36ba7f112e9809264160
