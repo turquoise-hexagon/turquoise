@@ -32,14 +32,14 @@ print_status() {
 
 case $1 in
     start)
-      { $SSD -S -bmC -p $PID_WIFI -x $PROG_WIFI -- $OPTS_WIFI &&
-        $SSD -S      -p $PID_DHCP -x $PROG_DHCP -- $OPTS_DHCP; } || exit 1
+        $SSD -S -bmC -p $PID_WIFI -x $PROG_WIFI -- $OPTS_WIFI &&
+        $SSD -S      -p $PID_DHCP -x $PROG_DHCP -- $OPTS_DHCP || var=1
 
         wait_connection
         ;;
     stop)
-      { $SSD -K -R 10 -p $PID_DHCP 
-        $SSD -K -R 10 -p $PID_WIFI; }
+        $SSD -K -R 10 -p $PID_DHCP || var=1
+        $SSD -K -R 10 -p $PID_WIFI || var=1
         ;;
     restart)
         $0 stop
@@ -51,3 +51,5 @@ case $1 in
         ;;
     *) echo "usage : ${0##*/} [start|stop|restart|status]"
 esac
+
+exit "${var:-$?}"
