@@ -1,0 +1,33 @@
+# Description : Wireless daemon for Linux
+# URL         : https://iwd.wiki.kernel.org
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : readline dbus
+
+name=iwd
+version=1.4
+release=1
+source=(
+"https://www.kernel.org/pub/linux/network/wireless/$name-$version.tar.xz"
+"$name"
+)
+
+build() {
+    cd "$name-$version"
+
+    ./configure                \
+        --prefix=/usr          \
+        --libexecdir=/usr/sbin \
+        --localstatedir=/var   \
+        --sysconfdir=/etc      \
+        --disable-systemd-service
+
+    make
+    make DESTDIR="$PKG" install
+
+    install -dm700 "$PKG/etc/$name"
+    install -dm700 "$PKG/var/lib/$name"
+
+    install -Dm755 "$SRC/$name" -t "$PKG/etc/rc.d"
+}
+
+# vim: ft=sh

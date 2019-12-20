@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# start / stop iwd
+
+SSD=/sbin/start-stop-daemon
+PROG_DHCP=/sbin/dhcpcd
+PROG_WIFI=/usr/sbin/iwd
+PID_DHCP=/var/run/dhcpcd.pid
+PID_WIFI=/var/run/iwd.pid
+
+OPTS_DHCP=
+OPTS_WIFI=
+
+print_status() {
+    $SSD -T -p $2
+
+    case $? in
+        3) echo "$1 isn't running";;
+        0) echo "$1 is running with pid $(cat "$2")";;
+        1) echo "$1 isn't running but the pid file $2 exists";;
+        4) echo "unable to determine the program status"
+    esac
+}
+
+case $1 in
+    start)
+        $SSD -S -bmC -p $PID_WIFI -x $PROG_WIFI -- $OPTS_WIFI &&
+        $SSD -S -p $PID_DHCP -x $PROG_DHCP -- $OPTS_DHCP
+
+        # wait for connection
+        while [ ${i:-0} -lt 50 ]; do
+            iwgetid > /dev/null && break
+
+            i=$((i + 1))
+
+            sleep .2
+        done
+        ;;
+    stop)
+      { $SSD -K -R 10 -p $PID_DHCP 
+        $SSD -K --remove-pidfile -R 10 -p $PID_WIFI; }
+        ;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    status)
+        print_status $PROG_WIFI $PID_WIFI
+        print_status $PROG_DHCP $PID_DHCP
+        ;;
+    *) echo "usage : ${0##*/} [start|stop|restart|status]"
+esac
