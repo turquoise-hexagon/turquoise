@@ -24,8 +24,9 @@ build() {
     make
     make DESTDIR="$PKG" install
 
-    install -dm700 "$PKG/etc/$name"
-    install -dm700 "$PKG/var/lib/$name"
+    install -dm700       \
+        "$PKG/etc/$name" \
+        "$PKG/var/lib/$name"
 
     install -Dm755 "$SRC/$name" -t "$PKG/etc/rc.d"
 }
