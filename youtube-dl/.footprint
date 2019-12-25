@@ -10,7 +10,7 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2019.11.28-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2019.12.25-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.pyc
@@ -854,6 +854,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imdb.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imdb.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imdb.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imggaming.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imggaming.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imggaming.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imgur.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imgur.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/imgur.pyo
@@ -959,9 +962,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/konserthusetplay.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/konserthusetplay.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/konserthusetplay.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/kontrtube.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/kontrtube.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/kontrtube.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/krasview.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/krasview.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/krasview.pyo
@@ -1181,9 +1181,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/muenchentv.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/muenchentv.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/muenchentv.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/musicplayon.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/musicplayon.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/musicplayon.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/mwave.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/mwave.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/mwave.pyo
@@ -2129,9 +2126,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videomore.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videomore.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videomore.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopremium.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopremium.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopremium.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopress.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopress.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/videopress.pyo
