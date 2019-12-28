@@ -4,7 +4,7 @@
 # Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver
 
 name=mpv
-version=0.30.0
+version=0.31.0
 release=1
 source=(
 "https://github.com/$name-player/$name/archive/v$version.tar.gz"
