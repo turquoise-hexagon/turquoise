@@ -335,6 +335,7 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/
 drwxr-xr-x	root/root	usr/share/crawl/docs/develop/
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/IRC.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/android.txt
+-rw-r--r--	root/root	usr/share/crawl/docs/develop/arena.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/background_creation.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/coding_conventions.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/ctags.txt
@@ -353,7 +354,7 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/develop/levels/
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/patch_guide.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/save_compatibility.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/spells.txt
--rw-r--r--	root/root	usr/share/crawl/docs/develop/testing.txt
+-rw-r--r--	root/root	usr/share/crawl/docs/develop/test_plug_and_play_cc.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/tiles_creation.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/translation.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/fight_simulator.txt
