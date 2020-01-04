@@ -4,13 +4,12 @@
 # Depends on  : cairo
 
 name=txtw
-commit=ec95badbdf84d71045b13869bc9d1e3ad114cd92
-version=20160412
+version=0.4
 release=1
-source=("https://github.com/baskerville/$name/archive/$commit.tar.gz")
+source=("https://github.com/baskerville/$name/archive/$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
     make
     make PREFIX=/usr DESTDIR="$PKG" install
