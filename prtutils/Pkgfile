@@ -4,7 +4,7 @@
 
 name=prtutils
 version=git
-release=4
+release=5
 source=()
 
 download() {
@@ -24,9 +24,5 @@ build() {
 
     cd "$name"
 
-    install -Dm755 $(
-        for i in *; do
-            test -x "$i" && echo "$i"
-        done
-    ) -t "$PKG/usr/bin"
+    install -Dm755 src/* -t "$PKG/usr/bin"
 }
