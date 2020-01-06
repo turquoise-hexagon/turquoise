@@ -12,5 +12,5 @@ build() {
     cd "$name-$version"
 
     make
-    make DESTDIR="$PKG" install
+    make DESTDIR="$PKG/usr" install
 }
