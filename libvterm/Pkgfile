@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at laserbat dot pw
 
 name=libvterm
-version=0.1.2
+version=0.1.3
 release=1
 source=("http://www.leonerd.org.uk/code/$name/$name-$version.tar.gz")
 
