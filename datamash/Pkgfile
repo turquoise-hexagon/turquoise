@@ -4,7 +4,7 @@
 
 name=datamash
 version=1.5
-release=1
+release=2
 source=("http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
 
 build() {
@@ -15,5 +15,5 @@ build() {
     make
     make DESTDIR="$PKG" install
 
-    rm -rf "$PKG/usr/share/locale"
+    rm -rf "$PKG/usr/share/"{locale,$name/examples}
 }
