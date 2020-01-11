@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/UwzrJ75S4NrLxtGVTockquPb1gqHty8KAG46+b9UOpqDbJfK1rGJGJSpp7EyOv3b3PQ4s+mTvYmDxIZwLlSPV3QE=
+SHA256 (Pkgfile) = a872d1ab2581d072fbb7695f39af4a962f5b674745c34cef26363f93c0c7e3dc
+SHA256 (.footprint) = 759850209880ffc9124e9559af13840b53b1d7233f8521011dd30d7f1e7f08b6
+SHA256 (libdvdnav-6.0.1.tar.bz2) = e566a396f1950017088bfd760395b0565db44234195ada5413366c9d23926733
