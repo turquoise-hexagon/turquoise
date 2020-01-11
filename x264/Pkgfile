@@ -3,12 +3,13 @@
 # Maintainer  : camille, camille at laserbat dot pw
 
 name=x264
-version=20191217-2245
+commit=1771b556ee45207f8711744ccbd5d42a3949b14c
+version=20191127
 release=1
-source=("https://download.videolan.org/pub/videolan/$name/snapshots/$name-snapshot-$version-stable.tar.bz2")
+source=("https://code.videolan.org/videolan/$name/-/archive/$commit/$name-$commit.tar.gz")
 
 build() {
-    cd "$name-snapshot-$version-stable"
+    cd "$name-$commit"
 
     ./configure         \
         --prefix=/usr   \
