@@ -5,7 +5,7 @@
 
 name=bspwm
 version=git
-release=1
+release=2
 source=()
 
 download() {
@@ -28,5 +28,5 @@ build() {
     make
     make PREFIX=/usr DOCPREFIX="/usr/share/$name" DESTDIR="$PKG" install
 
-    find "$PKG/usr/share/$name" -name "*.md" -delete
+    rm -rf "$PKG/usr/share/$name/"{examples,*.md}
 }
