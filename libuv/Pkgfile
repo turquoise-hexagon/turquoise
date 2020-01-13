@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at laserbat dot pw
 
 name=libuv
-version=1.34.0
+version=1.34.1
 release=1
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
