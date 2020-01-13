@@ -1,0 +1,17 @@
+# Description : Hexdump facility from vim
+# URL         : https://www.vim.org
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=xxd
+version=8.2.0114
+release=1
+source=("https://github.com/vim/vim/archive/v$version.tar.gz")
+
+build() {
+    cd "vim-$version/src/$name"
+
+    make
+    
+    install -Dm755 "$name" -t "$PKG/usr/bin"
+    install -Dm644 "../../runtime/doc/$name.1" -t "$PKG/usr/share/man/man1"
+}
