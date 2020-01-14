@@ -5,11 +5,7 @@
 name=xxd
 version=8.2.0114
 release=2
-source=(
-"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/$name.c"
-"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/Makefile"
-"https://raw.githubusercontent.com/vim/vim/v$version/runtime/doc/$name.1"
-)
+source=("https://raw.githubusercontent.com/vim/vim/v$version/"{src/$name/$name.c,src/$name/Makefile,runtime/doc/$name.1})
 
 build() {
     make
