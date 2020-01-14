@@ -4,14 +4,16 @@
 
 name=xxd
 version=8.2.0114
-release=1
-source=("https://github.com/vim/vim/archive/v$version.tar.gz")
+release=2
+source=(
+"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/$name.c"
+"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/Makefile"
+"https://raw.githubusercontent.com/vim/vim/v$version/runtime/doc/$name.1"
+)
 
 build() {
-    cd "vim-$version/src/$name"
-
     make
     
-    install -Dm755 "$name" -t "$PKG/usr/bin"
-    install -Dm644 "../../runtime/doc/$name.1" -t "$PKG/usr/share/man/man1"
+    install -Dm755 "$name" -t   "$PKG/usr/bin"
+    install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
 }
