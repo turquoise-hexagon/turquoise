@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/UwxT1E74jg2J1MPW18UYWjcRyFrerlKlkFNRK/bso6U3ksd40ZpeI6qGbvSFR5aS5ZRNdY3jRd2NFUFsUOc3Flwk=
+SHA256 (Pkgfile) = 3535b5f7271be1269c8b2148d5c1fafac225baf35dfae82314da6d268fd6b9b8
+SHA256 (.footprint) = 584474b56d7e54b5706ee1887726d74e95ddda515dd8012d94a489041511c144
+SHA256 (geteltorito-0.6.tar.gz) = bb4fab8d4bedee1250762940b9f5d20fc7ac29fb2b5e9767c6af0a0955aa6bbe

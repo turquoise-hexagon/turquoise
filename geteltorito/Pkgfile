@@ -1,0 +1,15 @@
+# Description : Extract the initial/default boot image from a CD
+# URL         : https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : perl
+
+name=geteltorito
+version=0.6
+release=1
+source=("https://userpages.uni-koblenz.de/~krienke/ftp/noarch/$name/$name-$version.tar.gz")
+
+build() {
+    cd "$name"
+
+    install -Dm755 "$name" -t "$PKG/usr/bin"
+}
