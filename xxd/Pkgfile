@@ -10,6 +10,6 @@ source=("https://raw.githubusercontent.com/vim/vim/v$version/"{src/$name/$name.c
 build() {
     make
     
-    install -Dm755 "$name" -t   "$PKG/usr/bin"
+    install -Dm755 "$name"   -t "$PKG/usr/bin"
     install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
 }
