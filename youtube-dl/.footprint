@@ -10,7 +10,7 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2020.01.01-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2020.01.15-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.pyc
@@ -1367,9 +1367,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/packtpub.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/packtpub.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/packtpub.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandatv.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandatv.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandatv.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandoratv.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandoratv.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/pandoratv.pyo
