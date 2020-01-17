@@ -1,0 +1,26 @@
+# Description : A practical and portable scheme system
+# URL         : https://www.call-cc.org
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=chicken
+version=5.1.0
+release=1
+source=("https://code.call-cc.org/releases/$version/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make               \
+        -j1            \
+        PLATFORM=linux \
+        PREFIX=/usr
+
+    make               \
+        -j1            \
+        PLATFORM=linux \
+        PREFIX=/usr    \
+        DESTDIR="$PKG" \
+        install
+
+    rm -rf "$PKG/usr/share/$name/doc"
+}
