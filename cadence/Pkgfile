@@ -1,0 +1,13 @@
+# Description : A set of tools useful for audio production
+# URL         : https://kx.studio/Applications:Cadence
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : qt5 jack2
+
+name=cadence
+version=0.9.1
+release=1
+source=("https://github.com/falkTX/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+}

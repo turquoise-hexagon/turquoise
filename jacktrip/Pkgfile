@@ -1,0 +1,13 @@
+# Description : Multi-machine audio network performance over the Internet
+# URL         : https://github.com/jcacerec/jacktrip
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : qt5 jack2
+
+name=jacktrip
+version=1.1
+release=1
+source=("https://github.com/jcacerec/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+}
