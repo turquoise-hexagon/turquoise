@@ -4,7 +4,7 @@
 # Depends on  : giflib imlib2 libexif xorg-libxft
 
 name=sxiv
-version=25
+version=26
 release=1
 source=("https://github.com/muennich/$name/archive/v$version.tar.gz")
 
