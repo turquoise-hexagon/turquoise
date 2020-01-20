@@ -661,7 +661,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/tightvncviewer -> vnc
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/tracepath6 -> tracepath
 -rw-r--r--	root/root	usr/share/bash-completion/completions/tshark
 -rw-r--r--	root/root	usr/share/bash-completion/completions/tune2fs
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/typeset -2> function
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/typeset -> function
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ulimit
 -rw-r--r--	root/root	usr/share/bash-completion/completions/unace
 -rw-r--r--	root/root	usr/share/bash-completion/completions/unpack200

@@ -15646,9 +15646,9 @@ lrwxrwxrwx	root/root	usr/lib/libboost_timer.so.1 -> libboost_timer.so.1.72.0
 lrwxrwxrwx	root/root	usr/lib/libboost_timer.so.1.72 -> libboost_timer.so.1.72.0
 -rwxr-xr-x	root/root	usr/lib/libboost_timer.so.1.72.0
 -rw-r--r--	root/root	usr/lib/libboost_type_erasure.a
-lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so -2> libboost_type_erasure.so.1.72.0
-lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so.1 -2> libboost_type_erasure.so.1.72.0
-lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so.1.72 -2> libboost_type_erasure.so.1.72.0
+lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so -> libboost_type_erasure.so.1.72.0
+lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so.1 -> libboost_type_erasure.so.1.72.0
+lrwxrwxrwx	root/root	usr/lib/libboost_type_erasure.so.1.72 -> libboost_type_erasure.so.1.72.0
 -rwxr-xr-x	root/root	usr/lib/libboost_type_erasure.so.1.72.0
 -rw-r--r--	root/root	usr/lib/libboost_unit_test_framework.a
 lrwxrwxrwx	root/root	usr/lib/libboost_unit_test_framework.so -> libboost_unit_test_framework.so.1.72.0
