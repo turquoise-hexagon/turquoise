@@ -1,0 +1,16 @@
+# Description : Chicken documentation tarballs
+# URL         : https://wiki.call-cc.org/eggref/5/chicken-doc
+# Maintainer  : camille, camille at laserbat dot pw
+# Depends on  : chicken
+
+name=chicken-doc
+version=5
+release=1
+source=("https://3e8.org/pub/$name/$name-repo-$version.tgz")
+
+build() {
+    dir=$(csi -R chicken.platform -p '(chicken-home)')
+
+    mkdir -p   "$PKG$dir"
+    mv "$name" "$PKG$dir"
+}
