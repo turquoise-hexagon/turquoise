@@ -4,26 +4,12 @@
 # Depends on  : util-linux ncurses
 
 name=chezscheme
-version=git
+version=9.5.2
 release=1
-source=()
-
-download() {
-    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
-        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
-        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
-    else
-        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
-    fi
-
-    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
-}
+source=("https://github.com/cisco/$name/releases/download/v$version/csv$version.tar.gz")
 
 build() {
-    download "https://github.com/cisco/$name" master
-
-    cd "$name"
+    cd "csv$version"
 
     ./configure              \
         --installprefix=/usr \
@@ -32,5 +18,5 @@ build() {
 
     make DESTDIR="$PKG" install
 
-    rm -rf "$PKG"/usr/lib/csv*/examples
+    rm -rf "$PKG/usr/lib/csv$version/examples"
 }
