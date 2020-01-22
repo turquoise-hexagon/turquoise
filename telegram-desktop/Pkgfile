@@ -4,11 +4,11 @@
 
 name=telegram-desktop
 version=1.9.5
-release=1
+release=2
 source=("https://updates.tdesktop.com/tlinux/tsetup.$version.tar.xz")
 
 build() {
     cd Telegram
 
-    install -Dm755 Telegram "$PKG/usr/bin/$name"
+    install -Dm755 Telegram "$PKG/usr/bin/telegram"
 }
