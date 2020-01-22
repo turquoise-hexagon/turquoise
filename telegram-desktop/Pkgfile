@@ -3,14 +3,12 @@
 # Maintainer  : camille, camille at laserbat dot pw
 
 name=telegram-desktop
-version=1.9.4
+version=1.9.5
 release=1
 source=("https://updates.tdesktop.com/tlinux/tsetup.$version.tar.xz")
 
 build() {
     cd Telegram
 
-    for i in Telegram Updater; do
-        install -Dm755 "$i" "$PKG/usr/bin/${i,}"
-    done
+    install -Dm755 Telegram "$PKG/usr/bin/$name"
 }

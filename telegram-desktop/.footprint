@@ -1,4 +1,3 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/telegram
--rwxr-xr-x	root/root	usr/bin/updater
+-rwxr-xr-x	root/root	usr/bin/telegram-desktop
