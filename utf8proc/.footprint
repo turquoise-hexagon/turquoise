@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/utf8proc.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libutf8proc.a
+lrwxrwxrwx	root/root	usr/lib/libutf8proc.so -> libutf8proc.so.2.3.1
+lrwxrwxrwx	root/root	usr/lib/libutf8proc.so.2 -> libutf8proc.so.2.3.1
+-rwxr-xr-x	root/root	usr/lib/libutf8proc.so.2.3.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libutf8proc.pc

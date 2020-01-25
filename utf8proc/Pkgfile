@@ -1,0 +1,15 @@
+# Description : A clean C library for processing UTF-8 Unicode data
+# URL         : https://juliastrings.github.io/utf8proc
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=utf8proc
+version=2.4.0
+release=1
+source=("https://github.com/juliastrings/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make prefix=/usr DESTDIR="$PKG" install
+}
