@@ -43,6 +43,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/health/
 drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/provider/
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/clipboard.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/node.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/perl.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/python.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/python3.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/pythonx.vim
@@ -200,6 +201,8 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/insert.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/intro.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/job_control.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/lsp.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/lua.txt
 -rwxr-xr-x	root/root	usr/share/nvim/runtime/doc/makehtml.awk
 -rwxr-xr-x	root/root	usr/share/nvim/runtime/doc/maketags.awk
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/map.txt
@@ -617,6 +620,8 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/tcl.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/tcsh.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/teraterm.vim
+drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/testdir/
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/testdir/runtest.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/tex.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/tf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/tilde.vim
@@ -690,6 +695,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/keymap/
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/russian-jcuken.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/russian-jcukenmac.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/russian-jcukenwin.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/keymap/russian-jcukenwintype.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/russian-yawerty.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/serbian-latin.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/serbian-latin_utf-8.vim
@@ -718,7 +724,18 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/compat.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/inspect.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp.lua
+drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/lsp/
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/buf.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/callbacks.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/log.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/protocol.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/rpc.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/util.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/shared.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/treesitter.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/tshighlighter.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/uri.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/macmap.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/macros/
 -rw-r--r--	root/root	usr/share/nvim/runtime/macros/editexisting.vim

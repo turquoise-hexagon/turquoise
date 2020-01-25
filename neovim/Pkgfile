@@ -4,12 +4,13 @@
 # Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey
 
 name=neovim
-version=0.4.3
+commit=71ee46accfd235bad2b8460065100b31bb2d8165
+version=20200123
 release=1
-source=("https://github.com/$name/$name/archive/v$version.tar.gz")
+source=("https://github.com/$name/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-$commit"
 
     mkdir build
     cd    build
