@@ -1,6 +1,6 @@
 # Description : An open-source text processing system for processing plaintext documentation
 # URL         : http://docutils.sourceforge.net
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : python
 
 name=docutils

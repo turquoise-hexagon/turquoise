@@ -1,11 +1,11 @@
 # Description : Package compiler and linker metadata toolkit
 # URL         : https://git.dereferenced.org/pkgconf/pkgconf
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=pkgconf
 version=1.6.3
 release=1
-source=("https://distfiles.dereferenced.org/$name/$name-$version.tar.gz")
+source=("http://distfiles.dereferenced.org/$name/$name-$version.tar.gz")
 
 build() {
     cd "$name-$version"

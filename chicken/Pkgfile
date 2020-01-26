@@ -1,6 +1,6 @@
 # Description : A practical and portable scheme system
 # URL         : https://www.call-cc.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=chicken
 version=5.1.0

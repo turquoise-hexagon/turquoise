@@ -1,6 +1,6 @@
 # Description : A Just-In-Time Compiler for Lua
 # URL         : https://luajit.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=luajit
 version=2.0.5

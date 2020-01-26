@@ -1,6 +1,6 @@
 # Description : Allows easy use of sophisticated DVD navigation features
 # URL         : https://www.videolan.org/developers/libdvdnav.html
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=libdvdread
 version=6.0.2

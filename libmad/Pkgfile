@@ -1,6 +1,6 @@
 # Description : A high-quality MPEG audio decoder
 # URL         : https://www.underbit.com/products/mad
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=libmad
 version=0.15.1b

@@ -1,6 +1,6 @@
 # Description : A bitmap Font Editor
 # URL         : http://sofia.nmsu.edu/~mleisher/Software/gbdfed
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : gtk
 
 name=gbdfed

@@ -1,6 +1,6 @@
 # Description : Simple X hotkey daemon
 # URL         : https://github.com/baskerville/sxhkd
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-xcb-util xorg-xcb-util-keysyms
 
 name=sxhkd

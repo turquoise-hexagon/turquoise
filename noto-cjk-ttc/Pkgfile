@@ -1,6 +1,6 @@
 # Description : Noto CJK fonts
 # URL         : https://www.google.com/get/noto
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=noto-cjk-ttc

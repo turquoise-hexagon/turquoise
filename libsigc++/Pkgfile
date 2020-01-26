@@ -1,6 +1,6 @@
 # Description : A typesafe callback system for standard C++
 # URL         : https://github.com/libsigcplusplus/libsigcplusplus
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : mm-common
 
 name=libsigc++

@@ -1,6 +1,6 @@
 # Description : Extract the initial/default boot image from a CD
 # URL         : https://userpages.uni-koblenz.de/~krienke/ftp/noarch/geteltorito
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : perl
 
 name=geteltorito

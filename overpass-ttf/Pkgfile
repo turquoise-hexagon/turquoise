@@ -1,6 +1,6 @@
 # Description : An open source font family
 # URL         : http://overpassfont.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=overpass-ttf

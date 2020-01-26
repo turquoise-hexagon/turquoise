@@ -1,6 +1,6 @@
 # Description : Small X utility to perform elementary actions on windows
 # URL         : https://github.com/baskerville/xdo
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-libxcb xorg-xcb-util xorg-xcb-util-wm
 
 name=xdo

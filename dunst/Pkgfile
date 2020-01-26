@@ -1,6 +1,6 @@
 # Description : Dunst is a lightweight replacement for the notification daemons
 # URL         : https://dunst-project.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
 
 name=dunst

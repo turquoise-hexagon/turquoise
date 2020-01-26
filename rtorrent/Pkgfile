@@ -1,6 +1,6 @@
 # Description : rTorrent BitTorrent client
 # URL         : https://rakshasa.github.io/rtorrent
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : libtorrent ncurses
 
 name=rtorrent

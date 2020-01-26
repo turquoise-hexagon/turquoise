@@ -1,6 +1,6 @@
 # Description : C++ interface for the popular GUI library GTK+
 # URL         : https://www.gtkmm.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=mm-common
 version=1.0.0

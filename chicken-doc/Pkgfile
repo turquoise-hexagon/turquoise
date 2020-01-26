@@ -1,6 +1,6 @@
 # Description : Chicken documentation tarballs
 # URL         : https://wiki.call-cc.org/eggref/5/chicken-doc
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : chicken
 
 name=chicken-doc

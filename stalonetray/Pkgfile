@@ -1,6 +1,6 @@
 # Description : Stalonetray is a stand-alone system tray for X11
 # URL         : http://stalonetray.sourceforge.net
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=stalonetray
 version=0.8.3

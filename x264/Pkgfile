@@ -1,6 +1,6 @@
 # Description : A free software library and application for encoding video streams
 # URL         : https://www.videolan.org/developers/x264.html
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=x264
 commit=1771b556ee45207f8711744ccbd5d42a3949b14c

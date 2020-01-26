@@ -1112,6 +1112,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/scheme/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/scheme2c-compatibility/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme2c-compatibility/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme2c-compatibility/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scheme2c-compatibility/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/scsh-process/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scsh-process/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/scsh-process/,meta
@@ -1475,6 +1479,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/trace/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/trace/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/trace/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/trace/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/traversal/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/traversal/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/traversal/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/traversal/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/tweetnacl/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/tweetnacl/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/tweetnacl/,meta

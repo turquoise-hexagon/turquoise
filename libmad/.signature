@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw8hc5F27lc1mqAPz82oGJR1lv7TcWi3V/bgCDjD9Ya2vFsgYJLSpKafccHLFJtTS06XdpNH/uPcMLaITA/M0EgQ=
-SHA256 (Pkgfile) = 9ec44e0961d2f48f7f97a7ca2c4400ceb268817709ddc1d9d48bc87bd4513ebc
+RWTOjBUiTG/Uw1HLTP2eO5E+08wytUojQQOlLcuaooRqT6mwIl7ONSPNdsZPI/5c2vCM/3DQ+3vS707OUrEvOu6tKgGxQ/CP7wM=
+SHA256 (Pkgfile) = 5c6a925a3420c5a7da71f348a61248e144b3380c5f2ef94761316957d23e303e
 SHA256 (.footprint) = b0d1e5b813fec45f0d80010c6f7656fdc8b5b67b58aa4c49b94523b88f6fd067
 SHA256 (libmad-0.15.1b.tar.gz) = bbfac3ed6bfbc2823d3775ebb931087371e142bb0e9bb1bee51a76a6e0078690

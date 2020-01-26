@@ -1,6 +1,6 @@
 # Description : An inotify based directory and file watch
 # URL         : https://git.z3bra.org/wendy/file/README.html
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=wendy
 version=1.0

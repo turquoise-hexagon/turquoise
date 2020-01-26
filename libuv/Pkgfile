@@ -1,6 +1,6 @@
 # Description : Cross-platform asynchronous I/O
 # URL         : https://github.com/libuv/libuv
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=libuv
 version=1.34.2

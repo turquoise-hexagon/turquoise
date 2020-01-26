@@ -1,6 +1,6 @@
 # Description : Click on a pixel on your screen and print its color value in RGB
 # URL         : https://github.com/ancurio/colorpicker
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-libx11
 
 name=colorpicker

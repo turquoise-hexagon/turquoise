@@ -1,6 +1,6 @@
 # Description : A frontend to ssh-agent and ssh-add
 # URL         : https://www.funtoo.org/keychain
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=keychain
 version=2.8.5

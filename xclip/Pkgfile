@@ -1,6 +1,6 @@
 # Description : Command line interface to the X11 clipboard
 # URL         : https://github.com/astrand/xclip
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : xorg-libxmu
 
 name=xclip

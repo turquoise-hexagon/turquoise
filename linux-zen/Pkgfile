@@ -1,6 +1,6 @@
 # Description : Zen Patched Kernel
 # URL         : http://zen-kernel.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=linux-zen
 version=5.4.14.1

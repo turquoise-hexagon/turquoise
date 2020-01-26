@@ -1,6 +1,6 @@
 # Description : Collection of tools, libraries and tests for shader compilation.
 # URL         : https://github.com/google/shaderc
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : glslang
 
 name=shaderc

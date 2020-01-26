@@ -1,6 +1,6 @@
 # Description : Return the pixel width of the given strings for the given font
 # URL         : https://github.com/baskerville/txtw
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : cairo
 
 name=txtw

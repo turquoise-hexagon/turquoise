@@ -1,6 +1,6 @@
 # Description : A flexible, powerful, server-side application for playing music
 # URL         : https://www.musicpd.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : libmad libvorbis libid3tag glib boost meson ninja
 
 name=mpd

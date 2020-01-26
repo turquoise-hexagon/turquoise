@@ -1,6 +1,6 @@
 # Description : Hexdump facility from vim
 # URL         : https://www.vim.org
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=xxd
 version=8.2.0114

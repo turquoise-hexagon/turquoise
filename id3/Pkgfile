@@ -1,6 +1,6 @@
 # Description : A portable command-line mass tagger
 # URL         : https://squell.github.io/id3
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  :
 
 name=id3

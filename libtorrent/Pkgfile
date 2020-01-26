@@ -1,6 +1,6 @@
 # Description :
 # URL         :
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : libsigc++ curl
 
 name=libtorrent
