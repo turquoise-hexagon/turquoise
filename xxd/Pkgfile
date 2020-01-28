@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=xxd
-version=8.2.0114
-release=2
+version=8.2.0162
+release=1
 source=(
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/$name.c"
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/Makefile"
