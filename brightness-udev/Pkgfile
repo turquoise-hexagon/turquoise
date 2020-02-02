@@ -4,7 +4,7 @@
 # Depends on  : udev
 
 name=brightness-udev
-version=0.5
+version=0.5.1
 release=1
 source=("https://github.com/hummer12007/brightnessctl/archive/$version.tar.gz")
 
