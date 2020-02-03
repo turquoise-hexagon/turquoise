@@ -1,0 +1,19 @@
+# Description : Tiny C Compiler
+# URL         : https://bellard.org/tcc
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=tcc
+version=0.9.27
+release=1
+source=("http://download.savannah.gnu.org/releases/tinycc/$name-$version.tar.bz2")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
+}
