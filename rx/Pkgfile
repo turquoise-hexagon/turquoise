@@ -4,7 +4,7 @@
 # Depends on  : rust
 
 name=rx
-version=0.3.2
+version=0.4.0
 release=1
 source=("https://github.com/cloudhead/$name/archive/v$version.tar.gz")
 
