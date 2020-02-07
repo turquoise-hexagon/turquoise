@@ -1,0 +1,24 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/oscdump
+-rwxr-xr-x	root/root	usr/bin/oscsend
+-rwxr-xr-x	root/root	usr/bin/oscsendfile
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/lo/
+-rw-r--r--	root/root	usr/include/lo/lo.h
+-rw-r--r--	root/root	usr/include/lo/lo_cpp.h
+-rw-r--r--	root/root	usr/include/lo/lo_endian.h
+-rw-r--r--	root/root	usr/include/lo/lo_errors.h
+-rw-r--r--	root/root	usr/include/lo/lo_lowlevel.h
+-rw-r--r--	root/root	usr/include/lo/lo_macros.h
+-rw-r--r--	root/root	usr/include/lo/lo_osc_types.h
+-rw-r--r--	root/root	usr/include/lo/lo_serverthread.h
+-rw-r--r--	root/root	usr/include/lo/lo_throw.h
+-rw-r--r--	root/root	usr/include/lo/lo_types.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/liblo.la
+lrwxrwxrwx	root/root	usr/lib/liblo.so -> liblo.so.7.4.0
+lrwxrwxrwx	root/root	usr/lib/liblo.so.7 -> liblo.so.7.4.0
+-rwxr-xr-x	root/root	usr/lib/liblo.so.7.4.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/liblo.pc
