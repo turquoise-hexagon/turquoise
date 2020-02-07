@@ -1,0 +1,5 @@
+# turquoise's ports collection
+
+NAME=turquoise
+URL=git://github.com/turquoise-hexagon/turquoise/
+BRANCH=master
