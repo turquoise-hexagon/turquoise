@@ -5,7 +5,7 @@
 
 name=bash
 version=git
-release=3
+release=4
 source=(profile)
 
 download() {
@@ -21,7 +21,7 @@ download() {
 }
 
 build() {
-    download "https://git.savannah.gnu.org/git/$name.git" devel
+    download "https://git.savannah.gnu.org/git/$name.git" master
 
     cd "$name"
 
