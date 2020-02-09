@@ -1,7 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9DjvptKkWtWkwrzZaYj6ypZycJcTtTlIuT/yAbKaCqQszh7zJOPals6SQygbst96sZRKeeU/y57iIuL43oR2Qg=
-SHA256 (Pkgfile) = 3505ebbb673fe8d9ebc094ab535cbf0064b1133ea8ff6e17723998d5a6eda642
+RWTOjBUiTG/Uw7US7tzPXYG3VN96oR9nALRZrxj6ME0hRCq1zCZOfwm9y+lF1Cp1tAPSli+O3WYwcapUsPXqBrGKTgcy8PQA7Ac=
+SHA256 (Pkgfile) = bd96b70ea65e3d095c5d919dc2c99ded7d0dcb54881c2999e3ba459c5d6853c0
 SHA256 (.footprint) = a55f4db9a8f36310df010a88256abef6d13753f525ff212c4e7dcb390e6c1e66
-SHA256 (shaderc-v2019.0.tar.gz) = 1018cd02be52295272fdbffa056ee24b881be277c83d039ad554d91230f4e11b
-SHA256 (glslang.patch) = be01c119de404b37df7556f7897947d755899ed2c59cc14ab73dbc8f477c42b1
+SHA256 (shaderc-v2019.1.tar.gz) = 290264af7c8265c55c57e5184c8162cdec3747762f18ba9a9f8f7f9e13e2246d
 SHA256 (man.tar.gz) = 1d56e19fd78e2c007d94f2ed0f363abd3000c71ea607041c90e3e3a541e37364
