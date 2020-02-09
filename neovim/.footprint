@@ -2,6 +2,8 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/nvim
 lrwxrwxrwx	root/root	usr/bin/vim -> /usr/bin/nvim
+drwxr-xr-x	root/root	usr/lib64/
+drwxr-xr-x	root/root	usr/lib64/nvim/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/nvim.desktop
