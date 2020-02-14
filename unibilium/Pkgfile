@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=unibilium
-version=2.0.0
-release=1A
+version=2.1.0
+release=1
 source=("https://github.com/neovim/$name/archive/v$version.tar.gz")
 
 build() {
