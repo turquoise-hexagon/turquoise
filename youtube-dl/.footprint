@@ -10,7 +10,7 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2020.01.24-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl-2020.02.16-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/YoutubeDL.pyc
@@ -917,9 +917,6 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jove.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jove.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jove.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jpopsukitv.py
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jpopsukitv.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jpopsukitv.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jwplatform.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jwplatform.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/jwplatform.pyo
@@ -1448,6 +1445,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/polskieradio.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/polskieradio.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/polskieradio.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntimes.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntimes.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntimes.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntv.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntv.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/youtube_dl/extractor/popcorntv.pyo
