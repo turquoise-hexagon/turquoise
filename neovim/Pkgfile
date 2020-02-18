@@ -4,8 +4,8 @@
 # Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey utf8proc
 
 name=neovim
-commit=a1d6c2f5c9e7834ec6eb087b72354a1257582f3d
-version=20200215
+commit=a2efc9cf8b0fdf14b01156ba424145e1847f789c
+version=20200216
 release=1
 source=("https://github.com/$name/$name/archive/$commit.tar.gz")
 
