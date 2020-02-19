@@ -1,0 +1,21 @@
+# Description : A C subroutine library for computing the discrete Fourier transform
+# URL         : http://www.fftw.org
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=fftw
+version=3.3.8
+release=1
+source=("http://www.$name.org/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    export CFLAGS+=' -fPIC'
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/info"
+}
