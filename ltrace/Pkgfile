@@ -1,0 +1,22 @@
+# Description : Intercepts and records dynamic library calls
+# URL         : http://www.ltrace.org
+# Maintainer  : camille, camille at laserbat dot pw
+
+name=ltrace
+version=0.7.3
+release=1
+source=("http://www.$name.org/${name}_$version.orig.tar.bz2")
+
+build() {
+    cd "$name-$version"
+
+    ./configure           \
+        --prefix=/usr     \
+        --sysconfdir=/etc \
+        --disable-werror
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc/$name"
+}
