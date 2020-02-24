@@ -4,13 +4,26 @@
 # Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey utf8proc
 
 name=neovim
-commit=ff1730373c6139db14b8f2f9b24d4ccd7fcfb01d
-version=20200221
+version=git
 release=1
-source=("https://github.com/$name/$name/archive/$commit.tar.gz")
+source=()
+
+download() {
+    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    else
+        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+    fi
+
+    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
 
 build() {
-    cd "$name-$commit"
+    download "https://github.com/$name/$name" master
+
+    cd "$name"
 
     mkdir build
     cd    build
