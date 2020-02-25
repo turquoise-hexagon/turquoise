@@ -1,6 +1,6 @@
 # Description : Tiny C Compiler
 # URL         : https://bellard.org/tcc
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 
 name=tcc
 version=0.9.27

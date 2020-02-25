@@ -1,6 +1,6 @@
 # Description : Qt GUI Interface for FluidSynth
 # URL         : https://qsynth.sourceforge.io
-# Maintainer  : camille, camille at laserbat dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : qt5 fluidsynth
 
 name=qsynth
