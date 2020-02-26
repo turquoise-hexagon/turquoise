@@ -1,1 +1,5 @@
 crux ports for backup and sharing purpose
+
+usage :
+# cp turquoise.git /etc/ports
+# prt-get update
