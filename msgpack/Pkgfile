@@ -5,14 +5,17 @@
 
 name=msgpack
 version=3.2.1
-release=1
+release=2
 source=("https://github.com/msgpack/$name-c/archive/cpp-$version.tar.gz")
 
 build() {
     cd "$name-c-cpp-$version"
 
-    cmake . -DCMAKE_INSTALL_PREFIX=/usr
+    mkdir build
+    cd    build
 
-    # make
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+
+    make
     make DESTDIR="$PKG" install
 }
