@@ -4,7 +4,7 @@
 
 name=xxd
 version=8.2.0162
-release=1
+release=2
 source=(
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/$name.c"
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/Makefile"
@@ -13,7 +13,7 @@ source=(
 
 build() {
     make
-    
+
     install -Dm755 "$name"   -t "$PKG/usr/bin"
     install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
 }
