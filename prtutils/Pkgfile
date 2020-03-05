@@ -24,5 +24,8 @@ build() {
 
     cd "$name"
 
-    install -Dm755 src/* -t "$PKG/usr/bin"
+    doc/make.sh
+
+    install -Dm755 src/*     -t "$PKG/usr/bin"
+    install -Dm644 doc/man/* -t "$PKG/usr/share/man/man1"
 }
