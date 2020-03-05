@@ -5,16 +5,16 @@
 
 name=mpv
 version=0.32.0
-release=2
+release=3
 source=(
 "https://github.com/$name-player/$name/archive/v$version.tar.gz"
-https://waf.io/waf-2.0.18
+https://waf.io/waf-2.0.19
 )
 
 build() {
     cd "$name-$version"
 
-    install -m755 "$SRC/waf-2.0.18" waf
+    install -m755 "$SRC/waf"* waf
 
     [[ -e /usr/lib/pkgconfig/libcdio_cdda.pc ]] && config+=(--enable-cdda)
     [[ -e /usr/lib/pkgconfig/dvdnav.pc       ]] && config+=(--enable-dvdnav)
