@@ -2,6 +2,11 @@
 # URL         : https://github.com/turquoise-hexagon/human
 # Maintainer  : camille, camille at lzr dot pw
 
+name=human
+version=git
+release=3
+source=()
+
 download() {
     if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
         git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
@@ -13,11 +18,6 @@ download() {
 
     cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
 }
-
-name=human
-version=git
-release=2
-source=()
 
 build() {
     download "https://github.com/turquoise-hexagon/$name" master
