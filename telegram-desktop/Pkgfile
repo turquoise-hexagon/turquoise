@@ -3,9 +3,9 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=telegram-desktop
-version=1.9.20
+version=1.9.21
 release=1
-source=("https://github.com/${name/-}/tdesktop/releases/download/v$version/tsetup.$version.beta.tar.xz")
+source=("https://github.com/${name/-}/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
 build() {
     cd Telegram
