@@ -14,9 +14,9 @@ drwxr-xr-x	root/root	usr/include/dvdread/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libdvdread.a
 -rwxr-xr-x	root/root	usr/lib/libdvdread.la
-lrwxrwxrwx	root/root	usr/lib/libdvdread.so -> libdvdread.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libdvdread.so.7 -> libdvdread.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libdvdread.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libdvdread.so -> libdvdread.so.7.1.0
+lrwxrwxrwx	root/root	usr/lib/libdvdread.so.7 -> libdvdread.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libdvdread.so.7.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/dvdread.pc
 drwxr-xr-x	root/root	usr/share/
