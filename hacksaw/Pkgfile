@@ -6,13 +6,13 @@
 name=hacksaw
 commit=7df34a1af62d30104486dd58ba43d66cc40b275b
 version=20200328
-release=1
+release=2
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
 build() {
     cd "$name-$commit"
 
-    cargo build --release --locked
+    cargo build
 
-    install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
+    install -Dm755 "target/debug/$name" -t "$PKG/usr/bin"
 }
