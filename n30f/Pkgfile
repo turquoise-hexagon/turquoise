@@ -1,0 +1,17 @@
+# Description : A quick hack to display a png in a borderless and transparent non-wm-managed window
+# URL         : https://github.com/sdhand/n30f
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : cairo xorg-libxcb
+
+name=n30f
+commit=e10e3c7c3cf10def0151eaf1ae4d7a8169c20503
+version=20190207
+release=1
+source=("https://github.com/sdhand/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make
+    make DESTDIR="$PKG" install
+}
