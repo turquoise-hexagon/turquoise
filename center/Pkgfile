@@ -1,10 +1,11 @@
 # Description : Center text in the terminal
 # URL         : https://github.com/turquoise-hexagon/center
 # Maintainer  : camille, camille at lzr dot pw
+# Depends on  : docutils
 
 name=center
 version=git
-release=1
+release=2
 source=()
 
 download() {
