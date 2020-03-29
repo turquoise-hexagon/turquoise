@@ -1,10 +1,11 @@
 # Description : Convert number to human readable format
 # URL         : https://github.com/turquoise-hexagon/human
 # Maintainer  : camille, camille at lzr dot pw
+# Depends on  : docutils
 
 name=human
 version=git
-release=3
+release=4
 source=()
 
 download() {
