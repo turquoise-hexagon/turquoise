@@ -4,15 +4,15 @@
 # Depends on  : rust
 
 name=hacksaw
-commit=7df34a1af62d30104486dd58ba43d66cc40b275b
-version=20200328
-release=2
+commit=07787277e795b032e60e863967affbfc348f315b
+version=20200329
+release=1
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
 build() {
     cd "$name-$commit"
 
-    cargo build
+    cargo build --release --locked
 
-    install -Dm755 "target/debug/$name" -t "$PKG/usr/bin"
+    install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
 }
