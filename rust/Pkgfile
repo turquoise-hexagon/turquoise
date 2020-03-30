@@ -21,6 +21,6 @@ build() {
     DESTDIR="$PKG" python3 ./x.py install
 
     rm -rf "$PKG/etc"
-    rm -rf "$PKG/usr/share/doc"
-    rm     "$PKG/usr/lib/rustlib/"{components,manifest-rustc,rust-installer-version,uninstall.sh}
+    rm -rf "$PKG/usr/share/"{zsh,doc}
+    rm     "$PKG/usr/lib/rustlib/"{uninstall.sh,rust-installer-version,components}
 }
