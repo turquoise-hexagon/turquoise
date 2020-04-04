@@ -4,8 +4,8 @@
 # Depends on  : rust
 
 name=hacksaw
-commit=02d81eaf019d8ace433bcd9480ab8bc19bbae02f
-version=20200403
+commit=2618962e9700e15431638778ed59e00f618179fc
+version=20200404
 release=1
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
 
