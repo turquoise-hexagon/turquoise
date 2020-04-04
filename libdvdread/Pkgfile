@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libdvdread
-version=6.1.0
+version=6.1.1
 release=1
 source=("https://download.videolan.org/pub/videolan/$name/$version/$name-$version.tar.bz2")
 
