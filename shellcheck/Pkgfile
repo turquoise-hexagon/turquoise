@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=shellcheck
-version=0.7.0
+version=0.7.1
 release=1
 source=("https://storage.googleapis.com/shellcheck/shellcheck-v$version.linux.x86_64.tar.xz")
 
