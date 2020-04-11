@@ -1,0 +1,18 @@
+# Description : Bitmap editor and converter utilities
+# URL         : http://xorg.freedesktop.org
+# Maintainer  : camille, camille at lzr dot pw
+
+name=xorg-bitmap
+version=1.0.9
+release=1
+source=("https://gitlab.freedesktop.org/xorg/app/${name#*-}/-/archive/${name#*-}-$version/${name#*-}-${name#*-}-$version.tar.gz")
+
+build() {
+    cd "${name#*-}-${name#*-}-$version"
+
+    ./autogen.sh
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
