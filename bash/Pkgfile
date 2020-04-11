@@ -1,31 +1,25 @@
-# Description : Bash is an sh-compatible shell
+# Description : Bash is the GNU Project's shell
 # URL         : https://www.gnu.org/software/bash
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : readline
 
 name=bash
-version=git
-release=4
-source=(profile)
-
-download() {
-    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
-        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
-        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
-    else
-        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
-    fi
-
-    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
-}
+version=5.0.16
+release=1
+source=(
+"https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
+patches.tar.gz
+profile
+)
 
 build() {
-    download "https://git.savannah.gnu.org/git/$name.git" master
+    cd "$name-${version%.*}"
 
-    cd "$name"
+    for patch in "$SRC/patches/"*; do
+        patch -p 0 -i "$patch"
+    done
 
-    export CFLAGS+=" -Ofast"
+    export CFLAGS+=' -Ofast'
 
     ./configure        \
         --prefix=/usr  \
