@@ -4,8 +4,8 @@
 # Depends on  : cairo xorg-libxcb
 
 name=n30f
-commit=e10e3c7c3cf10def0151eaf1ae4d7a8169c20503
-version=20190207
+commit=08d1b273ce336be0928fa672fc1c0a4625ba50aa
+version=20200411
 release=1
 source=("https://github.com/sdhand/$name/archive/$commit.tar.gz")
 
