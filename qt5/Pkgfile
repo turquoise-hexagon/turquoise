@@ -13,17 +13,17 @@ build() {
     cd "qt-everywhere-src-$version"
 
     ./configure                                     \
-		-archdatadir /usr/lib/qt5                   \
-		-bindir /usr/lib/qt5/bin                    \
-		-datadir /usr/share/qt5                     \
-		-docdir /usr/share/doc/qt5                  \
-		-examplesdir /usr/share/doc/qt5/examples    \
-		-headerdir /usr/include/qt5                 \
-		-importdir /usr/lib/qt5/imports             \
-		-libdir /usr/lib                            \
-		-plugindir /usr/lib/qt5/plugins             \
-		-sysconfdir /usr/etc/xdg                    \
-		-translationdir /usr/share/qt5/translations \
+        -archdatadir /usr/lib/qt5                   \
+        -bindir /usr/lib/qt5/bin                    \
+        -datadir /usr/share/qt5                     \
+        -docdir /usr/share/doc/qt5                  \
+        -examplesdir /usr/share/doc/qt5/examples    \
+        -headerdir /usr/include/qt5                 \
+        -importdir /usr/lib/qt5/imports             \
+        -libdir /usr/lib                            \
+        -plugindir /usr/lib/qt5/plugins             \
+        -sysconfdir /usr/etc/xdg                    \
+        -translationdir /usr/share/qt5/translations \
         -prefix /usr                                \
         -nomake examples                            \
         -skip qtwebengine                           \
