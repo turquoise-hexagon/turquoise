@@ -1,0 +1,18 @@
+# Description : Convert font from PCF to BDF
+# URL         : https://github.com/ganaware/pcf2bdf
+# Maintainer  : camille, camille at lzr dot pw
+
+name=pcf2bdf
+commit=50ce60d5f3776b53977df37b9653625e8309463c
+version=20190827
+release=1
+source=("https://github.com/ganaware/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make -f Makefile.gcc
+
+    install -Dm755 "$name"     -t "$PKG/usr/bin"
+    install -Dm644 "$name.man"    "$PKG/usr/share/man/man1/$name.1"
+}
