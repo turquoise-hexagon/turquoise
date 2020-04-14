@@ -3,13 +3,12 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=pcf2bdf
-commit=50ce60d5f3776b53977df37b9653625e8309463c
-version=20190827
+version=1.06
 release=1
-source=("https://github.com/ganaware/$name/archive/$commit.tar.gz")
+source=("https://github.com/ganaware/$name/archive/$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
     make -f Makefile.gcc
 
