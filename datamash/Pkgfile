@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=datamash
-version=1.6
+version=1.7
 release=1
 source=("http://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
 
