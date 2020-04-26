@@ -4,7 +4,7 @@
 # Depends on  : xorg-libxrandr rust
 
 name=shotgun
-commit=53c6565de71e305a05b5fdf4005edf9c2b66c125
+commit=c5021a7a929942af84c009f058ff8d4a3f9b67b5
 version=20200424
 release=1
 source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
