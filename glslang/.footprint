@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/include/SPIRV/
 -rw-r--r--	root/root	usr/include/SPIRV/GLSL.std.450.h
 -rw-r--r--	root/root	usr/include/SPIRV/GlslangToSpv.h
 -rw-r--r--	root/root	usr/include/SPIRV/Logger.h
+-rw-r--r--	root/root	usr/include/SPIRV/NonSemanticDebugPrintf.h
 -rw-r--r--	root/root	usr/include/SPIRV/SPVRemapper.h
 -rw-r--r--	root/root	usr/include/SPIRV/SpvBuilder.h
 -rw-r--r--	root/root	usr/include/SPIRV/SpvTools.h
@@ -32,6 +33,8 @@ drwxr-xr-x	root/root	usr/include/glslang/Include/
 -rw-r--r--	root/root	usr/include/glslang/Include/ShHandle.h
 -rw-r--r--	root/root	usr/include/glslang/Include/Types.h
 -rw-r--r--	root/root	usr/include/glslang/Include/arrays.h
+-rw-r--r--	root/root	usr/include/glslang/Include/glslang_c_interface.h
+-rw-r--r--	root/root	usr/include/glslang/Include/glslang_c_shader_types.h
 -rw-r--r--	root/root	usr/include/glslang/Include/intermediate.h
 -rw-r--r--	root/root	usr/include/glslang/Include/revision.h
 drwxr-xr-x	root/root	usr/include/glslang/MachineIndependent/
@@ -64,6 +67,7 @@ drwxr-xr-x	root/root	usr/include/glslang/SPIRV/
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/GLSL.std.450.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/GlslangToSpv.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/Logger.h
+-rw-r--r--	root/root	usr/include/glslang/SPIRV/NonSemanticDebugPrintf.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SPVRemapper.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SpvBuilder.h
 -rw-r--r--	root/root	usr/include/glslang/SPIRV/SpvTools.h
