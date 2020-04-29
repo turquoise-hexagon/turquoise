@@ -4,7 +4,7 @@
 # Depends on  : python
 
 name=boost
-version=1.72.0
+version=1.73.0
 release=1
 source=("https://dl.bintray.com/${name}org/release/$version/source/${name}_${version//./_}.tar.gz")
 
