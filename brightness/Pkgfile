@@ -1,0 +1,33 @@
+# Description : Change brightness via the command-line
+# URL         : https://github.com/turquoise-hexagon/brightness
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : docutils
+
+name=brightness
+version=git
+release=1
+source=()
+
+download() {
+    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    else
+        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+    fi
+
+    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
+
+build() {
+    download "https://github.com/turquoise-hexagon/$name" master
+
+    cd "$name"
+
+    ./make.sh
+    doc/make.sh
+
+    install -Dm755 "bin/$name"      -t "$PKG/usr/bin"
+    install -Dm644 "doc/$name.1.gz" -t "$PKG/usr/share/man/man1"
+}
