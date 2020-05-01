@@ -4,8 +4,8 @@
 # Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
 
 name=noto-ttf
-commit=7f12f3e70af9d2507206093d903eb9945d7e4622
-version=20200423
+commit=fcf8d5d5568fc96efcc4cbe6f9fbd402f62de98a
+version=20200430
 release=1
 source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
 
