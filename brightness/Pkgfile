@@ -5,7 +5,7 @@
 
 name=brightness
 version=git
-release=1
+release=2
 source=()
 
 download() {
@@ -28,6 +28,7 @@ build() {
     ./make.sh
     doc/make.sh
 
-    install -Dm755 "bin/$name"      -t "$PKG/usr/bin"
-    install -Dm644 "doc/$name.1.gz" -t "$PKG/usr/share/man/man1"
+    install -Dm755 "bin/$name"           -t "$PKG/usr/bin"
+    install -Dm644 "doc/$name.1.gz"      -t "$PKG/usr/share/man/man1"
+    install -Dm644 "udev/90-$name.rules" -t "$PKG/etc/udev/rules.d"
 }
