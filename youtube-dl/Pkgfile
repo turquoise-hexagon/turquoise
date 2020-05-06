@@ -1,18 +1,18 @@
 # Description : A command-line program to download videos from YouTube.com and a few more sites
 # URL         : https://ytdl-org.github.io/youtube-dl/index.html
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : python
+# Depends on  : python3
 
 name=youtube-dl
 version=2020.05.03
-release=1
+release=2
 source=("https://$name.org/downloads/$version/$name-$version.tar.gz")
 
 build() {
     cd "$name"
 
-    python setup.py build
-    python setup.py install --root="$PKG" --optimize=1
+    python3 setup.py build
+    python3 setup.py install --root="$PKG" --optimize=1
 
     rm -rf "$PKG/usr/share/doc"
 }
