@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw9C/T3Rl1Ky/fYpsxaZotPFt992vTpH+xVVa+zqcYEBPwj5EtED1eAizBQ7c/Yw/iS3uyTHIDvLC4PZ8PjViZg0=
+SHA256 (Pkgfile) = 29d759a5e081588bae7cd407917a5f770930a0bd992cb27da4fad165802f05d8
+SHA256 (.footprint) = 2afa29aa22950908108a662964f6f078aefa329b6eb8e4ff7cef6cdde3331b48
+SHA256 (go1.14.2.src.tar.gz) = 98de84e69726a66da7b4e58eac41b99cbe274d7e8906eeb8a5b7eb0aadee7f7c
+SHA256 (go1.14.2.linux-amd64.tar.gz) = 6272d6e940ecb71ea5636ddb5fab3933e087c1356173c61f4a803895e947ebb3

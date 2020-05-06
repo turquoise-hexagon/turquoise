@@ -1,0 +1,43 @@
+# Description : The Go Programming Language.
+# URL         : https://golang.org
+# Maintainer  : camille, camille at lzr dot pw
+
+name=go
+version=1.14.2
+release=1
+source=(
+"https://dl.google.com/$name/$name$version.src.tar.gz"
+"https://dl.google.com/$name/$name$version.linux-amd64.tar.gz"
+)
+
+unpack_source() {
+    mkdir "$SRC/go-bootstrap-$version"
+
+    bsdtar -xf "$PKGMK_SOURCE_DIR/$name$version.linux-amd64.tar.gz" \
+        -C "$SRC/go-bootstrap-$version" --strip-components 1
+
+    bsdtar -xf "$PKGMK_SOURCE_DIR/$name$version.src.tar.gz" -C "$SRC"
+}
+
+build() {
+    export GOARCH=amd64
+    export GOOS=linux
+    export GOROOT_BOOTSTRAP=$SRC/go-bootstrap-$version
+    export GOROOT_FINAL=/usr/lib/go
+
+    cd "$name/src"
+
+    bash make.bash --no-clean
+
+    mkdir -p "$PKG/usr/"{lib,bin}
+
+    cp -r "$SRC/go" "$PKG/usr/lib"
+    ln -s /usr/lib/go/bin/go{fmt,} "$PKG/usr/bin"
+
+    find "$PKG" \( -name '*.a' -o -name '*.go' \) -exec chmod 644 '{}' \;
+    find "$PKG" \( -name 'README*' -o -name AUTHORS -o -name TODO \) -delete
+
+    rm "$PKG/usr/lib/go/src/"*.bat
+}
+
+# vim: ft=sh
