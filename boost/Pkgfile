@@ -1,11 +1,11 @@
 # Description : Free peer-reviewed portable C++ source libraries
 # URL         : http://www.boost.org
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : python
+# Depends on  : python3
 
 name=boost
 version=1.73.0
-release=1
+release=2
 source=("https://dl.bintray.com/${name}org/release/$version/source/${name}_${version//./_}.tar.gz")
 
 build() {
@@ -13,15 +13,21 @@ build() {
 
     [ -e /usr/bin/icu-config ] && ICU=--with-icu
 
-    ./bootstrap.sh          \
-        --prefix="$PKG/usr" \
-        --with-toolset=gcc  \
+    ./bootstrap.sh                            \
+        --prefix="$PKG/usr"                   \
+        --with-toolset=gcc                    \
+        --with-python="$(command -v python3)" \
         "$ICU"
 
-     ./b2 stage             \
+    python=$(python3 -V)
+    python=${python#* }
+    python=${python%.*}
+
+    ./b2 stage              \
         variant=release     \
         threading=multi     \
         runtime-link=shared \
+        python="$python"    \
         link=shared,static  \
         debug-symbols=off   \
         -j "${JOBS:-1}"
