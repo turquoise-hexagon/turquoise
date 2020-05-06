@@ -1,0 +1,18 @@
+# Description : Unclutter your .profile
+# URL         : https://direnv.net
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : go
+
+name=direnv
+version=2.21.2
+release=1
+source=("https://github.com/$name/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    export GOPATH="$PKGMK_WORK_DIR/go"
+
+    make
+    make DESTDIR="$PKG/usr" install
+}
