@@ -1,14 +1,14 @@
 # Description : A free, open source, and cross-platform media player
 # URL         : https://mpv.io
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver
+# Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver python3
 
 name=mpv
 version=0.32.0
-release=3
+release=4
 source=(
 "https://github.com/$name-player/$name/archive/v$version.tar.gz"
-https://waf.io/waf-2.0.19
+https://waf.io/waf-2.0.20
 )
 
 build() {
@@ -19,15 +19,15 @@ build() {
     [[ -e /usr/lib/pkgconfig/libcdio_cdda.pc ]] && config+=(--enable-cdda)
     [[ -e /usr/lib/pkgconfig/dvdnav.pc       ]] && config+=(--enable-dvdnav)
 
-    ./waf configure            \
+    python3 ./waf configure    \
         "${config[@]}"         \
         --prefix=/usr          \
         --enable-libarchive    \
         --enable-libmpv-shared \
         -j "${JOBS:-1}"
 
-    ./waf build
-    ./waf install --destdir="$PKG"
+    python3 ./waf build
+    python3 ./waf install --destdir="$PKG"
 
     rm -rf "$PKG/usr/share/doc"
 }
