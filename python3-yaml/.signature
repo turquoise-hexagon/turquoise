@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw+OcsTJBfM9vnJLY2Hfrrtv9SeKgoj8uCUsHVxtvPjR478soZLmzfBtUdV1+Ef3hAooP+qVH8q8mM7YLrwfgjQM=
-SHA256 (Pkgfile) = f5aad2bd5f5aed09973eafd99a2011cc8ce721e5872c9397c96fa3709011760c
-SHA256 (.footprint) = a851ecef9c8e5e4ded7d279c1d218282bb98a4f90979e133390b156bdc2e413b
+RWTOjBUiTG/Uw9aHypNJFQjE7szmJ5F4fjKqxKx0u2ZvF8l0RxUApumOi7Mfk6hr/JQ8AZSFbt+MEdmxZQpQ7Pg//ihfuWMaSgs=
+SHA256 (Pkgfile) = f6e78361800ab64400e6c032440426f23c4c89da6fc7b74e91304fee41229a87
+SHA256 (.footprint) = b462e3ba213f4dce3f58de3b3f0ba26202016c883a819b0dbae8e389533d143f
 SHA256 (PyYAML-5.3.1.tar.gz) = b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d
