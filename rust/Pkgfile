@@ -1,15 +1,20 @@
-# Description : A language empowering everyone to build reliable and efficient software.
+# Description : A language empowering everyone to build reliable and efficient software
 # URL         : https://www.rust-lang.org
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : llvm python3
 
 name=rust
 version=1.43.0
-release=1
-source=("https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz")
+release=2
+source=(
+"https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz"
+python.patch
+)
 
 build() {
     cd "${name}c-$version-src"
+
+    patch -p 1 -i "$SRC/python.patch"
 
     ./configure --prefix=/usr
 
@@ -20,7 +25,7 @@ build() {
 
     DESTDIR="$PKG" python3 ./x.py install
 
-    rm -rf "$PKG/etc"
-    rm -rf "$PKG/usr/share/"{zsh,doc}
-    rm     "$PKG/usr/lib/rustlib/"{uninstall.sh,rust-installer-version,components}
+    rm -rf "$PKG/etc"              \
+        "$PKG/usr/share/"{zsh,doc} \
+        "$PKG/usr/lib/rustlib/"{uninstall.sh,rust-installer-version,components}
 }
