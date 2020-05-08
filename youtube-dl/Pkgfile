@@ -4,8 +4,8 @@
 # Depends on  : python3
 
 name=youtube-dl
-version=2020.05.03
-release=3
+version=2020.05.08
+release=1
 source=("https://$name.org/downloads/$version/$name-$version.tar.gz")
 
 build() {
