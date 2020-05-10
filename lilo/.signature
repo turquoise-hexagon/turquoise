@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw3RUe0hFkCRfnCj7bG0T/URwMybC507mrDBy5IyJozesGC/dfJdBrENHulKSkOfNgAoU/zUlAagt8z7Kz3SvsAE=
-SHA256 (Pkgfile) = a252b57f188ff31fc0865f7ca130b9ab6221e975d91162a934701c7075a2a9d8
+RWTOjBUiTG/Uw6UA7mDkpJXAa6xHKWg2oX/+Y4FmI2zmS5oaeMAogy/V5TBdnfrPP9Okgp2qbXas2bFeNN9335NJu6nMWpgtCAA=
+SHA256 (Pkgfile) = 769f5d2fbe32731cb9f8ac979a56d5c581a08e3f2c5cc17ec736a7355bd2ceda
 SHA256 (.footprint) = 0ec118c0155abdcd2374fbf1454e52ff9619bd8e4017e0268345b82a95c3173c
 SHA256 (lilo-24.2.tar.gz) = e158f19de4560c935ebe0507c21b79bff17618b9230d8076fe8c5fff9fdbd5b1
 SHA256 (lilo.conf) = 0f2341fdee77dea09dcd8c30b81243fc3a01d2dd70bddbbb7d00982afa1b8271

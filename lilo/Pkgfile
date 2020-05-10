@@ -5,7 +5,7 @@
 
 name=lilo
 version=24.2
-release=1
+release=2
 source=(
 "https://www.joonet.de/$name/ftp/sources/$name-$version.tar.gz"
 "$name.conf"
@@ -17,7 +17,7 @@ build() {
 
     patch -p 1 -i "$SRC/config.patch"
 
-    make all CFLAGS="$CFLAGS"
+    make all CFLAGS+=' -fcommon'
     make DESTDIR="$PKG" install
 
     install -Dm 644 "$SRC/lilo.conf" "$PKG/etc"
