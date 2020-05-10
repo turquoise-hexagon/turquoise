@@ -1,0 +1,10 @@
+--- old/src/mpdpp.h	2020-05-10 10:59:46.475996393 +0200
++++ ncmpcpp-0.8.2/src/mpdpp.h	2020-05-10 11:12:27.902014490 +0200
+@@ -23,6 +23,7 @@
+ 
+ #include <cassert>
+ #include <exception>
++#include <stdexcept>
+ #include <random>
+ #include <set>
+ #include <vector>

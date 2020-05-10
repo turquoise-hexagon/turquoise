@@ -1,0 +1,82 @@
+--- old/Makefile	2014-10-19 09:31:10.871906282 +0200
++++ new/Makefile	2014-10-19 09:33:40.570016027 +0200
+@@ -12,7 +12,6 @@
+ #
+ all: test
+ 	make -C src all
+-	make -C images all
+ 
+ #
+ #  make help
+@@ -45,7 +44,6 @@
+ #
+ alles: test
+ 	$(MAKE) -C src alles
+-	$(MAKE) -C images all
+ 
+ #
+ # documentation files
+@@ -104,12 +102,8 @@
+ #
+ install:  all
+ 	$(MAKE) -C src install
+-	$(MAKE) -C images install
+-	$(MAKE) -C hooks install
+-	$(MAKE) -C sample install
+ 	$(MAKE) -C scripts install
+ 	$(MAKE) -C man install
+-	$(MAKE) -C dos install
+ 
+ tidy:
+ 	$(MAKE) -C src tidy
+--- old/make.vars	2015-07-26 16:42:59.144497363 +0200
++++ new/make.vars	2015-07-26 16:43:49.518277641 +0200
+@@ -70,7 +70,7 @@
+ #   XL_SECS=n   Support for extra large (non-standard) floppies.
+ 
+ CONFIG=-DBDATA -DDSECS=3 -DEVMS -DIGNORECASE -DLVM -DNOKEYBOARD -DONE_SHOT \
+-    -DPASS160 -DREISERFS -DREWRITE_TABLE -DSOLO_CHAIN -DVERSION -DVIRTUAL \
++    -DPASS160 -DREISERFS -DREWRITE_TABLE -DSOLO_CHAIN -DVIRTUAL \
+     -DMDPRAID -DDEVMAPPER
+    
+ # set the following if you wish LILO.COM to be installed
+--- old/man/Makefile	2014-10-19 09:31:10.868573065 +0200
++++ new/man/Makefile	2014-10-19 09:31:38.537607503 +0200
+@@ -12,7 +12,7 @@
+ 
+ PODFILES  := lilo-uuid-diskid lilo liloconfig
+ MANFILES5 := lilo.conf
+-MANFILES8 := keytab-lilo lilo-uuid-diskid lilo liloconfig mkrescue
++MANFILES8 := keytab-lilo lilo-uuid-diskid lilo
+ 
+ all:
+ 
+--- old/scripts/Makefile	2014-10-19 09:31:10.871906282 +0200
++++ new/scripts/Makefile	2014-10-19 09:31:38.537607503 +0200
+@@ -15,7 +15,6 @@
+ install:
+ 	mkdir -p $$DESTDIR$(USRSBIN_DIR)
+ 
+-	install -m 0755  liloconfig  $$DESTDIR$(USRSBIN_DIR)
+ 	install -m 0755  lilo-uuid-diskid  $$DESTDIR$(USRSBIN_DIR)
+ 
+ clean:
+--- old/src/Makefile	2014-10-19 09:31:10.868573065 +0200
++++ new/src/Makefile	2014-10-19 09:34:59.340601665 +0200
+@@ -47,7 +47,7 @@
+ #
+ # everything needed to run, just short of installation
+ #
+-all:	lilo bootsect.b
++all:	lilo 
+ 
+ #
+ # everything above plus the statically linked version
+@@ -248,7 +248,6 @@
+ 	  strip lilo.static; \
+ 	  cp lilo.static $$DESTDIR$(SBIN_DIR)/lilo.static; \
+ 	fi
+-	cp ../mkrescue $$DESTDIR$(USRSBIN_DIR)/mkrescue
+ 	cp ../keytab-lilo.pl $$DESTDIR$(USRSBIN_DIR)/keytab-lilo
+ 
+ dep:

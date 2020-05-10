@@ -1,0 +1,24 @@
+# Description : A classic bootloader for GNU/Linux systems
+# URL         : https://www.joonet.de/lilo/
+# Maintainer  : camille, camille at lzr dot pw 
+# Depends on  : libdevmapper
+
+name=lilo
+version=24.2
+release=1
+source=(
+"https://www.joonet.de/$name/ftp/sources/$name-$version.tar.gz"
+"$name.conf"
+config.patch
+)
+
+build() {
+    cd "$name-$version"
+
+    patch -p 1 -i "$SRC/config.patch"
+
+    make all CFLAGS="$CFLAGS"
+    make DESTDIR="$PKG" install
+
+    install -Dm 644 "$SRC/lilo.conf" "$PKG/etc"
+}
