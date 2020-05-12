@@ -20,7 +20,7 @@ wait_connection() {
 }
 
 print_status() {
-    $SSD -T -p $2
+    "$SSD" -T -p $2
 
     case $? in
         3) echo "$1 isn't running";;
@@ -32,22 +32,22 @@ print_status() {
 
 case $1 in
     start)
-        $SSD -S -bmC -p $PID_WIFI -x $PROG_WIFI -- $OPTS_WIFI &&
-        $SSD -S      -p $PID_DHCP -x $PROG_DHCP -- $OPTS_DHCP || var=1
+        "$SSD" -S -bmC -p "$PID_WIFI" -x "$PROG_WIFI" -- $OPTS_WIFI &&
+        "$SSD" -S      -p "$PID_DHCP" -x "$PROG_DHCP" -- $OPTS_DHCP || var=1
 
         wait_connection
         ;;
     stop)
-        $SSD -K -R 10 -p $PID_DHCP || var=1
-        $SSD -K -R 10 -p $PID_WIFI || var=1
+        "$SSD" -K -R 10 -p "$PID_DHCP" || var=1
+        "$SSD" -K -R 10 -p "$PID_WIFI" || var=1
         ;;
     restart)
         $0 stop
         $0 start
         ;;
     status)
-        print_status $PROG_WIFI $PID_WIFI
-        print_status $PROG_DHCP $PID_DHCP
+        print_status "$PROG_WIFI" "$PID_WIFI"
+        print_status "$PROG_DHCP" "$PID_DHCP"
         ;;
     *) echo "usage : ${0##*/} [start|stop|restart|status]"
 esac
