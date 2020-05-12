@@ -1,11 +1,11 @@
 # Description : Modified notify-send for dunst
 # URL         : https://github.com/dunst-project/dunst
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : dunst
+# Depends on  : dunst libnotify
 
 name=dunstify
 version=1.4.1
-release=1
+release=2
 source=("https://github.com/dunst-project/dunst/archive/v$version.tar.gz")
 
 build() {
