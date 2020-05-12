@@ -7,18 +7,18 @@ PROG=/usr/bin/mpd
 OPTS=
 
 case $1 in
-    start) $SSD -S -x $PROG -- $OPTS;;
-    stop)  $SSD -K -R 10 -x $PROG;;
+    start) "$SSD" -S -x "$PROG" -- $OPTS;;
+    stop)  "$SSD" -K -R 10 -x "$PROG";;
     restart)
         $0 stop
         $0 start
         ;;
     status)
-        $SSD -T -x $PROG
+        "$SSD" -T -x "$PROG"
 
         case $? in
             3) echo "$PROG isn't running";;
-            0) echo "$PROG is running with pid $(pidof $PROG)";;
+            0) echo "$PROG is running with pid $(pidof "$PROG")";;
             1) echo "$PROG isn't running but the pid file $PID exists";;
             4) echo "unable to determine the program status"
         esac
