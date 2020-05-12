@@ -20,7 +20,7 @@ wait_connection() {
 }
 
 print_status() {
-    "$SSD" -T -p $2
+    "$SSD" -T -p "$2"
 
     case $? in
         3) echo "$1 isn't running";;
