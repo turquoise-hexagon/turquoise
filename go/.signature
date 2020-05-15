@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9C/T3Rl1Ky/fYpsxaZotPFt992vTpH+xVVa+zqcYEBPwj5EtED1eAizBQ7c/Yw/iS3uyTHIDvLC4PZ8PjViZg0=
-SHA256 (Pkgfile) = 29d759a5e081588bae7cd407917a5f770930a0bd992cb27da4fad165802f05d8
-SHA256 (.footprint) = 2afa29aa22950908108a662964f6f078aefa329b6eb8e4ff7cef6cdde3331b48
-SHA256 (go1.14.2.src.tar.gz) = 98de84e69726a66da7b4e58eac41b99cbe274d7e8906eeb8a5b7eb0aadee7f7c
-SHA256 (go1.14.2.linux-amd64.tar.gz) = 6272d6e940ecb71ea5636ddb5fab3933e087c1356173c61f4a803895e947ebb3
+RWTOjBUiTG/Uwya22VwmAAfcAkTK8jpw6iqdbZbprGCn/NLMg/fQOau54EjKNvd+M7ckSBe4mMxSOeR/Uj8EAFZrbFl5QqOUlAo=
+SHA256 (Pkgfile) = eb26055fa3ca0a63c01d17414135b1bebf494c3ada32b08d02b03ff2614d3c7e
+SHA256 (.footprint) = 3e31a1717331c32008e40ce5dbb67fe59f5216fa3bf239bf53736a469d073dab
+SHA256 (go1.14.3.src.tar.gz) = 93023778d4d1797b7bc6a53e86c3a9b150c923953225f8a48a2d5fabc971af56
+SHA256 (go1.14.3.linux-amd64.tar.gz) = 1c39eac4ae95781b066c144c58e45d6859652247f7515f0d2cba7be7d57d2226
