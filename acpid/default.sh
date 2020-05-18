@@ -1,4 +1,6 @@
 #!/bin/sh
+#
+# default.sh - default acpi events handling script
 
 case $1 in
     button/power)

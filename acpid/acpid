@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# start / stop acpid
+# acpid - start / stop acpid
 
 SSD=/sbin/start-stop-daemon
 PROG=/usr/sbin/acpid

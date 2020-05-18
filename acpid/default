@@ -1,4 +1,4 @@
-# acpid events configuration
+# default - pass all events to handler script
 
 event=.*
 action=/etc/acpi/default.sh %e
