@@ -1,4 +1,4 @@
-# system-wide defaults for bash login shells
+# bashrc - system-wide defaults for bash login shells
 
 if [ "$UID" -eq 0 ]; then
     PATH="/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin"

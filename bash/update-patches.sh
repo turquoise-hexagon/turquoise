@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# update-patches.sh - update patches tarball
 
 . Pkgfile
 
