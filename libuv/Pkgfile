@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libuv
-version=1.37.0
+version=1.38.0
 release=1
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
