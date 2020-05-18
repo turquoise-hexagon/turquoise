@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# start / stop mpd
+# mpd - start / stop mpd
 
 SSD=/sbin/start-stop-daemon
 PROG=/usr/bin/mpd
