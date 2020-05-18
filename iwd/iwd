@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# start / stop iwd
+# iwd - start / stop iwd
 
 SSD=/sbin/start-stop-daemon
 PROG_DHCP=/sbin/dhcpcd
