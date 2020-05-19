@@ -4,8 +4,8 @@
 # Depends on  : perl
 
 name=cloc
-version=1.84
-release=2
+version=1.86
+release=1
 source=("https://github.com/aldanial/$name/releases/download/$version/$name-$version.pl")
 
 build() {
