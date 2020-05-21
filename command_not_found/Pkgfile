@@ -4,7 +4,7 @@
 
 name=command_not_found
 version=git
-release=1
+release=2
 source=()
 
 download() {
@@ -25,5 +25,5 @@ build() {
     cd "$name"
     ./make.sh
 
-    install -Dm755 "bin/${name}_helper" -t "$PKG/usr/bin"
+    install -Dm755 "bin/$name" -t "$PKG/usr/bin"
 }
