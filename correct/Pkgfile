@@ -1,10 +1,11 @@
-# Description : A command_not_found program
-# URL         : https://github.com/turquoise-hexagon/command_not_found
+# Description : Correct a given string to a valid command 
+# URL         : https://github.com/turquoise-hexagon/correct
 # Maintainer  : camille, camille at lzr dot pw
+# Depends on  : docutils
 
-name=command_not_found
+name=correct
 version=git
-release=2
+release=1
 source=()
 
 download() {
@@ -23,7 +24,10 @@ build() {
     download "https://github.com/turquoise-hexagon/$name" master
 
     cd "$name"
-    ./make.sh
 
-    install -Dm755 "bin/$name" -t "$PKG/usr/bin"
+    ./make.sh
+    doc/make.sh
+
+    install -Dm755 "bin/$name"      -t "$PKG/usr/bin"
+    install -Dm644 "doc/$name.1.gz" -t "$PKG/usr/share/man/man1"
 }
