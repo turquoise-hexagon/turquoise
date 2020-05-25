@@ -1,0 +1,17 @@
+# Description : A program that displays statistics about your code
+# URL         : https://github.com/xampprocky/tokei
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : rust
+
+name=tokei
+version=11.2.0
+release=1
+source=("https://github.com/xampprocky/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    cargo build --release --locked
+
+    install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
+}
