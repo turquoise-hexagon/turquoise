@@ -1,11 +1,11 @@
-# Description : Correct a given string to a valid command 
+# Description : Correct a given string to a valid command
 # URL         : https://github.com/turquoise-hexagon/correct
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : docutils
 
 name=correct
 version=git
-release=1
+release=2
 source=()
 
 download() {
