@@ -1808,6 +1808,9 @@ drwxr-xr-x	root/root	usr/lib/go/src/cmd/doc/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/doc/main.go
 -rw-r--r--	root/root	usr/lib/go/src/cmd/doc/pkg.go
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/doc/testdata/
+drwxr-xr-x	root/root	usr/lib/go/src/cmd/doc/testdata/merge/
+-rw-r--r--	root/root	usr/lib/go/src/cmd/doc/testdata/merge/aa.go
+-rw-r--r--	root/root	usr/lib/go/src/cmd/doc/testdata/merge/bb.go
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/doc/testdata/nested/
 drwxr-xr-x	root/root	usr/lib/go/src/cmd/doc/testdata/nested/empty/
 -rw-r--r--	root/root	usr/lib/go/src/cmd/doc/testdata/nested/empty/empty.go
