@@ -11,14 +11,6 @@ PID_WIFI=/var/run/iwd.pid
 OPTS_DHCP=
 OPTS_WIFI=
 
-wait_connection() {
-    until iwgetid > /dev/null; do
-        [ $((i = i + 1)) -lt 50 ] || break
-
-        sleep 0.2
-    done
-}
-
 print_status() {
     "$SSD" -T -p "$2"
 
@@ -34,8 +26,6 @@ case $1 in
     start)
         "$SSD" -S -bmC -p "$PID_WIFI" -x "$PROG_WIFI" -- $OPTS_WIFI &&
         "$SSD" -S      -p "$PID_DHCP" -x "$PROG_DHCP" -- $OPTS_DHCP || var=1
-
-        wait_connection
         ;;
     stop)
         "$SSD" -K -R 10 -p "$PID_DHCP" || var=1
