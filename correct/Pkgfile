@@ -5,7 +5,7 @@
 
 name=correct
 version=git
-release=2
+release=3
 source=()
 
 download() {
@@ -25,9 +25,6 @@ build() {
 
     cd "$name"
 
-    ./make.sh
-    doc/make.sh
-
-    install -Dm755 "bin/$name"      -t "$PKG/usr/bin"
-    install -Dm644 "doc/$name.1.gz" -t "$PKG/usr/share/man/man1"
+    make
+    make DESTDIR="$PKG" install
 }
