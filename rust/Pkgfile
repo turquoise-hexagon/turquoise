@@ -4,17 +4,12 @@
 # Depends on  : llvm python3
 
 name=rust
-version=1.43.1
+version=1.44.0
 release=1
-source=(
-"https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz"
-python.patch
-)
+source=("https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz")
 
 build() {
     cd "${name}c-$version-src"
-
-    patch -p 1 -i "$SRC/python.patch"
 
     ./configure --prefix=/usr
 
