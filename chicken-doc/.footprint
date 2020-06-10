@@ -601,6 +601,9 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/freetype/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/freetype/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/freetype/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/freetype/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ftl/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ftl/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ftl/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/fuse/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/fuse/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/fuse/,meta
@@ -1032,6 +1035,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/postgresql/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/postgresql/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/postgresql/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/postgresql/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/premodules/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/,meta
