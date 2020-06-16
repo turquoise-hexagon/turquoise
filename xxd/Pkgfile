@@ -4,10 +4,9 @@
 
 name=xxd
 version=8.2.0411
-release=1
+release=2
 source=(
-"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/$name.c"
-"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/Makefile"
+"https://raw.githubusercontent.com/vim/vim/v$version/src/$name/"{$name.c,Makefile}
 "https://raw.githubusercontent.com/vim/vim/v$version/runtime/doc/$name.1"
 )
 
