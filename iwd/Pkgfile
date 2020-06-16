@@ -4,8 +4,8 @@
 # Depends on  : readline dbus
 
 name=iwd
-version=1.7
-release=4
+version=1.8
+release=1
 source=(
 "https://www.kernel.org/pub/linux/network/wireless/$name-$version.tar.xz"
 "$name"
