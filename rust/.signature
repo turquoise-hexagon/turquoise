@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw0+bES69COLL3gT0T4hE/puAUFWz8C2Ur0xund36dO0+fDD7/Wtzv3Lpnz5LYwsGA/Sdv70cZ7zZRyEwXpCxQgg=
-SHA256 (Pkgfile) = e19ebb1ef0f13dd13ae68bbedac05a39112089e0ce7ddebfbbe6131e92cc8fcb
-SHA256 (.footprint) = 95d168068152c75512f4d7f3ebd0b2b965294bef8bbac37cc8f6499e54607724
-SHA256 (rustc-1.44.0-src.tar.gz) = bf2df62317e533e84167c5bc7d4351a99fdab1f9cd6e6ba09f51996ad8561100
+RWTOjBUiTG/UwwtYI3lbbhBkXoRjzUsHnJPh5nMX8mkxeUos+W6nC6NLp1/MudPqr6Xr+g6R6Ejjp2aMk33YJVQADQRd54n73QE=
+SHA256 (Pkgfile) = 0eed9dca521210d781e6b921f8ca4bdbfc57046a262c8a9a6b1b87d36dc96d0d
+SHA256 (.footprint) = 590198966fb49027319241b35e8464ece4f050de95e15213298aa44a44fcc049
+SHA256 (rustc-1.44.1-src.tar.gz) = 7e2e64cb298dd5d5aea52eafe943ba0458fa82f2987fdcda1ff6f537b6f88473
