@@ -4,8 +4,8 @@
 # Depends on  : xorg-libx11
 
 name=colorpicker
-commit=419958fc9c81c669ddc153ae5658e6ce198ae335
-version=20190725
+commit=b48e03610a02d43d55d0fa0c96132186e59a560a
+version=20200620
 release=1
 source=("https://github.com/ym1234/$name/archive/$commit.tar.gz")
 
@@ -13,5 +13,5 @@ build() {
     cd "$name-$commit"
 
     make
-    install -Dm755 "$name" -t "$PKG/usr/bin"
+    make DESTDIR="$PKG" install
 }
