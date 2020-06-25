@@ -141,6 +141,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/box/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/box/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/box/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/box/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/breadcrumbs/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/breadcrumbs/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/breadcrumbs/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/breadcrumbs/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/breadline/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/breadline/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/breadline/,meta
