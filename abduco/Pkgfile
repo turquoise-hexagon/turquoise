@@ -1,0 +1,16 @@
+# Description : Abduco provides session management
+# URL         : https://www.brain-dump.org/projects/abduco
+# Maintainer  : camille, camille at lzr dot pw
+
+name=abduco
+commit=a75f3e7261ee07dc592d64e9020e9dfda7a395ff
+version=20200420
+release=1
+source=("https://github.com/martanne/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share install
+}
