@@ -5,12 +5,12 @@
 name=abduco
 commit=a75f3e7261ee07dc592d64e9020e9dfda7a395ff
 version=20200420
-release=1
+release=2
 source=("https://github.com/martanne/$name/archive/$commit.tar.gz")
 
 build() {
     cd "$name-$commit"
 
     make
-    make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share install
+    make DESTDIR="$PKG" PREFIX=/usr MANPREFIX=/usr/share/man install
 }
