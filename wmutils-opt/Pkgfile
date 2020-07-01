@@ -4,8 +4,8 @@
 # Depends on  : xorg-libxcb xorg-xcb-util
 
 name=wmutils-opt
-commit=5ebd2f36a994fe9a5c75791a2328ac01ef94cddb
-version=20191113
+commit=310db26a520c7ef562c9c3dd0999815e1a23ae6f
+version=20200701
 release=1
 source=("https://github.com/${name%-*}/${name#*-}/archive/$commit.tar.gz")
 
