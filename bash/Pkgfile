@@ -4,22 +4,24 @@
 # Depends on  : readline
 
 name=bash
-version=5.0.17
-release=2
+version=5.1.0
+release=1
 source=(
-"https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
+"https://ftp.gnu.org/gnu/$name/$name-${version%.*}-alpha.tar.gz"
 patches.tar.gz
 profile
 )
 
 build() {
-    cd "$name-${version%.*}"
+    cd "$name-${version%.*}-alpha"
+
+    shopt -s nullglob
 
     for patch in "$SRC/patches/"*; do
         patch -p 0 -i "$patch"
     done
 
-    export CFLAGS+=' -Ofast'
+    shopt -u nullglob
 
     ./configure        \
         --prefix=/usr  \
