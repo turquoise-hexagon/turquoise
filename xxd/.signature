@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw0QQWvGZMzShKtiCZVB1WEYgbgo9PNzkPVQPBBf2IWleqY9cpCaj3HnvBL7bvaml4cRa7ZLZwB2bp+z+GenWqgc=
-SHA256 (Pkgfile) = 026288122a2fd0a9eb11b6461f26fe2c00b2e4a3ccae0d7883a1bb79773601ea
+RWTOjBUiTG/Uw4FyIiboQOP+sSAiDKeU/0YmYYiqnx9mx4hk+p/H49jiDhtpc560+ayx+ZL10+3ysngYeqVe5CofxDniWapIWQY=
+SHA256 (Pkgfile) = f13dd6fdb487f13389411b97b82b43fbd389fe132aa795c23abb4ec1ad972a9d
 SHA256 (.footprint) = de26d47750380345574df1f5ff8a43a4da59cdb810bf5611dd25f38c1119f5e0
-SHA256 (xxd.c) = ab5d30bec175b77276331d176b6b75a524c4ec71c87b7b94eafbcbda8e9790f6
+SHA256 (xxd.c) = c3ff5f0afc4a9615a2a2ce6b0f0d266397fa3dab3e3ec431564a811df8fba0ad
 SHA256 (Makefile) = 96d7229490da56fbf6cae3791407238636b2979e1f607e535f55ec26068303c5
 SHA256 (xxd.1) = 343f65c3a75affcec6013fb308ae895b4dbded24fd1847b6b97247d343f70f56
