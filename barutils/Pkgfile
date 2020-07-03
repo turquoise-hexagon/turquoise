@@ -1,0 +1,29 @@
+# Description : A set of utilities for lemonbar
+# URL         : https://github.com/turquoise-hexagon/barutils
+# Maintainer  : camille, camille at lzr dot pw
+
+name=barutils
+version=git
+release=1
+source=()
+
+download() {
+    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
+        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
+        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    else
+        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+    fi
+
+    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+}
+
+build() {
+    download "https://github.com/turquoise-hexagon/$name" master
+
+    cd "$name"
+
+    make
+    make DESTDIR="$PKG" install
+}
