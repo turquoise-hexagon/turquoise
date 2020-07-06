@@ -1,11 +1,11 @@
-# Description : Wraps a set of bdf or pcf bitmap fonts in a sfnt wrappe
+# Description : Wraps a set of bdf or pcf bitmap fonts in a sfnt wrapper
 # URL         : http://xorg.freedesktop.org
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : freetype xorg-xorgproto
 
 name=xorg-fonttosfnt
 version=1.1.0
-release=3
+release=4
 source=("https://gitlab.freedesktop.org/xorg/app/${name#*-}/-/archive/${name#*-}-$version/${name#*-}-${name#*-}-$version.tar.gz")
 
 build() {
