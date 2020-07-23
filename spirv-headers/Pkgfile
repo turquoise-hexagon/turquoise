@@ -4,12 +4,13 @@
 # Depends on  : cmake ninja
 
 name=spirv-headers
-version=1.5.3
+commit=979924c8bc839e4cb1b69d03d48398551f369ce7
+version=20200721
 release=1
-source=("https://github.com/khronosgroup/$name/archive/$version.tar.gz")
+source=("https://github.com/khronosgroup/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "SPIRV-Headers-$version"
+    cd "SPIRV-Headers-$commit"
 
     mkdir build
     cd    build
