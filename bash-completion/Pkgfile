@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=bash-completion
-version=2.10
+version=2.11
 release=1
 source=("https://github.com/scop/$name/releases/download/$version/$name-$version.tar.xz")
 

@@ -93,6 +93,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/autoupdate -> autosca
 -rw-r--r--	root/root	usr/share/bash-completion/completions/badblocks
 -rw-r--r--	root/root	usr/share/bash-completion/completions/bind
 -rw-r--r--	root/root	usr/share/bash-completion/completions/bk
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/bmake -> make
 -rw-r--r--	root/root	usr/share/bash-completion/completions/brctl
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/bsdtar -> tar
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/btdownloadcurses.py -> btdownloadheadless.py
@@ -315,6 +316,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/insmod.static -> insm
 -rw-r--r--	root/root	usr/share/bash-completion/completions/interdiff
 -rw-r--r--	root/root	usr/share/bash-completion/completions/invoke-rc.d
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ip
+-rw-r--r--	root/root	usr/share/bash-completion/completions/ipcalc
 -rw-r--r--	root/root	usr/share/bash-completion/completions/iperf
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/iperf3 -> iperf
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ipmitool
@@ -514,6 +516,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/postalias -> postmap
 -rw-r--r--	root/root	usr/share/bash-completion/completions/povray
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/ppc-koji -> koji
 -rw-r--r--	root/root	usr/share/bash-completion/completions/prelink
+-rw-r--r--	root/root	usr/share/bash-completion/completions/printenv
 -rw-r--r--	root/root	usr/share/bash-completion/completions/protoc
 -rw-r--r--	root/root	usr/share/bash-completion/completions/psql
 -rw-r--r--	root/root	usr/share/bash-completion/completions/puppet
@@ -554,7 +557,14 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pytest-2 -> pytest
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pytest-3 -> pytest
 -rw-r--r--	root/root	usr/share/bash-completion/completions/python
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python2 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python2.7 -> python
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.3 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.4 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.5 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.6 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.7 -> python
+lrwxrwxrwx	root/root	usr/share/bash-completion/completions/python3.8 -> python
 -rw-r--r--	root/root	usr/share/bash-completion/completions/pyvenv
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pyvenv-3.4 -> pyvenv
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pyvenv-3.5 -> pyvenv
@@ -607,6 +617,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/scp -> ssh
 -rw-r--r--	root/root	usr/share/bash-completion/completions/screen
 -rw-r--r--	root/root	usr/share/bash-completion/completions/scrub
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/sdptool -> hcitool
+-rw-r--r--	root/root	usr/share/bash-completion/completions/secret-tool
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/setquota -> quota
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/sftp -> ssh
 -rw-r--r--	root/root	usr/share/bash-completion/completions/sh
@@ -660,6 +671,7 @@ lrwxrwxrwx	root/root	usr/share/bash-completion/completions/tightvncviewer -> vnc
 -rw-r--r--	root/root	usr/share/bash-completion/completions/tracepath
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/tracepath6 -> tracepath
 -rw-r--r--	root/root	usr/share/bash-completion/completions/tshark
+-rw-r--r--	root/root	usr/share/bash-completion/completions/tsig-keygen
 -rw-r--r--	root/root	usr/share/bash-completion/completions/tune2fs
 lrwxrwxrwx	root/root	usr/share/bash-completion/completions/typeset -> function
 -rw-r--r--	root/root	usr/share/bash-completion/completions/ulimit
