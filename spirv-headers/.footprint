@@ -48,11 +48,13 @@ drwxr-xr-x	root/root	usr/include/spirv/unified1/
 -rw-r--r--	root/root	usr/include/spirv/unified1/AMD_shader_trinary_minmax.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/DebugInfo.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/GLSL.std.450.h
+-rw-r--r--	root/root	usr/include/spirv/unified1/NonSemanticClspvReflection.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/NonSemanticDebugPrintf.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/OpenCL.std.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/OpenCLDebugInfo100.h
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.debuginfo.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.glsl.std.450.grammar.json
+-rw-r--r--	root/root	usr/include/spirv/unified1/extinst.nonsemantic.clspvreflection.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.nonsemantic.debugprintf.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.opencl.debuginfo.100.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.opencl.std.100.grammar.json
