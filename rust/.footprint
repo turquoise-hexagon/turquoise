@@ -1,8 +1,10 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/cargo
+-rwxr-xr-x	root/root	usr/bin/cargo-clippy
 -rwxr-xr-x	root/root	usr/bin/cargo-fmt
 -rwxr-xr-x	root/root	usr/bin/cargo-miri
+-rwxr-xr-x	root/root	usr/bin/clippy-driver
 -rwxr-xr-x	root/root	usr/bin/miri
 -rwxr-xr-x	root/root	usr/bin/rls
 -rwxr-xr-x	root/root	usr/bin/rust-gdb
@@ -26,6 +28,7 @@ drwxr-xr-x	root/root	usr/lib/rustlib/etc/
 -rw-r--r--	root/root	usr/lib/rustlib/etc/lldb_rust_formatters.py
 -rw-r--r--	root/root	usr/lib/rustlib/install.log
 -rw-r--r--	root/root	usr/lib/rustlib/manifest-cargo
+-rw-r--r--	root/root	usr/lib/rustlib/manifest-clippy-preview
 -rw-r--r--	root/root	usr/lib/rustlib/manifest-miri-preview
 -rw-r--r--	root/root	usr/lib/rustlib/manifest-rls-preview
 -rw-r--r--	root/root	usr/lib/rustlib/manifest-rust-analysis-x86_64-unknown-linux-gnu
