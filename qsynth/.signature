@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw5BwU/NTi4LUL9khgvN9JVjfa1c7eDqW9q2pCGHaIcGrwRgt7Z5489yczDcats+DOr3cJygyNjU2usQH3r3agw4=
-SHA256 (Pkgfile) = 4adf320de148225750394398019af73829abe4a071227b38a84a61cdd2c6a97f
+RWTOjBUiTG/UwzpCj8JE+lfDRYsZ2h0mA1/TeC3MEs25ZArjFUxKP6/J8eoQZC5KuBIx5SLvOZhkEOMygCSfuJlVLrySnqTnaQY=
+SHA256 (Pkgfile) = 7960db8c711f8ee5443d494a4dd9a08e80e4b72cfe58fb7ae7fcc4c3daa46c06
 SHA256 (.footprint) = 53e5ff388c1d44653b0df3cd88528cc406e2a9613df2d6a4c639978fc1038c5a
-SHA256 (qsynth-0.6.2.tar.gz) = 9b5af9747875ff49eb40ab7860a4bbfc1f49cccb783b7cd4d8f90c9971dee632
+SHA256 (qsynth-0.6.3.tar.gz) = 1b5733d35b4b24679d59812cf9a5f3152ac0c78046ba1db71870cb7effad3876
