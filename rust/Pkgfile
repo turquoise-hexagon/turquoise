@@ -4,7 +4,7 @@
 # Depends on  : llvm python3
 
 name=rust
-version=1.45.2
+version=1.46.0
 release=1
 source=("https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz")
 
