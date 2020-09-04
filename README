@@ -5,4 +5,5 @@ turquoise
 usage
 -----
     # cp turquoise.git /etc/ports
+    # echo 'prtdir /usr/ports/turquoise' >> /etc/prt-get.conf
     # prt-get update
