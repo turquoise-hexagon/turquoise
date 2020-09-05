@@ -9,8 +9,8 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libvterm.a
 -rwxr-xr-x	root/root	usr/lib/libvterm.la
-lrwxrwxrwx	root/root	usr/lib/libvterm.so -> libvterm.so.0.0.3
-lrwxrwxrwx	root/root	usr/lib/libvterm.so.0 -> libvterm.so.0.0.3
--rwxr-xr-x	root/root	usr/lib/libvterm.so.0.0.3
+lrwxrwxrwx	root/root	usr/lib/libvterm.so -> libvterm.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/libvterm.so.0 -> libvterm.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/libvterm.so.0.0.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/vterm.pc
