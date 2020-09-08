@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9etAtCU1YYbt45XWrh/RqLH9OqmSqiL54okO2N3C65LPCg00wfPnn9q8o/v++Cuet4IEM6b9EskfkvaaxZNhAs=
-SHA256 (Pkgfile) = a174eecece1edec697b571a7c6a91e1d9b23a62a026afe2e0f759d98624505ac
+RWTOjBUiTG/Uw9Tg0tlFxAx7jZ7N05TJdJbVXkI5cJoB8tjZMAw2YTniSd01xP4uDjrBceYOyfXjqXJTltOj7D1qUAOO8foClgk=
+SHA256 (Pkgfile) = 7fb1788e8b69edd5dc503e43d5616b54837f884453465c9679c3984769477c9d
 SHA256 (.footprint) = b61fe6c5b198dad9816027e35d9aacfb4c4afad72dfdb2c1c06cf3168fa91193
-SHA256 (wendy-2.0.tar.bz2) = ad3be294d7285f8e0a285dc6c02840f2b911620e2d721a94e60db68ffe124930
-SHA256 (basename.patch) = 62c7300d15f8c1f19521a8a5c6817d5f48b5b32f7746178d18f970807781d786
+SHA256 (wendy-2.1.tar.bz2) = 2a664acd41b5ccc34b77ce188ed06efbc2375fa9a561a1f2881574a442cafb17
