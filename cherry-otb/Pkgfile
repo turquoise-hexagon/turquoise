@@ -1,11 +1,11 @@
 # Description : A bitmap font made for latin-1
 # URL         : https://github.com/turquoise-hexagon/cherry
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig fonttosfnt
+# Depends on  : xorg-mkfontscale fontconfig xorg-fonttosfnt
 
 name=cherry-otb
 version=1.4
-release=1
+release=2
 source=("https://github.com/turquoise-hexagon/${name%-*}/archive/$version.tar.gz")
 
 build() {
