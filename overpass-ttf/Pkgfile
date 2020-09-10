@@ -1,11 +1,11 @@
 # Description : An open source font family
 # URL         : http://overpassfont.org
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
+# Depends on  : xorg-mkfontscale fontconfig
 
 name=overpass-ttf
 version=3.0.4
-release=1
+release=2
 source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
 
 build() {
