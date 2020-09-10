@@ -1,12 +1,12 @@
 # Description : Noto fonts
 # URL         : https://www.google.com/get/noto
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : xorg-mkfontdir xorg-mkfontscale fontconfig
+# Depends on  : xorg-mkfontscale fontconfig
 
 name=noto-ttf
 commit=d282cf7c2caa0eb007093fe9c4488ac0b41b7361
 version=20200908
-release=1
+release=2
 source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
 
 build() {
