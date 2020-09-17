@@ -4,12 +4,12 @@
 
 name=gh
 version=1.0.0
-release=1
+release=2
 source=("https://github.com/cli/cli/releases/download/v$version/${name}_${version}_linux_amd64.tar.gz")
 
 build() {
     cd "${name}_${version}_linux_amd64"
 
-    install -Dm755 "bin/$name"              -t "$PKG/usr/bin"
-    install -Dm644 "share/man/man1/$name.1" -t "$PKG/usr/share/man/man1"
+    install -Dm755 "bin/$name"        -t "$PKG/usr/bin"
+    install -Dm644 "share/man/man1/"* -t "$PKG/usr/share/man/man1"
 }
