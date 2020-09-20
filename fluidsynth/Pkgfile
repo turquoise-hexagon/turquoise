@@ -4,7 +4,7 @@
 # Depends on  : libsndfile cmake
 
 name=fluidsynth
-version=2.1.4
+version=2.1.5
 release=1
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
