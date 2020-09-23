@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.8.10.1
-release=1
+release=2
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
@@ -23,9 +23,8 @@ build() {
     sed -Ei 's|(EXTRAVERSION =).*|\1|' Makefile
 
     # compile with Ofast
-    grep -Rm1 -- '-O3' |
-        cut -d : -f1   |
-        xargs sed -i 's/-O3/-Ofast/g'
+    grep -l -r -- '-O3' |
+        xargs sed -i 's|-O3|-Ofast|g'
 
     make olddefconfig
     make all
