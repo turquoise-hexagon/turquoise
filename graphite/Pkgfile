@@ -1,0 +1,21 @@
+# Description : A "smart font" system
+# URL         : graphite.sil.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : cmake
+
+name=graphite
+version=1.3.14
+release=1
+source=("https://github.com/silnrsi/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    mkdir build
+    cd    build
+
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
