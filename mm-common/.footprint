@@ -30,7 +30,7 @@ drwxr-xr-x	root/root	usr/share/mm-common/build/
 drwxr-xr-x	root/root	usr/share/mm-common/doctags/
 -rw-r--r--	root/root	usr/share/mm-common/doctags/libstdc++.tag
 drwxr-xr-x	root/root	usr/share/mm-common/doctool/
--rw-r--r--	root/root	usr/share/mm-common/doctool/doc-install.pl
+-rwxr-xr-x	root/root	usr/share/mm-common/doctool/doc-install.pl
 -rw-r--r--	root/root	usr/share/mm-common/doctool/doc-postprocess.pl
 -rw-r--r--	root/root	usr/share/mm-common/doctool/doxygen-extra.css
 -rw-r--r--	root/root	usr/share/mm-common/doctool/doxygen.css
