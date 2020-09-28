@@ -154,7 +154,6 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedExtraLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedMedium.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedRegular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedSemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-CondensedThin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraBold.ttf
@@ -165,7 +164,6 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedExtraLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedMedium.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedRegular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedSemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraCondensedThin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-ExtraLight.ttf
@@ -180,7 +178,6 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedExtraLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedLight.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedMedium.ttf
--rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedRegular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedSemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-SemiCondensedThin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArabic-Thin.ttf
