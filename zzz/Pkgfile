@@ -1,0 +1,20 @@
+# Description : Really simple suspend script
+# URL         : https://github.com/void-linux/void-runit
+# Maintainer  : camille, camille at lzr dot pw
+
+name=zzz
+version=20200720
+release=1
+source=(
+"https://raw.githubusercontent.com/void-linux/void-runit/$version/$name"
+"https://raw.githubusercontent.com/void-linux/void-runit/$version/$name.8"
+)
+
+build() {
+    install -Dm755 "$name"   -t "$PKG/usr/bin"
+    install -Dm644 "$name.8" -t "$PKG/usr/share/man/man8"
+
+    ln -s "$name" "$PKG/usr/bin/${name^^}"
+
+    mkdir -p "$PKG/etc/$name.d/"{suspend,resume}
+}
