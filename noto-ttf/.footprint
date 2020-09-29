@@ -1051,6 +1051,10 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMasaramGondi-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMath-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMayanNumerals-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMedefaidrin-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMedefaidrin-Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMedefaidrin-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMedefaidrin-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMeeteiMayek-Black.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMeeteiMayek-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansMeeteiMayek-ExtraBold.ttf
