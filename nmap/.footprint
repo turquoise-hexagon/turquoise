@@ -95,6 +95,7 @@ drwxr-xr-x	root/root	usr/share/nmap/nselib/data/psexec/
 -rw-r--r--	root/root	usr/share/nmap/nselib/datetime.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/dhcp.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/dhcp6.lua
+-rw-r--r--	root/root	usr/share/nmap/nselib/dicom.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/dns.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/dnsbl.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/dnssd.lua
@@ -153,6 +154,7 @@ drwxr-xr-x	root/root	usr/share/nmap/nselib/data/psexec/
 -rw-r--r--	root/root	usr/share/nmap/nselib/oops.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/openssl.luadoc
 -rw-r--r--	root/root	usr/share/nmap/nselib/ospf.lua
+-rw-r--r--	root/root	usr/share/nmap/nselib/outlib.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/packet.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/pcre.luadoc
 -rw-r--r--	root/root	usr/share/nmap/nselib/pgsql.lua
@@ -297,6 +299,8 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/db2-das-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/deluge-rpc-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/dhcp-discover.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/dicom-brute.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/dicom-ping.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/dict-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/distcc-cve2004-2687.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/dns-blacklist.nse
@@ -787,6 +791,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/unittest.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/unusual-port.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/upnp-info.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/uptime-agent-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/url-snarf.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/ventrilo-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/versant-info.nse
