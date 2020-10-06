@@ -4,12 +4,17 @@
 # Depends on  : python3 spirv-headers
 
 name=spirv-tools
-version=2020.4
+version=2020.5
 release=1
-source=("https://github.com/khronosgroup/$name/archive/v$version.tar.gz")
+source=(
+"https://github.com/khronosgroup/$name/archive/v$version.tar.gz"
+libs.patch
+)
 
 build() {
     cd "SPIRV-Tools-$version"
+
+    patch -p 1 -i "$SRC/libs.patch"
 
     config=(
         -DCMAKE_INSTALL_PREFIX=/usr
