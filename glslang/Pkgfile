@@ -4,8 +4,8 @@
 # Depends on  : spirv-tools
 
 name=glslang
-commit=f05c076e26b04cbcc9bf2df815bbdc9c620d89ad
-version=20200927
+commit=d1929f359a1035cb169ec54630c24ae6ce0bcc21
+version=20201005
 release=1
 source=("https://github.com/khronosgroup/glslang/archive/$commit.tar.gz")
 
