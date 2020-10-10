@@ -1,9 +1,10 @@
 # Description : Unclutter your .profile
 # URL         : https://direnv.net
 # Maintainer  : camille, camille at lzr dot pw
+# Depends on  : patchelf
 
 name=direnv
-version=2.22.1
+version=2.23.0
 release=1
 source=(
 "https://github.com/$name/$name/releases/download/v$version/$name.linux-amd64"
@@ -11,6 +12,10 @@ source=(
 )
 
 build() {
+    # fix broken direnv
+    patchelf --set-interpreter \
+        '/lib/ld-linux-x86-64.so.2' "$name.linux-amd64"
+
     install -Dm755 "$name.linux-amd64"          "$PKG/usr/bin/$name"
     install -Dm644 "$name"{,-stdlib,.toml}.1 -t "$PKG/usr/share/man/man1"
 }
