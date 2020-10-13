@@ -1,15 +1,12 @@
 # Description : Collection of tools, libraries and tests for shader compilation.
 # URL         : https://github.com/google/shaderc
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : glslang
+# Depends on  : glslang asciidoctor
 
 name=shaderc
 version=2020.3
-release=1
-source=(
-"https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz"
-man.tar.gz
-)
+release=2
+source=("https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz")
 
 build() {
     cd "$name-$version"
@@ -41,5 +38,10 @@ build() {
 
     DESTDIR="$PKG" ninja install
 
-    install -Dm644 "$SRC/man/"{glslc,spvc}.1 -t "$PKG/usr/share/man/man1"
+    cd ..
+
+    for i in glslc spvc; {
+        asciidoctor -b manpage "$i/README.asciidoc" -o "$i/$i.1"
+        install -Dm644 "$i/$i.1" -t "$PKG/usr/share/man/man1"
+    }
 }
