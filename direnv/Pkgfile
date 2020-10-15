@@ -1,23 +1,16 @@
 # Description : Unclutter your .profile
 # URL         : https://direnv.net
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : patchelf
 
 name=direnv
 version=2.23.0
-release=2
+release=3
 source=(
 "https://github.com/$name/$name/releases/download/v$version/$name.linux-amd64"
 "https://raw.githubusercontent.com/$name/$name/v$version/man/$name"{,-stdlib,.toml}.1
 )
 
 build() {
-    # fix broken direnv
-    glibc_version=$(prt-get printf '%v' --filter=glibc)
-
-    patchelf --set-interpreter \
-        "/lib/ld-$glibc_version.so" "$name.linux-amd64"
-
     install -Dm755 "$name.linux-amd64"          "$PKG/usr/bin/$name"
     install -Dm644 "$name"{,-stdlib,.toml}.1 -t "$PKG/usr/share/man/man1"
 }
