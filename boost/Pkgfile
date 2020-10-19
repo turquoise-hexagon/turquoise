@@ -5,7 +5,7 @@
 
 name=boost
 version=1.74.0
-release=1
+release=2
 source=("https://dl.bintray.com/${name}org/release/$version/source/${name}_${version//./_}.tar.gz")
 
 build() {
