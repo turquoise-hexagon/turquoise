@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw8Q7VzPVvXhN/Jj6Vq0OQegKgSdoWdvp2YhxFif2tQm5hFXvLVzcPN5XjwLpR2sCsc0bP/a8jXpPppEUymAFuQc=
-SHA256 (Pkgfile) = 0593ccd052dd699e3555e113e0e8b9abdbc1399c4647143bbd401c86e793cc31
-SHA256 (.footprint) = 24a6bc6860d6fda6343090b97107a065ecc0553dd9a4520df9d91eb26981e9bd
-SHA256 (qt-everywhere-src-5.15.0.tar.xz) = 22b63d7a7a45183865cc4141124f12b673e7a17b1fe2b91e433f6547c5d548c3
+RWTOjBUiTG/Uw145gybig2wR0+CD5RMRilVEDR1AJQt3Xlv8Y/XCX8ZZoFghLGVeKw7aXNCAV2TFTqA2q4FFQv9RVTaCds2pbAk=
+SHA256 (Pkgfile) = 2fe212312a57ed59ce8f731b4a197aa5ca9243721ac53e5fe1621f6ff45bd053
+SHA256 (.footprint) = 88b9474120edce67046ed02d2356015021f2c0e1ce06546200ebf0a5f7806512
+SHA256 (qt-everywhere-src-5.15.1.tar.xz) = 44da876057e21e1be42de31facd99be7d5f9f07893e1ea762359bcee0ef64ee9
