@@ -4,8 +4,8 @@
 # Depends on  : xorg-xauth
 
 name=sx
-version=2.1.3
-release=2
+version=2.1.6
+release=1
 source=("https://github.com/earnestly/$name/archive/$version.tar.gz")
 
 build() {
