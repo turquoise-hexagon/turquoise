@@ -2225,4 +2225,8 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifTibetan-Thin.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifYezidi-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifYezidi-Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifYezidi-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSerifYezidi-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoTraditionalNushu-Regular.ttf
