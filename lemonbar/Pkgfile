@@ -1,13 +1,13 @@
 # Description : A featherweight, lemon-scented bar based on xcb
 # URL         : https://github.com/lemonboy/lemonbar
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : xorg-libxcb
+# Depends on  : xorg-libxcb xorg-libxrandr
 
 name=lemonbar
-commit=e85c5565c02d08fde795cb1f6ce2ffd05ffb28ef
-version=20190423
+commit=0ba790d6b773f02053daed76e684003652b040ab
+version=20201105
 release=1
-source=("https://github.com/expectocode/bar/archive/$commit.tar.gz")
+source=("https://github.com/lemonboy/bar/archive/$commit.tar.gz")
 
 build() {
     cd "bar-$commit"
