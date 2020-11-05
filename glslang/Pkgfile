@@ -4,13 +4,12 @@
 # Depends on  : spirv-tools
 
 name=glslang
-commit=8c1a3a06b86039cb41fa9b090ece846d31e6edc5
-version=20201104
+version=10-11.0.0
 release=1
-source=("https://github.com/khronosgroup/glslang/archive/$commit.tar.gz")
+source=("https://github.com/khronosgroup/glslang/archive/$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
     config=(
         -DCMAKE_INSTALL_PREFIX=/usr
