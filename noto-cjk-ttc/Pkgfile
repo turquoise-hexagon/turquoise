@@ -4,9 +4,9 @@
 # Depends on  : xorg-mkfontscale fontconfig
 
 name=noto-cjk-ttc
-commit=be6c059ac1587e556e2412b27f5155c8eb3ddbe6
-version=20190415
-release=2
+commit=782eab531e724779772302b835661b7b12a6b3a8
+version=20201105
+release=1
 source=("https://github.com/googlefonts/${name%-*}/archive/$commit.tar.gz")
 
 build() {
