@@ -218,6 +218,10 @@ drwxr-xr-x	root/root	usr/share/fonts/X11/TTF/
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArmenian-SemiCondensedThin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansArmenian-Thin.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansAvestan-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBalinese-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBalinese-Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBalinese-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBalinese-SemiBold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBamum-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBamum-Medium.ttf
 -rw-r--r--	root/root	usr/share/fonts/X11/TTF/NotoSansBamum-Regular.ttf
