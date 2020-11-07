@@ -4,8 +4,8 @@
 # Depends on  : xorg-libxcb xorg-libxrandr
 
 name=lemonbar
-commit=a0c7854ea32bd7be7b6f14c78a3eb250e8704f28
-version=20201105
+commit=0bfd555265c9ea4acbd81bc27320e61486c85e49
+version=20201106
 release=1
 source=("https://github.com/lemonboy/bar/archive/$commit.tar.gz")
 
