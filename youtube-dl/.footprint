@@ -10,12 +10,12 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.17-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.18-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/__init__.py
@@ -1192,8 +1192,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spankwire.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spiegel.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spiegel.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spiegeltv.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spiegeltv.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spike.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spike.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sport5.cpython-39.opt-1.pyc
@@ -2173,7 +2171,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spankbang.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spankwire.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spiegel.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spiegeltv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spike.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sport5.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sportbox.py
