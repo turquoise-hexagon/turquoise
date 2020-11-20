@@ -4,13 +4,12 @@
 # Depends on  : xorg-libxcb xorg-libxrandr
 
 name=lemonbar
-commit=0bfd555265c9ea4acbd81bc27320e61486c85e49
-version=20201106
+version=1.4
 release=1
-source=("https://github.com/lemonboy/bar/archive/$commit.tar.gz")
+source=("https://github.com/lemonboy/bar/archive/v$version.tar.gz")
 
 build() {
-    cd "bar-$commit"
+    cd "bar-$version"
 
     make DESTDIR="$PKG" install
 }
