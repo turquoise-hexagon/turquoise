@@ -4,8 +4,8 @@
 # Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver python3
 
 name=mpv
-version=0.32.0
-release=4
+version=0.33.0
+release=1
 source=(
 "https://github.com/$name-player/$name/archive/v$version.tar.gz"
 https://waf.io/waf-2.0.20
