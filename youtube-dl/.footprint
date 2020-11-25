@@ -10,12 +10,12 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.24-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.11.26-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/__init__.py
@@ -768,6 +768,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/matchtv.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/mdr.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/mdr.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/medaltv.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/medaltv.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/medialaan.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/medialaan.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/mediaset.cpython-39.opt-1.pyc
@@ -1210,6 +1212,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sportbox.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sportdeutschland.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sportdeutschland.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spreaker.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/spreaker.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/springboardplatform.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/springboardplatform.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sprout.cpython-39.opt-1.pyc
@@ -1969,6 +1973,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/massengeschmacktv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/matchtv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/mdr.py
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/medaltv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/medialaan.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/mediaset.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/mediasite.py
@@ -2190,6 +2195,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sport5.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sportbox.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sportdeutschland.py
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/spreaker.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/springboardplatform.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sprout.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/srgssr.py
