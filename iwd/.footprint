@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/iwctl.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/iwmon.1.gz
 drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/iwd.ap.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/iwd.config.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/iwd.network.5.gz
 drwxr-xr-x	root/root	usr/share/man/man7/
