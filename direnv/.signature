@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uwy/K5cnxB/VD1IjXaQq4KMoKM5p4rP57DuVCef5WEAU5QxM+xFh8IpUUjzZNex3NdtaqNtlHUdBs5kMhQXa4xA4=
-SHA256 (Pkgfile) = c7bea0ced7b146b14bc28f3fe3b0026e4a4076fe6a746ab2b1b8296aec3cdba4
+RWTOjBUiTG/Uwzb6W2CbckfD/Kqtu1TAaD2lZCtbmcMq+IsJLqG0RbeHZ50b16QaZOSwZsVC4WfNAX+07Fbhz6Zu7ASNaaiVRwA=
+SHA256 (Pkgfile) = eba5b222e756b05259a743cafa9f7b3f879ae24ee1df8613e2e99beb77761752
 SHA256 (.footprint) = c725be4e188c5f7c050b2106c1c6142235556690d87db6f3e9d2ba0d7d38dd29
-SHA256 (direnv.linux-amd64) = e0e6f80b4167c33e712e693abf0aedd990b6045cfff2b856c5df67744c99c67e
+SHA256 (direnv.linux-amd64) = 3a639ddb7a4d29589ca9aaf44de90873f98937ca78d922e5f51a8f3f9c3b2a25
 SHA256 (direnv.1) = 91b5c96339d1d255f1bdd3de4c4e6ea8d682bdd4fe1c9e559e91f9dccaed949a
-SHA256 (direnv-stdlib.1) = 23040b752553ee908f3f917bf14d2ebd7fef8cdd821c07c49ee77abbe37e5fb7
+SHA256 (direnv-stdlib.1) = a60bcf8ba5f3113401d6e8c559676435d002aa20636d9997ea3806991cc8418c
 SHA256 (direnv.toml.1) = 407a1519edeef23f517ecff97f83633511d52dbd5304f3aeec69d9d8b7f3fbc3
