@@ -5,11 +5,11 @@
 
 name=spirv-headers
 version=1.5.4
-release=1
-source=("https://github.com/khronosgroup/$name/archive/$version.tar.gz")
+release=2
+source=("https://github.com/khronosgroup/$name/archive/$version.raytracing.fixed.tar.gz")
 
 build() {
-    cd "SPIRV-Headers-$version"
+    cd "SPIRV-Headers-$version.raytracing.fixed"
 
     mkdir build
     cd    build
