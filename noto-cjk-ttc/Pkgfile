@@ -4,13 +4,12 @@
 # Depends on  : xorg-mkfontscale fontconfig
 
 name=noto-cjk-ttc
-commit=782eab531e724779772302b835661b7b12a6b3a8
-version=20201105
+version=20201206
 release=1
-source=("https://github.com/googlefonts/${name%-*}/archive/$commit.tar.gz")
+source=("https://github.com/googlefonts/${name%-*}/archive/v$version-cjk.tar.gz")
 
 build() {
-    cd "${name%-*}-$commit"
+    cd "${name%-*}-$version-cjk"
 
     install -Dm644 *.ttc -t "$PKG/usr/share/fonts/X11/TTC"
 }
