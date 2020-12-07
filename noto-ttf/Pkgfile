@@ -4,13 +4,12 @@
 # Depends on  : xorg-mkfontscale fontconfig
 
 name=noto-ttf
-commit=11671be11e4f6ba5a8af94bbafa4768a2e2db5ca
-version=20201124
+version=20201206
 release=1
-source=("https://github.com/googlefonts/${name%-*}-fonts/archive/$commit.tar.gz")
+source=("https://github.com/googlefonts/${name%-*}-fonts/archive/v$version-phase3.tar.gz")
 
 build() {
-    cd "${name%-*}-fonts-$commit"
+    cd "${name%-*}-fonts-$version-phase3"
 
     for i in unhinted hinted; do
         install -Dm644 "$i"/*/Noto*/*.ttf -t "$PKG/usr/share/fonts/X11/TTF"
