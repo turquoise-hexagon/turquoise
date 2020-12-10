@@ -4,8 +4,8 @@
 # Depends on  : glslang asciidoctor
 
 name=shaderc
-version=2020.3
-release=2
+version=2020.4
+release=1
 source=("https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz")
 
 build() {
@@ -40,8 +40,6 @@ build() {
 
     cd ..
 
-    for i in glslc spvc; {
-        asciidoctor -b manpage "$i/README.asciidoc" -o "$i/$i.1"
-        install -Dm644 "$i/$i.1" -t "$PKG/usr/share/man/man1"
-    }
+    asciidoctor -b manpage "glslc/README.asciidoc" -o "glslc/glslc.1"
+    install -Dm644 "glslc/glslc.1" -t "$PKG/usr/share/man/man1"
 }

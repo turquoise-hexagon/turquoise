@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9qEsevAr/3bI2wDkAWwz9nedDJSDPRkzj3u/zkzXJus/ZFw27Ql4+Dlv/Lliev36Nt6Z9rEsX6yKDBC2xtiUwA=
-SHA256 (Pkgfile) = f921fe6c5ddd54539858784e208ae74bf8eefddccea5311d6cc6cfe4f2608f04
-SHA256 (.footprint) = a55f4db9a8f36310df010a88256abef6d13753f525ff212c4e7dcb390e6c1e66
-SHA256 (shaderc-v2020.3.tar.gz) = e595f71d0db0c37ee959b538cfda16e39e3f0dce8893a0bc0ac0080c342c0275
+RWTOjBUiTG/Uw+EYGXZQG07WaDwZcWh2/PaEcq9Rgt190xhLVuaG0V3K2Ym4e08J86q0I78fLsKqIbVuymG8MWRLdB6mL0omugY=
+SHA256 (Pkgfile) = 00ce1922d8052cb3dfe48d3ca08a2e6c750fb94665b2c4be0992a3838665ceef
+SHA256 (.footprint) = 768c5796cba31503e5e8a1c1d874f1d8699d410d17d6b98d9a6588ae17462816
+SHA256 (shaderc-v2020.4.tar.gz) = 19e4c812bfbdbabbfb658062628c377339d14894080b5c169216a1d86483bdcc
