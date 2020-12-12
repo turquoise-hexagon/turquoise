@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=direnv
-version=2.25.1
+version=2.25.2
 release=1
 source=(
 "https://github.com/$name/$name/releases/download/v$version/$name.linux-amd64"
