@@ -10,12 +10,12 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.9-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.12-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/__init__.py
@@ -180,8 +180,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bandcamp.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bbc.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bbc.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/beampro.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/beampro.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/beatport.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/beatport.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/beeg.cpython-39.opt-1.pyc
@@ -1186,8 +1184,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/slideslive.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/slutload.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/slutload.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/smotri.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/smotri.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/snotr.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/snotr.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/sohu.cpython-39.opt-1.pyc
@@ -1683,7 +1679,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/baidu.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/bandcamp.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/bbc.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/beampro.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/beatport.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/beeg.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/behindkink.py
@@ -2186,7 +2181,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/slideshare.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/slideslive.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/slutload.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/smotri.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/snotr.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sohu.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sonyliv.py
