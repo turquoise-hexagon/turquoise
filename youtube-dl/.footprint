@@ -10,12 +10,12 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.14-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2020.12.22-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/__init__.py
@@ -450,8 +450,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/esri.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/europa.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/europa.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/everyonesmixtape.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/everyonesmixtape.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/expotv.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/expotv.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/expressen.cpython-39.opt-1.pyc
@@ -666,8 +664,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kakao.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kaltura.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kaltura.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kanalplay.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kanalplay.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kankan.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/kankan.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/karaoketv.cpython-39.opt-1.pyc
@@ -898,8 +894,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/njpwworld.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/nobelprize.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/nobelprize.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/noco.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/noco.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/nonktube.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/nonktube.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/noovo.cpython-39.opt-1.pyc
@@ -1254,8 +1248,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tagesschau.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tass.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tass.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tastytrade.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tastytrade.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tbs.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tbs.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tdslifeway.cpython-39.opt-1.pyc
@@ -1374,6 +1366,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tv4.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tv5mondeplus.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tv5mondeplus.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tv5unis.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tv5unis.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tva.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tva.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/tvanouvelles.cpython-39.opt-1.pyc
@@ -1624,8 +1618,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/youtube.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zapiks.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zapiks.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zaq1.cpython-39.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zaq1.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zattoo.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zattoo.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/zdf.cpython-39.opt-1.pyc
@@ -1814,7 +1806,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/espn.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/esri.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/europa.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/everyonesmixtape.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/expotv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/expressen.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/extractors.py
@@ -1922,7 +1913,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/jwplatform.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/kakao.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/kaltura.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/kanalplay.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/kankan.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/karaoketv.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/karrierevideos.py
@@ -2038,7 +2028,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/nintendo.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/njpwworld.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/nobelprize.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/noco.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/nonktube.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/noovo.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/normalboots.py
@@ -2216,7 +2205,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/sztvhu.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tagesschau.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tass.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tastytrade.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tbs.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tdslifeway.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/teachable.py
@@ -2276,6 +2264,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tv2hu.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tv4.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tv5mondeplus.py
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tv5unis.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tva.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tvanouvelles.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/tvc.py
@@ -2401,7 +2390,6 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/yourupload.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/youtube.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/zapiks.py
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/zaq1.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/zattoo.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/zdf.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/zingmp3.py
