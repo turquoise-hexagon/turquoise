@@ -4,7 +4,7 @@
 # Depends on  : rust
 
 name=tokei
-version=12.0.4
+version=12.1.0
 release=1
 source=("https://github.com/xampprocky/$name/archive/v$version.tar.gz")
 
