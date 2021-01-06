@@ -1,0 +1,5 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/mpv/
+drwxr-xr-x	root/root	usr/etc/mpv/scripts/
+-rwxr-xr-x	root/root	usr/etc/mpv/scripts/mpris.so

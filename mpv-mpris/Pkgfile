@@ -1,0 +1,18 @@
+# Description : MPRIS plugin for mpv 
+# URL         : https://github.com/hoyon/mpv-mpris
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : mpv dbus glib gobject-introspection
+
+name=mpv-mpris
+version=0.5
+release=1
+source=("https://github.com/hoyon/$name/archive/$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+
+    install -Dm755 "${name#*-}.so" \
+        -t "$PKG/usr/etc/mpv/scripts"
+}

@@ -1,0 +1,21 @@
+# Description : mpris media player command-line controller
+# URL         : https://github.com/altdesktop/playerctl
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : dbus gobject-introspection glib meson ninja
+
+name=playerctl
+version=2.3.1
+release=1
+source=("https://github.com/altdesktop/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    meson build       \
+        --prefix=/usr \
+        -Dgtk-doc=false
+
+    ninja -C build
+
+    DESTDIR="$PKG" ninja -C build install
+}
