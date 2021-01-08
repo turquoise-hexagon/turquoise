@@ -37,7 +37,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/pl/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/wpnnoise.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/defaults/
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/autopickup_exceptions.txt
--rw-r--r--	root/root	usr/share/crawl/dat/defaults/food_colouring.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/glyph_colours.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/menu_colours.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/messages.txt
@@ -54,7 +53,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/altar/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/nemelex_the_gamble.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/okawaru_arena.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/overflow.des
--rw-r--r--	root/root	usr/share/crawl/dat/des/altar/pakellas_experiments.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/trog_burn_book.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/trog_wizard.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/altar/vehumet_trees.des
@@ -193,6 +191,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/variable/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/polyominoes.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/the_bubble.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/the_grid.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/variable/winding_woodlands.des
 drwxr-xr-x	root/root	usr/share/crawl/dat/descript/
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/ability.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/backgrounds.txt
@@ -368,6 +367,7 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/license/
 -rw-r--r--	root/root	usr/share/crawl/docs/license/worley.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/macros_guide.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/options_guide.txt
+-rw-r--r--	root/root	usr/share/crawl/docs/quickstart.md
 -rw-r--r--	root/root	usr/share/crawl/docs/quickstart.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/ssh_guide.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/tiles_help.txt
