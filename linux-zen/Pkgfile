@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.10.9.1
-release=1
+release=2
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
@@ -33,5 +33,5 @@ build() {
         make DESTDIR="$PKG" modules_install
 
     install -Dm644 System.map -t            "$PKG/boot"
-    install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz"
+    install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz-$version"
 }
