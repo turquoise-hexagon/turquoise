@@ -4,7 +4,7 @@
 # Depends on  : libmad libvorbis libid3tag glib boost meson ninja python3-pip
 
 name=mpd
-version=0.22.3
+version=0.22.4
 release=1
 source=(
 "http://www.musicpd.org/download/$name/${version%.*}/$name-$version.tar.xz"
