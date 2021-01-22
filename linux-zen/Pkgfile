@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.10.9.1
-release=2
+release=3
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
@@ -15,8 +15,8 @@ build() {
 
     mkdir firmware; shopt -s nullglob
 
-    for i in "$PKGMK_ROOT/"*.ucode; do
-        cp "$i" firmware
+    for i in "$PKGMK_ROOT/"firmware/*; do
+        cp -r "$i" firmware
     done
 
     # remove extraversion
