@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.10.11.1
-release=1
+release=2
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
@@ -13,18 +13,18 @@ build() {
     [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
 
-    mkdir firmware; shopt -s nullglob
+    mkdir firmware
+
+    shopt -s nullglob
 
     for i in "$PKGMK_ROOT/"firmware/*; do
         cp -r "$i" firmware
     done
 
+    shopt -u nullglob
+
     # remove extraversion
     sed -Ei 's|(EXTRAVERSION =).*|\1|' Makefile
-
-    # compile with Ofast
-    grep -l -r -- '-O3' |
-        xargs sed -i 's|-O3|-Ofast|g'
 
     make olddefconfig
     make all
