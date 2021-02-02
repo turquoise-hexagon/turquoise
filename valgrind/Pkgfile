@@ -1,0 +1,22 @@
+# Description : An instrumentation framework for building dynamic analysis tools
+# URL         : https://www.valgrind.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : gdb
+
+name=valgrind
+version=3.16.1
+release=1
+source=("https://sourceware.org/pub/$name/$name-$version.tar.bz2")
+
+build() {
+    cd "$name-$version"
+
+    ./configure       \
+        --prefix=/usr \
+        --libexecdir=/usr/lib
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
+}
