@@ -946,7 +946,9 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/matchable/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/matchable/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/matchable/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/math/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/math/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/math/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/math/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/mathh/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/mathh/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/mathh/,meta
