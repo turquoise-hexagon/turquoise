@@ -4,12 +4,13 @@
 # Depends on  : glslang asciidoctor
 
 name=shaderc
-version=2020.4
+commit=8d081127ee28ff5df8123c994c00bc66a57e9e9c
+version=20210209
 release=1
-source=("https://github.com/google/$name/archive/v$version/$name-v$version.tar.gz")
+source=("https://github.com/google/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-$commit"
 
     sed '/examples/d;/third_party/d' -i CMakeLists.txt
     sed '/build-version/d' -i     glslc/CMakeLists.txt
