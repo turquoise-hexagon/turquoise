@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9XQrN6Zlpu8AWgshKY0XQWwoyHYDNdxmc24WTEkbmPf7BlVPa3fai8R2wPXQ7eGbSYTPV4jlG61L0iLUnyHqQI=
-SHA256 (Pkgfile) = 3b2076c29148ddb43d233b98b1591a301f0ae2de98941bd334abfbcdd654ac57
+RWTOjBUiTG/Uw/76STBiWQdipglae1xYlrh+xYAEFcVnuJgAucbiAlAyy5bVE0XbMEx2x/fE4HExpwd5t1fqPkDdSSfjeV965gc=
+SHA256 (Pkgfile) = 22d0a0854fac6fa35dab3b7928eb5f026990c697f0f9462f0bb3ae8dd47c1e25
 SHA256 (.footprint) = 584b3b32a127f5a85c8ae9f3b2ed9e1c6c49dfc57ce632d9bc2c1b45b922a4e9
-SHA256 (v2020.6.tar.gz) = ceadf98ce2d33c64c00056a2a559a661805ab42d2d1ba385f6ac19c2ff537a00
+SHA256 (v2020.7.tar.gz) = c06eed1c7a1018b232768481184b5ae4d91d614d7bd7358dc2fe306bd0a39c6e
 SHA256 (libs.patch) = 2d943d01c9a0774dbb261e300d11b64072518304fbc5a886308bc412ab54a39e

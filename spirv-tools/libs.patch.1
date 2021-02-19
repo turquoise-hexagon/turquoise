@@ -1,0 +1,35 @@
+--- b/source/link/CMakeLists.txt	2020-12-04 21:41:05.222073396 +0000
++++ a/source/link/CMakeLists.txt	2020-12-04 21:41:45.973074365 +0000
+@@ -11,7 +11,7 @@
+ # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+-add_library(SPIRV-Tools-link ${SPIRV_TOOLS_LIBRARY_TYPE}
++add_library(SPIRV-Tools-link
+   linker.cpp
+ )
+ 
+diff '--color=auto' -Naur b/source/opt/CMakeLists.txt a/source/opt/CMakeLists.txt
+--- b/source/opt/CMakeLists.txt	2020-12-04 21:41:05.223073396 +0000
++++ a/source/opt/CMakeLists.txt	2020-12-04 21:42:14.710075048 +0000
+@@ -232,7 +232,7 @@
+ 
+ spvtools_pch(SPIRV_TOOLS_OPT_SOURCES pch_source_opt)
+ 
+-add_library(SPIRV-Tools-opt ${SPIRV_TOOLS_LIBRARY_TYPE} ${SPIRV_TOOLS_OPT_SOURCES})
++add_library(SPIRV-Tools-opt ${SPIRV_TOOLS_OPT_SOURCES})
+ 
+ spvtools_default_compile_options(SPIRV-Tools-opt)
+ target_include_directories(SPIRV-Tools-opt
+diff '--color=auto' -Naur b/source/reduce/CMakeLists.txt a/source/reduce/CMakeLists.txt
+--- b/source/reduce/CMakeLists.txt	2020-12-04 21:41:05.237073396 +0000
++++ a/source/reduce/CMakeLists.txt	2020-12-04 21:42:28.173075367 +0000
+@@ -78,7 +78,7 @@
+ 
+ spvtools_pch(SPIRV_TOOLS_REDUCE_SOURCES pch_source_reduce)
+ 
+-add_library(SPIRV-Tools-reduce ${SPIRV_TOOLS_LIBRARY_TYPE} ${SPIRV_TOOLS_REDUCE_SOURCES})
++add_library(SPIRV-Tools-reduce ${SPIRV_TOOLS_REDUCE_SOURCES})
+ 
+ spvtools_default_compile_options(SPIRV-Tools-reduce)
+ target_include_directories(SPIRV-Tools-reduce
