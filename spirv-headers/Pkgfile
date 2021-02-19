@@ -4,12 +4,13 @@
 # Depends on  : cmake ninja
 
 name=spirv-headers
-version=1.5.4
-release=2
-source=("https://github.com/khronosgroup/$name/archive/$version.raytracing.fixed.tar.gz")
+commit=75b30a659c8a4979104986652c54cc421fc51129
+version=20210210
+release=1
+source=("https://github.com/khronosgroup/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "SPIRV-Headers-$version.raytracing.fixed"
+    cd "SPIRV-Headers-$commit"
 
     mkdir build
     cd    build
