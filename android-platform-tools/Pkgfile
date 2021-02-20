@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=android-platform-tools
-version=30.0.5
+version=31.0.0
 release=1
 source=("https://dl.google.com/android/repository/${name#*-}_r$version-linux.zip")
 
