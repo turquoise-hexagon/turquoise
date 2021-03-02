@@ -10,12 +10,12 @@ drwxr-xr-x	root/root	usr/etc/fish/completions/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.2.22-py3.9.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl-2021.3.2-py3.9.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/YoutubeDL.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/__init__.py
@@ -180,6 +180,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/azmedien.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/baidu.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/baidu.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bandaichannel.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bandaichannel.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bandcamp.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bandcamp.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/bbc.cpython-39.opt-1.pyc
@@ -546,6 +548,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gazeta.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gdcvault.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gdcvault.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gedidigital.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gedidigital.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/generic.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/generic.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pycache__/gfycat.cpython-39.opt-1.pyc
@@ -1697,6 +1701,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/aws.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/azmedien.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/baidu.py
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/bandaichannel.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/bandcamp.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/bbc.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/beatport.py
@@ -1880,6 +1885,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/__pyca
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/gaskrank.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/gazeta.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/gdcvault.py
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/gedidigital.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/generic.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/gfycat.py
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/youtube_dl/extractor/giantbomb.py
