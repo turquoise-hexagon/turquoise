@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=linux-zen
-version=5.11.4.1
+version=5.11.5.1
 release=1
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
@@ -13,15 +13,8 @@ build() {
     [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
 
-    mkdir firmware
-
-    shopt -s nullglob
-
-    for i in "$PKGMK_ROOT/"firmware/*; do
-        cp -r "$i" firmware
-    done
-
-    shopt -u nullglob
+    [[ -d $PKGMK_ROOT/firmware ]] &&
+        cp -r "$PKGMK_ROOT/firmware" .
 
     # remove extraversion
     sed -Ei 's|(EXTRAVERSION =).*|\1|' Makefile
