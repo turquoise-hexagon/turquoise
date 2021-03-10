@@ -5,7 +5,7 @@
 
 name=mpv
 version=0.33.0
-release=1
+release=2
 source=(
 "https://github.com/$name-player/$name/archive/v$version.tar.gz"
 https://waf.io/waf-2.0.20
@@ -16,8 +16,8 @@ build() {
 
     install -m755 "$SRC/waf"* waf
 
-    [[ -e /usr/lib/pkgconfig/libcdio_cdda.pc ]] && config+=(--enable-cdda)
-    [[ -e /usr/lib/pkgconfig/dvdnav.pc       ]] && config+=(--enable-dvdnav)
+    prt-get isinst libcdio-paranoia && config+=(--enable-cdda)
+    prt-get isinst libdvdnav        && config+=(--enable-dvdnav)
 
     python3 ./waf configure    \
         "${config[@]}"         \
