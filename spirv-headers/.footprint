@@ -71,9 +71,9 @@ drwxr-xr-x	root/root	usr/include/spirv/unified1/
 -rw-r--r--	root/root	usr/include/spirv/unified1/spirv.lua
 -rw-r--r--	root/root	usr/include/spirv/unified1/spirv.py
 -rw-r--r--	root/root	usr/include/spirv/unified1/spv.d
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Headers/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Headers/SPIRV-HeadersTargets.cmake
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/cmake/
+drwxr-xr-x	root/root	usr/share/cmake/SPIRV-Headers/
+-rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake
+-rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake
+-rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersTargets.cmake
