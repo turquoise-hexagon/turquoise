@@ -1,0 +1,29 @@
+# Description :  A cross-platform, OpenGL terminal emulator.
+# URL         : https://github.com/alacritty/alacritty
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : rust fontconfig libxcb ncurses
+
+name=alacritty
+version=0.7.2
+release=1
+source=("https://github.com/$name/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    cargo build   \
+        --release \
+        --locked
+
+    install -Dm755 "target/release/$name" -t         \
+        "$PKG/usr/bin"
+    install -Dm644 "extra/completions/_$name" -t     \
+        "$PKG/usr/share/zsh/site-functions"
+    install -Dm644 "extra/completions/$name.fish" -t \
+        "$PKG/usr/share/fish/vendor_completions.d"
+
+    install -Dm644 "extra/$name.man"                 \
+        "$PKG/usr/share/man/man1/$name.1.gz"
+    install -Dm644 "extra/completions/$name.bash"    \
+        "$PKG/usr/share/bash-completion/completions/$name"
+}
