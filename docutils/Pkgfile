@@ -4,8 +4,8 @@
 # Depends on  : python3
 
 name=docutils
-version=0.16
-release=5
+version=0.17
+release=1
 source=("https://files.pythonhosted.org/packages/source/d/$name/$name-$version.tar.gz")
 
 build() {
