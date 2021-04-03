@@ -4,20 +4,28 @@
 
 name=linux-zen
 version=5.11.11.1
-release=1
+release=2
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
     cd "zen-kernel-${version%.*}-zen${version##*.}"
 
+    # patches
+    shopt -s nullglob
+
+    for patch in "$PKGMK_ROOT"/*.patch; {
+        patch -p 1 -i "$patch"
+    }
+
+    shopt -u nullglob
+
+    # config
     [[ -f $PKGMK_ROOT/config ]] &&
         cp "$PKGMK_ROOT/config" .config
 
+    # firmware files
     [[ -d $PKGMK_ROOT/firmware ]] &&
         cp -r "$PKGMK_ROOT/firmware" .
-
-    # remove extraversion
-    sed -Ei 's|(EXTRAVERSION =).*|\1|' Makefile
 
     make olddefconfig
     make all
@@ -26,5 +34,5 @@ build() {
         make DESTDIR="$PKG" modules_install
 
     install -Dm644 System.map -t            "$PKG/boot"
-    install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz-$version"
+    install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz-$version-$release"
 }
