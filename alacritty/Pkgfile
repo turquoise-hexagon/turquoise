@@ -1,11 +1,11 @@
 # Description :  A cross-platform, OpenGL terminal emulator.
 # URL         : https://github.com/alacritty/alacritty
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : rust fontconfig libxcb ncurses
+# Depends on  : rust fontconfig xorg-libxcb ncurses
 
 name=alacritty
 version=0.7.2
-release=1
+release=2
 source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
 build() {
