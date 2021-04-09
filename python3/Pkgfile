@@ -5,7 +5,7 @@
 
 name=python3
 version=3.9.2
-release=1
+release=2
 source=("https://www.python.org/ftp/python/$version/Python-$version.tgz")
 
 build() {
@@ -19,9 +19,9 @@ build() {
 
     ./configure                             \
         --prefix=/usr                       \
-		--with-system-expat                 \
-		--with-system-ffi                   \
-		--with-system-libmpdec              \
+        --with-system-expat                 \
+        --with-system-ffi                   \
+        --with-system-libmpdec              \
         --enable-ipv6                       \
         --enable-loadable-sqlite-extensions \
         --enable-optimizations              \
