@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=x264
-commit=b86ae3c66f51ac9eab5ab7ad09a9d62e67961b8a
-version=20210211
+commit=55d517bc4569272a2c9a367a4106c234aba2ffbc
+version=20210412
 release=1
 source=("https://code.videolan.org/videolan/$name/-/archive/$commit/$name-$commit.tar.gz")
 
