@@ -1,0 +1,31 @@
+# Description : The Tcl programming language and the Tk graphical user interface toolkit
+# URL         : https://www.tcl.tk
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : zlib xorg-libxft
+
+name=tcl
+version=8.6.11
+release=1
+source=(
+"https://prdownloads.sourceforge.net/tcl/tcl$version-src.tar.gz"
+"https://prdownloads.sourceforge.net/tcl/tk$version-src.tar.gz")
+
+build() {
+    pushd "tcl$version/unix"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    popd
+
+    pushd "tk$version/unix"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    ln -s "wish${version%.*}" "$PKG/usr/bin/wish"
+}
