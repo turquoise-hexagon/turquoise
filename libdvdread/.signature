@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/UwyrPg4ffJeGH5z/AwVn1iGLmWQ8PTbGYsKfVJuxpxcphF7jEjws4D2R8CnDC+J5CuXlgYg+7r7hgLRW34QXI8g4=
-SHA256 (Pkgfile) = 9245018efcc7b9404b98a542ab21624a76e48f2a42ce9dd7bd9f5ae6932f5d44
+RWTOjBUiTG/Uw5qzYJhlIyD2nfn5PnCRq7drbDg/H39pKh183Vc9NDXwqAg+KzeuZyjnxdBrEfwfRf46Y6A8txHe9dKCgnP+FwI=
+SHA256 (Pkgfile) = d0c6970e499ef1748397a447e9bf57cde752b6bb6a3eae2f0c9782be7fd56f43
 SHA256 (.footprint) = fcd07c66e1becd75878dd676881d099871163632cd1e64232666f0a8d6ff465d
-SHA256 (libdvdread-6.1.1.tar.bz2) = 3e357309a17c5be3731385b9eabda6b7e3fa010f46022a06f104553bf8e21796
+SHA256 (libdvdread-6.1.2.tar.bz2) = cc190f553758ced7571859e301f802cb4821f164d02bfacfd320c14a4e0da763
