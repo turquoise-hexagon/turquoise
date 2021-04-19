@@ -3,9 +3,9 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=shellcheck
-version=0.7.1
-release=2
-source=("https://github.com/koalaman/$name/releases/download/v$version/$name-v0.7.1.linux.x86_64.tar.xz")
+version=0.7.2
+release=1
+source=("https://github.com/koalaman/$name/releases/download/v$version/$name-v$version.linux.x86_64.tar.xz")
 
 build() {
     cd "$name-v$version"
