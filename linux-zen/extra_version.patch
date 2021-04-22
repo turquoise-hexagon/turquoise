@@ -1,0 +1,11 @@
+--- old/Makefile	2021-03-30 14:44:49.000000000 +0100
++++ new/Makefile	2021-04-03 06:47:51.317379906 +0100
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 11
+ SUBLEVEL = 16
+-EXTRAVERSION = -zen1
++EXTRAVERSION =
+ NAME = 🤗 Hugs & Kisses 😚
+ 
+ # *DOCUMENTATION*
