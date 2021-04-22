@@ -4,8 +4,8 @@
 # Depends on  : glslang asciidoctor
 
 name=shaderc
-commit=3fe94c6a76d2b617e7fb20fdf3cde98001a274e3
-version=20210315
+commit=948660cccfbbc303d2590c7f44a4cee40b66fdd6
+version=20210421
 release=1
 source=("https://github.com/google/$name/archive/$commit.tar.gz")
 
