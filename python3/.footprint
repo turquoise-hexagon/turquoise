@@ -2928,6 +2928,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_testimportmultiple.cpython-39-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_testinternalcapi.cpython-39-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_testmultiphase.cpython-39-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_tkinter.cpython-39-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_uuid.cpython-39-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_xxsubinterpreters.cpython-39-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/_xxtestfuzz.cpython-39-x86_64-linux-gnu.so
@@ -2955,9 +2956,9 @@ drwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/zlib.cpython-39-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.9/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar3.9.2.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar3.9.3.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar3.9.2.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar3.9.3.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.9/lib2to3/__pycache__/
@@ -6381,6 +6382,16 @@ drwxr-xr-x	root/root	usr/lib/python3.9/test/test_importlib/namespace_pkgs/projec
 -rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/namespace_pkgs/project3/parent/child/__pycache__/three.cpython-39.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/namespace_pkgs/project3/parent/child/three.py
 -rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/namespace_pkgs/top_level_portion1.zip
+drwxr-xr-x	root/root	usr/lib/python3.9/test/test_importlib/partial/
+drwxr-xr-x	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/cfimport.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/cfimport.cpython-39.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/cfimport.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/pool_in_threads.cpython-39.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/pool_in_threads.cpython-39.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/__pycache__/pool_in_threads.cpython-39.pyc
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/cfimport.py
+-rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/partial/pool_in_threads.py
 drwxr-xr-x	root/root	usr/lib/python3.9/test/test_importlib/source/
 -rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/source/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.9/test/test_importlib/source/__main__.py
