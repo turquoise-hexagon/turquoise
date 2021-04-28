@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uwx3ueEBEt5c1LuagkvNq5HcKy29dVKoC9WCO9E4yDmBShAUX8xQCiaAvev0Cv5PJzM/5sF7rUUyq8Q6TfpZ18gI=
-SHA256 (Pkgfile) = 97c4bbdca7ba0df431b57f7fc1772c8eb42a914838fc9827757b83cdd866a29c
-SHA256 (.footprint) = 359a30f2520a5d5debb4f8044da9c8612d867dc5b36e446fe1f349bb6047018d
-SHA256 (asciidoctor-2.0.14.gem) = 4908e09311fe118f3314fd11cc135f67d3524e6def4fbee4b6d4181f2cb5e55e
+RWTOjBUiTG/Uw/4yvz1rD3k9BREFda3zgTSMy3xko52ToLiX61JE01VNTnZFYFSTAmTWec2D8tJeuadzwzXK+65DIUpdAgzfuw4=
+SHA256 (Pkgfile) = 7a160120c4312cf1519b95ba8839ec7c992f927074c95e7b60a7963a623e079a
+SHA256 (.footprint) = b3824ada87163b3fb9a02ffbc126c2237ca126c286fe0d1f78a7ff82204a98d8
+SHA256 (asciidoctor-2.0.15.gem) = c4120b16f7c054ee39e755b5b8cee6b248facaa4ec56b7ce493fd646aa8c744c
