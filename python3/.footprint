@@ -2237,8 +2237,8 @@ drwxr-xr-x	root/root	usr/lib/python3.9/ensurepip/_bundled/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/__pycache__/__init__.cpython-39.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/__pycache__/__init__.cpython-39.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/__pycache__/__init__.cpython-39.pyc
--rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/pip-20.2.3-py2.py3-none-any.whl
--rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/setuptools-49.2.1-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/pip-21.1.1-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_bundled/setuptools-56.0.0-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.9/ensurepip/_uninstall.py
 -rw-r--r--	root/root	usr/lib/python3.9/enum.py
 -rw-r--r--	root/root	usr/lib/python3.9/filecmp.py
@@ -2956,9 +2956,9 @@ drwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.9/lib-dynload/zlib.cpython-39-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.9/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar3.9.3.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.9/lib2to3/Grammar3.9.5.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar3.9.3.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.9/lib2to3/PatternGrammar3.9.5.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.9/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.9/lib2to3/__pycache__/
@@ -5416,6 +5416,7 @@ drwxr-xr-x	root/root	usr/lib/python3.9/test/libregrtest/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.9/test/mp_preload.py
 -rw-r--r--	root/root	usr/lib/python3.9/test/multibytecodec_support.py
 -rw-r--r--	root/root	usr/lib/python3.9/test/nokia.pem
+-rw-r--r--	root/root	usr/lib/python3.9/test/nosan.pem
 -rw-r--r--	root/root	usr/lib/python3.9/test/nullbytecert.pem
 -rw-r--r--	root/root	usr/lib/python3.9/test/nullcert.pem (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.9/test/pickletester.py
