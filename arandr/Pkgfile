@@ -1,0 +1,22 @@
+# Description : A simple visual front end for XRandR
+# URL         : https://christian.amsuess.com/tools/arandr
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : docutils gtk3 python3-gobject xorg-xrandr
+
+name=arandr
+version=0.1.10
+release=1
+source=("http://christian.amsuess.com/tools/$name/files/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    python3 ./setup.py build
+
+    python3 ./setup.py install \
+        --prefix=/usr          \
+        --root="$PKG"          \
+        --skip-build
+
+    rm -rf "$PKG/usr/share/locale"
+}
