@@ -4,7 +4,7 @@
 # Depends on  : mm-common
 
 name=libsigc++
-version=3.0.6
+version=3.0.7
 release=1
 source=("https://github.com/${name//+/plus}/${name//+/plus}/archive/$version.tar.gz")
 
