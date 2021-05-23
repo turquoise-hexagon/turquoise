@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9Pt8fOjWHAnxR91URpKy+srCDOVPJV2TLJQzlyxj0bWcQcrAgozhh779Q4wJVJ+XY1eNEsoTSqRv39Av/APIwc=
-SHA256 (Pkgfile) = 7251a382c36260d879817e2dd795f83e8df89d576f50c99f13eb767a94fe30a3
-SHA256 (.footprint) = 5369ebda7664f22e1e5c0cfcb6f7e38e2c08380d97b91a728f042c7276d0a1bb
-SHA256 (v5.12.5-zen1.tar.gz) = bbeb98ba4fe5017f0a27610443ef6a525a420d2ac0d0d5db74bf4c40bc1ac9b2
+RWTOjBUiTG/Uw+UUX8Fh5URLc9jlulukCYV+Yoq7cGnFlL0zi7898M1VcoaAPBB6rqLeQjah2UIEYvugdwH1jytiDdzEl+S3kQk=
+SHA256 (Pkgfile) = d5c29b02e753c03464a6e1fdf7212978faf1e557c5a84a79c347ddc25eee6771
+SHA256 (.footprint) = cb6533be1bee7f22dda5dde0f301d994d5d10446d6069dc0a2af68bfaff8a58c
+SHA256 (v5.12.6-zen1.tar.gz) = df5970576f5eccd83b1243519bca4fc42c28b9bb47aa790da8cfe8554ebe408e
