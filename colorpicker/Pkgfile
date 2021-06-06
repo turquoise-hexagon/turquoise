@@ -4,8 +4,8 @@
 # Depends on  : xorg-libx11
 
 name=colorpicker
-commit=782eafb16f1799376d548c93bf2786abc8ebd76e
-version=20201128
+commit=3b5076f5bb3392830e7d1d97fa86621ca19c4d1a
+version=20210606
 release=1
 source=("https://github.com/ym1234/$name/archive/$commit.tar.gz")
 
