@@ -4,14 +4,17 @@
 # Depends on  : rust harfbuzz harfbuzz-icu graphite
 
 name=tectonic
-version=0.4.1
+version=0.5.2
 release=1
 source=("https://github.com/$name-typesetting/$name/archive/$name@$version.tar.gz")
 
 build() {
     cd "$name-$name-$version"
 
-    cargo build --release --locked
+    cargo build   \
+        --release \
+        --locked  \
+        --features external-harfbuzz
 
     install -Dm755 "target/release/$name" -t "$PKG/usr/bin"
 }
