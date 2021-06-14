@@ -5,7 +5,7 @@
 
 name=chicken-doc
 version=5
-release=9
+release=10
 source=("https://3e8.org/pub/$name/$name-repo-$version.tgz")
 
 build() {
