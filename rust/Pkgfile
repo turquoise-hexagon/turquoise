@@ -4,9 +4,12 @@
 # Depends on  : llvm python3
 
 name=rust
-version=1.52.1
+version=1.53.0
 release=1
-source=("https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz")
+source=(
+"https://static.$name-lang.org/dist/${name}c-$version-src.tar.gz"
+miri.patch
+)
 
 build() {
     cd "${name}c-$version-src"
@@ -16,6 +19,9 @@ build() {
     sed -Ei 's|^#(extended =) false|\1 true|' config.toml
 
     python3 x.py
+
+    patch -p 1 -i "$SRC/miri.patch"
+
     python3 x.py build -j "${JOBS:-1}"
 
     DESTDIR="$PKG" python3 ./x.py install
