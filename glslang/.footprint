@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/glslang/Include/
 -rw-r--r--	root/root	usr/include/glslang/Include/PoolAlloc.h
 -rw-r--r--	root/root	usr/include/glslang/Include/ResourceLimits.h
 -rw-r--r--	root/root	usr/include/glslang/Include/ShHandle.h
+-rw-r--r--	root/root	usr/include/glslang/Include/SpirvIntrinsics.h
 -rw-r--r--	root/root	usr/include/glslang/Include/Types.h
 -rw-r--r--	root/root	usr/include/glslang/Include/arrays.h
 -rw-r--r--	root/root	usr/include/glslang/Include/glslang_c_interface.h
@@ -107,5 +108,5 @@ lrwxrwxrwx	root/root	usr/lib/libglslang-default-resource-limits.so.0 -> libglsla
 -rw-r--r--	root/root	usr/lib/libglslang.a
 lrwxrwxrwx	root/root	usr/lib/libglslang.so -> libglslang.so.11
 lrwxrwxrwx	root/root	usr/lib/libglslang.so.0 -> libglslang.so
-lrwxrwxrwx	root/root	usr/lib/libglslang.so.11 -> libglslang.so.11.4.0
--rwxr-xr-x	root/root	usr/lib/libglslang.so.11.4.0
+lrwxrwxrwx	root/root	usr/lib/libglslang.so.11 -> libglslang.so.11.5.0
+-rwxr-xr-x	root/root	usr/lib/libglslang.so.11.5.0
