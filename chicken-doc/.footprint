@@ -1283,6 +1283,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/rfc3339/
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ripemd/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ripemd/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ripemd/,meta
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/rocksdb/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rocksdb/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rocksdb/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rocksdb/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/rope/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rope/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rope/,meta
