@@ -4,7 +4,7 @@
 
 name=wendy
 version=2.1
-release=2
+release=3
 source=("https://dl.z3bra.org/releases/$name-$version.tar.bz2")
 
 build() {
@@ -12,8 +12,8 @@ build() {
 
     make
 
-    make                     \
-        PREFIX=/usr          \
-        MANPREFIX=/usr/share \
+    make                         \
+        PREFIX=/usr              \
+        MANPREFIX=/usr/share/man \
         DESTDIR="$PKG" install
 }
