@@ -1,0 +1,15 @@
+# Description : An incremental parsing system for programming tools
+# URL         : https://tree-sitter.github.io
+# Maintainer  : camille, camille at lzr dot pw
+
+name=tree-sitter
+version=0.20.0
+release=1
+source=("https://github.com/$name/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    make
+    make DESTDIR="$PKG" PREFIX=/usr install
+}

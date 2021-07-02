@@ -1,7 +1,7 @@
 # Description : Vim-fork focused on extensibility and usability
 # URL         : https://github.com/neovim/neovim
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey utf8proc
+# Depends on  : luajit libuv libluv msgpack lua-lpeg lua-mpack libvterm libtermkey utf8proc tree-sitter
 
 name=neovim
 version=0.5.0
