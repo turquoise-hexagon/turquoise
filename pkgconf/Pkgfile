@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=pkgconf
-version=1.7.4
+version=1.8.0
 release=1
 source=("http://distfiles.dereferenced.org/$name/$name-$version.tar.gz")
 
