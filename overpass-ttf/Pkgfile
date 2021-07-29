@@ -4,9 +4,9 @@
 # Depends on  : xorg-mkfontscale fontconfig
 
 name=overpass-ttf
-version=3.0.4
-release=2
-source=("https://github.com/redhatbrand/${name%-*}/archive/$version.tar.gz")
+version=3.0.5
+release=1
+source=("https://github.com/redhatbrand/${name%-*}/archive/v$version.tar.gz")
 
 build() {
     cd "Overpass-$version"
