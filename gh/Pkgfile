@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=gh
-version=1.13.1
+version=1.14.0
 release=1
 source=("https://github.com/cli/cli/releases/download/v$version/${name}_${version}_linux_amd64.tar.gz")
 
