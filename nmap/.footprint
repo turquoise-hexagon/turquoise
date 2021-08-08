@@ -596,6 +596,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/nat-pmp-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/nat-pmp-mapport.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/nbd-info.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/nbns-interfaces.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/nbstat.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/ncp-enum-users.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/ncp-serverinfo.nse
@@ -621,6 +622,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/omp2-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/omp2-enum-targets.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/omron-info.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/openflow-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/openlookup-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/openvas-otp-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/openwebnet-discovery.nse
@@ -639,6 +641,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/pop3-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/pop3-capabilities.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/pop3-ntlm-info.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/port-states.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/pptp-version.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/puppet-naivesigning.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/qconn-exec.nse
