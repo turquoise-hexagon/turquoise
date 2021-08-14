@@ -1,12 +1,12 @@
 # Description : Free peer-reviewed portable C++ source libraries
-# URL         : http://www.boost.org
+# URL         : https://www.boost.org
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : python3
 
 name=boost
-version=1.76.0
-release=0
-source=("https://dl.bintray.com/${name}org/release/$version/source/${name}_${version//./_}.tar.gz")
+version=1.77.0
+release=1
+source=("https://${name}org.jfrog.io/native/main/release/$version/source/${name}_${version//./_}.tar.gz")
 
 build() {
     cd "${name}_${version//./_}"
