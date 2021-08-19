@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw2YTEy7K26XD9Tu/HtdkmST+0GmZQmQLriJeCt0a8xBpQRARBuZ/ZEdlvpo6BPzNPvpaIF6Q5+FmpwpuWTRMTQo=
+SHA256 (Pkgfile) = f45689b6e24184daf7a32c8be1a072d6dd6d38145bb5c421f8279fe334445018
+SHA256 (.footprint) = 41411c7b9eeff5b881e645797aede84974a7bcf03d134338d640423bfee6d395
+SHA256 (ghc-8.10.6-src.tar.xz) = 43afba72a533408b42c1492bd047b5e37e5f7204e41a5cedd3182cc841610ce9

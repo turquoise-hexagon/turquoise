@@ -1,0 +1,63 @@
+# Description : The Glasgow Haskell Compiler
+# URL         : https://www.haskell.org/ghc
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : libgmp libffi readline
+
+name=ghc
+version=8.10.6
+release=1
+bootstrap_url=https://downloads.haskell.org/~$name/$version/$name-$version-x86_64-centos7-linux.tar.xz
+bootstrap_sum=71bb69b7185cbb44a941f5214b241a55e158f69b103f10214a05de7845f77e45
+source=("https://downloads.haskell.org/~$name/$version/$name-$version-src.tar.xz")
+
+build() {
+    prt-get isinst ghc &> /dev/null || {
+        local _bootstrap_file=$PKGMK_SOURCE_DIR/${bootstrap_url##*/}
+
+        [[ -f $_bootstrap_file ]] ||
+            wget "$bootstrap_url" -O "$_bootstrap_file"
+        
+        local _bootstrap_sum
+
+        read -r _bootstrap_sum _ < <(sha256sum "$_bootstrap_file")
+
+        [[ $bootstrap_sum == "$_bootstrap_sum" ]] || {
+            echo "sha256sum failed for '$_bootstrap_file'"
+
+            exit "$E_GENERAL"
+        }
+
+        local _bootstrap_dir=$name-$version-binary
+
+        mkdir "$_bootstrap_dir" &&
+            tar xvf "$_bootstrap_file" -C "$_bootstrap_dir" --strip-components=1
+
+        cd "$_bootstrap_dir"
+
+        ln -s /usr/lib/libgmp.so.10 libgmp.so.3
+        ln -s /lib/libncurses.so.6  libtinfo.so.5
+        export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+
+        ./configure --prefix="$SRC/binary"
+
+        make install
+
+        cd "$SRC"
+
+        export PATH=$SRC/binary/bin:$PATH
+    }
+
+    cd "$name-$version"
+
+    local _ffi_includes=$(pkg-config --variable=includedir libffi)
+
+    ./configure              \
+        --prefix=/usr        \
+        --with-system-libffi \
+        --with-ffi-includes="$_ffi_includes"
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/doc"
+}
