@@ -20,6 +20,12 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-config-get.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-config-set.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-config.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension-create.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension-install.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension-list.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension-remove.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension-upgrade.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-extension.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-gist-clone.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-gist-create.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-gist-delete.1.gz
@@ -64,6 +70,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-create.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-fork.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-list.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-repo-sync.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-run-download.1.gz
