@@ -37,6 +37,7 @@ drwxr-xr-x	root/root	usr/share/rofi/themes/
 -rw-r--r--	root/root	usr/share/rofi/themes/blue.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/c64.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/dmenu.rasi
+-rw-r--r--	root/root	usr/share/rofi/themes/docu.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/fancy.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/glue_pro_blue.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/gruvbox-common.rasi
@@ -46,6 +47,8 @@ drwxr-xr-x	root/root	usr/share/rofi/themes/
 -rw-r--r--	root/root	usr/share/rofi/themes/gruvbox-light-hard.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/gruvbox-light-soft.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/gruvbox-light.rasi
+-rw-r--r--	root/root	usr/share/rofi/themes/iggy.jpg
+-rw-r--r--	root/root	usr/share/rofi/themes/iggy.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/lb.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/paper-float.rasi
 -rw-r--r--	root/root	usr/share/rofi/themes/purple.rasi
