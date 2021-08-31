@@ -1,21 +1,27 @@
 # Description : MessagePack implementation for C and C++
 # URL         : https://github.com/msgpack/msgpack-c
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : cmake
+# Depends on  : cmake boost
 
 name=msgpack
-version=3.3.0
+version=4.0.1
+commit=133934307783ad42147d5769a1cb849319c85e53
 release=1
-source=("https://github.com/msgpack/$name-c/archive/cpp-$version.tar.gz")
+source=()
 
 build() {
-    cd "$name-c-cpp-$version"
+    git clone "https://github.com/$name/$name-c"
 
-    mkdir build
-    cd    build
+    mkdir "$name-c/build"; cd "$_"
 
-    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+    git reset --hard "$commit"
 
-    make
-    make DESTDIR="$PKG" install
+    for branch in c_master cpp_master; do
+        git checkout "$branch"
+
+        cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+
+        make
+        make DESTDIR="$PKG" install
+    done
 }
