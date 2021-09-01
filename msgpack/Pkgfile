@@ -4,24 +4,24 @@
 # Depends on  : cmake boost
 
 name=msgpack
-version=4.0.1
-commit=133934307783ad42147d5769a1cb849319c85e53
+version=4.0.2
+c_version=c-4.0.0
+cpp_version=cpp-4.0.2
 release=1
-source=()
+source=(
+"https://github.com/$name/$name-c/archive/$c_version.tar.gz"
+"https://github.com/$name/$name-c/archive/$cpp_version.tar.gz"
+)
 
 build() {
-    git clone "https://github.com/$name/$name-c"
-
-    mkdir "$name-c/build"; cd "$_"
-
-    git reset --hard "$commit"
-
-    for branch in c_master cpp_master; do
-        git checkout "$branch"
+    for var in "$c_version" "$cpp_version"; do
+        mkdir "$name-c-$var/build"; cd "$_"
 
         cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 
         make
         make DESTDIR="$PKG" install
+
+        cd -
     done
 }
