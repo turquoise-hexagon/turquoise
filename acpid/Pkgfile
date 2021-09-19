@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=acpid
-version=2.0.32
-release=2
+version=2.0.33
+release=1
 source=(
 "https://downloads.sourceforge.net/project/${name}2/$name-$version.tar.xz"
 "$name"
