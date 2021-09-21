@@ -4,7 +4,7 @@
 # Depends on  : dbus gobject-introspection glib meson ninja
 
 name=playerctl
-version=2.3.1
+version=2.4.1
 release=1
 source=("https://github.com/altdesktop/$name/archive/v$version.tar.gz")
 
