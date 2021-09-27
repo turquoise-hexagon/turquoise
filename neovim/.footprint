@@ -806,6 +806,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/inspect.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp.lua
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/lsp/
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/_snippet.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/buf.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/codelens.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
