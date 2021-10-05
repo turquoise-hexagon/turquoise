@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/killw
 -rwxr-xr-x	root/root	usr/bin/lsw
 -rwxr-xr-x	root/root	usr/bin/mapw
+-rwxr-xr-x	root/root	usr/bin/pdw
 -rwxr-xr-x	root/root	usr/bin/pfw
 -rwxr-xr-x	root/root	usr/bin/slw
 -rwxr-xr-x	root/root	usr/bin/wattr
