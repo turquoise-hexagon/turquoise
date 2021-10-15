@@ -1,0 +1,23 @@
+# Description : An open-source formatting library
+# URL         : https://fmt.dev/latest/index.html
+# Maintainer  : can open-source formatting libraryamille, camille at lzr dot pw
+# Depends on  : cmake
+
+name=fmt
+version=8.0.1
+release=1
+source=("https://github.com/${name}lib/$name/releases/download/$version/$name-$version.zip")
+
+build() {
+    mkdir "$name-$version/build"; cd "$_"
+
+    cmake ..                         \
+        -D CMAKE_INSTALL_PREFIX=/usr \
+        -D CMAKE_INSTALL_LIBDIR=lib  \
+        -D CMAKE_BUILD_TYPE=Release  \
+        -D BUILD_SHARED_LIBS=ON      \
+        -D CMAKE_POSITION_INDEPENDENT_CODE=ON
+
+    make
+    make DESTDIR="$PKG" install
+}
