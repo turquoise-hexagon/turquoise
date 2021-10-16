@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9AeWu7Dt3EEQOUnOnLySj2pdQCz7blT5XIYwtAVlooLTb7KNUPKJ+JvO1kFiwEW6JPNEaNVzCCWPcmKy4FkhA4=
-SHA256 (Pkgfile) = 79b9479a0f94bece21b1c287fbd3498f67e24ad906c20a30d3f194dde71cdeba
-SHA256 (.footprint) = b983188721f6dbc0ac8be191315593fb03727dc02467c0669c4d58f787420157
-SHA256 (valgrind-3.17.0.tar.bz2) = ad3aec668e813e40f238995f60796d9590eee64a16dff88421430630e69285a2
