@@ -4,13 +4,12 @@
 # Depends on  : xorg-libxrandr rust
 
 name=shotgun
-commit=2fc0d2ea8b522e47278fe02713cc546f62895c5c
-version=20210710
+version=2.2.1
 release=1
-source=("https://github.com/nexromancers/$name/archive/$commit.tar.gz")
+source=("https://github.com/nexromancers/$name/archive/v$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
     cargo build --release --locked
 
