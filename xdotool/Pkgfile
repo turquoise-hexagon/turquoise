@@ -4,7 +4,7 @@
 # Depends on  : libxkbcommon xorg-libxinerama xorg-libxtst
 
 name=xdotool
-version=3.20210903.1
+version=3.20211022.1 
 release=1
 source=("https://github.com/jordansissel/$name/archive/v$version.tar.gz")
 
