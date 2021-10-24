@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw1qeB1xuG5a02QMjnC5CokuMp+HXNZMj6BNVP4+EiabaOKHU9oUAnubGtj40D8nPDZbI8VqWkH9uTmk0f7wXAg8=
+SHA256 (Pkgfile) = 6dc845032c692f49337518d3b327e2982c3dc4ae0b13b2fd911e2e511beb9050
+SHA256 (.footprint) = 96c0164c3b4b5a2d306fee0741069ddaf2b3531df865e45873909165ff247c3a
+SHA256 (racket-8.2-src.tgz) = a0f3cf72938e7ae0f4f3eab70360812a2ec4e40efe327f1b449feb447b4f7482
