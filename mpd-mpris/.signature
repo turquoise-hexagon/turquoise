@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw2IWDjWFnxkQVkUzbI0YH2980TZ4W/FEM0uXTNmeMI70M8kD30x5YA90nKEDCz69TqIunuPdfaNIwXGgxJ7UHQ8=
+SHA256 (Pkgfile) = 0048c9ce18684ed2dcfe20c9417176306dcbceed5cb010177126df3d9f2079cd
+SHA256 (.footprint) = 06ab44c938aa2bdf0397910785947336abcddd1db0fdbb32335d9a0141a04da0
+SHA256 (mpd-mpris_0.3.1_Linux_x86_64.tar.gz) = 2971d934570c007b1950210243e1039e996485bfcf1a8839c64562ea283a221e
