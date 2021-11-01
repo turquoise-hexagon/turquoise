@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/UwzK3ztkPItwb2U9t/NXzv2OXi/ujb0isoLqeWVDbq2925ncxNPnFPmuj/2AWdwWfAyXQ3DIrlKH7VmV2Yvg8wws=
-SHA256 (Pkgfile) = 636882dbdeda9dce40d2fd4e5a5651d6b1c57cd2b1998bc41547b392e3eabbc2
+RWTOjBUiTG/Uw4NlHVPdAu9i6ZwmXMZrC0aUn7TqbGu7HwMzxB39im7t8ces41wWgshsbSz9YU052N2XM3QIn7ljkj4YHpC/LwU=
+SHA256 (Pkgfile) = 6815eebdaa849f451aea256b03c9bbe5c99eeba916e8edd42cf32b13190d3801
 SHA256 (.footprint) = afeefedd6f98b3ce0b3bb7918f8fdde524e951380e5b56c66559de5a3253dd1d
-SHA256 (v1.7.0.tar.gz) = 560d4d5b7e31418abc6c59c40115656648cb1599a558da057e8bb88a40613979
-SHA256 (no_wayland.patch) = 3e6a14dbbaf7646cbbd74bd1de00ce7ac5e2d22430adbc2e97a5678f78afeab9
+SHA256 (v1.7.1.tar.gz) = f61ed3280aee9ec2aac07c44cf3d147df8fe8a6d7b92b6e8ab04e546bff1adce

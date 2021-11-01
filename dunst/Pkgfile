@@ -4,17 +4,12 @@
 # Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
 
 name=dunst
-version=1.7.0
+version=1.7.1
 release=1
-source=(
-"https://github.com/$name-project/$name/archive/v$version.tar.gz"
-no_wayland.patch
-)
+source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
-
-    patch -p 1 -i "$SRC/no_wayland.patch"
 
     make WAYLAND=0
     make WAYLAND=0 PREFIX=/usr DESTDIR="$PKG" install
