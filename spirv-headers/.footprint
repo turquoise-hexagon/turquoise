@@ -79,3 +79,5 @@ drwxr-xr-x	root/root	usr/share/cmake/SPIRV-Headers/
 -rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfig.cmake
 -rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersConfigVersion.cmake
 -rw-r--r--	root/root	usr/share/cmake/SPIRV-Headers/SPIRV-HeadersTargets.cmake
+drwxr-xr-x	root/root	usr/share/pkgconfig/
+-rw-r--r--	root/root	usr/share/pkgconfig/SPIRV-Headers.pc
