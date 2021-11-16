@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw4Q7PrgvIZEhrlZBqTKKz2I1AcaE27whxIKjmvWCI51/e59L9xdYALJYdeuRL0T9dd8NvD3BtxUarT26GHd8Pg8=
-SHA256 (Pkgfile) = 177eb3f82736323f90a74551f87f80530bdc0213aae68a35ebf5da3f2f112091
+RWTOjBUiTG/UwyMpiRM96NlbsczY+PnsC27phf+DtXnGQpnlqxSww7A0ZUEr1396I7e6hAczw2D9qimVunKLEvwzXNKcYc2i4gE=
+SHA256 (Pkgfile) = b393efdf4f0f45c49bdc68a40ffd73b007f181ea753967dca7bf8b012cb65096
 SHA256 (.footprint) = 4769217ee99d48822ff312aa0d02e9e1b0b4c61461d56963f1cbf497360a3319
-SHA256 (tsetup.3.2.4.tar.xz) = b5a5cca0b7e309e14b94a80c95104dba8efaea4fad78d9dd611a340a5e2608c0
+SHA256 (tsetup.3.2.5.tar.xz) = 82015812f6334bd5c8ee56204a946cf0a27344e48ce9f44bff87d0dc3f84ef03
