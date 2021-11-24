@@ -15,14 +15,14 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/PKG-INFO
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/SOURCES.html
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/SOURCES.txt
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/dependency_links.html
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/dependency_links.txt
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/top_level.html
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18-py3.10.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/PKG-INFO
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/SOURCES.html
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/SOURCES.txt
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/dependency_links.html
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/dependency_links.txt
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/top_level.html
+-rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils-0.18.1-py3.10.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/__pycache__/
@@ -117,6 +117,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/direc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/admonitions.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/body.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/html.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/images.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/misc.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/parts.cpython-310.pyc
@@ -124,6 +125,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/direc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/__pycache__/tables.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/admonitions.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/body.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/html.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/images.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/misc.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/parsers/rst/directives/parts.py
@@ -306,7 +308,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_pol
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/__pycache__/__init__.cpython-310.pyc
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/math.css
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/math.css
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/minimal.css
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/plain.css
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/docutils/writers/html5_polyglot/responsive.css
