@@ -36,7 +36,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/dist/
 drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/health/
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/health/nvim.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/health/provider.vim
--rw-r--r--	root/root	usr/share/nvim/runtime/autoload/health/treesitter.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/htmlcomplete.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/javascriptcomplete.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/man.vim
@@ -186,9 +185,11 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/compiler/
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/rubyunit.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/rustc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/sass.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/compiler/scdoc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/se.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/shellcheck.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/sml.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/compiler/spectral.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/splint.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/stack.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/standard.vim
@@ -203,6 +204,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/compiler/
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/xmllint.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/xmlwf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/xo.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/compiler/yamllint.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/compiler/zsh.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/delmenu.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
@@ -214,7 +216,9 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/cmdline.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/debug.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/deprecated.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/dev_style.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/develop.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/diagnostic.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/diff.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/digraph.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/editing.txt
@@ -269,7 +273,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/quickfix.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/quickref.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/recover.txt
--rw-r--r--	root/root	usr/share/nvim/runtime/doc/remote.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/remote_plugin.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/repeat.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/rileft.txt
@@ -431,7 +434,9 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/javascriptreact.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/jproperties.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/json.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/jsonc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/jsp.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/julia.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/kconfig.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/kwt.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ld.vim
@@ -474,11 +479,13 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/nanorc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/neomuttrc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/netrc.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/nginx.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/nroff.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/nsis.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/objc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ocaml.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/occam.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/octave.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/pamconf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/pascal.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/passwd.vim
@@ -509,6 +516,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rmd.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rnc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rnoweb.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/routeros.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rpl.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rrst.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/rst.vim
@@ -517,6 +525,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sass.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sbt.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/scala.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/scdoc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/scheme.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/screen.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/scss.vim
@@ -548,6 +557,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/text.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/tidy.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/tmux.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/toml.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/treetop.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/tt2html.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/tutor.vim
@@ -634,7 +644,9 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/javascript.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/javascriptreact.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/json.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/jsonc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/jsp.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/julia.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/ld.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/less.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/lifelines.vim
@@ -649,6 +661,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/mf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/mma.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/mp.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/nginx.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/nsis.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/objc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/ocaml.vim
@@ -797,11 +810,13 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/keymap/
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/vietnamese-viqr_utf-8.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/keymap/vietnamese-vni_utf-8.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/health.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/man.lua
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/F.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_meta.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/compat.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/diagnostic.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/highlight.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/inspect.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp.lua
@@ -811,9 +826,12 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/lsp/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/codelens.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/diagnostic.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/handlers.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/health.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/log.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/protocol.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/rpc.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/sync.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/tagfunc.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/util.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/shared.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/treesitter.lua
@@ -823,6 +841,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/treesitter/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/treesitter/language.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/treesitter/languagetree.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/treesitter/query.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/ui.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/uri.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/macmap.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/macros/
@@ -918,7 +937,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/print/
 -rw-r--r--	root/root	usr/share/nvim/runtime/print/latin1.ps
 -rw-r--r--	root/root	usr/share/nvim/runtime/print/mac-roman.ps
 -rw-r--r--	root/root	usr/share/nvim/runtime/print/prolog.ps
--rw-r--r--	root/root	usr/share/nvim/runtime/rgb.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/scripts.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/spell/
 -rw-r--r--	root/root	usr/share/nvim/runtime/spell/en.utf-8.spl
@@ -1116,6 +1134,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gdb.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gdmo.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gedcom.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gemtext.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gift.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/git.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gitcommit.vim
@@ -1139,6 +1158,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/grub.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gsp.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gtkrc.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/gvpr.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/haml.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/hamster.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/haskell.vim
@@ -1188,7 +1208,9 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/jovial.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/jproperties.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/json.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/jsonc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/jsp.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/julia.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/kconfig.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/kivy.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/kix.vim
@@ -1281,6 +1303,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/neomuttrc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/netrc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/netrw.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/nginx.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/ninja.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/nosyntax.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/nqc.vim
@@ -1371,6 +1394,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/rng.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/rnoweb.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/robots.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/routeros.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/rpcgen.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/rpl.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/rrst.vim
@@ -1384,6 +1408,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sather.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sbt.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/scala.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/scdoc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/scheme.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/scilab.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/screen.vim
@@ -1451,12 +1476,12 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/stata.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/stp.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/strace.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/structurizr.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sudoers.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/svg.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/svn.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/swift.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/swiftgyb.vim
--rw-r--r--	root/root	usr/share/nvim/runtime/syntax/syncolor.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/synload.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/syntax.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sysctl.vim
@@ -1485,6 +1510,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/tilde.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/tli.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/tmux.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/toml.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/tpp.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/trasys.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/treetop.vim
