@@ -4,7 +4,7 @@
 # Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
 
 name=dunst
-version=1.7.2
+version=1.7.1
 release=1
 source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
 
