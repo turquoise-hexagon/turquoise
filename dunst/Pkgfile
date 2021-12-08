@@ -4,13 +4,12 @@
 # Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
 
 name=dunst
-version=1.7.2
-commit=2368e4a23c8ab0b86ce3cac410faa8750a8c250d
+version=1.7.3
 release=1
-source=("https://github.com/$name-project/$name/archive/$commit.tar.gz")
+source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$version"
 
     make WAYLAND=0
     make WAYLAND=0 PREFIX=/usr DESTDIR="$PKG" install
