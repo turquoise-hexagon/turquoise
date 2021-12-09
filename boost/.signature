@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw4noTtcIrPJh9aD7yfw+V0WuruIFFij3HHrZ3B0DLuDcC2f14IodsSAwRgLmty+GTtl357MfzWIJOXpmHtpAWgk=
-SHA256 (Pkgfile) = a499adcea891ec477c9df9d7caa7504dd3c1476eb9635bbac8ff920d140d067a
-SHA256 (.footprint) = 8a3b2e76e579985eed1dbdb274af401dcf1faff6f045509fcaad813f92ab0410
-SHA256 (boost_1_77_0.tar.gz) = 5347464af5b14ac54bb945dc68f1dd7c56f0dad7262816b956138fc53bcc0131
+RWTOjBUiTG/Uw93nTIuVxcpTXx+iYO0R3ngoyeKEMWcUfdHQvfqn67HW+sNPmaz7QmUqjeDfNlc0HeTnxyFuJmYNwJuZW1zA0Qs=
+SHA256 (Pkgfile) = c789befcae414311ed27fdbb25ab24d884c951b813e4fdf3fdac7af927b97935
+SHA256 (.footprint) = f08752e76006303987cfda88d6b341f6e0155dd32b815684a5f0e016ab2d4c9a
+SHA256 (boost_1_78_0.tar.gz) = 94ced8b72956591c4775ae2207a9763d3600b30d9d7446562c552f0a14a63be7
