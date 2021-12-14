@@ -2229,8 +2229,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/pip-21.2.3-py3-none-any.whl
--rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/setuptools-57.4.0-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/pip-21.2.4-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/setuptools-58.1.0-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_uninstall.py
 -rw-r--r--	root/root	usr/lib/python3.10/enum.py
 -rw-r--r--	root/root	usr/lib/python3.10/filecmp.py
@@ -2990,9 +2990,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.10/lib-dynload/zlib.cpython-310-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.10/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar3.10.0.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar3.10.1.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar3.10.0.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar3.10.1.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/lib2to3/__pycache__/
@@ -3641,6 +3641,12 @@ drwxr-xr-x	root/root	usr/lib/python3.10/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module4.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module4.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module4.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module5.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module5.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module5.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.pyc
@@ -5100,6 +5106,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module2.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module3.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module4.py
+-rw-r--r--	root/root	usr/lib/python3.10/test/ann_module5.py
+-rw-r--r--	root/root	usr/lib/python3.10/test/ann_module6.py
 drwxr-xr-x	root/root	usr/lib/python3.10/test/audiodata/
 -rw-r--r--	root/root	usr/lib/python3.10/test/audiodata/pluck-alaw.aifc
 -rw-r--r--	root/root	usr/lib/python3.10/test/audiodata/pluck-pcm16.aiff
@@ -5609,7 +5617,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/test/support/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_abstract_numbers.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_aifc.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_argparse.py
--rw-r--r--	root/root	usr/lib/python3.10/test/test_array.py
+-rwxr-xr-x	root/root	usr/lib/python3.10/test/test_array.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_asdl_parser.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_ast.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/test_asyncgen.py
@@ -7153,16 +7161,12 @@ drwxr-xr-x	root/root	usr/lib/python3.10/tkinter/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/__init__.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/__init__.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/__init__.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/runtktests.cpython-310.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/runtktests.cpython-310.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/runtktests.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/support.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/support.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/support.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/widget_tests.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/widget_tests.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/__pycache__/widget_tests.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/runtktests.py
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/support.py
 drwxr-xr-x	root/root	usr/lib/python3.10/tkinter/test/test_tkinter/
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_tkinter/__init__.py (EMPTY)
@@ -7223,9 +7227,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_extensions.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_extensions.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_extensions.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_functions.cpython-310.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_functions.cpython-310.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_functions.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_style.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_style.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_style.cpython-310.pyc
@@ -7233,7 +7234,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_widgets.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/__pycache__/test_widgets.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/test_extensions.py
--rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/test_functions.py
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/test_style.py
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/test_ttk/test_widgets.py
 -rw-r--r--	root/root	usr/lib/python3.10/tkinter/test/widget_tests.py
