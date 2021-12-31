@@ -359,6 +359,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/cfg.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ch.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/changelog.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/checkhealth.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/chicken.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/clojure.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/cmake.vim
@@ -1016,6 +1017,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/change.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/changelog.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/chaskell.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/checkhealth.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/cheetah.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/chicken.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/chill.vim
