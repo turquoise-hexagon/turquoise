@@ -4,7 +4,7 @@
 # Depends on  : zlib xorg-libxft
 
 name=tcl
-version=8.6.11
+version=8.6.12
 release=1
 source=(
 "https://prdownloads.sourceforge.net/tcl/tcl$version-src.tar.gz"
