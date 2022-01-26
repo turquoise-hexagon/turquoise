@@ -4,7 +4,7 @@
 # Depends on  : python3 spirv-headers
 
 name=spirv-tools
-version=2021.4
+version=2022.1
 release=1
 source=(
 "https://github.com/khronosgroup/$name/archive/v$version.tar.gz"
