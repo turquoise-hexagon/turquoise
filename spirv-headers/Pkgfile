@@ -4,8 +4,8 @@
 # Depends on  : cmake ninja
 
 name=spirv-headers
-commit=29414ae1fd07a43cf8fe29b4437bfe8475cdd0d8
-version=20211201
+commit=b42ba6d92faf6b4938e6f22ddd186dbdacc98d78
+version=20220119
 release=1
 source=("https://github.com/khronosgroup/$name/archive/$commit.tar.gz")
 
