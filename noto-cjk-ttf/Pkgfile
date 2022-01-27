@@ -1,0 +1,25 @@
+# Description : Noto CJK fonts
+# URL         : https://www.google.com/get/noto
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : xorg-mkfontscale fontconfig unzip
+
+name=noto-cjk-ttf
+version=20220127
+release=1
+source_fix=(
+https://github.com/googlefonts/noto-cjk/releases/download/Sans2.004/02_NotoSansCJK-TTF-VF.zip
+https://github.com/googlefonts/noto-cjk/releases/download/Serif2.001/03_NotoSerifCJK-TTF-VF.zip
+)
+
+build() {
+    cd "$PKGMK_WORK_DIR/src"
+
+    local url
+
+    for url in "${source_fix[@]}"; do
+        wget "$url"; unzip -B "${url##*/}" || : # fix exit status
+
+        find . -type f -name '*.ttf' \
+            -exec install -D -m 644 '{}' -t "$PKG/usr/share/fonts/X11/TTF" ';'
+    done
+}

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+dir=/usr/share/fonts/X11/TTC
+
+fc-cache -f
+mkfontdir   "$dir"
+mkfontscale "$dir"
