@@ -4,12 +4,12 @@
 # Depends on  : spirv-tools
 
 name=glslang
-version=11.7.1
+version=11.8.0
 release=1
-source=("https://github.com/khronosgroup/glslang/archive/$version.tar.gz")
+source=("https://github.com/khronosgroup/$name/archive/refs/tags/master-tot.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-master-tot"
 
     config=(
         -DCMAKE_INSTALL_PREFIX=/usr
