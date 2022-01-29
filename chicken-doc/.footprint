@@ -529,6 +529,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/csv-abnf/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/csv-abnf/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/csv-abnf/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/csv-abnf/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/daemon/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/daemon/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/daemon/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/daemon/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/dataframe/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dataframe/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dataframe/,meta
@@ -957,6 +961,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/lazy-seq/
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ldif-sexpr/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ldif-sexpr/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ldif-sexpr/,meta
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/leveldb/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/leveldb/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/leveldb/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/leveldb/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/levenshtein/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/levenshtein/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/levenshtein/,meta
@@ -2142,3 +2150,7 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/zmq/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zmq/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zmq/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zmq/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/zstd/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,sxml
