@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=telegram-desktop
-version=3.5.0
+version=3.5.1
 release=1
 source=("https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
