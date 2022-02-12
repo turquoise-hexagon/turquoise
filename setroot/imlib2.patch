@@ -1,0 +1,12 @@
+diff '--color=auto' -Naur old/Makefile new/Makefile
+--- old/Makefile	2019-02-01 05:40:19.000000000 +0000
++++ new/Makefile	2022-02-12 15:46:25.069316622 +0000
+@@ -6,7 +6,7 @@
+ CC       := gcc
+ OFLAG    :=
+ CFLAGS   := -std=c99 -Wall -g -Wextra ${OFLAG}
+-LIBS     := -lX11 `imlib2-config --libs`
++LIBS     := -lX11 -lImlib2
+ 
+ SRC      := setroot.c
+ 

@@ -1,0 +1,33 @@
+# Description : A free and portable TrueType font rendering engine
+# URL         : https://www.freetype.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : brotli harfbuzz
+
+name=freetype
+version=2.11.1
+release=1
+source=(
+"https://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.xz"
+patches/enable-infinality-subpixel-hinting.patch
+patches/enable-long-pcf-family-names.patch
+patches/enable-subpixel-rendering.patch
+patches/enable-table-validation-modules.patch
+freetype2.sh
+)
+
+build() {
+    cd "$name-$version"
+
+    local patch; for patch in "$SRC"/*.patch; do
+        patch -p 1 -i "$patch"
+    done
+
+    ./configure       \
+        --prefix=/usr \
+        --enable-shared
+
+    make
+    make DESTDIR="$PKG" install
+
+    install -D -m 644 "$SRC/freetype2.sh" -t "$PKG/etc/profile.d"
+}
