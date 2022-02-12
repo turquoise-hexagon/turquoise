@@ -6,10 +6,10 @@
 name=glslang
 version=11.8.0
 release=1
-source=("https://github.com/khronosgroup/$name/archive/refs/tags/master-tot.tar.gz")
+source=("https://github.com/khronosgroup/$name/archive/$version.tar.gz")
 
 build() {
-    cd "$name-master-tot"
+    cd "$name-$version"
 
     config=(
         -DCMAKE_INSTALL_PREFIX=/usr
