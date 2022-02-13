@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9zXhkDGXhc//JnOJK3Y/oGY3q4sTSI6/zLz685G9vQxk3JIWhCLOh3bXUnrAYXK4VKJGA8rFU31cBTmDvJ3iwQ=
-SHA256 (Pkgfile) = f61453bd788c22af48092dbb5ce963c973ce157dfe6ad67542516f1ebf8600c5
+RWTOjBUiTG/UwwT9/6TsdgKR8yAw/jRCoaEiZ0OLdtFqBu87ELdMdkP9zUfuItoDNJO8GojE4UJQmfqBvGGSAntscoQmHVF6XQU=
+SHA256 (Pkgfile) = 459b5a4ec0c5e07903ad64adb63cab5112af349ac8aaf9df7078b23d9f870697
 SHA256 (.footprint) = 2942d78fa41e5973499fadf3b9dfb1abd61f365c540e78bfde36b2119451bf6c
 SHA256 (freetype-2.11.1.tar.xz) = 3333ae7cfda88429c97a7ae63b7d01ab398076c3b67182e960e5684050f2c5c8
 SHA256 (enable-infinality-subpixel-hinting.patch) = 21a62bc12b848320c686d602d8d4e3bcd51294a9def4dc9c301736e077b59f3f
