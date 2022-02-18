@@ -1,0 +1,17 @@
+# Description : A full-featured YAML framework for the Python programming language
+# URL         : https://pyyaml.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : python3 python3-cython libyaml
+
+name=python3-yaml
+version=6.0
+release=1
+source=("https://files.pythonhosted.org/packages/source/p/pyyaml/PyYAML-6.0.tar.gz")
+
+build() {
+    cd "PyYAML-$version"
+
+    python3 ./setup.py --with-libyaml build
+    python3 ./setup.py install \
+        --prefix=/usr --root="$PKG" --optimize=1
+}
