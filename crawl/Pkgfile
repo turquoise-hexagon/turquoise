@@ -1,0 +1,30 @@
+# Description : Dungeon Crawl: Stone Soup
+# URL         : https://crawl.develz.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : bison flex freetype glu libsdl2 lua ncurses python3-yaml sld2_image sqlite3 xorg-font-dejavu-ttf
+
+name=crawl
+version=0.28.0
+release=1
+source=(
+"https://github.com/$name/$name/archive/refs/tags/$version.tar.gz"
+makefile.patch
+)
+
+build() {
+    cd "$name-$version"
+    patch -p 1 -i "$SRC/makefile.patch"
+    cd "$name-ref/source"
+
+    echo "$version" > util/release_ver
+
+    make                           \
+        DESTDIR="$PKG"             \
+        DATADIR="/usr/share/$name" \
+        SAVEDIR="~/.$name"         \
+        USE_UNICODE=y              \
+        TILES=y                    \
+        install
+
+    rm -rf "$PKG/usr/share/$name/dat/descript/"*/
+}

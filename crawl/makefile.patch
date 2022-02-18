@@ -1,0 +1,20 @@
+--- old/crawl-ref/source/Makefile	2022-02-18 01:45:59.408738223 +0000
++++ new/crawl-ref/source/Makefile	2022-02-18 01:46:26.955739376 +0000
+@@ -409,7 +409,7 @@
+ MCHMOD_LOGS := 664
+ 
+ # The user:group to install the game as.
+-INSTALL_UGRP := games:games
++INSTALL_UGRP := root:root
+ endif
+ 
+ ifeq ($(patsubst %/local,%,$(patsubst %/,%,$(prefix))),/usr)
+@@ -418,7 +418,7 @@
+ 
+ ifeq (,$(bin_prefix))
+ ifneq ($(patsubst %/,%,$(prefix)),/usr)
+-bin_prefix    := bin
++bin_prefix    := usr/bin
+ else
+ bin_prefix    := games
+ endif
