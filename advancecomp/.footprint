@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/advdef
+-rwxr-xr-x	root/root	usr/bin/advmng
+-rwxr-xr-x	root/root	usr/bin/advpng
+-rwxr-xr-x	root/root	usr/bin/advzip
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/advdef.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/advmng.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/advpng.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/advzip.1.gz
