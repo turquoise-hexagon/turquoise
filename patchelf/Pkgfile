@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=patchelf
-version=0.14.3
+version=0.14.5
 release=1
 source=("https://github.com/nixos/$name/archive/$version.tar.gz")
 
