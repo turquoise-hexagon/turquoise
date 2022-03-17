@@ -2229,7 +2229,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/__pycache__/__init__.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/pip-21.2.4-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/pip-22.0.4-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_bundled/setuptools-58.1.0-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.10/ensurepip/_uninstall.py
 -rw-r--r--	root/root	usr/lib/python3.10/enum.py
@@ -2474,6 +2474,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/idlelib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/undo.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/undo.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/undo.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/util.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/util.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/util.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/window.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/window.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/__pycache__/window.cpython-310.pyc
@@ -2697,6 +2700,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_undo.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_undo.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_undo.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_util.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_util.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_util.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_warning.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_warning.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/test_warning.cpython-310.pyc
@@ -2712,6 +2718,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/tkinter_testing_utils.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/tkinter_testing_utils.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/tkinter_testing_utils.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/example_noext
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/example_stub.pyi
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/htest.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/mock_idle.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/mock_tk.py
@@ -2770,6 +2778,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_tooltip.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_tree.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_undo.py
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_util.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_warning.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_window.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/idle_test/test_zoomheight.py
@@ -2803,6 +2812,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/idlelib/idle_test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/tooltip.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/tree.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/undo.py
+-rw-r--r--	root/root	usr/lib/python3.10/idlelib/util.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/window.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/zoomheight.py
 -rw-r--r--	root/root	usr/lib/python3.10/idlelib/zzdummy.py
@@ -2990,9 +3000,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.10/lib-dynload/zlib.cpython-310-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.10/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar3.10.2.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.10/lib2to3/Grammar3.10.3.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar3.10.2.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.10/lib2to3/PatternGrammar3.10.3.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.10/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/lib2to3/__pycache__/
@@ -3647,6 +3657,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module6.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module7.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module7.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/ann_module7.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/test/__pycache__/audiotests.cpython-310.pyc
@@ -5108,6 +5121,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module4.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module5.py
 -rw-r--r--	root/root	usr/lib/python3.10/test/ann_module6.py
+-rw-r--r--	root/root	usr/lib/python3.10/test/ann_module7.py
 drwxr-xr-x	root/root	usr/lib/python3.10/test/audiodata/
 -rw-r--r--	root/root	usr/lib/python3.10/test/audiodata/pluck-alaw.aifc
 -rw-r--r--	root/root	usr/lib/python3.10/test/audiodata/pluck-pcm16.aiff
