@@ -5,15 +5,19 @@
 
 name=crawl
 version=0.28.0
-release=1
+release=2
 source=(
 "https://github.com/$name/$name/archive/refs/tags/$version.tar.gz"
-makefile.patch
+"patches/makefile.patch"
+"patches/unrand-lookup.patch"
 )
 
 build() {
     cd "$name-$version"
+
     patch -p 1 -i "$SRC/makefile.patch"
+    patch -p 1 -i "$SRC/unrand-lookup.patch"
+
     cd "$name-ref/source"
 
     echo "$version" > util/release_ver
