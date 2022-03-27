@@ -5,10 +5,10 @@
 
 name=gbdfed
 version=1.6
-release=1
+release=2
 source=(
 "http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz"
-patches/num_signals.patch
+patches/num-signals.patch
 patches/makefile.patch
 )
 
@@ -16,7 +16,7 @@ build() {
     cd "$name-$version"
 
     patch -p1 -i "$SRC/makefile.patch"
-    patch -p1 -i "$SRC/num_signals.patch"
+    patch -p1 -i "$SRC/num-signals.patch"
 
     ./configure --prefix=/usr
 
