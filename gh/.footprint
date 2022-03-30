@@ -61,6 +61,9 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-issue-transfer.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-issue-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-issue.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-label-create.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-label-list.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-label.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-checkout.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-checks.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-close.1.gz
@@ -106,6 +109,8 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-run-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-run-watch.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-run.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-search-issues.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-search-prs.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-search-repos.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-search.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-secret-list.1.gz
@@ -115,6 +120,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key-add.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-status.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-workflow-disable.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-workflow-enable.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-workflow-list.1.gz
