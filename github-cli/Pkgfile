@@ -2,14 +2,14 @@
 # URL         : https://cli.github.com
 # Maintainer  : camille, camille at lzr dot pw
 
-name=gh
+name=github-cli
 version=2.7.0
 release=1
-source=("https://github.com/cli/cli/releases/download/v$version/${name}_${version}_linux_amd64.tar.gz")
+source=("https://github.com/cli/cli/releases/download/v$version/gh_${version}_linux_amd64.tar.gz")
 
 build() {
-    cd "${name}_${version}_linux_amd64"
+    cd "gh_${version}_linux_amd64"
 
-    install -Dm755 "bin/$name"        -t "$PKG/usr/bin"
+    install -Dm755 "bin/gh"           -t "$PKG/usr/bin"
     install -Dm644 "share/man/man1/"* -t "$PKG/usr/share/man/man1"
 }
