@@ -1,0 +1,23 @@
+# Description : SDL_image is an image file loading library.
+# URL         : https://www.libsdl.org/projects/SDL_image
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : libsdl2 libwebp
+
+name=sdl2_image
+version=2.0.5
+release=1
+source=("https://www.libsdl.org/projects/SDL_image/release/SDL2_image-$version.tar.gz")
+
+build() {
+    cd "SDL2_image-$version"
+
+    ./configure              \
+        --prefix=/usr        \
+        --disable-jpg-shared \
+        --disable-png-shared \
+        --disable-tif-shared \
+        --disable-webp-shared
+
+    make
+    make DESTDIR="$PKG" install
+}

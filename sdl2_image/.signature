@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw72E0jWWLpEcfY77NgGHyxdUNfbTStfaJXskbOv1/oFobJLS+/xc65ilyseKs/P8YkH4cGdMEpwJs34Dcih+fgE=
+SHA256 (Pkgfile) = 2ccff8a3a4b4ba993140dcc7621e07544ddc0f7371be6d01e3c136fd2b7be576
+SHA256 (.footprint) = 6038de92a679325392213d2d0ae891cc3ae7b3babff79879a678f62e651e5017
+SHA256 (SDL2_image-2.0.5.tar.gz) = bdd5f6e026682f7d7e1be0b6051b209da2f402a2dd8bd1c4bd9c25ad263108d0
