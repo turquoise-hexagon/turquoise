@@ -5,10 +5,10 @@
 # Optional    : brotli harfbuzz
 
 name=freetype
-version=2.11.1
-release=2
+version=2.12.0
+release=1
 source=(
-"https://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.xz"
+"https://download.savannah.gnu.org/releases/$name/$name-$version.tar.gz"
 patches/enable-infinality-subpixel-hinting.patch
 patches/enable-long-pcf-family-names.patch
 patches/enable-subpixel-rendering.patch
