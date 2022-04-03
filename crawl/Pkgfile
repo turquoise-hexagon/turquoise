@@ -4,23 +4,31 @@
 # Depends on  : bison flex freetype glu libsdl2 lua ncurses python3-yaml sld2_image sqlite3 xorg-font-dejavu-ttf
 
 name=crawl
-version=0.28.0
-release=2
-source=(
-"https://github.com/$name/$name/archive/refs/tags/$version.tar.gz"
-"patches/makefile.patch"
-"patches/unrand-lookup.patch"
-)
+version=git
+release=1
+source=(makefile.patch)
+
+download() {
+    local source_dir="$PKGMK_SOURCE_DIR/$name"
+    local work_dir="$PKGMK_WORK_DIR/src/$name"
+
+    if [[ -d $source_dir ]]; then
+        rm -rf "$source_dir"
+    fi
+
+    if git clone "$1" "$source_dir" -b "$2"; then
+        cp -r "$source_dir" "$work_dir"
+    fi
+}
 
 build() {
-    cd "$name-$version"
+    download "https://github.com/$name/$name" master
+
+    cd "$name"
 
     patch -p 1 -i "$SRC/makefile.patch"
-    patch -p 1 -i "$SRC/unrand-lookup.patch"
 
     cd "$name-ref/source"
-
-    echo "$version" > util/release_ver
 
     make                           \
         DESTDIR="$PKG"             \
