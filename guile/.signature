@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw9IRlRsTcGEn9n4ePZdsBdfDFAmnTc0aiYIjm1z/yp9kENzXhD73dLF6Rc2IkWE5yRj5OUkRoVAYufMgiV1haAg=
+SHA256 (Pkgfile) = fce7dcb0d612cb6196f9adcb3a0d271a5058b181192edab6467639ba95ddfd16
+SHA256 (.footprint) = 3b96a4600323249d3b05c72468f8cd54d7b76830fc1ea4a69277f6fb32259bde
+SHA256 (guile-3.0.8.tar.gz) = f25ae0c26e911af1b5005292d4f56621879f74d6958b30741cf67d8b6feb2016

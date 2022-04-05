@@ -1,0 +1,20 @@
+# Description : An implementation of the Scheme programming language
+# URL         : https://www.gnu.org/software/guile
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : libunistring libgmp libffi boehm-gc
+
+name=guile
+version=3.0.8
+release=1
+source=("https://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+
+    rm -rf "$PKG/usr/share/info"
+}
