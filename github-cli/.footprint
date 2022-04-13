@@ -83,6 +83,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-delete-asset.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-delete.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-download.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-release-edit.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-upload.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-release-view.1.gz
