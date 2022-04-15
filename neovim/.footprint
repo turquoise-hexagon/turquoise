@@ -29,6 +29,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/decada.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/dist/
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/dist/ft.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/autoload/freebasic.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/gnat.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/gzip.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/haskellcomplete.vim
@@ -51,7 +52,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/autoload/provider/
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/clipboard.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/node.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/perl.vim
--rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/python.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/python3.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/pythonx.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/autoload/provider/ruby.vim
@@ -211,6 +211,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/api.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/arabic.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/autocmd.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/builtin.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/change.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/channel.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/cmdline.txt
@@ -235,7 +236,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/help.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/helphelp.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/if_cscop.txt
--rw-r--r--	root/root	usr/share/nvim/runtime/doc/if_lua.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/if_perl.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/if_pyth.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/if_ruby.txt
@@ -254,7 +254,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/message.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/mlang.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/motion.txt
--rw-r--r--	root/root	usr/share/nvim/runtime/doc/msgpack_rpc.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/nvim.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/nvim_terminal_emulator.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/options.txt
@@ -273,6 +272,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/quickfix.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/quickref.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/recover.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/remote.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/remote_plugin.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/repeat.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/rileft.txt
@@ -329,6 +329,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vim_diff.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/visual.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/windows.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/filetype.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/filetype.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftoff.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin.vim
@@ -405,7 +406,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/fstab.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/fvwm.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gdb.vim
--rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/git.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitcommit.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitconfig.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitrebase.vim
@@ -426,6 +426,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/hostsaccess.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/html.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/htmldjango.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/i3config.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/indent.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/initex.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ishd.vim
@@ -505,8 +506,10 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ps1xml.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/pyrex.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/python.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/qb64.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/qf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/quake.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/query.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/r.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/racc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/raku.vim
@@ -541,6 +544,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/slpconf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/slpreg.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/slpspi.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/solution.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/spec.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sql.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sshconfig.vim
@@ -595,6 +599,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/automake.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/awk.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/bash.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/basic.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/bib.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/bst.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/bzl.vim
@@ -630,6 +635,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/falcon.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/fortran.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/framescript.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/freebasic.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/gitconfig.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/gitolite.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/go.vim
@@ -676,6 +682,8 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/indent/
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/ps1.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/pyrex.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/python.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/qb64.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/indent/query.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/r.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/raku.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/indent/raml.vim
@@ -815,11 +823,15 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/man.lua
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/F.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_editor.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_init_packages.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_meta.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/compat.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/diagnostic.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/filetype.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/highlight.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/inspect.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/keymap.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp.lua
 drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/lsp/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/lsp/_snippet.lua
@@ -940,6 +952,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/print/
 -rw-r--r--	root/root	usr/share/nvim/runtime/print/prolog.ps
 -rw-r--r--	root/root	usr/share/nvim/runtime/scripts.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/spell/
+-rw-r--r--	root/root	usr/share/nvim/runtime/spell/cleanadd.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/spell/en.utf-8.spl
 -rw-r--r--	root/root	usr/share/nvim/runtime/synmenu.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
@@ -1067,6 +1080,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/debsources.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/def.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/denyhosts.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/dep3patch.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/desc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/desktop.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/dictconf.vim
@@ -1182,6 +1196,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/htmldjango.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/htmlm4.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/htmlos.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/i3config.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/ia64.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/ibasic.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/icemenu.vim
@@ -1369,8 +1384,10 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/purifylog.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/pyrex.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/python.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/qb64.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/qf.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/quake.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/query.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/r.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/racc.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/radiance.vim
@@ -1471,6 +1488,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/syntax/
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sqloracle.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sqr.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/squid.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/syntax/squirrel.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/srec.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sshconfig.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/syntax/sshdconfig.vim
