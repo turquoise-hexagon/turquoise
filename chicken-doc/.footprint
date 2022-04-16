@@ -232,6 +232,8 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/chicken-doc/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/chicken-doc/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/chicken-doc/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/chicken-doc/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/chicken-update/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/chicken-update/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/chicken/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/chicken/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/chicken/acknowledgements/
@@ -585,6 +587,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/dyn-vector/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dyn-vector/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dyn-vector/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dyn-vector/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/dynamic-import/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dynamic-import/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dynamic-import/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/dynamic-import/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/easyffi/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/easyffi/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/edn/
@@ -632,6 +638,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/expand-full/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expand-full/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expand-full/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expand-full/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/expat/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expat/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expat/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expat/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/expect/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expect/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/expect/,meta
@@ -903,6 +913,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ioctl/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ioctl/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ioctl/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ioctl/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ipfs/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ipfs/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ipfs/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ipfs/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/isaac/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/isaac/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/isaac/,meta
@@ -1234,6 +1248,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/pipes/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pipes/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pipes/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pipes/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/pkg-config/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pkg-config/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pkg-config/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pkg-config/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/pledge/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pledge/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/pledge/,meta
@@ -1248,6 +1266,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/posix-mq/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-mq/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-mq/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-mq/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/posix-regex/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-regex/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-regex/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-regex/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/posix-shm/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-shm/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/posix-shm/,meta
@@ -1611,6 +1633,8 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-1/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-1/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-1/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-1/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-101/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-101/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-105/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-105/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-105/,meta
@@ -1734,6 +1758,9 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-18/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-18/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-18/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-18/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-180/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-180/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-180/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-189/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-189/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-189/,meta
@@ -2087,6 +2114,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/uri-match/
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/utf8/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/utf8/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/utf8/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/uuid-lib/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/uuid-lib/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/uuid-lib/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/uuid-lib/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/uuid/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/uuid/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/uuid/,meta
@@ -2154,3 +2185,6 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/zstd/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zstd/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/zxcvbn/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zxcvbn/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/zxcvbn/,meta
