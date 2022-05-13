@@ -1,17 +1,17 @@
-# Description : A high-quality MPEG audio decoder
-# URL         : https://www.underbit.com/products/mad
+# Description : A fork of the libmad MP3 decoding library
+# URL         : https://github.com/tenacityteam/libmad
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libmad
-version=0.15.1b
+commit=15d1ef053b62984cc88b4345a297d51b9fc94c83
+version=0.16.0
 release=1
-source=("ftp://ftp.mars.org/pub/mpeg/$name-$version.tar.gz")
+source=("https://github.com/tenacityteam/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-$commit"
 
-    ./configure --prefix=/usr
-
-    make
-    make DESTDIR="$PKG" install
+    cmake . -D CMAKE_INSTALL_PREFIX="$PKG/usr" -B build
+    cmake --build build
+    cmake --install build
 }
