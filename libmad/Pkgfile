@@ -3,15 +3,21 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libmad
-commit=15d1ef053b62984cc88b4345a297d51b9fc94c83
-version=0.16.0
+version=0.15.1b
 release=1
-source=("https://github.com/tenacityteam/$name/archive/$commit.tar.gz")
+source=(
+"http://downloads.sourceforge.net/project/mad/$name/$version/$name-$version.tar.gz"
+mad.pc
+)
 
 build() {
-    cd "$name-$commit"
+    sed -i "s/#version#/$version/" mad.pc
+    install -Dm644 mad.pc -t "$PKG/usr/lib/pkgconfig"
 
-    cmake . -D CMAKE_INSTALL_PREFIX="$PKG/usr" -B build
-    cmake --build build
-    cmake --install build
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
 }
