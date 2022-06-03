@@ -1068,6 +1068,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/mathh/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/mathh/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/mathh/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/mathh/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/matrico/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/matrico/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/matrico/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/matrico/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/md5/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/md5/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/md5/,meta
@@ -1286,6 +1290,8 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/premodules/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/premodules/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/preserve/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/preserve/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/procedural-macros/,meta
@@ -1552,6 +1558,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/slib-charplot/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-charplot/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-charplot/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-charplot/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/slib-wt-tree/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-wt-tree/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-wt-tree/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slib-wt-tree/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/slice/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slice/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/slice/,meta
@@ -1801,6 +1811,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-217/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-217/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-217/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-217/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-232/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-232/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-232/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-232/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-25/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/srfi-25/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/srfi-27/
@@ -1945,6 +1959,7 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/strse/
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/stty/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/stty/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/stty/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/stty/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/sundials/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/sundials/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/sundials/,meta
