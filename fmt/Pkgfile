@@ -1,11 +1,11 @@
 # Description : An open-source formatting library
 # URL         : https://fmt.dev/latest/index.html
-# Maintainer  : can open-source formatting libraryamille, camille at lzr dot pw
+# Maintainer  : camille, camille at lzr dot pw
 # Depends on  : cmake
 
 name=fmt
 version=8.1.1
-release=1
+release=2
 source=("https://github.com/${name}lib/$name/releases/download/$version/$name-$version.zip")
 
 build() {
