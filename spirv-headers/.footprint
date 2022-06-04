@@ -64,6 +64,7 @@ drwxr-xr-x	root/root	usr/include/spirv/unified1/
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.spv-amd-shader-ballot.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.spv-amd-shader-explicit-vertex-parameter.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/extinst.spv-amd-shader-trinary-minmax.grammar.json
+-rw-r--r--	root/root	usr/include/spirv/unified1/spirv.bf
 -rw-r--r--	root/root	usr/include/spirv/unified1/spirv.core.grammar.json
 -rw-r--r--	root/root	usr/include/spirv/unified1/spirv.cs
 -rw-r--r--	root/root	usr/include/spirv/unified1/spirv.h
