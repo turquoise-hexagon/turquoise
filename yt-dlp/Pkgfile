@@ -1,0 +1,21 @@
+# Description : A youtube-dl fork with additional features and fixes
+# URL         : https://github.com/yt-dlp/yt-dlp
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : python3 python3-setuptools
+
+name=yt-dlp
+version=2022.05.18
+release=1
+source=("https://github.com/$name/$name/releases/download/$version/$name.tar.gz")
+
+build() {
+    cd "$name"
+
+    install -Dm755 "$name"   -t "$PKG/usr/bin"
+    install -Dm644 "$name.1" -t "$PKG/usr/share/man/man1"
+
+    if prt-get isinst bash-completion > /dev/null; then
+        install -Dm644 "completions/bash/$name" -t \
+            "$PKG/usr/share/bash-completion/completions"
+    fi
+}

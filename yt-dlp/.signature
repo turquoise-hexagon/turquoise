@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw0m8RetyUP1h45k76sBqx7B4mfBWvfyDV9cOPjaNREl9iPAMXba5J8nDmwpc2QhkQDZcpqlIpFwvhnSx9u9t8Qc=
+SHA256 (Pkgfile) = af6742a4d2e7c6c37cc581dd726e73ede2d3b91815c6946b50211804df3d410d
+SHA256 (.footprint) = 3c21507ba736e997410a1b3c7f7d348668866fe0998a536231cb64c18c6e32db
+SHA256 (yt-dlp.tar.gz) = 59a0e89d79018070844c6301f7848594b746ca4857e7da14a5e6938a24e63172
