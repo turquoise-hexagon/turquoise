@@ -4,7 +4,7 @@
 # Depends on  : mpv dbus glib gobject-introspection
 
 name=mpv-mpris
-version=0.7.1
+version=0.8
 release=1
 source=("https://github.com/hoyon/$name/archive/$version.tar.gz")
 
