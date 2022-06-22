@@ -1,10 +1,10 @@
 # Description : A fork of the libmad MP3 decoding library
-# URL         : https://github.com/tenacityteam/libmad
+# URL         ; https://www.underbit.com/products/mad
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libmad
 version=0.15.1b
-release=1
+release=2
 source=(
 "http://downloads.sourceforge.net/project/mad/$name/$version/$name-$version.tar.gz"
 mad.pc
