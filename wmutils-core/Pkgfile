@@ -4,8 +4,8 @@
 # Depends on  : xorg-libxcb xorg-xcb-util xorg-xcb-util-cursor
 
 name=wmutils-core
-commit=d989db82b83cf457a3fb9bcd87637cf29770f9a4
-version=20211005
+commit=9f810263ddcc00bb057d72b88d119bfc0989c7e3
+version=20220701
 release=1
 source=("https://github.com/${name%-*}/${name#*-}/archive/$commit.tar.gz")
 
