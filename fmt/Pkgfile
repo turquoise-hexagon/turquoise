@@ -4,8 +4,8 @@
 # Depends on  : cmake
 
 name=fmt
-version=8.1.1
-release=2
+version=9.0.0
+release=1
 source=("https://github.com/${name}lib/$name/releases/download/$version/$name-$version.zip")
 
 build() {
