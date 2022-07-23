@@ -1,11 +1,11 @@
-# Description : convert BDF files to TTX 
+# Description : convert BDF files to TTX
 # URL         : https://github.com/turquoise-hexagon/bdf2ttx
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : docutils chicken
 
 name=bdf2ttx
 version=git
-release=1
+release=2
 source=()
 
 download() {
@@ -21,7 +21,7 @@ download() {
 }
 
 build() {
-    download "https://github.com/turquoise-hexagon/$name" main 
+    download "https://github.com/turquoise-hexagon/$name" main
 
     cd "$name"
 
