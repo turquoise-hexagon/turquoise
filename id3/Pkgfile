@@ -4,12 +4,18 @@
 # Depends on  :
 
 name=id3
+_commit=b6413124856b1eb170f81b2f66cecf1f13235673
 version=0.80
-release=1
-source=("https://github.com/squell/$name/archive/$version.tar.gz")
+release=2
+source=(
+"https://github.com/squell/$name/archive/$_commit.tar.gz"
+man.patch
+)
 
 build() {
-    cd "$name-$version"
+    cd "$name-$_commit"
+
+    patch -p 1 -i "$SRC/man.patch"
 
     make
     make prefix=/usr mandir=/usr/share/man DESTDIR="$PKG" install

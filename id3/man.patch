@@ -1,0 +1,12 @@
+diff '--color=auto' -Naur old/makefile new/makefile
+--- old/makefile	2021-10-19 22:36:15.000000000 +0100
++++ new/makefile	2022-07-27 03:50:57.299156666 +0100
+@@ -38,7 +38,7 @@
+ 
+ BSD_INSTALL_PROGRAM ?= $(INSTALL)
+ BSD_INSTALL_DATA    ?= $(INSTALL) -m 644
+-BSD_INSTALL_MAN     ?= $(INSTALL) -m 644
++BSD_INSTALL_MAN     ?= $(INSTALL) -Dm 644
+ 
+ ## makefile setup ##########################################################
+ 
