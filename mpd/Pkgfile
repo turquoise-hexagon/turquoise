@@ -1,41 +1,100 @@
 # Description : A flexible, powerful, server-side application for playing music
 # URL         : https://www.musicpd.org
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : libmad libvorbis libid3tag glib boost meson ninja python3-pip fmt
+# Depends on  : meson fmt boost libpcre2 python3 python3-pip ninja
+# Optional    : alsa-lib audiofile chromaprint dbus faad2 ffmpeg flac fluidsynth icu jack lame libcdio-paranoia libid3tag libisofs libmad libmkikmod libmodplug libsamplerate libsndfile libsoxr liburing libvorbis mpg123 opus pipewire pulseaudio samba twolame wavpack yajl zziplib
 
 name=mpd
+_commit=4c08c0b8b1006709cff5bad8421a355479b1111c
 version=0.23.8
-release=1
+release=2
 source=(
-"http://www.musicpd.org/download/$name/${version%.*}/$name-$version.tar.xz"
+"https://github.com/musicplayerdaemon/$name/archive/$_commit.tar.gz"
 "$name"
 )
 
 build() {
-    cd "$name-$version"
+    cd "${name^^}-$_commit"
 
-    # setup python venv
-    dir=.venv
+    # setup sphinx
+    local venv_dir='.venv'
 
-    mkdir -p        "$dir"
-    python3 -m venv "$dir"
+    mkdir -p "$venv_dir"
+    python3 -m venv "$venv_dir"
 
-    . "$dir/bin/activate"
+    . "$venv_dir/bin/activate"
 
     pip3 -qqq install -U pip sphinx
 
-    # actually build
-    meson . build         \
-        --prefix=/usr     \
-        --sysconfdir=/etc \
-        -Dmpcdec=disabled
+    # setup build flags
+    local -a args
 
-    ninja -C build
+    args=(
+        --prefix=/usr
+        --sysconfdir="/etc/$name"
+        --buildtype=plain
+        --wrap-mode nodownload
+        --auto-features disabled
+        -D b_lto=true
+        -D b_pie=true
+        -D bzip2=enabled
+        -D curl=enabled
+        -D html_manual=false
+        -D iconv=enabled
+        -D ipv6=enabled
+        -D pcre=enabled
+        -D sqlite=enabled
+    )
 
-    DESTDIR="$PKG" ninja -C build install
+    _build_flags()
+        if prt-get isinst "$1"; then
+            shift; args+=("$@")
+        fi
 
-    install -Dm755 "$SRC/$name"       -t "$PKG/etc/rc.d"
-    install -Dm644 doc/mpdconf.example   "$PKG/etc/$name.conf"
+    # {{{
+    _build_flags alsa-lib -D alsa=enabled
+    _build_flags audiofile -D audiofile=enabled
+    _build_flags chromaprint -D chromaprint=enabled
+    _build_flags dbus -D dbus=enabled
+    _build_flags faad2 -D faad=enabled
+    _build_flags ffmpeg -D ffmpeg=enabled
+    _build_flags flac -D flac=enabled
+    _build_flags fluidsynth -D fluidsynth=enabled
+    _build_flags icu -D icu=enabled
+    _build_flags jack -D jack=enabled
+    _build_flags lame -D lame=enabled
+    _build_flags libcdio-paranoia -D cdio_paranoia=enabled
+    _build_flags libid3tag -D id3tag=enabled
+    _build_flags libisofs -D iso9660=enabled
+    _build_flags libmad -D mad=enabled
+    _build_flags libmkikmod -D mikmod=enabled
+    _build_flags libmodplug -D modplug=enabled
+    _build_flags libsamplerate -D libsamplerate=enabled
+    _build_flags libsndfile -D sndfile=enabled
+    _build_flags libsoxr -D soxr=enabled
+    _build_flags liburing -D io_uring=enabled
+    _build_flags libvorbis -D vorbis=enabled
+    _build_flags mpg123 -D mpg123=enabled
+    _build_flags opus -D opus=enabled
+    _build_flags pipewire -D pipewire=enabled
+    _build_flags pulseaudio -D pulse=enabled
+    _build_flags samba -D smbclient=enabled
+    _build_flags twolame -D twolame=enabled
+    _build_flags wavpack -D wavpack=enabled
+    _build_flags yajl -D yajl=enabled
+    _build_flags zziplib -D zzip=enabled
+    # }}}
+
+    # build & install
+    meson setup . build "${args[@]}"
+
+    meson compile -C build -j "${JOBS:-1}"
+    DESTDIR="$PKG" meson install -C build
+
+    install -Dm644 "doc/${name}conf.example" "$PKG/etc/$name/$name.conf"
+    install -Dm755 "$SRC/$name" "$PKG/etc/rc.d/$name"
 
     rm -rf "$PKG/usr/share/doc"
 }
+
+# vim: fdm=marker fdls=1
