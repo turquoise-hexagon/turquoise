@@ -4,12 +4,17 @@
 # Depends on  : xorg-libxrandr rust
 
 name=shotgun
-version=2.2.1
+version=2.3.0
 release=1
-source=("https://github.com/nexromancers/$name/archive/v$version.tar.gz")
+source=(
+"https://github.com/nexromancers/$name/archive/v$version.tar.gz"
+cargo.patch
+)
 
 build() {
     cd "$name-$version"
+
+    patch -p 1 -i "$SRC/cargo.patch"
 
     cargo build --release --locked
 
