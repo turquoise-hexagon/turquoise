@@ -1,3 +1,4 @@
-config
-extra-version.patch
-firmware
+*
+!Pkgfile
+!post-install
+!README
