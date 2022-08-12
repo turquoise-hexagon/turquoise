@@ -1,13 +1,12 @@
 # Description : A flexible, powerful, server-side application for playing music
 # URL         : https://www.musicpd.org
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : meson fmt boost libpcre2 python3 python3-pip ninja
-# Optional    : alsa-lib audiofile chromaprint dbus faad2 ffmpeg flac fluidsynth icu jack lame libcdio-paranoia libid3tag libisofs libmad libmkikmod libmodplug libsamplerate libsndfile libsoxr liburing libvorbis mpg123 opus pipewire pulseaudio samba twolame wavpack yajl zziplib
+# Depends on  : meson ninja python3 python3-pip boost fmt
 
 name=mpd
 _commit=4c08c0b8b1006709cff5bad8421a355479b1111c
 version=0.23.8
-release=2
+release=3
 source=(
 "https://github.com/musicplayerdaemon/$name/archive/$_commit.tar.gz"
 "$name"
@@ -16,8 +15,8 @@ source=(
 build() {
     cd "${name^^}-$_commit"
 
-    # setup sphinx
-    local venv_dir='.venv'
+    # install sphinx locally
+    local venv_dir=.venv
 
     mkdir -p "$venv_dir"
     python3 -m venv "$venv_dir"
@@ -26,67 +25,10 @@ build() {
 
     pip3 -qqq install -U pip sphinx
 
-    # setup build flags
-    local -a args
-
-    args=(
-        --prefix=/usr
-        --sysconfdir="/etc/$name"
-        --buildtype=plain
-        --wrap-mode nodownload
-        --auto-features disabled
-        -D b_lto=true
-        -D b_pie=true
-        -D bzip2=enabled
-        -D curl=enabled
-        -D html_manual=false
-        -D iconv=enabled
-        -D ipv6=enabled
-        -D pcre=enabled
-        -D sqlite=enabled
-    )
-
-    _build_flags()
-        if prt-get isinst "$1"; then
-            shift; args+=("$@")
-        fi
-
-    # {{{
-    _build_flags alsa-lib -D alsa=enabled
-    _build_flags audiofile -D audiofile=enabled
-    _build_flags chromaprint -D chromaprint=enabled
-    _build_flags dbus -D dbus=enabled
-    _build_flags faad2 -D faad=enabled
-    _build_flags ffmpeg -D ffmpeg=enabled
-    _build_flags flac -D flac=enabled
-    _build_flags fluidsynth -D fluidsynth=enabled
-    _build_flags icu -D icu=enabled
-    _build_flags jack -D jack=enabled
-    _build_flags lame -D lame=enabled
-    _build_flags libcdio-paranoia -D cdio_paranoia=enabled
-    _build_flags libid3tag -D id3tag=enabled
-    _build_flags libisofs -D iso9660=enabled
-    _build_flags libmad -D mad=enabled
-    _build_flags libmkikmod -D mikmod=enabled
-    _build_flags libmodplug -D modplug=enabled
-    _build_flags libsamplerate -D libsamplerate=enabled
-    _build_flags libsndfile -D sndfile=enabled
-    _build_flags libsoxr -D soxr=enabled
-    _build_flags liburing -D io_uring=enabled
-    _build_flags libvorbis -D vorbis=enabled
-    _build_flags mpg123 -D mpg123=enabled
-    _build_flags opus -D opus=enabled
-    _build_flags pipewire -D pipewire=enabled
-    _build_flags pulseaudio -D pulse=enabled
-    _build_flags samba -D smbclient=enabled
-    _build_flags twolame -D twolame=enabled
-    _build_flags wavpack -D wavpack=enabled
-    _build_flags yajl -D yajl=enabled
-    _build_flags zziplib -D zzip=enabled
-    # }}}
-
     # build & install
-    meson setup . build "${args[@]}"
+    meson . build     \
+        --prefix=/usr \
+        --sysconfdir=/etc
 
     meson compile -C build -j "${JOBS:-1}"
     DESTDIR="$PKG" meson install -C build
@@ -96,5 +38,3 @@ build() {
 
     rm -rf "$PKG/usr/share/doc"
 }
-
-# vim: fdm=marker fdls=1
