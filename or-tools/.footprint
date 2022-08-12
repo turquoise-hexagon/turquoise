@@ -1587,6 +1587,7 @@ drwxr-xr-x	root/root	usr/include/ortools/util/python/
 -rw-r--r--	root/root	usr/include/ortools/util/stats.h
 -rw-r--r--	root/root	usr/include/ortools/util/status_macros.h
 -rw-r--r--	root/root	usr/include/ortools/util/string_array.h
+-rw-r--r--	root/root	usr/include/ortools/util/string_util.h
 -rw-r--r--	root/root	usr/include/ortools/util/strong_integers.h
 -rw-r--r--	root/root	usr/include/ortools/util/testing_utils.h
 -rw-r--r--	root/root	usr/include/ortools/util/time_limit.h

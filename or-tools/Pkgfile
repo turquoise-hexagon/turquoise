@@ -5,13 +5,12 @@
 # Optional    : re2 eigen3 zlib protobuf
 
 name=or-tools
-_commit=4a0cf8b9e7966cdb213176f8d27c392ad00ab091
-version=9.3
-release=2
-source=("https://github.com/google/$name/archive/$_commit.tar.gz")
+version=9.4
+release=1
+source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
 build() {
-    cd "$name-$_commit"
+    cd "$name-$version"
 
     mkdir build; cd "$_"
 
