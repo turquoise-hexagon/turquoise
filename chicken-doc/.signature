@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw6Jnj1yL3pzET32JGm0j3Kkx79B1c83UZNK8Q4LRqNtiwaanFuCfuaS/r+JSg9ZkmaG0d5Rb+UgDmPzMDV3gIgY=
-SHA256 (Pkgfile) = ccfa54fd60f4a9994396e2539288f5389beb1fa9698dfff94b0e3b533bdda200
-SHA256 (.footprint) = 85dbbca92f5adf7b86178ef54a325a1597103e3dd488f384b4ba15fcaa7dfa17
-SHA256 (chicken-doc-repo-5.tgz) = a0115aba8d1153930fc49608ba51fb3dfbb970a698d6740944cd6f8efcc2b96a
+RWTOjBUiTG/Uw8JUQe8HxFzvgvZ4BUqYmNYAnmNVmof5Gq4iWkIhqGzZrBwRWh/cYtzFjVEvlvrldaJSpq5QrIv668BRbGPfDwQ=
+SHA256 (Pkgfile) = 6a891a49ce12cd80812c6944248d608886bdba705d697d8018a75548281ebbba
+SHA256 (.footprint) = c328dcaf8dc89d42f31b7a92b84c2aba374b3f9a875b3e8aa87f1300961c4587
+SHA256 (chicken-doc-repo-5.tgz) = b3aa71f476fade9956ea184300ec4e38b2a70528d5f16f480fa5e2b06bbd9cd3
