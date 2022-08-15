@@ -4,7 +4,7 @@
 # Depends on  : libsdl2 libwebp
 
 name=sdl2_image
-version=2.6.0
+version=2.6.1
 release=1
 source=("https://github.com/libsdl-org/${name/sdl2/SDL}/archive/refs/tags/release-$version.tar.gz")
 
