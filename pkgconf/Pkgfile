@@ -1,14 +1,16 @@
 # Description : Package compiler and linker metadata toolkit
-# URL         : https://git.dereferenced.org/pkgconf/pkgconf
+# URL         : http://pkgconf.org
 # Maintainer  : camille, camille at lzr dot pw
 
 name=pkgconf
-version=1.9.2
+version=1.9.3
 release=1
-source=("http://distfiles.dereferenced.org/$name/$name-$version.tar.gz")
+source=("https://github.com/$name/$name/archive/$name-$version.tar.gz")
 
 build() {
-    cd "$name-$version"
+    cd "$name-$name-$version"
+
+    ./autogen.sh
 
     ./configure       \
         --prefix=/usr \
