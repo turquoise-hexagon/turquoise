@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=github-cli
-version=2.14.5
+version=2.14.6
 release=1
 source=("https://github.com/cli/cli/releases/download/v$version/gh_${version}_linux_amd64.tar.gz")
 
