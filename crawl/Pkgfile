@@ -5,7 +5,7 @@
 
 name=crawl
 version=git
-release=1
+release=2
 source=(makefile.patch)
 
 download() {

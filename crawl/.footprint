@@ -143,6 +143,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/serial/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/column_ruins.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/corridors.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/curves.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/serial/demonic.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/forest.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/glass.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/gnoll_camp.des
@@ -368,6 +369,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_nibiki_octopode.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_omndra_zot_demon.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_peileppe_bloax_eye.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_philosopheropposite_palentonga_paladin.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_ploomutoo_ijyb.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_pooryurik_knight.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_psiweapon_kiku.png
