@@ -4,7 +4,7 @@
 # Depends on  : cmake
 
 name=fmt
-version=9.0.0
+version=9.1.0
 release=1
 source=("https://github.com/${name}lib/$name/releases/download/$version/$name-$version.zip")
 
