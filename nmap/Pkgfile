@@ -3,12 +3,15 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=nmap
-version=7.92
+version=7.93
 release=1
 source=("https://$name.org/dist/$name-$version.tgz")
 
 build() {
     cd "$name-$version"
+
+    # fix #2516
+    export CFLAGS+=' -DOPENSSL_API_COMPAT=10101'
 
     ./configure --prefix=/usr
 
