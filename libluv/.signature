@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw7qsgR8pnNdk0m6UTE7NIuy51j0grhE6cfC3wqVOX16o23pK27jgJdExcawSbX3d8d0qe8W9MmwKedSQq6sD9g0=
-SHA256 (Pkgfile) = 02518d4f2addf504630b7d9ac885fca57e7854c7e35a4a1370b7c8060b93a870
+RWTOjBUiTG/Uww4PZrIBe81dYwgXtfn2hLnR5ZcujPQD+x+rzwy6HlcoGMUHR1JVt1CpQNe+MC9oujnq3GaE7NKyccNCsxZSKAY=
+SHA256 (Pkgfile) = 9e2f70bcd886cec967bda55efbe3aa1611c6b1bcd89d6d07428cf9f257c8db5d
 SHA256 (.footprint) = 516781efb8efa86d183ffef362071ac5df318d6bec1a8017316e29018962aa3b
-SHA256 (luv-1.44.2-0.tar.gz) = 30639f8e0fac7fb0c3a04b94a00f73c6d218c15765347ceb0998a6b72464b6cf
+SHA256 (luv-1.44.2-1.tar.gz) = 3eb5c7bc44f61fbc4148ea30e3221d410263e0ffa285672851fc19debf9e5c30
