@@ -4,16 +4,16 @@
 # Depends on  : readline
 
 name=bash
-version=5.2
+version=5.2.2
 release=1
 source=(
-"https://ftp.gnu.org/gnu/$name/$name-$version.tar.gz"
+"https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
 patches.tar.gz
 profile
 )
 
 build() {
-    cd "$name-$version"
+    cd "$name-${version%.*}"
 
     shopt -s nullglob
 
