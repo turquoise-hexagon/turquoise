@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=6.0.3.2
-release=1
+release=2
 source=("https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz")
 
 build() {
@@ -31,7 +31,10 @@ build() {
     make all
 
     grep -q 'CONFIG_MODULES=y' .config &&
-        make DESTDIR="$PKG" modules_install
+        make                            \
+            INSTALL_MOD_PATH="$PKG/usr" \
+            INSTALL_MOD_STRIP=1         \
+            modules_install
 
     install -Dm644 System.map -t            "$PKG/boot"
     install -Dm644 arch/x86_64/boot/bzImage "$PKG/boot/vmlinuz-$version-$release"
