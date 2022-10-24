@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/UwwTmobwXKtv+VAQz6pOOl5xnzVKg4md4Wg+ZMbDPM9b7MKWVnn8xdhBMc9UdLU6p0NDU5JGu9TL/svgtbWfTEAk=
-SHA256 (Pkgfile) = 2f72749a16f245a82793669922a2500c237186fd6e4e202f0f5759bec78f7a63
-SHA256 (.footprint) = 66f62e171d95efbe4500af97c56163a19ea1742be21ce9949c9b3f665925a7ec
-SHA256 (Python-3.10.8.tgz) = f400c3fb394b8bef1292f6dc1292c5fadc3533039a5bc0c3e885f3e16738029a
+RWTOjBUiTG/Uw+FM5H77LiPK6eXofRc3FmjP2SUl2BaJRdZyI16HaPugeyiqAcNZhNYKLyE7e2sdDf96SYhlJxIzcMNlM5xYuww=
+SHA256 (Pkgfile) = 954f731706be6729b7af0ef2fab92ede9cc7a3e49d5caafec7bed81af253c9cd
+SHA256 (.footprint) = a4465d6874db1cfdef66f8d7d06c1a0538fbc2ba21696a48fe64f894893c2ecb
+SHA256 (Python-3.11.0.tgz) = 20d77729a64b2a300f08717f7ffcb8da189d02e7c51e6e4a06c0340b619cbf32
