@@ -5,11 +5,16 @@
 
 name=arandr
 version=0.1.10
-release=1
-source=("http://christian.amsuess.com/tools/$name/files/$name-$version.tar.gz")
+release=2
+source=(
+"http://christian.amsuess.com/tools/$name/files/$name-$version.tar.gz"
+getargspec.patch
+)
 
 build() {
     cd "$name-$version"
+
+    patch -p 1 -i "$SRC/getargspec.patch"
 
     python3 ./setup.py build
 
