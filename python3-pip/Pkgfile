@@ -1,0 +1,22 @@
+# Description : The package installer for Python
+# URL         : https://pypi.org/project/pip
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : python3 python3-setuptools
+
+name=python3-pip
+version=22.3
+release=1
+source=("https://files.pythonhosted.org/packages/source/p/${name#*-}/${name#*-}-$version.tar.gz")
+
+build() {
+    cd "${name#*-}-$version"
+
+    python3 setup.py build
+
+    python3 setup.py install \
+        --prefix=/usr        \
+        --root="$PKG"        \
+        --optimize=1
+
+    rm "$PKG/usr/bin/${name#*-}"
+}
