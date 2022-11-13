@@ -1,33 +1,35 @@
 # Description : A free, open source, and cross-platform media player
 # URL         : https://mpv.io
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : docutils ffmpeg libass shaderc util-linux xorg-libxscrnsaver python3
+# Depends on  : meson docutils ffmpeg libass shaderc util-linux python3
+# Optional    : xorg-libxscrnsaver xorg-libxpresent
 
 name=mpv
 version=0.35.0
-release=1
-source=(
-"https://github.com/$name-player/$name/archive/v$version.tar.gz"
-https://waf.io/waf-2.0.20
-)
+release=2
+source=("https://github.com/$name-player/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
 
-    install -m755 "$SRC/waf"* waf
+    local -a config
 
-    prt-get isinst libcdio-paranoia && config+=(--enable-cdda)
-    prt-get isinst libdvdnav        && config+=(--enable-dvdnav)
+    _build_config()
+        if prt-get isinst "$1" &> /dev/null; then
+            config+=("$2")
+        fi
 
-    python3 ./waf configure    \
-        "${config[@]}"         \
-        --prefix=/usr          \
-        --enable-libarchive    \
-        --enable-libmpv-shared \
-        -j "${JOBS:-1}"
+    _build_config libcdio-paranoia -Dcdda=enabled
+    _build_config libdvdnav -Ddvdnav=enabled
 
-    python3 ./waf build
-    python3 ./waf install --destdir="$PKG"
+    meson . build            \
+        "${config[@]}"       \
+        -Dlibarchive=enabled \
+        -Dlibmpv=true        \
+        --prefix=/usr
+
+    meson compile -C build -j "${JOBS:-1}"
+    DESTDIR="$PKG" meson install -C build
 
     rm -rf "$PKG/usr/share/doc"
 }
