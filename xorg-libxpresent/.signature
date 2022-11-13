@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw6We3iG1qegUtLbyu8Iadc612wTF3K5MEg4yydf7yQXA50E7X6xrBbEOtNvFsgLgLqIyC2SxUVhDHpD7/XvXKgs=
+SHA256 (Pkgfile) = b3d603f8b4d9dba15f05aa8e6a71f83cdc84707aed567ebef10108e80ee5c191
+SHA256 (.footprint) = 0b2e99e78b2cb7915c33269fc48ae699970ad466330a3d9e442e7cbe2d3ea84b
+SHA256 (libxpresent-libXpresent-1.0.1.tar.gz) = 3ea271a49d798280fdceb746658b7d7b9f34340db15b993c827eebc0abc96285
