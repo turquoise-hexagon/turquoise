@@ -1,12 +1,12 @@
 # Description : A free, open source, and cross-platform media player
 # URL         : https://mpv.io
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : meson docutils ffmpeg libass shaderc util-linux python3
-# Optional    : xorg-libxscrnsaver xorg-libxpresent
+# Depends on  : docutils ffmpeg libass libplacebo meson util-linux xorg-libxpresent xorg-libxscrnsaver
+# Optional    : libcdio-paranoia libdvdnav yt-dlp
 
 name=mpv
 version=0.35.0
-release=2
+release=3
 source=("https://github.com/$name-player/$name/archive/v$version.tar.gz")
 
 build() {
