@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=stalonetray
-version=0.8.4
+version=0.8.5
 release=1
 source=("https://github.com/kolbusa/$name/archive/v$version.tar.gz")
 
