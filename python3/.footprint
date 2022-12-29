@@ -2256,7 +2256,7 @@ drwxr-xr-x	root/root	usr/lib/python3.11/ensurepip/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/ensurepip/__pycache__/_uninstall.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/ensurepip/__pycache__/_uninstall.cpython-311.pyc
 drwxr-xr-x	root/root	usr/lib/python3.11/ensurepip/_bundled/
--rw-r--r--	root/root	usr/lib/python3.11/ensurepip/_bundled/pip-22.3-py3-none-any.whl
+-rw-r--r--	root/root	usr/lib/python3.11/ensurepip/_bundled/pip-22.3.1-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.11/ensurepip/_bundled/setuptools-65.5.0-py3-none-any.whl
 -rw-r--r--	root/root	usr/lib/python3.11/ensurepip/_uninstall.py
 -rw-r--r--	root/root	usr/lib/python3.11/enum.py
@@ -3054,9 +3054,9 @@ drwxr-xr-x	root/root	usr/lib/python3.11/lib-dynload/
 -rwxr-xr-x	root/root	usr/lib/python3.11/lib-dynload/zlib.cpython-311-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.11/lib2to3/
 -rw-r--r--	root/root	usr/lib/python3.11/lib2to3/Grammar.txt
--rw-r--r--	root/root	usr/lib/python3.11/lib2to3/Grammar3.11.0.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.11/lib2to3/Grammar3.11.1.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.11/lib2to3/PatternGrammar.txt
--rw-r--r--	root/root	usr/lib/python3.11/lib2to3/PatternGrammar3.11.0.final.0.pickle
+-rw-r--r--	root/root	usr/lib/python3.11/lib2to3/PatternGrammar3.11.1.final.0.pickle
 -rw-r--r--	root/root	usr/lib/python3.11/lib2to3/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.11/lib2to3/__main__.py
 drwxr-xr-x	root/root	usr/lib/python3.11/lib2to3/__pycache__/
@@ -3999,9 +3999,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_call.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_call.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_call.cpython-311.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_capi.cpython-311.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_capi.cpython-311.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_capi.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_cgi.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_cgi.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_cgi.cpython-311.pyc
@@ -4365,9 +4362,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_genexps.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_genexps.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_genexps.cpython-311.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getargs2.cpython-311.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getargs2.cpython-311.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getargs2.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getopt.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getopt.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_getopt.cpython-311.pyc
@@ -4869,9 +4863,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_struct.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_struct.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_struct.cpython-311.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structmembers.cpython-311.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structmembers.cpython-311.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structmembers.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structseq.cpython-311.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structseq.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/__pycache__/test_structseq.cpython-311.pyc
@@ -5880,7 +5871,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/test_asyncio/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_c_locale_coercion.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_calendar.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_call.py
--rw-r--r--	root/root	usr/lib/python3.11/test/test_capi.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_cgi.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_cgitb.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_charmapcodec.py
@@ -6142,7 +6132,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/test_email/data/
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_genericclass.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_genericpath.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_genexps.py
--rw-r--r--	root/root	usr/lib/python3.11/test/test_getargs2.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_getopt.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_getpass.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_getpath.py
@@ -6966,7 +6955,6 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/test_peg_generator/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_strptime.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_strtod.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_struct.py
--rw-r--r--	root/root	usr/lib/python3.11/test/test_structmembers.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_structseq.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_subclassinit.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/test_subprocess.py
@@ -7183,6 +7171,16 @@ drwxr-xr-x	root/root	usr/lib/python3.11/test/tracedmodules/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.11/test/tracedmodules/__pycache__/testmod.cpython-311.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/tracedmodules/__pycache__/testmod.cpython-311.pyc
 -rw-r--r--	root/root	usr/lib/python3.11/test/tracedmodules/testmod.py
+drwxr-xr-x	root/root	usr/lib/python3.11/test/typinganndata/
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/__init__.cpython-311.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/__init__.cpython-311.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/__init__.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/ann_module9.cpython-311.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/ann_module9.cpython-311.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/__pycache__/ann_module9.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/python3.11/test/typinganndata/ann_module9.py
 -rw-r--r--	root/root	usr/lib/python3.11/test/win_console_handler.py
 drwxr-xr-x	root/root	usr/lib/python3.11/test/xmltestdata/
 drwxr-xr-x	root/root	usr/lib/python3.11/test/xmltestdata/c14n-20/
