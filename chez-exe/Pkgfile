@@ -1,0 +1,21 @@
+# Description :
+# URL         : https://github.com/gwatt/chez-exe
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : chezscheme
+
+name=chez-exe
+commit=937629ad6cdcec698f0b25d996bb9b01a3b7cce7
+version=20210117
+release=1
+source=("https://github.com/gwatt/$name/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    ./gen-config.ss   \
+        --prefix /usr \
+        --bootpath /usr/lib/csv*/ta6le
+
+    make
+    make DESTDIR="$PKG" install
+}
