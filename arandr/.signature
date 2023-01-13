@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw2HNVaSMnwpGLvzr+vQ0UZ09uskx79olSaKAwU2dDiBT0q3LW1SwJQV0D+GvmgvfMJIoeKlkXOOz+KDN9TeZowc=
-SHA256 (Pkgfile) = 33be50cb137659ef69d21cb45b47d3ee5b1f45fa4c535792a30e71a40d1c8093
-SHA256 (.footprint) = 9c4ddb3df1fbb98222ffad9187a317ca1d3b4073f7529efa2e6b8c74e4030f82
-SHA256 (arandr-0.1.10.tar.gz) = dbc8ac890da78e9c0ba3403a8932a925813bb8d62265276894e780ba2905b88c
-SHA256 (getargspec.patch) = 08c04538445db3881407f7bfcd36cd98755dda2972bbf142121ea26d481efeae
+RWTOjBUiTG/Uwxf/2e/wXY17F1ZdOE5OH0euIrA4OdyNHrZMxyKRjTVwiVjJ+PhmqODazWZ3tRKZJHYumOvEFdcwvdD53+OwQQM=
+SHA256 (Pkgfile) = 802fbf4287518cfc07ac6206ebad667b27a744ee84b8c567cb1a04832d046879
+SHA256 (.footprint) = 7124d4faec72d2eb234256e5e49c17312a8ab918f0be458e2acdd54bb2e2e358
+SHA256 (arandr-0.1.11.tar.gz) = e4cbbe3698bb812b395770870174be0094bbaeb391105a811f95f42eb182ae02
