@@ -4,7 +4,7 @@
 # Depends on  : meson ninja python3 python3-pip boost fmt
 
 name=mpd
-version=0.23.11
+version=0.23.12
 release=1
 source=(
 "https://github.com/musicplayerdaemon/$name/archive/v$version.tar.gz"
