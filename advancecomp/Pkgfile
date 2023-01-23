@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=advancecomp
-version=2.4
+version=2.5
 release=1
 source=("https://github.com/amadvance/$name/releases/download/v$version/$name-$version.tar.gz")
 
