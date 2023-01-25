@@ -128,6 +128,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-run-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-run-watch.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-run.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-search-commits.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-search-issues.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-search-prs.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-search-repos.1.gz
