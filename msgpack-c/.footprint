@@ -22,14 +22,14 @@ drwxr-xr-x	root/root	usr/include/msgpack/
 -rw-r--r--	root/root	usr/include/msgpack/zone.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/msgpackc/
--rw-r--r--	root/root	usr/lib/cmake/msgpackc/msgpackc-config-version.cmake
--rw-r--r--	root/root	usr/lib/cmake/msgpackc/msgpackc-config.cmake
--rw-r--r--	root/root	usr/lib/cmake/msgpackc/msgpackc-targets-noconfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/msgpackc/msgpackc-targets.cmake
--rw-r--r--	root/root	usr/lib/libmsgpackc.a
-lrwxrwxrwx	root/root	usr/lib/libmsgpackc.so -> libmsgpackc.so.2
-lrwxrwxrwx	root/root	usr/lib/libmsgpackc.so.2 -> libmsgpackc.so.2.0.0
--rwxr-xr-x	root/root	usr/lib/libmsgpackc.so.2.0.0
+drwxr-xr-x	root/root	usr/lib/cmake/msgpack-c/
+-rw-r--r--	root/root	usr/lib/cmake/msgpack-c/msgpack-c-config-version.cmake
+-rw-r--r--	root/root	usr/lib/cmake/msgpack-c/msgpack-c-config.cmake
+-rw-r--r--	root/root	usr/lib/cmake/msgpack-c/msgpack-c-targets-noconfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/msgpack-c/msgpack-c-targets.cmake
+-rw-r--r--	root/root	usr/lib/libmsgpack-c.a
+lrwxrwxrwx	root/root	usr/lib/libmsgpack-c.so -> libmsgpack-c.so.2
+lrwxrwxrwx	root/root	usr/lib/libmsgpack-c.so.2 -> libmsgpack-c.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libmsgpack-c.so.2.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/msgpack.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/msgpack-c.pc

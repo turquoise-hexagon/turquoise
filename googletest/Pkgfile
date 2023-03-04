@@ -1,0 +1,19 @@
+# Description : Google Testing and Mocking Framework
+# URL         : https://google.github.io/googletest
+# Maintainer  : camille, camille at lzr dot pw
+
+name=googletest
+version=1.13.0
+release=1
+source=("https://github.com/google/$name/archive/v$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    mkdir build; cd "$_"
+
+    cmake ..
+
+    make
+    make DESTDIR="$PKG" install
+}
