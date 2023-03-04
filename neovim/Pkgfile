@@ -5,14 +5,18 @@
 
 name=neovim
 version=0.8.3
-release=1
-source=("https://github.com/$name/$name/archive/v$version.tar.gz")
+release=2
+source=(
+"https://github.com/$name/$name/archive/v$version.tar.gz"
+msgpack-c.patch
+)
 
 build() {
     cd "$name-$version"
 
-    mkdir build
-    cd    build
+    patch -p 1 -i "$SRC/msgpack-c.patch"
+
+    mkdir build; cd "$_"
 
     cmake ..                          \
         -DCMAKE_BUILD_TYPE=MinSizeRel \
