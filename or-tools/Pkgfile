@@ -5,7 +5,7 @@
 # Optional    : re2 eigen3 zlib protobuf
 
 name=or-tools
-version=9.5
+version=9.6
 release=1
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
