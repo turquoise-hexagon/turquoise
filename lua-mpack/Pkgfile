@@ -4,7 +4,7 @@
 # Depends on  : lua lua51
 
 name=lua-mpack
-version=1.0.9
+version=1.0.10
 release=1
 source=("https://github.com/${name/lua-/lib}/${name/lua-/lib}-${name%-*}/archive/$version.tar.gz")
 
