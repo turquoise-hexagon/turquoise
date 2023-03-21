@@ -4,7 +4,7 @@
 # Depends on  : rust
 
 name=hyperfine
-version=1.16.0
+version=1.16.1
 release=1
 source=("https://github.com/sharkdp/$name/archive/v$version.tar.gz")
 
