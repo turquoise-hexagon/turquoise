@@ -4,7 +4,7 @@
 # Depends on  : mpd dbus
 
 name=mpd-mpris
-version=0.3.1
+version=0.4.0
 release=1
 source=("https://github.com/natsukagami/$name/releases/download/v$version/${name}_${version}_Linux_x86_64.tar.gz")
 
