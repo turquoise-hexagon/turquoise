@@ -4,7 +4,7 @@
 # Depends on  : bzip2 expat gdbm libffi libtirpc mpdecimal sqlite3 xz
 
 name=python3
-version=3.11.2
+version=3.11.3
 release=1
 source=("https://www.python.org/ftp/python/$version/Python-$version.tgz")
 
