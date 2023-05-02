@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=pkgconf
-version=1.9.4
+version=1.9.5
 release=1
 source=("https://github.com/$name/$name/archive/$name-$version.tar.gz")
 
