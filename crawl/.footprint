@@ -35,6 +35,11 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/pl/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/randname.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/shout.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/wpnnoise.txt
+drwxr-xr-x	root/root	usr/share/crawl/dat/database/zh/
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/FAQ.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/help.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/monflee.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/montitle.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/defaults/
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/autopickup_exceptions.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/glyph_colours.txt
@@ -212,6 +217,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/descript/
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/items.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/monsters.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/mutations.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/descript/passives.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/quotes.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/skills.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/species.txt
@@ -346,11 +352,13 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/stone_soup_icon-512x512.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/stone_soup_icon-win32.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_Cws_Minotauros.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_SpinningBird_djinn_sears_gnolls.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_anon_octopus_wizard.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_arbituhhh_tesu.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_baconkid_duvessa_dowan.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_baconkid_gastronok.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_baconkid_mnoleg.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_benadryl_antaeus.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_dragon.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_evil_mage.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_invasion.png
@@ -364,8 +372,10 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_froggy_natasha_and_boris.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_froggy_rune_and_run_failed_on_dis.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_froggy_thunder_fist_nikola.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_gompami_kohu_xbow.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_ignis_the_dying_flame.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_menkaure_prince_of_dust.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_micah_c_ereshkigal.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_nibiki_octopode.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_omndra_zot_demon.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_peileppe_bloax_eye.png
