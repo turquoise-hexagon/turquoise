@@ -4,7 +4,7 @@
 # Depends on  : xorg-libxrandr rust
 
 name=shotgun
-version=2.3.1
+version=2.4.0
 release=1
 source=("https://github.com/nexromancers/$name/archive/v$version.tar.gz")
 
