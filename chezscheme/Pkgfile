@@ -4,12 +4,12 @@
 # Depends on  : util-linux ncurses
 
 name=chezscheme
-version=9.5.8
+version=9.5.8.1
 release=1
-source=("https://github.com/cisco/$name/archive/v$version.tar.gz")
+source=("https://github.com/cisco/$name/archive/v${version%.*}a.tar.gz")
 
 build() {
-    cd "ChezScheme-$version"
+    cd "ChezScheme-${version%.*}a"
 
     ./configure              \
         --installprefix=/usr \
@@ -19,5 +19,5 @@ build() {
     make
     make DESTDIR="$PKG" install
 
-    rm -rf "$PKG/usr/lib/csv$version/examples"
+    rm -rf "$PKG/usr/lib/csv${version%.*}/examples"
 }
