@@ -4,17 +4,12 @@
 # Depends on  : luajit libuv libluv msgpack-c lua-lpeg lua-mpack libvterm libtermkey utf8proc tree-sitter
 
 name=neovim
-version=0.8.3
-release=2
-source=(
-"https://github.com/$name/$name/archive/v$version.tar.gz"
-msgpack-c.patch
-)
+version=0.9.1
+release=1
+source=("https://github.com/$name/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
-
-    patch -p 1 -i "$SRC/msgpack-c.patch"
 
     mkdir build; cd "$_"
 
