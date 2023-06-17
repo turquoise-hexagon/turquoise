@@ -5,7 +5,7 @@
 
 name=mpv-mpris
 version=1.0
-release=1
+release=2
 source=("https://github.com/hoyon/$name/archive/$version.tar.gz")
 
 build() {
@@ -14,5 +14,5 @@ build() {
     make
 
     install -Dm755 "${name#*-}.so" \
-        -t "$PKG/usr/etc/mpv/scripts"
+        -t "$PKG/etc/mpv/scripts"
 }
