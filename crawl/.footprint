@@ -344,6 +344,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/gui.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/icons.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/logo.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/logo_cropped.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/logosmall.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/main.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/player.png
@@ -436,18 +437,6 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/license/
 -rw-r--r--	root/root	usr/share/crawl/docs/ssh_guide.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/tiles_help.txt
 drwxr-xr-x	root/root	usr/share/crawl/settings/
--rw-r--r--	root/root	usr/share/crawl/settings/0.12_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.13_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.14_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.16_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.17_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.18_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/0.9_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/034_command_keys.txt
--rw-r--r--	root/root	usr/share/crawl/settings/052_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/060_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/071_monster_glyphs.txt
--rw-r--r--	root/root	usr/share/crawl/settings/080_monster_glyphs.txt
 -rw-r--r--	root/root	usr/share/crawl/settings/advanced_optioneering.txt
 -rw-r--r--	root/root	usr/share/crawl/settings/colemak_command_keys.txt
 -rw-r--r--	root/root	usr/share/crawl/settings/dec_glyphs.txt
