@@ -4,9 +4,9 @@
 # Depends on  : mpd dbus
 
 name=mpd-mpris
-version=0.4.0.2
+version=0.4.1
 release=1
-source=("https://github.com/natsukagami/$name/releases/download/v${version%.*}-${version##*.}/${name}_${version%.*}-${version##*.}_linux_amd64.tar.gz")
+source=("https://github.com/natsukagami/mpd-mpris/releases/download/v$version/${name}_${version}_linux_amd64.tar.gz")
 
 build() {
     install -Dm755 "$name" -t "$PKG/usr/bin"
