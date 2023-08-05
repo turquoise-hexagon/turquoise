@@ -1,0 +1,11 @@
+--- new/n30f.c	2023-08-05 05:06:27.935539606 +0100
++++ old/n30f.c	2023-08-05 04:57:29.607517070 +0100
+@@ -294,7 +294,7 @@
+ 	filename = argv[optind];
+ 
+ 	// load the image or quit
+-	cairo_surface_t *image = cairo_image_surface_create_from_png(filename);
++	cairo_surface_t *image = cairo_image_surface_create_from_png(strncmp(filename, "-", 2) ? filename : "/dev/stdin");
+ 	if(cairo_surface_status(image) != CAIRO_STATUS_SUCCESS)
+ 		errx(1, "error reading file: %s", filename);
+ 

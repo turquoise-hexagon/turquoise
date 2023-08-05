@@ -6,11 +6,16 @@
 name=n30f
 commit=08d1b273ce336be0928fa672fc1c0a4625ba50aa
 version=20200411
-release=1
-source=("https://github.com/sdhand/$name/archive/$commit.tar.gz")
+release=2
+source=(
+"https://github.com/sdhand/$name/archive/$commit.tar.gz"
+stdin.patch
+)
 
 build() {
     cd "$name-$commit"
+
+    patch -p 1 -i "$SRC/stdin.patch"
 
     make
     make DESTDIR="$PKG" install
