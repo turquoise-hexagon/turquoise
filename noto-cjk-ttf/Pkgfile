@@ -4,11 +4,11 @@
 # Depends on  : xorg-mkfontscale fontconfig unzip
 
 name=noto-cjk-ttf
-version=20220127
+version=20230817
 release=1
 source_fix=(
-https://github.com/googlefonts/noto-cjk/releases/download/Sans2.004/02_NotoSansCJK-TTF-VF.zip
-https://github.com/googlefonts/noto-cjk/releases/download/Serif2.001/03_NotoSerifCJK-TTF-VF.zip
+https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/02_NotoSansCJK-TTF-VF.zip
+https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/03_NotoSerifCJK-TTF-VF.zip
 )
 
 build() {
