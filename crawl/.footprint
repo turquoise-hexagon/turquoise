@@ -107,6 +107,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/branches/
 drwxr-xr-x	root/root	usr/share/crawl/dat/des/builder/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/builder/alphashops.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/builder/arena.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/builder/custombooks.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/builder/decor.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/builder/dummy.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/builder/layout.des
@@ -306,10 +307,10 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/dlua/layout/
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_items.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_mon_prop.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_monst.lua
--rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_mslav.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_named_hatch.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_pdesc.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_props.lua
+-rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_replica.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_timed.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_tmsg.lua
 -rw-r--r--	root/root	usr/share/crawl/dat/dlua/lm_toll.lua
@@ -376,6 +377,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_gompami_kohu_xbow.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_ignis_the_dying_flame.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_menkaure_prince_of_dust.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_king7artist_eustachio.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_micah_c_ereshkigal.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_nibiki_octopode.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_omndra_zot_demon.png
