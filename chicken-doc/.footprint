@@ -497,6 +497,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/combinators/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/combinators/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/comic-snarfer/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/comic-snarfer/,meta
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/commands/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/commands/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/commands/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/commands/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/comparse/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/comparse/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/comparse/,meta
@@ -625,6 +629,9 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/easyffi/
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/edn/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/edn/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/edn/,meta
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/edward/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/edward/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/edward/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/egg-tarballs/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/egg-tarballs/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/egg-tarballs/,sxml
@@ -1476,6 +1483,9 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/ripemd/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ripemd/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ripemd/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/ripemd/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/rlimit/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rlimit/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rlimit/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/rocksdb/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rocksdb/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/rocksdb/,meta
@@ -1494,6 +1504,10 @@ drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/s11n/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s11n/,defs
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s11n/,meta
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s11n/,sxml
+drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/s9fes-char-graphics/
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s9fes-char-graphics/,defs
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s9fes-char-graphics/,meta
+-rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/s9fes-char-graphics/,sxml
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/salmonella-diff/
 -rw-rw-r--	root/root	usr/share/chicken/chicken-doc/root/salmonella-diff/,meta
 drwxrwxr-x	root/root	usr/share/chicken/chicken-doc/root/salmonella-feeds/
