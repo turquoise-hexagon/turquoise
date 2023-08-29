@@ -1,10 +1,9 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uww1yo1XJbDEdt0edlhY+JZTZExIDtqgF1YKDdc8CTs6oaWRxfWyDI+kBaVuHDavK52aaThT2M1biFUe/wJ7zVQ0=
-SHA256 (Pkgfile) = c2cf5c6ccb56547ed545112c78c3e17b8754d2f9814c3c23cce433ba78769ce6
-SHA256 (.footprint) = bf179e174ae3713103ae97aef553755e8cb1d228d501881340092b30c522f437
-SHA256 (freetype-2.13.0.tar.gz) = a7aca0e532a276ea8d85bd31149f0a74c33d19c8d287116ef8f5f8357b4f1f80
-SHA256 (enable-infinality-subpixel-hinting.patch) = 21a62bc12b848320c686d602d8d4e3bcd51294a9def4dc9c301736e077b59f3f
-SHA256 (enable-long-pcf-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e
-SHA256 (enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
-SHA256 (enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
+RWTOjBUiTG/Uw92boY1UYYjWgDMIdkn9k4VpH1fTgoKepYZUchxo1+28lCsTBd7LDrKQa+SiA5Ce0TNdnfExCU7Jv9r+y4K81gg=
+SHA256 (Pkgfile) = e003c39613f24e1bc53eeea6d89dd9da0a8292cd2039897a0acdd3d4ef0013d7
+SHA256 (.footprint) = febee2e46e800f0b7606559fab11f24d1a29092ee65138b1ea72256e96e31174
+SHA256 (freetype-2.13.2.tar.gz) = 1ac27e16c134a7f2ccea177faba19801131116fd682efc1f5737037c5db224b5
+SHA256 (001-enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
+SHA256 (002-enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
+SHA256 (003-enable-long-pcf-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e
 SHA256 (freetype2.sh) = f7f8e09c44f7552c883846e9a6a1efc50377c4932234e74adc4a8ff750606467
