@@ -10,6 +10,8 @@ drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libjq.so -> libjq.so.1.0.4
 lrwxrwxrwx	root/root	usr/lib/libjq.so.1 -> libjq.so.1.0.4
 -rwxr-xr-x	root/root	usr/lib/libjq.so.1.0.4
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libjq.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
