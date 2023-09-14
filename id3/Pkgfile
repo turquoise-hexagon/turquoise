@@ -4,16 +4,15 @@
 # Depends on  :
 
 name=id3
-_commit=b6413124856b1eb170f81b2f66cecf1f13235673
-version=0.80
-release=2
+version=0.81
+release=1
 source=(
-"https://github.com/squell/$name/archive/$_commit.tar.gz"
+"https://github.com/squell/$name/archive/$version.tar.gz"
 man.patch
 )
 
 build() {
-    cd "$name-$_commit"
+    cd "$name-$version"
 
     patch -p 1 -i "$SRC/man.patch"
 
