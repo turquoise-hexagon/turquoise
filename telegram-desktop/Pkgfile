@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=telegram-desktop
-version=4.9.7
+version=4.9.8
 release=1
 source=("https://updates.tdesktop.com/tlinux/tsetup.$version.tar.xz")
 
