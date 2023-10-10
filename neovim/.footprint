@@ -408,6 +408,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/css.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/cucumber.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/cvsrc.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/d.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/debchangelog.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/debcontrol.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/denyhosts.vim
@@ -930,7 +931,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/lua/vim/
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_editor.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_init_packages.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_inspector.lua
--rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_meta.lua
+-rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_options.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/_watch.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/diagnostic.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/lua/vim/filetype.lua
