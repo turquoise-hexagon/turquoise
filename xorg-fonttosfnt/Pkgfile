@@ -4,7 +4,7 @@
 # Depends on  : freetype xorg-xorgproto
 
 name=xorg-fonttosfnt
-version=1.2.2
+version=1.2.3
 release=1
 source=("https://gitlab.freedesktop.org/xorg/app/${name#*-}/-/archive/${name#*-}-$version/${name#*-}-${name#*-}-$version.tar.gz")
 
