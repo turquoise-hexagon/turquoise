@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uwy9ZUYDi02oFEga1F3M2wML8elnRrVsrO1CElaZpg4Za5PCUsuO6pgRGo0ah7ZwA7tyngqusGr/B1UitRUZCJQE=
-SHA256 (Pkgfile) = c5da188b8d44e49e2e1f8d1478767983a2e9855713057c646882351712f0b531
-SHA256 (.footprint) = 6e4ceeb6fc097e7b2ee2155088ab61f867776c2490a6b118fb5c72a064841413
-SHA256 (pip-23.1.2.tar.gz) = 0e7c86f486935893c708287b30bd050a36ac827ec7fe5e43fe7cb198dd835fba
+RWTOjBUiTG/Uw1hQ/L2eP/KpxMruo7UeU7X3/d4f8rXgd5zvQl0FzYnXSqhurYRBr8C5gMfh0uyLzk8jauQT7sAgO5fC2yDssA4=
+SHA256 (Pkgfile) = 1fc4d987ac1f2b063fc7164adea27bf3c48cc9b786ab0f0cda67fdc522ed6f4d
+SHA256 (.footprint) = b1a1d0cb35dcad9cffd2aec6d50b5edeb44ec6e48d5626727d128c0ae42e09ee
+SHA256 (pip-23.2.1.tar.gz) = fb0bd5435b3200c602b5bf61d2d43c2f13c02e29c1707567ae7fbc514eb9faf2
