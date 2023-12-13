@@ -4,7 +4,7 @@
 # Depends on  : oniguruma
 
 name=jq
-version=1.7
+version=1.7.1
 release=1
 source=("https://github.com/stedolan/$name/releases/download/$name-$version/$name-$version.tar.gz")
 
