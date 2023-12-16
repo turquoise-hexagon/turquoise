@@ -37,9 +37,14 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/pl/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/wpnnoise.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/database/zh/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/FAQ.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/godname.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/godspeak.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/help.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/miscname.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/monflee.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/monspell.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/montitle.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/shout.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/defaults/
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/autopickup_exceptions.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/glyph_colours.txt
@@ -154,6 +159,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/serial/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/glass.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/gnoll_camp.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/ice.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/serial/library.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/magic_research.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/park.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/serial/rivers.des
