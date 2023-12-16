@@ -4,19 +4,13 @@
 # Depends on  : gtk
 
 name=gbdfed
-version=1.6
-release=2
-source=(
-"http://sofia.nmsu.edu/~mleisher/Software/$name/$name-$version.tar.gz"
-patches/num-signals.patch
-patches/makefile.patch
-)
+commit=de63fa3531c1872da41548e46bfcbe28d9ba5d6f
+version=20180408
+release=1
+source=("https://github.com/andrewshadura/gbdfed/archive/$commit.tar.gz")
 
 build() {
-    cd "$name-$version"
-
-    patch -p1 -i "$SRC/makefile.patch"
-    patch -p1 -i "$SRC/num-signals.patch"
+    cd "$name-$commit"
 
     ./configure --prefix=/usr
 
