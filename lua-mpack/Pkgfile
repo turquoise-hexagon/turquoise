@@ -5,14 +5,14 @@
 
 name=lua-mpack
 version=1.0.11
-release=1
+release=2
 source=("https://github.com/${name/lua-/lib}/${name/lua-/lib}-${name%-*}/archive/$version.tar.gz")
 
 build() {
     cd "${name/lua-/lib}-${name%-*}-$version"
 
-    make
-    make -C mpack-src
+    make -j 1
+    make -C mpack-src -j 1
 
     for version in 5.{1..3}; do
         gcc -O2 -fPIC "-I/usr/include/lua$version" -c lmpack.c -o lmpack.o
