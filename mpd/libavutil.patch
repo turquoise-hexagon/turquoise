@@ -1,0 +1,12 @@
+--- old/src/decoder/plugins/FfmpegIo.cxx	2023-12-17 01:58:31.495194189 +0000
++++ new/src/decoder/plugins/FfmpegIo.cxx	2023-12-17 01:59:16.769196084 +0000
+@@ -26,6 +26,9 @@
+ 
+ extern "C" {
+ #include <libavutil/mem.h>
++#if LIBAVUTIL_VERSION_INT >= AV_VERSION_INT(58, 29, 100)
++#include <libavutil/error.h>
++#endif
+ }
+ 
+ AvioStream::~AvioStream()
