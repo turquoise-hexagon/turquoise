@@ -1,11 +1,10 @@
 # Description : libTorrent BitTorrent library
 # URL         : https://rtorrent.net
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : libsigc++ curl
 
 name=libtorrent
 version=0.13.8
-release=2
+release=3
 source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
 
 build() {
