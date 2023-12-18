@@ -5,7 +5,7 @@
 # Optional    : libcdio-paranoia libdvdnav yt-dlp
 
 name=mpv
-version=0.36.0
+version=0.37.0
 release=1
 source=("https://github.com/$name-player/$name/archive/v$version.tar.gz")
 
