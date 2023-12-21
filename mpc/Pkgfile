@@ -4,7 +4,7 @@
 # Depends on  : libmpdclient meson ninja
 
 name=mpc
-version=0.34
+version=0.35
 release=1
 source=("https://www.musicpd.org/download/$name/0/$name-$version.tar.xz")
 
