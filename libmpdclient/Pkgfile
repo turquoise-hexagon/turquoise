@@ -4,7 +4,7 @@
 # Depends on  :
 
 name=libmpdclient
-version=2.20
+version=2.21
 release=1
 source=("https://www.musicpd.org/download/$name/2/$name-$version.tar.xz")
 
