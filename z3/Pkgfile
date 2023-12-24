@@ -1,0 +1,24 @@
+# Description : The Z3 Theorem Prover
+# URL         : https://github.com/Z3Prover/z3
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : cmake python3
+
+name=z3
+version=4.12.4
+release=1
+source=("https://github.com/Z3Prover/$name/archive/refs/tags/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$name-$version"
+
+    mkdir build; cd "$_"
+
+    cmake ..                          \
+        -DCMAKE_INSTALL_PREFIX=/usr   \
+        -DCMAKE_INSTALL_LIBDIR=lib    \
+        -DZ3_LINK_TIME_OPTIMIZATION=1 \
+        -DZ3_BUILD_PYTHON_BINDINGS=1
+
+    make
+    make DESTDIR="$PKG" install
+}
