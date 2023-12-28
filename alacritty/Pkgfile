@@ -1,10 +1,11 @@
 # Description :  A cross-platform, OpenGL terminal emulator.
 # URL         : https://github.com/alacritty/alacritty
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : rust fontconfig xorg-libxcb ncurses
+# Depends on  : fontconfig libxkbcommon rust util-linux xorg-libxcb
+# Optional    : bash-completion scdoc zsh
 
 name=alacritty
-version=0.12.3
+version=0.13.0
 release=1
 source=("https://github.com/$name/$name/archive/refs/tags/v$version.tar.gz")
 
@@ -15,15 +16,45 @@ build() {
         --release \
         --locked
 
-    install -Dm755 "target/release/$name" -t         \
-        "$PKG/usr/bin"
-    install -Dm644 "extra/completions/_$name" -t     \
-        "$PKG/usr/share/zsh/site-functions"
-    install -Dm644 "extra/completions/$name.fish" -t \
-        "$PKG/usr/share/fish/vendor_completions.d"
+    install -Dm755             \
+        "target/release/$name" \
+        "$PKG/usr/bin/$name"
 
-    install -Dm644 "extra/$name.man"                 \
-        "$PKG/usr/share/man/man1/$name.1.gz"
-    install -Dm644 "extra/completions/$name.bash"    \
-        "$PKG/usr/share/bash-completion/completions/$name"
+    if prt-get isinst scdoc > /dev/null; then
+        local num
+        local scd
+        local man
+
+        for num in 1 5; do
+            for scd in extra/man/*".$num.scd"; do
+                man=${scd##*/}
+                man=${man%%.*}
+                man=$man.$num.gz
+
+                scdoc < "$scd" | gzip > "$man"
+
+                install -Dm644 "$man" "$PKG/usr/share/man/man$num/$man"
+            done
+        done
+    fi
+
+    if prt-get isinst bash-completion > /dev/null; then
+        install -Dm644                     \
+            "extra/completions/$name.bash" \
+            "$PKG/usr/share/bash-completion/completions/$name"
+    fi
+
+    if prt-get isinst zsh > /dev/null; then
+        install -Dm644                 \
+            "extra/completions/_$name" \
+            "$PKG/usr/share/zsh/site-functions/_$name"
+    fi
+
+    install -Dm644                     \
+        "extra/linux/${name^}.desktop" \
+        "$PKG/usr/share/applications/${name^}.desktop"
+
+    install -Dm644                  \
+        "extra/logo/$name-term.svg" \
+        "$PKG/usr/share/pixmaps/${name^}.svg"
 }
