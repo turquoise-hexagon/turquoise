@@ -4,7 +4,7 @@
 # Depends on  : libuv luajit ninja cmake
 
 name=libluv
-version=1.45.0.0
+version=1.47.0.0
 release=1
 source=("https://github.com/luvit/${name#lib}/releases/download/${version%.*}-${version##*.}/${name#lib}-${version%.*}-${version##*.}.tar.gz")
 
