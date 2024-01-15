@@ -4,7 +4,7 @@
 # Depends on  : readline
 
 name=bash
-version=5.2.21
+version=5.2.26
 release=1
 source=(
 "https://ftp.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
