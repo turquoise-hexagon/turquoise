@@ -4,24 +4,32 @@
 # Depends on  : ruby
 
 name=asciidoctor
-version=2.0.20
+version=2.0.21
 release=1
 source=("https://rubygems.org/downloads/$name-$version.gem")
 
 build() {
-    local gem_dir=$(ruby -e 'puts Gem.default_dir')
-
-    gem install               \
+    gem install "$name"       \
         --ignore-dependencies \
         --no-user-install     \
-        --verbose             \
-        -i "$PKG/$gem_dir"    \
-        -n "$PKG/usr/bin"     \
-        "$name-$version.gem"
+        --no-document         \
+        --local               \
+        --build-root "$PKG"
 
-    install -Dm644 "$PKG/$gem_dir/gems/$name-$version/man/$name.1" \
-        -t "$PKG/usr/share/man/man1"
+    cd "$PKG$(gem env gemdir)"
 
-    rm -rf "$PKG/$gem_dir/cache"
-    rm -rf "$PKG/$gem_dir/gems/$name-$version/man"
+    rm -r          \
+        build_info \
+        cache      \
+        doc        \
+        extensions
+    
+    cd "gems/$name-$version"
+
+    rm             \
+        LICENSE    \
+        CHANGELOG* \
+        README*
+
+    install -Dm644 "man/$name.1" -t "$PKG/usr/share/man/man1"
 }
