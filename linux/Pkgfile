@@ -4,7 +4,7 @@
 
 name=linux
 version=6.8.2
-release=1
+release=2
 source=("https://cdn.kernel.org/pub/linux/kernel/v${version%%.*}.x/$name-$version.tar.xz")
 
 build() {
@@ -38,10 +38,12 @@ build() {
     make olddefconfig
     make all
 
-    make                        \
-        INSTALL_MOD_PATH="$PKG" \
-        INSTALL_MOD_STRIP=1     \
-        modules_install
+    if grep -q CONFIG_MODULES=y .config; then
+        make                        \
+            INSTALL_MOD_PATH="$PKG" \
+            INSTALL_MOD_STRIP=1     \
+            modules_install
+    fi
 
     install -Dm644 System.map               \
         "$PKG/boot/System.map-$version$extra_version"
