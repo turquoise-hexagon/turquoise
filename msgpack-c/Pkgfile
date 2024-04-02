@@ -4,7 +4,7 @@
 # Depends on  : cmake boost googletest
 
 name=msgpack-c
-version=6.0.0
+version=6.0.1
 release=1
 source=("https://github.com/msgpack/$name/releases/download/c-$version/$name-$version.tar.gz")
 
