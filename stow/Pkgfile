@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=stow
-version=2.3.1
+version=2.4.0
 release=1
 source=("https://ftp.gnu.org/gnu/$name/$name-$version.tar.gz")
 
