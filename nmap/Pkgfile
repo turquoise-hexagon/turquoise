@@ -1,24 +1,40 @@
 # Description : A free and open source utility for network discovery and security auditing
 # URL         : https://nmap.org
 # Maintainer  : camille, camille at lzr dot pw
+# Depends on  : libpcap libpcre libssh2 lua
 
 name=nmap
-version=7.94
+version=7.95
 release=1
 source=("https://$name.org/dist/$name-$version.tgz")
 
 build() {
     cd "$name-$version"
 
-    # fix #2516
-    export CFLAGS+=' -DOPENSSL_API_COMPAT=10101'
+    rm -rf      \
+        liblua  \
+        libpcap \
+        libpcre \
+        libssh2 \
+        libz    \
+        macosx  \
+        nwin32
 
-    ./configure --prefix=/usr
+    ./configure               \
+        --disable-nls         \
+        --libexecdir=/usr/lib \
+        --prefix=/usr         \
+        --with-liblua=/usr    \
+        --with-libpcap=/usr   \
+        --with-libpcre=/usr   \
+        --with-libssh2=/usr   \
+        --with-zlib=/usr      \
+        --without-ndiff       \
+        --without-nmap-update \
+        --without-zenmap
 
     make
     make DESTDIR="$PKG" install
 
-    for i in "$PKG/usr/share/man/"*/; {
-        [[ $i =~ '/man1/'$ ]] || rm -rf "$i"
-    }
+    find "$PKG" -name '*README*' -delete
 }
