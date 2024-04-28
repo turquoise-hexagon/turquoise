@@ -1,0 +1,19 @@
+# Description : A client-side C library implementing the SSH2 protocol
+# URL         : https://libssh2.org
+# Maintainer  : camille, camille at lzr dot pw
+
+name=libssh2
+version=1.11.0
+release=1
+source=("https://$name.org/download/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure          \
+        --disable-static \
+        --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
