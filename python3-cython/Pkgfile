@@ -4,7 +4,7 @@
 # Depends on  : python3 python3-setuptools
 
 name=python3-cython
-version=3.0.5
+version=3.0.10
 release=1
 source=("https://files.pythonhosted.org/packages/source/C/Cython/Cython-$version.tar.gz")
 
