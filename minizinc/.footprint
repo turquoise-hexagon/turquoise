@@ -81,6 +81,8 @@ drwxr-xr-x	root/root	usr/include/minizinc/solvers/MIP/
 -rw-r--r--	root/root	usr/include/minizinc/solvers/MIP/MIP_wrap.hh
 -rw-r--r--	root/root	usr/include/minizinc/solvers/MIP/MIP_xpress_solverfactory.hh
 -rw-r--r--	root/root	usr/include/minizinc/solvers/MIP/MIP_xpress_wrap.hh
+-rw-r--r--	root/root	usr/include/minizinc/solvers/atlantis_solverfactory.hh
+-rw-r--r--	root/root	usr/include/minizinc/solvers/atlantis_solverinstance.hh
 -rw-r--r--	root/root	usr/include/minizinc/solvers/chuffed_solverfactory.hh
 -rw-r--r--	root/root	usr/include/minizinc/solvers/chuffed_solverinstance.hh
 -rw-r--r--	root/root	usr/include/minizinc/solvers/fzn_solverfactory.hh
