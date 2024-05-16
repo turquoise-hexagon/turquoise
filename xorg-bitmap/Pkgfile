@@ -4,8 +4,8 @@
 # Depends on  : xorg-xbitmaps
 
 name=xorg-bitmap
-version=1.1.0
-release=2
+version=1.1.1
+release=0
 source=("https://gitlab.freedesktop.org/xorg/app/${name#*-}/-/archive/${name#*-}-$version/${name#*-}-${name#*-}-$version.tar.gz")
 
 build() {
