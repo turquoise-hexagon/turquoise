@@ -4,7 +4,7 @@
 # Depends on  : xorg-xauth
 
 name=sx
-version=2.1.7
+version=3.0
 release=1
 source=("https://github.com/earnestly/$name/archive/$version.tar.gz")
 
