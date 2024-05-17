@@ -3,12 +3,13 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=luajit
-version=2.0.5
+commit=5790d253972c9d78a0c2aece527eda5b134bbbf7
+version=20240422
 release=1
-source=("https://$name.org/download/LuaJIT-$version.tar.gz")
+source=("https://github.com/$name/$name/archive/$commit.tar.gz")
 
 build() {
-    cd "LuaJIT-$version"
+    cd "LuaJIT-$commit"
 
     make PREFIX=/usr CFLAGS+=' -fPIC' amalg
     make PREFIX=/usr DESTDIR="$PKG" install
