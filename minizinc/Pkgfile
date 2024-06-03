@@ -4,7 +4,7 @@
 # Depends on  : cmake
 
 name=minizinc
-version=2.8.4
+version=2.8.5
 release=1
 source=("https://github.com/$name/lib$name/archive/$version.tar.gz")
 
