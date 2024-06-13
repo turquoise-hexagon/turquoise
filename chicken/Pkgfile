@@ -4,9 +4,9 @@
 # Depends on  : tcl
 
 name=chicken
-version=5.3.0
+version=5.4.0rc1
 release=1
-source=("https://code.call-cc.org/releases/$version/$name-$version.tar.gz")
+source=("https://code.call-cc.org/dev-snapshots/2024/05/31/$name-$version.tar.gz")
 
 build() {
     cd "$name-$version"
