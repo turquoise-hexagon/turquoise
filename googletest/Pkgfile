@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=googletest
-version=1.14.0
-release=2
+version=1.15.0
+release=1
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
 build() {
