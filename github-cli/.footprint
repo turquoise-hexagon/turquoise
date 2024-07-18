@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-alias.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-api.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-attestation-download.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-attestation-trusted-root.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-attestation-verify.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-attestation.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-auth-login.1.gz
@@ -107,6 +108,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-review.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-status.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-unlock.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-pr-update-branch.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-project-close.1.gz
