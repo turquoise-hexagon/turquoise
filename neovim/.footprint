@@ -482,6 +482,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitignore.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitrebase.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gitsendemail.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/glsl.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/go.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gpg.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/gprof.vim
@@ -1171,10 +1172,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/plugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/plugin/tutor.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/plugin/zipPlugin.vim
 drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/
-drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/bash/
--rw-r--r--	root/root	usr/share/nvim/runtime/queries/bash/folds.scm
--rw-r--r--	root/root	usr/share/nvim/runtime/queries/bash/highlights.scm
--rw-r--r--	root/root	usr/share/nvim/runtime/queries/bash/injections.scm
 drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/c/
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/c/folds.scm
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/c/highlights.scm
@@ -1190,9 +1187,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/markdown/
 drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/markdown_inline/
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/markdown_inline/highlights.scm
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/markdown_inline/injections.scm
-drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/python/
--rw-r--r--	root/root	usr/share/nvim/runtime/queries/python/folds.scm
--rw-r--r--	root/root	usr/share/nvim/runtime/queries/python/highlights.scm
 drwxr-xr-x	root/root	usr/share/nvim/runtime/queries/query/
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/query/folds.scm
 -rw-r--r--	root/root	usr/share/nvim/runtime/queries/query/highlights.scm
