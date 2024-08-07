@@ -4,17 +4,12 @@
 # Depends on  : python3 python3-cython libyaml
 
 name=python3-yaml
-version=6.0.1
-release=2
-source=(
-"https://files.pythonhosted.org/packages/source/p/pyyaml/PyYAML-$version.tar.gz"
-cython.patch
-)
+version=6.0.2
+release=1
+source=("https://files.pythonhosted.org/packages/source/p/pyyaml/pyyaml-$version.tar.gz")
 
 build() {
-    cd "PyYAML-$version"
-
-    patch -p 1 -i "$SRC/cython.patch"
+    cd "pyyaml-$version"
 
     python3 ./setup.py --with-libyaml build
     python3 ./setup.py install \
