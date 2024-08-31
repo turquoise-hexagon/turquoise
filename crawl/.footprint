@@ -12,13 +12,17 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/clua/
 -rw-r--r--	root/root	usr/share/crawl/dat/clua/stash.lua
 drwxr-xr-x	root/root	usr/share/crawl/dat/database/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/FAQ.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/colourname.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/decorlines.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/database/el/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/el/monflee.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/el/rand_all.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/gizmo.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/godname.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/godspeak.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/help.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/insult.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/miscast.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/miscname.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/monflee.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/monname.txt
@@ -45,6 +49,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/zh/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/monspell.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/montitle.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/shout.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/zh/wpnnoise.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/defaults/
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/autopickup_exceptions.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/glyph_colours.txt
@@ -139,6 +144,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/portals/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/arena.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/bailey.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/bazaar.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/portals/crucible.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/desolation.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/gauntlet.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/icecave.des
@@ -409,7 +415,6 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/develop/
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/IRC.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/android.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/arena.txt
--rw-r--r--	root/root	usr/share/crawl/docs/develop/background_creation.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/ctags.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/editor_tips.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/gdb_tips.txt
