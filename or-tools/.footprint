@@ -40,6 +40,7 @@ drwxr-xr-x	root/root	usr/include/absl/base/internal/
 -rw-r--r--	root/root	usr/include/absl/base/internal/low_level_scheduling.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/nullability_impl.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/per_thread_tls.h
+-rw-r--r--	root/root	usr/include/absl/base/internal/poison.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/pretty_function.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/raw_logging.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/scheduling_mode.h
@@ -79,6 +80,7 @@ drwxr-xr-x	root/root	usr/include/absl/container/
 -rw-r--r--	root/root	usr/include/absl/container/fixed_array.h
 -rw-r--r--	root/root	usr/include/absl/container/flat_hash_map.h
 -rw-r--r--	root/root	usr/include/absl/container/flat_hash_set.h
+-rw-r--r--	root/root	usr/include/absl/container/hash_container_defaults.h
 -rw-r--r--	root/root	usr/include/absl/container/inlined_vector.h
 drwxr-xr-x	root/root	usr/include/absl/container/internal/
 -rw-r--r--	root/root	usr/include/absl/container/internal/btree.h
@@ -129,7 +131,10 @@ drwxr-xr-x	root/root	usr/include/absl/debugging/
 -rw-r--r--	root/root	usr/include/absl/debugging/failure_signal_handler.h
 drwxr-xr-x	root/root	usr/include/absl/debugging/internal/
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/address_is_readable.h
+-rw-r--r--	root/root	usr/include/absl/debugging/internal/bounded_utf8_length_sequence.h
+-rw-r--r--	root/root	usr/include/absl/debugging/internal/decode_rust_punycode.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/demangle.h
+-rw-r--r--	root/root	usr/include/absl/debugging/internal/demangle_rust.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/elf_mem_image.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/examine_stack.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/stack_consumption.h
@@ -144,6 +149,7 @@ drwxr-xr-x	root/root	usr/include/absl/debugging/internal/
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/stacktrace_win32-inl.inc
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/stacktrace_x86-inl.inc
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/symbolize.h
+-rw-r--r--	root/root	usr/include/absl/debugging/internal/utf8_for_code_point.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/vdso_support.h
 -rw-r--r--	root/root	usr/include/absl/debugging/leak_check.h
 -rw-r--r--	root/root	usr/include/absl/debugging/stacktrace.h
@@ -269,6 +275,7 @@ drwxr-xr-x	root/root	usr/include/absl/random/internal/
 -rw-r--r--	root/root	usr/include/absl/random/internal/iostream_state_saver.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/mock_helpers.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/mock_overload_set.h
+-rw-r--r--	root/root	usr/include/absl/random/internal/mock_validators.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/nanobenchmark.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/nonsecure_base.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/pcg_engine.h
@@ -299,8 +306,10 @@ drwxr-xr-x	root/root	usr/include/absl/random/internal/
 drwxr-xr-x	root/root	usr/include/absl/status/
 drwxr-xr-x	root/root	usr/include/absl/status/internal/
 -rw-r--r--	root/root	usr/include/absl/status/internal/status_internal.h
+-rw-r--r--	root/root	usr/include/absl/status/internal/status_matchers.h
 -rw-r--r--	root/root	usr/include/absl/status/internal/statusor_internal.h
 -rw-r--r--	root/root	usr/include/absl/status/status.h
+-rw-r--r--	root/root	usr/include/absl/status/status_matchers.h
 -rw-r--r--	root/root	usr/include/absl/status/status_payload_printer.h
 -rw-r--r--	root/root	usr/include/absl/status/statusor.h
 drwxr-xr-x	root/root	usr/include/absl/strings/
@@ -337,7 +346,6 @@ drwxr-xr-x	root/root	usr/include/absl/strings/internal/
 -rw-r--r--	root/root	usr/include/absl/strings/internal/damerau_levenshtein_distance.h
 -rw-r--r--	root/root	usr/include/absl/strings/internal/escaping.h
 -rw-r--r--	root/root	usr/include/absl/strings/internal/escaping_test_common.h
--rw-r--r--	root/root	usr/include/absl/strings/internal/has_absl_stringify.h
 -rw-r--r--	root/root	usr/include/absl/strings/internal/memutil.h
 -rw-r--r--	root/root	usr/include/absl/strings/internal/numbers_test_common.h
 -rw-r--r--	root/root	usr/include/absl/strings/internal/ostringstream.h
@@ -1475,15 +1483,15 @@ drwxr-xr-x	root/root	usr/include/highs/qpsolver/
 -rw-r--r--	root/root	usr/include/highs/qpsolver/devexpricing.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/eventhandler.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/factor.hpp
--rw-r--r--	root/root	usr/include/highs/qpsolver/feasibility.hpp
+-rw-r--r--	root/root	usr/include/highs/qpsolver/feasibility_bounded.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/feasibility_highs.hpp
--rw-r--r--	root/root	usr/include/highs/qpsolver/feasibility_quass.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/gradient.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/instance.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/matrix.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/perturbation.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/pricing.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/qpconst.hpp
+-rw-r--r--	root/root	usr/include/highs/qpsolver/qpvector.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/quass.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/ratiotest.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/runtime.hpp
@@ -1492,7 +1500,6 @@ drwxr-xr-x	root/root	usr/include/highs/qpsolver/
 -rw-r--r--	root/root	usr/include/highs/qpsolver/snippets.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/statistics.hpp
 -rw-r--r--	root/root	usr/include/highs/qpsolver/steepestedgepricing.hpp
--rw-r--r--	root/root	usr/include/highs/qpsolver/vector.hpp
 drwxr-xr-x	root/root	usr/include/highs/simplex/
 -rw-r--r--	root/root	usr/include/highs/simplex/HApp.h
 -rw-r--r--	root/root	usr/include/highs/simplex/HEkk.h
@@ -1531,6 +1538,7 @@ drwxr-xr-x	root/root	usr/include/highs/util/
 -rw-r--r--	root/root	usr/include/highs/util/HighsMatrixPic.h
 -rw-r--r--	root/root	usr/include/highs/util/HighsMatrixSlice.h
 -rw-r--r--	root/root	usr/include/highs/util/HighsMatrixUtils.h
+-rw-r--r--	root/root	usr/include/highs/util/HighsMemoryAllocation.h
 -rw-r--r--	root/root	usr/include/highs/util/HighsRandom.h
 -rw-r--r--	root/root	usr/include/highs/util/HighsRbTree.h
 -rw-r--r--	root/root	usr/include/highs/util/HighsSort.h
@@ -1566,6 +1574,7 @@ drwxr-xr-x	root/root	usr/include/ortools/algorithms/csharp/
 -rw-r--r--	root/root	usr/include/ortools/algorithms/hungarian.h
 drwxr-xr-x	root/root	usr/include/ortools/algorithms/java/
 -rw-r--r--	root/root	usr/include/ortools/algorithms/knapsack_solver.h
+-rw-r--r--	root/root	usr/include/ortools/algorithms/n_choose_k.h
 drwxr-xr-x	root/root	usr/include/ortools/algorithms/python/
 -rw-r--r--	root/root	usr/include/ortools/algorithms/python/knapsack_solver_doc.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/radix_sort.h
@@ -1573,6 +1582,7 @@ drwxr-xr-x	root/root	usr/include/ortools/algorithms/samples/
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover.pb.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_heuristics.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_invariant.h
+-rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_lagrangian.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_mip.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_model.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_reader.h
@@ -1629,6 +1639,7 @@ drwxr-xr-x	root/root	usr/include/ortools/base/
 -rw-r--r--	root/root	usr/include/ortools/base/strong_vector.h
 -rw-r--r--	root/root	usr/include/ortools/base/strtoint.h
 -rw-r--r--	root/root	usr/include/ortools/base/sysinfo.h
+-rw-r--r--	root/root	usr/include/ortools/base/temp_path.h
 -rw-r--r--	root/root	usr/include/ortools/base/threadpool.h
 -rw-r--r--	root/root	usr/include/ortools/base/timer.h
 -rw-r--r--	root/root	usr/include/ortools/base/top_n.h
@@ -1684,6 +1695,7 @@ drwxr-xr-x	root/root	usr/include/ortools/dotnet/
 drwxr-xr-x	root/root	usr/include/ortools/dotnet/CreateSigningKey/
 drwxr-xr-x	root/root	usr/include/ortools/dotnet/docs/
 drwxr-xr-x	root/root	usr/include/ortools/flatzinc/
+drwxr-xr-x	root/root	usr/include/ortools/flatzinc/challenge/
 -rw-r--r--	root/root	usr/include/ortools/flatzinc/checker.h
 -rw-r--r--	root/root	usr/include/ortools/flatzinc/cp_model_fz_solver.h
 -rw-r--r--	root/root	usr/include/ortools/flatzinc/model.h
@@ -1746,6 +1758,7 @@ drwxr-xr-x	root/root	usr/include/ortools/graph/java/
 -rw-r--r--	root/root	usr/include/ortools/graph/perfect_matching.h
 drwxr-xr-x	root/root	usr/include/ortools/graph/python/
 -rw-r--r--	root/root	usr/include/ortools/graph/random_graph.h
+-rw-r--r--	root/root	usr/include/ortools/graph/rooted_tree.h
 drwxr-xr-x	root/root	usr/include/ortools/graph/samples/
 -rw-r--r--	root/root	usr/include/ortools/graph/shortest_paths.h
 -rw-r--r--	root/root	usr/include/ortools/graph/strongly_connected_components.h
@@ -1877,6 +1890,7 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/constraints/util/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/constraints/util/model_util.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/core/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/core/arrow_operator_proxy.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/core/base_solver.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/core/c_api/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/core/c_api/solver.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/core/concurrent_calls_guard.h
@@ -1901,6 +1915,7 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/cpp/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/compute_infeasible_subsystem_result.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/enums.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/formatters.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/incremental_solver.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/key_types.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/linear_constraint.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/map_filter.h
@@ -1914,6 +1929,7 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/cpp/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solution.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solve.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solve_arguments.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solve_impl.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solve_result.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solver_init_arguments.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/solver_resources.h
@@ -1925,11 +1941,18 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/cpp/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/variable_and_expressions.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/infeasible_subsystem.pb.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/io/
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/io/lp/
+-rw-r--r--	root/root	usr/include/ortools/math_opt/io/lp/lp_model.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/io/lp/lp_name.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/io/lp/model_utils.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/io/lp_converter.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/io/lp_parser.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/io/mps_converter.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/io/names_removal.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/io/proto_converter.h
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/io/python/
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/labs/
+-rw-r--r--	root/root	usr/include/ortools/math_opt/labs/dualizer.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/labs/general_constraint_to_mip.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/labs/linear_expr_util.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/labs/solution_feasibility_checker.h
@@ -2044,6 +2067,7 @@ drwxr-xr-x	root/root	usr/include/ortools/pdlp/python/
 -rw-r--r--	root/root	usr/include/ortools/pdlp/quadratic_program.h
 -rw-r--r--	root/root	usr/include/ortools/pdlp/quadratic_program_io.h
 drwxr-xr-x	root/root	usr/include/ortools/pdlp/samples/
+-rw-r--r--	root/root	usr/include/ortools/pdlp/scheduler.h
 -rw-r--r--	root/root	usr/include/ortools/pdlp/sharded_optimization_utils.h
 -rw-r--r--	root/root	usr/include/ortools/pdlp/sharded_quadratic_program.h
 -rw-r--r--	root/root	usr/include/ortools/pdlp/sharder.h
@@ -2080,6 +2104,7 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_orthogonal_packing.h
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_orthogonal_packing_testing.h
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_packing_brute_force.h
+-rw-r--r--	root/root	usr/include/ortools/sat/2d_rectangle_presolve.h
 -rw-r--r--	root/root	usr/include/ortools/sat/all_different.h
 -rw-r--r--	root/root	usr/include/ortools/sat/boolean_problem.h
 -rw-r--r--	root/root	usr/include/ortools/sat/boolean_problem.pb.h
@@ -2100,6 +2125,7 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/colab/
 -rw-r--r--	root/root	usr/include/ortools/sat/cp_model_search.h
 -rw-r--r--	root/root	usr/include/ortools/sat/cp_model_service.pb.h
 -rw-r--r--	root/root	usr/include/ortools/sat/cp_model_solver.h
+-rw-r--r--	root/root	usr/include/ortools/sat/cp_model_solver_helpers.h
 -rw-r--r--	root/root	usr/include/ortools/sat/cp_model_symmetries.h
 -rw-r--r--	root/root	usr/include/ortools/sat/cp_model_utils.h
 drwxr-xr-x	root/root	usr/include/ortools/sat/csharp/
@@ -2158,6 +2184,7 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/samples/
 -rw-r--r--	root/root	usr/include/ortools/sat/sat_parameters.pb.h
 -rw-r--r--	root/root	usr/include/ortools/sat/sat_solver.h
 -rw-r--r--	root/root	usr/include/ortools/sat/scheduling_cuts.h
+-rw-r--r--	root/root	usr/include/ortools/sat/shaving_solver.h
 -rw-r--r--	root/root	usr/include/ortools/sat/simplification.h
 -rw-r--r--	root/root	usr/include/ortools/sat/stat_tables.h
 -rw-r--r--	root/root	usr/include/ortools/sat/subsolver.h
@@ -2192,6 +2219,7 @@ drwxr-xr-x	root/root	usr/include/ortools/util/
 -rw-r--r--	root/root	usr/include/ortools/util/bitset.h
 -rw-r--r--	root/root	usr/include/ortools/util/cached_log.h
 drwxr-xr-x	root/root	usr/include/ortools/util/csharp/
+-rw-r--r--	root/root	usr/include/ortools/util/dense_set.h
 -rw-r--r--	root/root	usr/include/ortools/util/file_util.h
 -rw-r--r--	root/root	usr/include/ortools/util/filelineiter.h
 -rw-r--r--	root/root	usr/include/ortools/util/flat_matrix.h
@@ -2303,7 +2331,9 @@ drwxr-xr-x	root/root	usr/lib/cmake/utf8_range/
 -rw-r--r--	root/root	usr/lib/libabsl_crc_cpu_detect.a
 -rw-r--r--	root/root	usr/lib/libabsl_crc_internal.a
 -rw-r--r--	root/root	usr/lib/libabsl_debugging_internal.a
+-rw-r--r--	root/root	usr/lib/libabsl_decode_rust_punycode.a
 -rw-r--r--	root/root	usr/lib/libabsl_demangle_internal.a
+-rw-r--r--	root/root	usr/lib/libabsl_demangle_rust.a
 -rw-r--r--	root/root	usr/lib/libabsl_die_if_null.a
 -rw-r--r--	root/root	usr/lib/libabsl_examine_stack.a
 -rw-r--r--	root/root	usr/lib/libabsl_exponential_biased.a
@@ -2343,6 +2373,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/utf8_range/
 -rw-r--r--	root/root	usr/lib/libabsl_low_level_hash.a
 -rw-r--r--	root/root	usr/lib/libabsl_malloc_internal.a
 -rw-r--r--	root/root	usr/lib/libabsl_periodic_sampler.a
+-rw-r--r--	root/root	usr/lib/libabsl_poison.a
 -rw-r--r--	root/root	usr/lib/libabsl_random_distributions.a
 -rw-r--r--	root/root	usr/lib/libabsl_random_internal_distribution_test_util.a
 -rw-r--r--	root/root	usr/lib/libabsl_random_internal_platform.a
@@ -2371,14 +2402,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/utf8_range/
 -rw-r--r--	root/root	usr/lib/libabsl_throw_delegate.a
 -rw-r--r--	root/root	usr/lib/libabsl_time.a
 -rw-r--r--	root/root	usr/lib/libabsl_time_zone.a
+-rw-r--r--	root/root	usr/lib/libabsl_utf8_for_code_point.a
 -rw-r--r--	root/root	usr/lib/libabsl_vlog_config_internal.a
 -rw-r--r--	root/root	usr/lib/libhighs.a
 lrwxrwxrwx	root/root	usr/lib/libortools.so -> libortools.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.10.9999
--rwxr-xr-x	root/root	usr/lib/libortools.so.9.10.9999
+lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.11.9999
+-rwxr-xr-x	root/root	usr/lib/libortools.so.9.11.9999
 lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so -> libortools_flatzinc.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.10.9999
--rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.10.9999
+lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.11.9999
+-rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.11.9999
 -rw-r--r--	root/root	usr/lib/libprotobuf-lite.a
 -rw-r--r--	root/root	usr/lib/libprotobuf.a
 -rw-r--r--	root/root	usr/lib/libprotoc.a
@@ -2402,6 +2434,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_base_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_bind_front.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_bits.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_bounded_utf8_length_sequence.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_btree.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_charset.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_check.pc
@@ -2431,7 +2464,9 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_crc_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_debugging.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_debugging_internal.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_decode_rust_punycode.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_demangle_internal.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_demangle_rust.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_die_if_null.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_dynamic_annotations.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_endian.pc
@@ -2460,6 +2495,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_graphcycles_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_has_ostream_operator.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_container_defaults.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_function_defaults.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_policy_traits.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hashtable_debug.pc
@@ -2516,6 +2552,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_optional.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_overload.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_periodic_sampler.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_poison.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_prefetch.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_pretty_function.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_bit_gen_ref.pc
@@ -2566,6 +2603,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_time.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_time_zone.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_type_traits.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_utf8_for_code_point.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_utility.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_variant.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_vlog_config_internal.pc
@@ -2586,25 +2624,25 @@ drwxr-xr-x	root/root	usr/share/eigen3/cmake/
 -rw-r--r--	root/root	usr/share/eigen3/cmake/Eigen3Targets.cmake
 -rw-r--r--	root/root	usr/share/eigen3/cmake/UseEigen3.cmake
 drwxr-xr-x	root/root	usr/share/minizinc/
-drwxr-xr-x	root/root	usr/share/minizinc/cpsat/
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_all_different_int.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_circuit.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_cumulative.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_cumulative_opt.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_diffn.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_diffn_nonstrict.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_disjunctive.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_disjunctive_opt.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_disjunctive_strict.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_disjunctive_strict_opt.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_inverse.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_network_flow.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_network_flow_cost.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_regular.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_subcircuit.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_table_bool.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/fzn_table_int.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/nostrings.mzn
--rw-r--r--	root/root	usr/share/minizinc/cpsat/redefinitions-2.0.mzn
+drwxr-xr-x	root/root	usr/share/minizinc/cp-sat/
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_all_different_int.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_circuit.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_cumulative.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_cumulative_opt.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_diffn.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_diffn_nonstrict.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_disjunctive.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_disjunctive_opt.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_disjunctive_strict.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_disjunctive_strict_opt.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_inverse.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_network_flow.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_network_flow_cost.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_regular.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_subcircuit.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_table_bool.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_table_int.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/nostrings.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/redefinitions-2.0.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/solvers/
--rw-r--r--	root/root	usr/share/minizinc/solvers/cpsat.msc
+-rw-r--r--	root/root	usr/share/minizinc/solvers/cp-sat.msc
