@@ -3,8 +3,8 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libtorrent
-version=0.13.8
-release=3
+version=0.14.0
+release=1
 source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
 
 build() {
@@ -13,7 +13,9 @@ build() {
     # remove cppunit dependency
     sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
 
-    ./autogen.sh
+    autoreconf    \
+        --install \
+        --verbose
 
     ./configure       \
         --prefix=/usr \
