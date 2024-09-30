@@ -1,10 +1,10 @@
 # Description : rTorrent BitTorrent client
 # URL         : https://rakshasa.github.io/rtorrent
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : libtorrent ncurses
+# Depends on  : autoconf-archive libtorrent ncurses
 
 name=rtorrent
-version=0.9.8
+version=0.10.0
 release=1
 source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
 
@@ -14,7 +14,9 @@ build() {
     # remove cppunit dependency
     sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
 
-    ./autogen.sh
+    autoreconf    \
+        --install \
+        --verbose
 
     ./configure       \
         --prefix=/usr \
