@@ -448,6 +448,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dockerfile.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dosbatch.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dosini.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dot.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dtd.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dtrace.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/dts.vim
@@ -461,6 +462,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/eterm.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/expect.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/falcon.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/faust.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/fennel.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/fetchmail.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/fish.vim
@@ -655,10 +657,13 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/ftplugin/
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sql.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/ssa.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sshconfig.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/stata.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/stylus.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/sudoers.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/supercollider.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/svg.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/swayconfig.vim
+-rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/swift.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/swift.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/swiftgyb.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin/swig.vim
