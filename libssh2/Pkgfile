@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libssh2
-version=1.11.0
+version=1.11.1
 release=1
 source=("https://$name.org/download/$name-$version.tar.gz")
 

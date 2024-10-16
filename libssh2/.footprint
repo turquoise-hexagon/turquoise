@@ -114,6 +114,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_banner_set.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_block_directions.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_callback_set.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/libssh2_session_callback_set2.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_disconnect.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_disconnect_ex.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_session_flag.3.gz
@@ -154,6 +155,8 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_open_ex_r.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_open_r.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_opendir.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_posix_rename.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_posix_rename_ex.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_read.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_readdir.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/libssh2_sftp_readdir_ex.3.gz
