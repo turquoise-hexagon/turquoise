@@ -4,14 +4,17 @@
 # Depends on  : boost libmpdclient taglib
 
 name=ncmpcpp
-version=0.10
+version=0.10.1
 release=1
 source=( "https://github.com/arybczak/$name/archive/$version.tar.gz")
 
 build() {
     cd "$name-$version"
-    
-    ./autogen.sh
+
+    autoreconf    \
+        --install \
+        --verbose
+
     ./configure --prefix=/usr
 
     make DESTDIR="$PKG" install
