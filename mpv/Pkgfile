@@ -6,30 +6,38 @@
 
 name=mpv
 version=0.39.0
-release=1
+release=2
 source=("https://github.com/$name-player/$name/archive/v$version.tar.gz")
 
 build() {
-    cd "$name-$version"
+    local -a _flags
 
-    local -a config
-
-    _build_config()
-        if prt-get isinst "$1" &> /dev/null; then
-            config+=("$2")
+    _build_flags() {
+        if prt-get isinst "$1" > /dev/null; then
+            _flags+=("${@:2}")
         fi
+    }
 
-    _build_config libcdio-paranoia -Dcdda=enabled
-    _build_config libdvdnav -Ddvdnav=enabled
+    _build_flags libdvdnav        -D dvdnav=enabled
+    _build_flags libcdio-paranoia -D cdda=enabled
+    _build_flags libsdl2          -D sdl2=enabled
 
-    meson . build            \
-        "${config[@]}"       \
-        -Dlibarchive=enabled \
-        -Dlibmpv=true        \
-        --prefix=/usr
+    meson setup "$name-$version" build "${_flags[@]}" \
+        --prefix=/usr                                 \
+        --buildtype=plain                             \
+        --wrap-mode nodownload                        \
+        -D b_lto=true                                 \
+        -D b_pie=true
 
-    meson compile -C build -j "${JOBS:-1}"
+    ninja -C build -j "${JOBS:-1}"
+
     DESTDIR="$PKG" meson install -C build
 
-    rm -rf "$PKG/usr/share/doc"
+    if ! prt-get isinst bash-config > /dev/null; then
+        rm -rf "$PKG/usr/share/bash-completion"
+    fi
+
+    if ! prt-get isinst zsh > /dev/null; then
+        rm -rf "$PKG/usr/share/zsh"
+    fi
 }
