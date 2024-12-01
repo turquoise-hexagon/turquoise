@@ -4,7 +4,7 @@
 # Depends on  : dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver libnotify
 
 name=dunst
-version=1.11.0
+version=1.12.0
 release=1
 source=("https://github.com/$name-project/$name/archive/v$version.tar.gz")
 
