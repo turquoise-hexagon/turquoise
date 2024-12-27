@@ -4,7 +4,7 @@
 # Depends on  : autoconf-archive libtorrent ncurses
 
 name=rtorrent
-version=0.10.0
+version=0.15.0
 release=1
 source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
 
