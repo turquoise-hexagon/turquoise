@@ -77,8 +77,8 @@ drwxr-xr-x	root/root	usr/include/torrent/utils/
 -rw-r--r--	root/root	usr/include/torrent/utils/uri_parser.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libtorrent.la
-lrwxrwxrwx	root/root	usr/lib/libtorrent.so -> libtorrent.so.22.0.0
-lrwxrwxrwx	root/root	usr/lib/libtorrent.so.22 -> libtorrent.so.22.0.0
--rwxr-xr-x	root/root	usr/lib/libtorrent.so.22.0.0
+lrwxrwxrwx	root/root	usr/lib/libtorrent.so -> libtorrent.so.23.0.0
+lrwxrwxrwx	root/root	usr/lib/libtorrent.so.23 -> libtorrent.so.23.0.0
+-rwxr-xr-x	root/root	usr/lib/libtorrent.so.23.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libtorrent.pc
