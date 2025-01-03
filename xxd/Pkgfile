@@ -4,6 +4,7 @@
 
 name=xxd
 version=9.1.0915
+version=9.1.0984
 release=1
 source=(
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/"{$name.c,Makefile}
