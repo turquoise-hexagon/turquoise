@@ -1,0 +1,36 @@
+# Description : Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator
+# URL         : https://github.com/KhronosGroup/glslang
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : spirv-headers spirv-tools cmake
+
+name=glslang
+commit=f754c852a87988eb097a39480c65f704ceb46274
+version=20241230
+release=1
+source=("https://github.com/KhronosGroup/glslang/archive/$commit.tar.gz")
+
+build() {
+    cd "$name-$commit"
+
+    local -a flags
+
+    flags=(
+		-G Ninja
+		-D ALLOW_EXTERNAL_SPIRV_TOOLS=on
+		-D BUILD_EXTERNAL=off
+		-D CMAKE_BUILD_TYPE=release
+		-D CMAKE_INSTALL_LIBDIR=lib
+		-D CMAKE_INSTALL_PREFIX=/usr
+		-D CMAKE_SKIP_RPATH=yes
+		-D ENABLE_PCH=off
+		-D ENABLE_PCH=off
+        -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -ffat-lto-objects"
+		-Wno-dev
+    )
+
+    cmake -B build-shared "${flags[@]}" -D BUILD_SHARED_LIBS=on
+    cmake -B build-static "${flags[@]}" -D BUILD_SHARED_LIBS=off -D CMAKE_SHARED_LINKER_FLAGS="-Wl --no-undefined"
+
+    DESTDIR="$PKG" cmake --build build-shared --target install
+    DESTDIR="$PKG" cmake --build build-static --target install
+}
