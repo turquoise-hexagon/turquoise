@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw21pgU2bGtUNTiJ4biA28G9g/YhPuhLMCeFDR4+YZ8fXHjsNVcZH0ua76WrnW/YKyWAxKuxG9hxucOT3+fR9VA4=
-SHA256 (Pkgfile) = 9ab3ed2a7a177c1c5cb7b3bee7e657a6b327980bb1f3133acc3ada1aa38ba50e
+RWTOjBUiTG/Uw+qfiux5zqqkXvWWd+6AvRHBeyQn5bINzLkmxLr/ZwRQPXAxaa5s1GKZp4NLzjVTuujusVFUG32zT6VoFldqJQU=
+SHA256 (Pkgfile) = 4d1be5d1a0becff924ab789c579816bc538358e2ca0d529a5d87a0f2461f37e4
 SHA256 (.footprint) = 0102df1eaff5f2cc03b72e243ae6c901115623ad6ee271bb5ebff7610de78742
-SHA256 (rofi-1.7.7.tar.gz) = dee37e89378dbb7f51b76dc63e5103dac0090e0670ea8e5058b925ac0e7e9c68
+SHA256 (rofi-1.7.8.tar.gz) = 469fba08ad99f286a4a8c65f857c9f66c07e7b9a3496ac1fe3dcd856f3c687d3
