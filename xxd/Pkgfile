@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=xxd
-version=9.1.1043
+version=9.1.1046
 release=1
 source=(
 "https://raw.githubusercontent.com/vim/vim/v$version/src/$name/"{$name.c,Makefile}
