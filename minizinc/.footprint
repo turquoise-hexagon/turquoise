@@ -328,6 +328,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/disjunctive_strict_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/distribute.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/distribute_fn.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/diversity.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/element.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/element_bool.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/element_bool.mzn.deprecated.mzn
