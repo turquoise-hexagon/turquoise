@@ -5,7 +5,7 @@
 # Optional    : bash-completion scdoc zsh
 
 name=alacritty
-version=0.15.0
+version=0.15.1
 release=1
 source=("https://github.com/$name/$name/archive/refs/tags/v$version.tar.gz")
 
