@@ -4,7 +4,7 @@
 # Depends on  : libffi libedit
 
 name=racket
-version=8.15
+version=8.16
 release=1
 source=("https://download.$name-lang.org/releases/$version/installers/$name-$version-src.tgz")
 
