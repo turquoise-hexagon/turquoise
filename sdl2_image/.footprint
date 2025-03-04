@@ -9,10 +9,10 @@ drwxr-xr-x	root/root	usr/lib/cmake/SDL2_image/
 -rw-r--r--	root/root	usr/lib/cmake/SDL2_image/Findwebp.cmake
 -rw-r--r--	root/root	usr/lib/cmake/SDL2_image/sdl2_image-config-version.cmake
 -rw-r--r--	root/root	usr/lib/cmake/SDL2_image/sdl2_image-config.cmake
-lrwxrwxrwx	root/root	usr/lib/libSDL2_image-2.0.so.0 -> libSDL2_image-2.0.so.0.800.6
--rwxr-xr-x	root/root	usr/lib/libSDL2_image-2.0.so.0.800.6
+lrwxrwxrwx	root/root	usr/lib/libSDL2_image-2.0.so.0 -> libSDL2_image-2.0.so.0.800.8
+-rwxr-xr-x	root/root	usr/lib/libSDL2_image-2.0.so.0.800.8
 -rw-r--r--	root/root	usr/lib/libSDL2_image.a
 -rwxr-xr-x	root/root	usr/lib/libSDL2_image.la
-lrwxrwxrwx	root/root	usr/lib/libSDL2_image.so -> libSDL2_image-2.0.so.0.800.6
+lrwxrwxrwx	root/root	usr/lib/libSDL2_image.so -> libSDL2_image-2.0.so.0.800.8
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/SDL2_image.pc
