@@ -3,23 +3,26 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=libtorrent
-version=0.15.0
+version=0.15.2
 release=1
-source=("https://github.com/rakshasa/$name/archive/v$version.tar.gz")
+source=(
+"https://github.com/rakshasa/$name/archive/refs/tags/v$version.tar.gz"
+configure.patch
+)
 
 build() {
     cd "$name-$version"
 
-    # remove cppunit dependency
-    sed -i '/AM_PATH_CPPUNIT(.*)/d' configure.ac
-
     autoreconf    \
+        --force   \
         --install \
         --verbose
 
+    patch -p 1 -i "$SRC/configure.patch"
+
     ./configure       \
         --prefix=/usr \
-        --enable-debug=no
+        --disable-debug
 
     make
     make DESTDIR="$PKG" install

@@ -18,7 +18,6 @@ drwxr-xr-x	root/root	usr/include/torrent/data/
 -rw-r--r--	root/root	usr/include/torrent/data/file_utils.h
 -rw-r--r--	root/root	usr/include/torrent/data/piece.h
 -rw-r--r--	root/root	usr/include/torrent/data/transfer_list.h
--rw-r--r--	root/root	usr/include/torrent/dht_manager.h
 -rw-r--r--	root/root	usr/include/torrent/download.h
 drwxr-xr-x	root/root	usr/include/torrent/download/
 -rw-r--r--	root/root	usr/include/torrent/download/choke_group.h
@@ -35,6 +34,7 @@ drwxr-xr-x	root/root	usr/include/torrent/download/
 drwxr-xr-x	root/root	usr/include/torrent/net/
 -rw-r--r--	root/root	usr/include/torrent/net/address_info.h
 -rw-r--r--	root/root	usr/include/torrent/net/fd.h
+-rw-r--r--	root/root	usr/include/torrent/net/resolver.h
 -rw-r--r--	root/root	usr/include/torrent/net/socket_address.h
 -rw-r--r--	root/root	usr/include/torrent/net/socket_address_key.h
 -rw-r--r--	root/root	usr/include/torrent/net/socket_event.h
@@ -60,7 +60,12 @@ drwxr-xr-x	root/root	usr/include/torrent/peer/
 -rw-r--r--	root/root	usr/include/torrent/rate.h
 -rw-r--r--	root/root	usr/include/torrent/throttle.h
 -rw-r--r--	root/root	usr/include/torrent/torrent.h
--rw-r--r--	root/root	usr/include/torrent/tracker.h
+drwxr-xr-x	root/root	usr/include/torrent/tracker/
+-rw-r--r--	root/root	usr/include/torrent/tracker/dht_controller.h
+-rw-r--r--	root/root	usr/include/torrent/tracker/manager.h
+-rw-r--r--	root/root	usr/include/torrent/tracker/tracker.h
+-rw-r--r--	root/root	usr/include/torrent/tracker/tracker_state.h
+-rw-r--r--	root/root	usr/include/torrent/tracker/wrappers.h
 -rw-r--r--	root/root	usr/include/torrent/tracker_controller.h
 -rw-r--r--	root/root	usr/include/torrent/tracker_list.h
 drwxr-xr-x	root/root	usr/include/torrent/utils/
@@ -72,13 +77,13 @@ drwxr-xr-x	root/root	usr/include/torrent/utils/
 -rw-r--r--	root/root	usr/include/torrent/utils/ranges.h
 -rw-r--r--	root/root	usr/include/torrent/utils/resume.h
 -rw-r--r--	root/root	usr/include/torrent/utils/signal_bitfield.h
--rw-r--r--	root/root	usr/include/torrent/utils/thread_base.h
+-rw-r--r--	root/root	usr/include/torrent/utils/thread.h
 -rw-r--r--	root/root	usr/include/torrent/utils/thread_interrupt.h
 -rw-r--r--	root/root	usr/include/torrent/utils/uri_parser.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libtorrent.la
-lrwxrwxrwx	root/root	usr/lib/libtorrent.so -> libtorrent.so.23.0.0
-lrwxrwxrwx	root/root	usr/lib/libtorrent.so.23 -> libtorrent.so.23.0.0
--rwxr-xr-x	root/root	usr/lib/libtorrent.so.23.0.0
+lrwxrwxrwx	root/root	usr/lib/libtorrent.so -> libtorrent.so.24.0.0
+lrwxrwxrwx	root/root	usr/lib/libtorrent.so.24 -> libtorrent.so.24.0.0
+-rwxr-xr-x	root/root	usr/lib/libtorrent.so.24.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libtorrent.pc

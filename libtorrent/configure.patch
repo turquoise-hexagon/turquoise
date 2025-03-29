@@ -1,0 +1,11 @@
+--- new/configure	2025-03-29 01:45:27.932376621 +0000
++++ old/configure	2025-03-29 01:46:06.815377309 +0000
+@@ -18711,7 +18711,7 @@
+     CXX="$CXX"
+   else
+     result=`echo "${values_to_check}" | $GREP -Fvx -- "${unwanted_values}" | $GREP -v '^$'`
+-    CXX=${result//$'\n'/ }
++    CXX=$(echo "$result" | tr -d '\n')
+   fi
+ 
+ 
