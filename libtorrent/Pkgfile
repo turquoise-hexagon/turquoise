@@ -4,11 +4,8 @@
 
 name=libtorrent
 version=0.15.2
-release=1
-source=(
-"https://github.com/rakshasa/$name/archive/refs/tags/v$version.tar.gz"
-configure.patch
-)
+release=2
+source=("https://github.com/rakshasa/$name/archive/refs/tags/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
@@ -18,10 +15,9 @@ build() {
         --install \
         --verbose
 
-    patch -p 1 -i "$SRC/configure.patch"
-
-    ./configure       \
-        --prefix=/usr \
+    CONFIG_SHELL=/bin/bash \
+        ./configure        \
+        --prefix=/usr      \
         --disable-debug
 
     make
