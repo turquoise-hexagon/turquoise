@@ -4,9 +4,9 @@
 # Depends on  : python3
 
 name=boost
-version=1.87.0
+version=1.88.0
 release=1
-source=("https://${name}org.jfrog.io/artifactory/main/release/$version/source/${name}_${version//./_}.tar.gz")
+source=("https://archives.$name.io/release/$version/source/${name}_${version//./_}.tar.bz2")
 
 build() {
     cd "${name}_${version//./_}"
