@@ -4,8 +4,8 @@
 # Depends on  : clang spirv-headers
 
 name=spirv-tools
-commit=8a6aaa696c26ecf765a024075e5ce5e4f39ef578
-version=20250328
+commit=783d7033613cedaa7147d0700b517abc5c32312d
+version=20250425
 release=1
 source=("https://github.com/khronosgroup/$name/archive/$commit.tar.gz")
 
