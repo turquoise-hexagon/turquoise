@@ -4,7 +4,7 @@
 # Depends on  : python3 python3-setuptools
 
 name=yt-dlp
-version=2025.03.31
+version=2025.04.30
 release=1
 source=("https://github.com/$name/$name/releases/download/$version/$name.tar.gz")
 
