@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw7siFN+UO4XHl/cvtQBp+lZGzCojaTi837VI+HzIHffAHznacJW7q/ZkLb/sZ5P2zZcCB7FLgzBDvt/opST9CwM=
-SHA256 (Pkgfile) = 98bec8fe667b2db9bb659f8ae97d1073cda6458c9d0751677f2f2f696f91cc5f
+RWTOjBUiTG/UwzbZs2ngd6AbV5btTJnOwQA7zwWV0Bh3XS6ZSuogRZ3JUwA66/w3fFjV1uceio0ZX1Pa0ZvjfAQETftPBfaBSQ4=
+SHA256 (Pkgfile) = ae26b0483775118a0d570cdec13782a9d927ac89a792b75967cd53ffcc14f78b
 SHA256 (.footprint) = 0aa5e4078b6db24985866855c67c997f4461f150c195a2c1b45ab95f5f9fd1fb
-SHA256 (iwd-3.6.tar.xz) = cc5e02068d7407b9dac000429d667af32e9d91c7bff3183a241d8fdb0f75734b
+SHA256 (iwd-3.7.tar.xz) = ba3e577a61e78f860f376025c3243bbf19eac7ccbfdfac3aebe566556ace2e08
 SHA256 (iwd) = 2fb8152a6bc78b8a84b8264e346050b9df0d984f7caf9ce45ff57b9b9c199dca
