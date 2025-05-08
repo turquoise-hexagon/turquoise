@@ -560,6 +560,8 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/metasploit-msgrpc-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/metasploit-xmlrpc-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/mikrotik-routeros-brute.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/mikrotik-routeros-username-brute.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/mikrotik-routeros-version.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/mmouse-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/mmouse-exec.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/modbus-discover.nse
@@ -770,6 +772,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/supermicro-ipmi-conf.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/svn-brute.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/targets-asn.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/targets-ipv6-eui64.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/targets-ipv6-map4to6.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/targets-ipv6-multicast-echo.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/targets-ipv6-multicast-invalid-dst.nse
