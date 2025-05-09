@@ -5,11 +5,16 @@
 
 name=boost
 version=1.88.0
-release=1
-source=("https://archives.$name.io/release/$version/source/${name}_${version//./_}.tar.bz2")
+release=2
+source=(
+"https://archives.$name.io/release/$version/source/${name}_${version//./_}.tar.bz2"
+any_iterator.patch
+)
 
 build() {
     cd "${name}_${version//./_}"
+
+    patch -p 1 -i "$SRC/any_iterator.patch"
 
     prt-get isinst icu && local ICU=--with-icu
 
