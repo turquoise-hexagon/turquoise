@@ -3,7 +3,7 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=linux
-version=6.14.5
+version=6.14.6
 release=1
 source=("https://cdn.kernel.org/pub/linux/kernel/v${version%%.*}.x/$name-$version.tar.xz")
 
