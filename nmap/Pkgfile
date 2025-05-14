@@ -4,7 +4,7 @@
 # Depends on  : libpcap libpcre libssh2 lua
 
 name=nmap
-version=7.96
+version=7.97
 release=1
 source=("https://$name.org/dist/$name-$version.tgz")
 
