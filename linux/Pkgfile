@@ -3,18 +3,16 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=linux
-version=6.14.6
+version=6.14.7
 release=1
 source=("https://cdn.kernel.org/pub/linux/kernel/v${version%%.*}.x/$name-$version.tar.xz")
 
 build() {
     cd "$name-$version"
 
-    local patch
-
     shopt -s nullglob
 
-    for patch in "$PKGMK_ROOT"/*.patch; do
+    local patch; for patch in "$PKGMK_ROOT"/*.patch; do
         if [[ -f $patch ]]; then
             patch -p 1 -i "$patch"
         fi
@@ -26,14 +24,9 @@ build() {
         cp "$PKGMK_ROOT/config" .config
     fi
 
-    if [[ -d $PKGMK_ROOT/firmware ]]; then
-        cp -r "$PKGMK_ROOT/firmware" .
+    if [[ -f $PKGMK_ROOT/defconfig ]]; then
+        cp "$PKGMK_ROOT/defconfig" "arch/${ARCH:-x86}/configs"
     fi
-
-    local extra_version
-
-    extra_version=$(grep ^EXTRAVERSION Makefile)
-    extra_version=${extra_version#* = }
 
     make olddefconfig
     make all
@@ -44,6 +37,11 @@ build() {
             INSTALL_MOD_STRIP=1     \
             modules_install
     fi
+
+    local extra_version
+
+    extra_version=$(grep ^EXTRAVERSION Makefile)
+    extra_version=${extra_version#* = }
 
     install -Dm644 System.map               \
         "$PKG/boot/System.map-$version$extra_version"
