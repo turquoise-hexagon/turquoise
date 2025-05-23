@@ -4,9 +4,9 @@
 # Depends on  : pango startup-notification libxkbcommon xorg-xcb-util-xrm librsvg check xorg-xcb-util-wm
 
 name=rofi
-version=1.7.8
+version=1.7.9.1
 release=1
-source=("https://github.com/davatorium/$name/releases/download/$version/$name-$version.tar.gz")
+source=("https://github.com/davatorium/rofi/releases/download/${version%.*}/rofi-$version.tar.gz")
 
 build() {
     cd "$name-$version"
