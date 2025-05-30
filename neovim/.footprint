@@ -386,6 +386,7 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/visual.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vvars.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/windows.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/example_init.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/filetype.lua
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftoff.vim
 -rw-r--r--	root/root	usr/share/nvim/runtime/ftplugin.vim
