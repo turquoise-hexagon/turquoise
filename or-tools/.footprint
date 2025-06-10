@@ -2,14 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fzn-cp-sat
 -rwxr-xr-x	root/root	usr/bin/highs
-lrwxrwxrwx	root/root	usr/bin/protoc -> protoc-29.3.0
--rwxr-xr-x	root/root	usr/bin/protoc-29.3.0
-lrwxrwxrwx	root/root	usr/bin/protoc-gen-upb -> protoc-gen-upb-29.3.0
--rwxr-xr-x	root/root	usr/bin/protoc-gen-upb-29.3.0
-lrwxrwxrwx	root/root	usr/bin/protoc-gen-upb_minitable -> protoc-gen-upb_minitable-29.3.0
--rwxr-xr-x	root/root	usr/bin/protoc-gen-upb_minitable-29.3.0
-lrwxrwxrwx	root/root	usr/bin/protoc-gen-upbdefs -> protoc-gen-upbdefs-29.3.0
--rwxr-xr-x	root/root	usr/bin/protoc-gen-upbdefs-29.3.0
+lrwxrwxrwx	root/root	usr/bin/protoc -> protoc-31.0.0
+-rwxr-xr-x	root/root	usr/bin/protoc-31.0.0
+lrwxrwxrwx	root/root	usr/bin/protoc-gen-upb -> protoc-gen-upb-31.0.0
+-rwxr-xr-x	root/root	usr/bin/protoc-gen-upb-31.0.0
+lrwxrwxrwx	root/root	usr/bin/protoc-gen-upbdefs -> protoc-gen-upbdefs-31.0.0
+-rwxr-xr-x	root/root	usr/bin/protoc-gen-upbdefs-31.0.0
 -rwxr-xr-x	root/root	usr/bin/sat_runner
 -rwxr-xr-x	root/root	usr/bin/solve
 -rwxr-xr-x	root/root	usr/bin/vector_bin_packing
@@ -25,6 +23,7 @@ drwxr-xr-x	root/root	usr/include/absl/base/
 -rw-r--r--	root/root	usr/include/absl/base/config.h
 -rw-r--r--	root/root	usr/include/absl/base/const_init.h
 -rw-r--r--	root/root	usr/include/absl/base/dynamic_annotations.h
+-rw-r--r--	root/root	usr/include/absl/base/fast_type_id.h
 drwxr-xr-x	root/root	usr/include/absl/base/internal/
 -rw-r--r--	root/root	usr/include/absl/base/internal/atomic_hook.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/atomic_hook_test_helper.h
@@ -36,15 +35,13 @@ drwxr-xr-x	root/root	usr/include/absl/base/internal/
 -rw-r--r--	root/root	usr/include/absl/base/internal/errno_saver.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/exception_safety_testing.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/exception_testing.h
--rw-r--r--	root/root	usr/include/absl/base/internal/fast_type_id.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/hide_ptr.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/identity.h
--rw-r--r--	root/root	usr/include/absl/base/internal/inline_variable.h
--rw-r--r--	root/root	usr/include/absl/base/internal/inline_variable_testing.h
--rw-r--r--	root/root	usr/include/absl/base/internal/invoke.h
+-rw-r--r--	root/root	usr/include/absl/base/internal/iterator_traits.h
+-rw-r--r--	root/root	usr/include/absl/base/internal/iterator_traits_test_helper.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/low_level_alloc.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/low_level_scheduling.h
--rw-r--r--	root/root	usr/include/absl/base/internal/nullability_impl.h
+-rw-r--r--	root/root	usr/include/absl/base/internal/nullability_deprecated.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/per_thread_tls.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/poison.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/pretty_function.h
@@ -61,6 +58,7 @@ drwxr-xr-x	root/root	usr/include/absl/base/internal/
 -rw-r--r--	root/root	usr/include/absl/base/internal/sysinfo.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/thread_identity.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/throw_delegate.h
+-rw-r--r--	root/root	usr/include/absl/base/internal/tracing.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/tsan_mutex_interface.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/unaligned_access.h
 -rw-r--r--	root/root	usr/include/absl/base/internal/unscaledcycleclock.h
@@ -99,6 +97,7 @@ drwxr-xr-x	root/root	usr/include/absl/container/internal/
 -rw-r--r--	root/root	usr/include/absl/container/internal/hash_generator_testing.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/hash_policy_testing.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/hash_policy_traits.h
+-rw-r--r--	root/root	usr/include/absl/container/internal/hashtable_control_bytes.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/hashtable_debug.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/hashtable_debug_hooks.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/hashtablez_sampler.h
@@ -107,6 +106,7 @@ drwxr-xr-x	root/root	usr/include/absl/container/internal/
 -rw-r--r--	root/root	usr/include/absl/container/internal/node_slot_policy.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/raw_hash_map.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/raw_hash_set.h
+-rw-r--r--	root/root	usr/include/absl/container/internal/raw_hash_set_resize_impl.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/test_allocator.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/test_instance_tracker.h
 -rw-r--r--	root/root	usr/include/absl/container/internal/tracked.h
@@ -137,6 +137,7 @@ drwxr-xr-x	root/root	usr/include/absl/debugging/
 -rw-r--r--	root/root	usr/include/absl/debugging/failure_signal_handler.h
 drwxr-xr-x	root/root	usr/include/absl/debugging/internal/
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/address_is_readable.h
+-rw-r--r--	root/root	usr/include/absl/debugging/internal/addresses.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/bounded_utf8_length_sequence.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/decode_rust_punycode.h
 -rw-r--r--	root/root	usr/include/absl/debugging/internal/demangle.h
@@ -203,6 +204,7 @@ drwxr-xr-x	root/root	usr/include/absl/hash/internal/
 -rw-r--r--	root/root	usr/include/absl/hash/internal/hash_test.h
 -rw-r--r--	root/root	usr/include/absl/hash/internal/low_level_hash.h
 -rw-r--r--	root/root	usr/include/absl/hash/internal/spy_hash_state.h
+-rw-r--r--	root/root	usr/include/absl/hash/internal/weakly_mixed_integer.h
 drwxr-xr-x	root/root	usr/include/absl/log/
 -rw-r--r--	root/root	usr/include/absl/log/absl_check.h
 -rw-r--r--	root/root	usr/include/absl/log/absl_log.h
@@ -231,6 +233,7 @@ drwxr-xr-x	root/root	usr/include/absl/log/internal/
 -rw-r--r--	root/root	usr/include/absl/log/internal/proto.h
 -rw-r--r--	root/root	usr/include/absl/log/internal/strip.h
 -rw-r--r--	root/root	usr/include/absl/log/internal/structured.h
+-rw-r--r--	root/root	usr/include/absl/log/internal/structured_proto.h
 -rw-r--r--	root/root	usr/include/absl/log/internal/test_actions.h
 -rw-r--r--	root/root	usr/include/absl/log/internal/test_helpers.h
 -rw-r--r--	root/root	usr/include/absl/log/internal/test_matchers.h
@@ -274,6 +277,7 @@ drwxr-xr-x	root/root	usr/include/absl/random/internal/
 -rw-r--r--	root/root	usr/include/absl/random/internal/chi_square.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/distribution_caller.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/distribution_test_util.h
+-rw-r--r--	root/root	usr/include/absl/random/internal/entropy_pool.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/explicit_seed_seq.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/fast_uniform_bits.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/fastmath.h
@@ -286,7 +290,6 @@ drwxr-xr-x	root/root	usr/include/absl/random/internal/
 -rw-r--r--	root/root	usr/include/absl/random/internal/nonsecure_base.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/pcg_engine.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/platform.h
--rw-r--r--	root/root	usr/include/absl/random/internal/pool_urbg.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/randen.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/randen_detect.h
 -rw-r--r--	root/root	usr/include/absl/random/internal/randen_engine.h
@@ -426,21 +429,194 @@ drwxr-xr-x	root/root	usr/include/absl/time/internal/cctz/src/
 -rw-r--r--	root/root	usr/include/absl/time/time.h
 drwxr-xr-x	root/root	usr/include/absl/types/
 -rw-r--r--	root/root	usr/include/absl/types/any.h
--rw-r--r--	root/root	usr/include/absl/types/bad_any_cast.h
--rw-r--r--	root/root	usr/include/absl/types/bad_optional_access.h
--rw-r--r--	root/root	usr/include/absl/types/bad_variant_access.h
 -rw-r--r--	root/root	usr/include/absl/types/compare.h
 drwxr-xr-x	root/root	usr/include/absl/types/internal/
--rw-r--r--	root/root	usr/include/absl/types/internal/optional.h
 -rw-r--r--	root/root	usr/include/absl/types/internal/span.h
--rw-r--r--	root/root	usr/include/absl/types/internal/variant.h
 -rw-r--r--	root/root	usr/include/absl/types/optional.h
 -rw-r--r--	root/root	usr/include/absl/types/span.h
 -rw-r--r--	root/root	usr/include/absl/types/variant.h
 drwxr-xr-x	root/root	usr/include/absl/utility/
-drwxr-xr-x	root/root	usr/include/absl/utility/internal/
--rw-r--r--	root/root	usr/include/absl/utility/internal/if_constexpr.h
 -rw-r--r--	root/root	usr/include/absl/utility/utility.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/.idea/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ANTLRErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ANTLRErrorStrategy.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ANTLRFileStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ANTLRInputStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/BailErrorStrategy.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/BaseErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/BufferedTokenStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/CharStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/CommonToken.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/CommonTokenFactory.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/CommonTokenStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ConsoleErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/DefaultErrorStrategy.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/DiagnosticErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Exceptions.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/FailedPredicateException.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/FlatHashMap.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/FlatHashSet.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/InputMismatchException.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/IntStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/InterpreterRuleContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Lexer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/LexerInterpreter.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/LexerNoViableAltException.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ListTokenSource.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/NoViableAltException.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Parser.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ParserInterpreter.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ParserRuleContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/ProxyErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/RecognitionException.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Recognizer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/RuleContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/RuleContextWithAltNum.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/RuntimeMetaData.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Token.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/TokenFactory.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/TokenSource.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/TokenStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/TokenStreamRewriter.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/UnbufferedCharStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/UnbufferedTokenStream.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Version.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/Vocabulary.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/WritableToken.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/antlr4-common.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/antlr4-runtime.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/atn/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATN.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNConfig.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNConfigSet.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNDeserializationOptions.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNDeserializer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNSimulator.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNStateType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ATNType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ActionTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/AmbiguityInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ArrayPredictionContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/AtomTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/BasicBlockStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/BasicState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/BlockEndState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/BlockStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ContextSensitivityInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/DecisionEventInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/DecisionInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/DecisionState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/EpsilonTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ErrorInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LL1Analyzer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerATNConfig.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerATNSimulator.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerActionExecutor.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerActionType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerChannelAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerCustomAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerIndexedCustomAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerModeAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerMoreAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerPopModeAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerPushModeAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerSkipAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LexerTypeAction.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LookaheadEventInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/LoopEndState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/NotSetTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/OrderedATNConfigSet.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ParseInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ParserATNSimulator.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ParserATNSimulatorOptions.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PlusBlockStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PlusLoopbackState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PrecedencePredicateTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredicateEvalInfo.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredicateTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionContextCache.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionContextMergeCache.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionContextMergeCacheOptions.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionContextType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/PredictionMode.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/ProfilingATNSimulator.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/RangeTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/RuleStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/RuleStopState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/RuleTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/SemanticContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/SemanticContextType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/SerializedATNView.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/SetTransition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/SingletonPredictionContext.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/StarBlockStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/StarLoopEntryState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/StarLoopbackState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/TokensStartState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/Transition.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/TransitionType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/atn/WildcardTransition.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/dfa/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/dfa/DFA.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/dfa/DFASerializer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/dfa/DFAState.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/dfa/LexerDFASerializer.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/internal/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/internal/Synchronization.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/misc/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/misc/InterpreterDataReader.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/misc/Interval.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/misc/IntervalSet.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/misc/MurmurHash.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/misc/Predicate.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/support/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Any.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Arrays.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/BitSet.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/CPPUtils.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Casts.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Declarations.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/StringUtils.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Unicode.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/support/Utf8.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/tree/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/AbstractParseTreeVisitor.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ErrorNode.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ErrorNodeImpl.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/IterativeParseTreeWalker.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTree.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTreeListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTreeProperty.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTreeType.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTreeVisitor.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/ParseTreeWalker.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/TerminalNode.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/TerminalNodeImpl.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/Trees.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/tree/pattern/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/Chunk.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/ParseTreeMatch.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/ParseTreePattern.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/ParseTreePatternMatcher.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/RuleTagToken.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/TagChunk.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/TextChunk.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/pattern/TokenTagToken.h
+drwxr-xr-x	root/root	usr/include/antlr4-runtime/tree/xpath/
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPath.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathLexer.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathLexerErrorListener.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathRuleAnywhereElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathRuleElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathTokenAnywhereElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathTokenElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathWildcardAnywhereElement.h
+-rw-r--r--	root/root	usr/include/antlr4-runtime/tree/xpath/XPathWildcardElement.h
 drwxr-xr-x	root/root	usr/include/eigen3/
 drwxr-xr-x	root/root	usr/include/eigen3/Eigen/
 -rw-r--r--	root/root	usr/include/eigen3/Eigen/Cholesky
@@ -1052,6 +1228,25 @@ drwxr-xr-x	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
+drwxr-xr-x	root/root	usr/include/gmock/
+-rw-r--r--	root/root	usr/include/gmock/gmock-actions.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-cardinalities.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-function-mocker.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-matchers.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-more-actions.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-more-matchers.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-nice-strict.h
+-rw-r--r--	root/root	usr/include/gmock/gmock-spec-builders.h
+-rw-r--r--	root/root	usr/include/gmock/gmock.h
+drwxr-xr-x	root/root	usr/include/gmock/internal/
+drwxr-xr-x	root/root	usr/include/gmock/internal/custom/
+-rw-r--r--	root/root	usr/include/gmock/internal/custom/README.md
+-rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-generated-actions.h
+-rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-matchers.h
+-rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-port.h
+-rw-r--r--	root/root	usr/include/gmock/internal/gmock-internal-utils.h
+-rw-r--r--	root/root	usr/include/gmock/internal/gmock-port.h
+-rw-r--r--	root/root	usr/include/gmock/internal/gmock-pp.h
 drwxr-xr-x	root/root	usr/include/google/
 drwxr-xr-x	root/root	usr/include/google/protobuf/
 -rw-r--r--	root/root	usr/include/google/protobuf/any.h
@@ -1070,110 +1265,31 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/code_generator_lite.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/command_line_interface.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/cpp/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/extension.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/field.h
-drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/cpp/field_generators/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/field_generators/generators.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/file.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/generator.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/helpers.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/ifndef_guard.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/message_layout_helper.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/names.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/namespace_printer.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/options.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/padding_optimizer.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/parse_function_generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/service.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/cpp/tracker.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/csharp/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_doc_comment.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_enum_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_field_base.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_helpers.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_map_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_message_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_options.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_primitive_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_reflection_class.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_repeated_enum_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_repeated_message_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_repeated_primitive_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_source_generator_base.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/csharp_wrapper_field.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/csharp/names.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/importer.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/java/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/context.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/doc_comment.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/field_common.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/file.h
-drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/java/full/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/enum_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/extension.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/field_generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/generator_factory.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/make_field_gens.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/map_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/message_builder.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/message_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/primitive_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/service.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/full/string_field.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/generator_common.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/generator_factory.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/helpers.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/internal_helpers.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/java_features.pb.h
-drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/java/lite/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/enum_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/extension.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/field_generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/generator_factory.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/make_field_gens.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/map_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/message_builder.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/message_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/primitive_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/lite/string_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/message_serialization.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/name_resolver.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/names.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/options.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/java/shared_code_generator.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/kotlin/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/kotlin/file.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/kotlin/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/kotlin/message.h
+-rw-r--r--	root/root	usr/include/google/protobuf/compiler/notices.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/objectivec/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/enum_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/extension.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/file.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/helpers.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/import_writer.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/line_consumer.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/map_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/message_field.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/names.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/nsobject_methods.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/oneof.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/options.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/primitive_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/objectivec/tf_decode_data.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/parser.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/php/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/php/names.h
@@ -1183,29 +1299,10 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/php/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/plugin.proto
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/python/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/python/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/python/helpers.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/python/pyi_generator.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/retention.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/ruby/
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/ruby/ruby_generator.h
-drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/rust/
-drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/rust/accessors/
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/accessors/accessor_case.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/accessors/accessors.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/accessors/default_value.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/accessors/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/accessors/with_presence.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/context.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/crate_mapping.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/enum.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/generator.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/message.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/naming.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/oneof.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/relative_path.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/rust_field_type.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/rust_keywords.h
--rw-r--r--	root/root	usr/include/google/protobuf/compiler/rust/upb_helpers.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/scc.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/subprocess.h
 -rw-r--r--	root/root	usr/include/google/protobuf/compiler/versions.h
@@ -1276,13 +1373,13 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/json/internal/
 -rw-r--r--	root/root	usr/include/google/protobuf/map.h
 -rw-r--r--	root/root	usr/include/google/protobuf/map_entry.h
 -rw-r--r--	root/root	usr/include/google/protobuf/map_field.h
--rw-r--r--	root/root	usr/include/google/protobuf/map_field_inl.h
 -rw-r--r--	root/root	usr/include/google/protobuf/map_field_lite.h
 -rw-r--r--	root/root	usr/include/google/protobuf/map_type_handler.h
 -rw-r--r--	root/root	usr/include/google/protobuf/message.h
 -rw-r--r--	root/root	usr/include/google/protobuf/message_lite.h
 -rw-r--r--	root/root	usr/include/google/protobuf/metadata.h
 -rw-r--r--	root/root	usr/include/google/protobuf/metadata_lite.h
+-rw-r--r--	root/root	usr/include/google/protobuf/micro_string.h
 -rw-r--r--	root/root	usr/include/google/protobuf/parse_context.h
 -rw-r--r--	root/root	usr/include/google/protobuf/port.h
 -rw-r--r--	root/root	usr/include/google/protobuf/port_def.inc
@@ -1310,8 +1407,6 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/stubs/
 -rw-r--r--	root/root	usr/include/google/protobuf/stubs/platform_macros.h
 -rw-r--r--	root/root	usr/include/google/protobuf/stubs/port.h
 -rw-r--r--	root/root	usr/include/google/protobuf/stubs/status_macros.h
-drwxr-xr-x	root/root	usr/include/google/protobuf/testing/
--rw-r--r--	root/root	usr/include/google/protobuf/testing/file.h
 -rw-r--r--	root/root	usr/include/google/protobuf/text_format.h
 -rw-r--r--	root/root	usr/include/google/protobuf/thread_safe_arena.h
 -rw-r--r--	root/root	usr/include/google/protobuf/timestamp.pb.h
@@ -1333,6 +1428,33 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/util/
 -rw-r--r--	root/root	usr/include/google/protobuf/wire_format_lite.h
 -rw-r--r--	root/root	usr/include/google/protobuf/wrappers.pb.h
 -rw-r--r--	root/root	usr/include/google/protobuf/wrappers.proto
+drwxr-xr-x	root/root	usr/include/gtest/
+-rw-r--r--	root/root	usr/include/gtest/gtest-assertion-result.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-death-test.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-matchers.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-message.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-param-test.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-printers.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-spi.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-test-part.h
+-rw-r--r--	root/root	usr/include/gtest/gtest-typed-test.h
+-rw-r--r--	root/root	usr/include/gtest/gtest.h
+-rw-r--r--	root/root	usr/include/gtest/gtest_pred_impl.h
+-rw-r--r--	root/root	usr/include/gtest/gtest_prod.h
+drwxr-xr-x	root/root	usr/include/gtest/internal/
+drwxr-xr-x	root/root	usr/include/gtest/internal/custom/
+-rw-r--r--	root/root	usr/include/gtest/internal/custom/README.md
+-rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest-port.h
+-rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest-printers.h
+-rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-death-test-internal.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-filepath.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-internal.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-param-util.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-port-arch.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-port.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-string.h
+-rw-r--r--	root/root	usr/include/gtest/internal/gtest-type-util.h
 drwxr-xr-x	root/root	usr/include/highs/
 -rw-r--r--	root/root	usr/include/highs/HConfig.h
 -rw-r--r--	root/root	usr/include/highs/Highs.h
@@ -1489,7 +1611,7 @@ drwxr-xr-x	root/root	usr/include/highs/pdlp/cupdlp/
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_linalg.h
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_proj.h
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_restart.h
--rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_scaling_cuda.h
+-rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_scaling.h
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_solver.h
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_step.h
 -rw-r--r--	root/root	usr/include/highs/pdlp/cupdlp/cupdlp_utils.c
@@ -1601,18 +1723,13 @@ drwxr-xr-x	root/root	usr/include/ortools/algorithms/python/
 -rw-r--r--	root/root	usr/include/ortools/algorithms/python/knapsack_solver_doc.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/radix_sort.h
 drwxr-xr-x	root/root	usr/include/ortools/algorithms/samples/
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover.pb.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_heuristics.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_invariant.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_lagrangian.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_mip.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_model.h
--rw-r--r--	root/root	usr/include/ortools/algorithms/set_cover_reader.h
 -rw-r--r--	root/root	usr/include/ortools/algorithms/sparse_permutation.h
 drwxr-xr-x	root/root	usr/include/ortools/base/
 -rw-r--r--	root/root	usr/include/ortools/base/accurate_sum.h
 -rw-r--r--	root/root	usr/include/ortools/base/adjustable_priority_queue-inl.h
 -rw-r--r--	root/root	usr/include/ortools/base/adjustable_priority_queue.h
+-rw-r--r--	root/root	usr/include/ortools/base/array.h
+-rw-r--r--	root/root	usr/include/ortools/base/array_internal.h
 -rw-r--r--	root/root	usr/include/ortools/base/base_export.h
 -rw-r--r--	root/root	usr/include/ortools/base/basictypes.h
 -rw-r--r--	root/root	usr/include/ortools/base/bitmap.h
@@ -1765,14 +1882,15 @@ drwxr-xr-x	root/root	usr/include/ortools/graph/
 -rw-r--r--	root/root	usr/include/ortools/graph/cliques.h
 -rw-r--r--	root/root	usr/include/ortools/graph/connected_components.h
 drwxr-xr-x	root/root	usr/include/ortools/graph/csharp/
+-rw-r--r--	root/root	usr/include/ortools/graph/dag_connectivity.h
 -rw-r--r--	root/root	usr/include/ortools/graph/dag_constrained_shortest_path.h
 -rw-r--r--	root/root	usr/include/ortools/graph/dag_shortest_path.h
--rw-r--r--	root/root	usr/include/ortools/graph/ebert_graph.h
 -rw-r--r--	root/root	usr/include/ortools/graph/eulerian_path.h
 -rw-r--r--	root/root	usr/include/ortools/graph/flow_graph.h
 -rw-r--r--	root/root	usr/include/ortools/graph/flow_problem.pb.h
 -rw-r--r--	root/root	usr/include/ortools/graph/generic_max_flow.h
 -rw-r--r--	root/root	usr/include/ortools/graph/graph.h
+-rw-r--r--	root/root	usr/include/ortools/graph/graph_generator.h
 -rw-r--r--	root/root	usr/include/ortools/graph/graph_io.h
 -rw-r--r--	root/root	usr/include/ortools/graph/hamiltonian_path.h
 -rw-r--r--	root/root	usr/include/ortools/graph/iterators.h
@@ -1977,6 +2095,31 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/cpp/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/update_result.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/update_tracker.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/cpp/variable_and_expressions.h
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/elemental/
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/arrays.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/attr_diff.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/attr_key.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/attr_storage.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/attributes.h
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/elemental/codegen/
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/codegen/gen.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/codegen/gen_c.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/codegen/gen_python.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/codegen/testing.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/derived_data.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/diff.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/element_diff.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/element_ref_tracker.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/element_storage.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/elemental.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/elemental_differencer.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/elemental_matcher.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/elements.h
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/elemental/python/
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/safe_attr_ops.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/symmetry.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/testing.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/elemental/thread_safe_id_map.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/infeasible_subsystem.pb.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/io/
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/io/lp/
@@ -2000,6 +2143,7 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/labs/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/model_update.pb.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/parameters.pb.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/python/
+drwxr-xr-x	root/root	usr/include/ortools/math_opt/python/elemental/
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/python/ipc/
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/python/testing/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/result.pb.h
@@ -2061,11 +2205,14 @@ drwxr-xr-x	root/root	usr/include/ortools/math_opt/solvers/xpress/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/sparse_containers.pb.h
 drwxr-xr-x	root/root	usr/include/ortools/math_opt/storage/
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/atomic_constraint_storage.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/storage/atomic_constraints_v2.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/iterators.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/linear_constraint_storage.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/linear_expression_data.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/model_storage.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/storage/model_storage_item.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/model_storage_types.h
+-rw-r--r--	root/root	usr/include/ortools/math_opt/storage/model_storage_v2.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/objective_storage.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/range.h
 -rw-r--r--	root/root	usr/include/ortools/math_opt/storage/sparse_coefficient_map.h
@@ -2142,6 +2289,7 @@ drwxr-xr-x	root/root	usr/include/ortools/routing/parsers/testdata/
 -rw-r--r--	root/root	usr/include/ortools/routing/parsers/tsptw_parser.h
 drwxr-xr-x	root/root	usr/include/ortools/routing/samples/
 drwxr-xr-x	root/root	usr/include/ortools/sat/
+-rw-r--r--	root/root	usr/include/ortools/sat/2d_distances_propagator.h
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_mandatory_overlap_propagator.h
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_orthogonal_packing.h
 -rw-r--r--	root/root	usr/include/ortools/sat/2d_orthogonal_packing_testing.h
@@ -2222,6 +2370,7 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/java/
 -rw-r--r--	root/root	usr/include/ortools/sat/precedences.h
 -rw-r--r--	root/root	usr/include/ortools/sat/presolve_context.h
 -rw-r--r--	root/root	usr/include/ortools/sat/presolve_util.h
+-rw-r--r--	root/root	usr/include/ortools/sat/primary_variables.h
 -rw-r--r--	root/root	usr/include/ortools/sat/probing.h
 -rw-r--r--	root/root	usr/include/ortools/sat/pseudo_costs.h
 drwxr-xr-x	root/root	usr/include/ortools/sat/python/
@@ -2229,6 +2378,7 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/python/
 -rw-r--r--	root/root	usr/include/ortools/sat/python/linear_expr_doc.h
 -rw-r--r--	root/root	usr/include/ortools/sat/restart.h
 -rw-r--r--	root/root	usr/include/ortools/sat/rins.h
+-rw-r--r--	root/root	usr/include/ortools/sat/routes_support_graph.pb.h
 -rw-r--r--	root/root	usr/include/ortools/sat/routing_cuts.h
 drwxr-xr-x	root/root	usr/include/ortools/sat/samples/
 -rw-r--r--	root/root	usr/include/ortools/sat/sat_base.h
@@ -2249,7 +2399,6 @@ drwxr-xr-x	root/root	usr/include/ortools/sat/samples/
 -rw-r--r--	root/root	usr/include/ortools/sat/symmetry_util.h
 -rw-r--r--	root/root	usr/include/ortools/sat/synchronization.h
 -rw-r--r--	root/root	usr/include/ortools/sat/table.h
--rw-r--r--	root/root	usr/include/ortools/sat/theta_tree.h
 -rw-r--r--	root/root	usr/include/ortools/sat/timetable.h
 -rw-r--r--	root/root	usr/include/ortools/sat/timetable_edgefinding.h
 -rw-r--r--	root/root	usr/include/ortools/sat/util.h
@@ -2267,6 +2416,25 @@ drwxr-xr-x	root/root	usr/include/ortools/scheduling/testdata/
 drwxr-xr-x	root/root	usr/include/ortools/service/
 drwxr-xr-x	root/root	usr/include/ortools/service/v1/
 drwxr-xr-x	root/root	usr/include/ortools/service/v1/mathopt/
+drwxr-xr-x	root/root	usr/include/ortools/set_cover/
+-rw-r--r--	root/root	usr/include/ortools/set_cover/assignment.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/base_types.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/capacity.pb.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/capacity_invariant.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/capacity_model.h
+drwxr-xr-x	root/root	usr/include/ortools/set_cover/python/
+drwxr-xr-x	root/root	usr/include/ortools/set_cover/samples/
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover.pb.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_cft.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_heuristics.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_invariant.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_lagrangian.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_mip.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_model.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_reader.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_submodel.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/set_cover_views.h
+-rw-r--r--	root/root	usr/include/ortools/set_cover/views.h
 drwxr-xr-x	root/root	usr/include/ortools/util/
 -rw-r--r--	root/root	usr/include/ortools/util/adaptative_parameter_value.h
 -rw-r--r--	root/root	usr/include/ortools/util/affine_relation.h
@@ -2307,6 +2475,7 @@ drwxr-xr-x	root/root	usr/include/ortools/util/python/
 -rw-r--r--	root/root	usr/include/ortools/util/rev.h
 -rw-r--r--	root/root	usr/include/ortools/util/running_stat.h
 -rw-r--r--	root/root	usr/include/ortools/util/saturated_arithmetic.h
+-rw-r--r--	root/root	usr/include/ortools/util/scheduling.h
 -rw-r--r--	root/root	usr/include/ortools/util/sigint.h
 -rw-r--r--	root/root	usr/include/ortools/util/solve_interrupter.h
 -rw-r--r--	root/root	usr/include/ortools/util/sort.h
@@ -2452,6 +2621,7 @@ drwxr-xr-x	root/root	usr/include/upb/reflection/internal/
 -rw-r--r--	root/root	usr/include/upb/reflection/oneof_def.h
 -rw-r--r--	root/root	usr/include/upb/reflection/service_def.h
 drwxr-xr-x	root/root	usr/include/upb/text/
+-rw-r--r--	root/root	usr/include/upb/text/debug_string.h
 -rw-r--r--	root/root	usr/include/upb/text/encode.h
 drwxr-xr-x	root/root	usr/include/upb/text/internal/
 -rw-r--r--	root/root	usr/include/upb/text/internal/encode.h
@@ -2468,16 +2638,15 @@ drwxr-xr-x	root/root	usr/include/upb/wire/internal/
 -rw-r--r--	root/root	usr/include/upb/wire/internal/decode_fast.h
 -rw-r--r--	root/root	usr/include/upb/wire/reader.h
 -rw-r--r--	root/root	usr/include/upb/wire/types.h
-drwxr-xr-x	root/root	usr/include/upb_generator/
-drwxr-xr-x	root/root	usr/include/upb_generator/common/
--rw-r--r--	root/root	usr/include/upb_generator/common/names.h
-drwxr-xr-x	root/root	usr/include/upb_generator/minitable/
--rw-r--r--	root/root	usr/include/upb_generator/minitable/names.h
--rw-r--r--	root/root	usr/include/upb_generator/minitable/names_internal.h
 -rw-r--r--	root/root	usr/include/utf8_range.h
 -rw-r--r--	root/root	usr/include/utf8_validity.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
+drwxr-xr-x	root/root	usr/lib/cmake/GTest/
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfig.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfigVersion.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets-release.cmake
+-rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/absl/
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslConfigVersion.cmake
@@ -2512,207 +2681,216 @@ drwxr-xr-x	root/root	usr/lib/cmake/utf8_range/
 -rw-r--r--	root/root	usr/lib/cmake/utf8_range/utf8_range-config.cmake
 -rw-r--r--	root/root	usr/lib/cmake/utf8_range/utf8_range-targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/utf8_range/utf8_range-targets.cmake
-lrwxrwxrwx	root/root	usr/lib/libabsl_bad_any_cast_impl.so -> libabsl_bad_any_cast_impl.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_bad_any_cast_impl.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_bad_optional_access.so -> libabsl_bad_optional_access.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_bad_optional_access.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_bad_variant_access.so -> libabsl_bad_variant_access.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_bad_variant_access.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_base.so -> libabsl_base.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_base.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_city.so -> libabsl_city.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_city.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_civil_time.so -> libabsl_civil_time.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_civil_time.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cord.so -> libabsl_cord.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cord.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cord_internal.so -> libabsl_cord_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cord_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_functions.so -> libabsl_cordz_functions.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cordz_functions.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_handle.so -> libabsl_cordz_handle.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cordz_handle.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_info.so -> libabsl_cordz_info.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cordz_info.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_sample_token.so -> libabsl_cordz_sample_token.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_cordz_sample_token.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_crc32c.so -> libabsl_crc32c.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_crc32c.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_crc_cord_state.so -> libabsl_crc_cord_state.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_crc_cord_state.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_crc_cpu_detect.so -> libabsl_crc_cpu_detect.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_crc_cpu_detect.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_crc_internal.so -> libabsl_crc_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_crc_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_debugging_internal.so -> libabsl_debugging_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_debugging_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_decode_rust_punycode.so -> libabsl_decode_rust_punycode.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_decode_rust_punycode.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_demangle_internal.so -> libabsl_demangle_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_demangle_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_demangle_rust.so -> libabsl_demangle_rust.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_demangle_rust.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_die_if_null.so -> libabsl_die_if_null.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_die_if_null.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_examine_stack.so -> libabsl_examine_stack.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_examine_stack.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_exponential_biased.so -> libabsl_exponential_biased.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_exponential_biased.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_failure_signal_handler.so -> libabsl_failure_signal_handler.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_failure_signal_handler.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_commandlineflag.so -> libabsl_flags_commandlineflag.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_commandlineflag.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_commandlineflag_internal.so -> libabsl_flags_commandlineflag_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_commandlineflag_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_config.so -> libabsl_flags_config.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_config.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_internal.so -> libabsl_flags_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_marshalling.so -> libabsl_flags_marshalling.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_marshalling.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_parse.so -> libabsl_flags_parse.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_parse.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_private_handle_accessor.so -> libabsl_flags_private_handle_accessor.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_private_handle_accessor.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_program_name.so -> libabsl_flags_program_name.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_program_name.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_reflection.so -> libabsl_flags_reflection.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_reflection.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_usage.so -> libabsl_flags_usage.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_usage.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_flags_usage_internal.so -> libabsl_flags_usage_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_flags_usage_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_graphcycles_internal.so -> libabsl_graphcycles_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_graphcycles_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_hash.so -> libabsl_hash.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_hash.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_hashtablez_sampler.so -> libabsl_hashtablez_sampler.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_hashtablez_sampler.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_int128.so -> libabsl_int128.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_int128.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_kernel_timeout_internal.so -> libabsl_kernel_timeout_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_kernel_timeout_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_leak_check.so -> libabsl_leak_check.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_leak_check.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_entry.so -> libabsl_log_entry.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_entry.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_flags.so -> libabsl_log_flags.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_flags.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_globals.so -> libabsl_log_globals.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_globals.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_initialize.so -> libabsl_log_initialize.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_initialize.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_check_op.so -> libabsl_log_internal_check_op.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_check_op.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_conditions.so -> libabsl_log_internal_conditions.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_conditions.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_fnmatch.so -> libabsl_log_internal_fnmatch.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_fnmatch.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_format.so -> libabsl_log_internal_format.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_format.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_globals.so -> libabsl_log_internal_globals.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_globals.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_log_sink_set.so -> libabsl_log_internal_log_sink_set.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_log_sink_set.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_message.so -> libabsl_log_internal_message.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_message.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_nullguard.so -> libabsl_log_internal_nullguard.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_nullguard.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_proto.so -> libabsl_log_internal_proto.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_proto.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_severity.so -> libabsl_log_severity.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_severity.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_log_sink.so -> libabsl_log_sink.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_log_sink.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_low_level_hash.so -> libabsl_low_level_hash.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_low_level_hash.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_malloc_internal.so -> libabsl_malloc_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_malloc_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_periodic_sampler.so -> libabsl_periodic_sampler.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_periodic_sampler.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_poison.so -> libabsl_poison.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_poison.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_distributions.so -> libabsl_random_distributions.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_distributions.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_distribution_test_util.so -> libabsl_random_internal_distribution_test_util.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_distribution_test_util.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_platform.so -> libabsl_random_internal_platform.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_platform.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_pool_urbg.so -> libabsl_random_internal_pool_urbg.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_pool_urbg.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen.so -> libabsl_random_internal_randen.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_hwaes.so -> libabsl_random_internal_randen_hwaes.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_hwaes.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_hwaes_impl.so -> libabsl_random_internal_randen_hwaes_impl.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_hwaes_impl.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_slow.so -> libabsl_random_internal_randen_slow.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_slow.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_seed_material.so -> libabsl_random_internal_seed_material.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_seed_material.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_seed_gen_exception.so -> libabsl_random_seed_gen_exception.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_seed_gen_exception.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_random_seed_sequences.so -> libabsl_random_seed_sequences.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_random_seed_sequences.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_raw_hash_set.so -> libabsl_raw_hash_set.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_raw_hash_set.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_raw_logging_internal.so -> libabsl_raw_logging_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_raw_logging_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_scoped_set_env.so -> libabsl_scoped_set_env.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_scoped_set_env.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_spinlock_wait.so -> libabsl_spinlock_wait.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_spinlock_wait.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_stacktrace.so -> libabsl_stacktrace.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_stacktrace.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_status.so -> libabsl_status.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_status.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_statusor.so -> libabsl_statusor.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_statusor.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_str_format_internal.so -> libabsl_str_format_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_str_format_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_strerror.so -> libabsl_strerror.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_strerror.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_string_view.so -> libabsl_string_view.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_string_view.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_strings.so -> libabsl_strings.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_strings.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_strings_internal.so -> libabsl_strings_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_strings_internal.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_symbolize.so -> libabsl_symbolize.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_symbolize.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_synchronization.so -> libabsl_synchronization.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_synchronization.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_throw_delegate.so -> libabsl_throw_delegate.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_throw_delegate.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_time.so -> libabsl_time.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_time.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_time_zone.so -> libabsl_time_zone.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_time_zone.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_utf8_for_code_point.so -> libabsl_utf8_for_code_point.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_utf8_for_code_point.so.2407.0.0
-lrwxrwxrwx	root/root	usr/lib/libabsl_vlog_config_internal.so -> libabsl_vlog_config_internal.so.2407.0.0
--rwxr-xr-x	root/root	usr/lib/libabsl_vlog_config_internal.so.2407.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_base.so -> libabsl_base.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_base.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_city.so -> libabsl_city.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_city.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_civil_time.so -> libabsl_civil_time.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_civil_time.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cord.so -> libabsl_cord.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cord.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cord_internal.so -> libabsl_cord_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cord_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_functions.so -> libabsl_cordz_functions.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cordz_functions.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_handle.so -> libabsl_cordz_handle.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cordz_handle.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_info.so -> libabsl_cordz_info.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cordz_info.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_cordz_sample_token.so -> libabsl_cordz_sample_token.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_cordz_sample_token.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_crc32c.so -> libabsl_crc32c.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_crc32c.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_crc_cord_state.so -> libabsl_crc_cord_state.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_crc_cord_state.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_crc_cpu_detect.so -> libabsl_crc_cpu_detect.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_crc_cpu_detect.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_crc_internal.so -> libabsl_crc_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_crc_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_debugging_internal.so -> libabsl_debugging_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_debugging_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_decode_rust_punycode.so -> libabsl_decode_rust_punycode.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_decode_rust_punycode.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_demangle_internal.so -> libabsl_demangle_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_demangle_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_demangle_rust.so -> libabsl_demangle_rust.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_demangle_rust.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_die_if_null.so -> libabsl_die_if_null.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_die_if_null.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_examine_stack.so -> libabsl_examine_stack.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_examine_stack.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_exponential_biased.so -> libabsl_exponential_biased.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_exponential_biased.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_failure_signal_handler.so -> libabsl_failure_signal_handler.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_failure_signal_handler.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_commandlineflag.so -> libabsl_flags_commandlineflag.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_commandlineflag.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_commandlineflag_internal.so -> libabsl_flags_commandlineflag_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_commandlineflag_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_config.so -> libabsl_flags_config.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_config.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_internal.so -> libabsl_flags_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_marshalling.so -> libabsl_flags_marshalling.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_marshalling.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_parse.so -> libabsl_flags_parse.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_parse.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_private_handle_accessor.so -> libabsl_flags_private_handle_accessor.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_private_handle_accessor.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_program_name.so -> libabsl_flags_program_name.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_program_name.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_reflection.so -> libabsl_flags_reflection.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_reflection.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_usage.so -> libabsl_flags_usage.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_usage.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_flags_usage_internal.so -> libabsl_flags_usage_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_flags_usage_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_graphcycles_internal.so -> libabsl_graphcycles_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_graphcycles_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_hash.so -> libabsl_hash.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_hash.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_hashtablez_sampler.so -> libabsl_hashtablez_sampler.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_hashtablez_sampler.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_int128.so -> libabsl_int128.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_int128.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_kernel_timeout_internal.so -> libabsl_kernel_timeout_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_kernel_timeout_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_leak_check.so -> libabsl_leak_check.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_leak_check.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_flags.so -> libabsl_log_flags.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_flags.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_globals.so -> libabsl_log_globals.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_globals.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_initialize.so -> libabsl_log_initialize.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_initialize.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_check_op.so -> libabsl_log_internal_check_op.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_check_op.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_conditions.so -> libabsl_log_internal_conditions.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_conditions.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_fnmatch.so -> libabsl_log_internal_fnmatch.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_fnmatch.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_format.so -> libabsl_log_internal_format.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_format.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_globals.so -> libabsl_log_internal_globals.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_globals.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_log_sink_set.so -> libabsl_log_internal_log_sink_set.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_log_sink_set.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_message.so -> libabsl_log_internal_message.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_message.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_nullguard.so -> libabsl_log_internal_nullguard.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_nullguard.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_proto.so -> libabsl_log_internal_proto.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_proto.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_internal_structured_proto.so -> libabsl_log_internal_structured_proto.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_internal_structured_proto.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_severity.so -> libabsl_log_severity.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_severity.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_log_sink.so -> libabsl_log_sink.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_log_sink.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_low_level_hash.so -> libabsl_low_level_hash.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_low_level_hash.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_malloc_internal.so -> libabsl_malloc_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_malloc_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_periodic_sampler.so -> libabsl_periodic_sampler.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_periodic_sampler.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_poison.so -> libabsl_poison.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_poison.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_distributions.so -> libabsl_random_distributions.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_distributions.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_distribution_test_util.so -> libabsl_random_internal_distribution_test_util.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_distribution_test_util.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_entropy_pool.so -> libabsl_random_internal_entropy_pool.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_entropy_pool.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_platform.so -> libabsl_random_internal_platform.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_platform.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen.so -> libabsl_random_internal_randen.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_hwaes.so -> libabsl_random_internal_randen_hwaes.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_hwaes.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_hwaes_impl.so -> libabsl_random_internal_randen_hwaes_impl.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_hwaes_impl.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_randen_slow.so -> libabsl_random_internal_randen_slow.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_randen_slow.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_internal_seed_material.so -> libabsl_random_internal_seed_material.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_internal_seed_material.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_seed_gen_exception.so -> libabsl_random_seed_gen_exception.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_seed_gen_exception.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_random_seed_sequences.so -> libabsl_random_seed_sequences.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_random_seed_sequences.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_raw_hash_set.so -> libabsl_raw_hash_set.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_raw_hash_set.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_raw_logging_internal.so -> libabsl_raw_logging_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_raw_logging_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_scoped_set_env.so -> libabsl_scoped_set_env.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_scoped_set_env.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_spinlock_wait.so -> libabsl_spinlock_wait.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_spinlock_wait.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_stacktrace.so -> libabsl_stacktrace.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_stacktrace.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_status.so -> libabsl_status.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_status.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_statusor.so -> libabsl_statusor.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_statusor.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_str_format_internal.so -> libabsl_str_format_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_str_format_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_strerror.so -> libabsl_strerror.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_strerror.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_string_view.so -> libabsl_string_view.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_string_view.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_strings.so -> libabsl_strings.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_strings.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_strings_internal.so -> libabsl_strings_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_strings_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_symbolize.so -> libabsl_symbolize.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_symbolize.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_synchronization.so -> libabsl_synchronization.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_synchronization.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_throw_delegate.so -> libabsl_throw_delegate.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_throw_delegate.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_time.so -> libabsl_time.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_time.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_time_zone.so -> libabsl_time_zone.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_time_zone.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_tracing_internal.so -> libabsl_tracing_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_tracing_internal.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_utf8_for_code_point.so -> libabsl_utf8_for_code_point.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_utf8_for_code_point.so.2505.0.0
+lrwxrwxrwx	root/root	usr/lib/libabsl_vlog_config_internal.so -> libabsl_vlog_config_internal.so.2505.0.0
+-rwxr-xr-x	root/root	usr/lib/libabsl_vlog_config_internal.so.2505.0.0
+-rw-r--r--	root/root	usr/lib/libantlr4-runtime.a
+lrwxrwxrwx	root/root	usr/lib/libantlr4-runtime.so -> libantlr4-runtime.so.4.12.0
+-rwxr-xr-x	root/root	usr/lib/libantlr4-runtime.so.4.12.0
+lrwxrwxrwx	root/root	usr/lib/libgmock.so -> libgmock.so.1.17.0
+-rwxr-xr-x	root/root	usr/lib/libgmock.so.1.17.0
+lrwxrwxrwx	root/root	usr/lib/libgmock_main.so -> libgmock_main.so.1.17.0
+-rwxr-xr-x	root/root	usr/lib/libgmock_main.so.1.17.0
+lrwxrwxrwx	root/root	usr/lib/libgtest.so -> libgtest.so.1.17.0
+-rwxr-xr-x	root/root	usr/lib/libgtest.so.1.17.0
+lrwxrwxrwx	root/root	usr/lib/libgtest_main.so -> libgtest_main.so.1.17.0
+-rwxr-xr-x	root/root	usr/lib/libgtest_main.so.1.17.0
 lrwxrwxrwx	root/root	usr/lib/libhighs.so -> libhighs.so.1
-lrwxrwxrwx	root/root	usr/lib/libhighs.so.1 -> libhighs.so.1.9.0
--rwxr-xr-x	root/root	usr/lib/libhighs.so.1.9.0
+lrwxrwxrwx	root/root	usr/lib/libhighs.so.1 -> libhighs.so.1.10.0
+-rwxr-xr-x	root/root	usr/lib/libhighs.so.1.10.0
 lrwxrwxrwx	root/root	usr/lib/libortools.so -> libortools.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.12.9999
--rwxr-xr-x	root/root	usr/lib/libortools.so.9.12.9999
+lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.13.9999
+-rwxr-xr-x	root/root	usr/lib/libortools.so.9.13.9999
 lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so -> libortools_flatzinc.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.12.9999
--rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.12.9999
-lrwxrwxrwx	root/root	usr/lib/libprotobuf-lite.so -> libprotobuf-lite.so.29.3.0
--rwxr-xr-x	root/root	usr/lib/libprotobuf-lite.so.29.3.0
-lrwxrwxrwx	root/root	usr/lib/libprotobuf.so -> libprotobuf.so.29.3.0
--rwxr-xr-x	root/root	usr/lib/libprotobuf.so.29.3.0
-lrwxrwxrwx	root/root	usr/lib/libprotoc.so -> libprotoc.so.29.3.0
--rwxr-xr-x	root/root	usr/lib/libprotoc.so.29.3.0
+lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.13.9999
+-rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.13.9999
+lrwxrwxrwx	root/root	usr/lib/libprotobuf-lite.so -> libprotobuf-lite.so.31.0.0
+-rwxr-xr-x	root/root	usr/lib/libprotobuf-lite.so.31.0.0
+lrwxrwxrwx	root/root	usr/lib/libprotobuf.so -> libprotobuf.so.31.0.0
+-rwxr-xr-x	root/root	usr/lib/libprotobuf.so.31.0.0
+lrwxrwxrwx	root/root	usr/lib/libprotoc.so -> libprotoc.so.31.0.0
+-rwxr-xr-x	root/root	usr/lib/libprotoc.so.31.0.0
 lrwxrwxrwx	root/root	usr/lib/libre2.so -> libre2.so.11
 lrwxrwxrwx	root/root	usr/lib/libre2.so.11 -> libre2.so.11.0.0
 -rwxr-xr-x	root/root	usr/lib/libre2.so.11.0.0
 -rw-r--r--	root/root	usr/lib/libupb.a
--rwxr-xr-x	root/root	usr/lib/libutf8_range.so
--rwxr-xr-x	root/root	usr/lib/libutf8_validity.so
+lrwxrwxrwx	root/root	usr/lib/libutf8_range.so -> libutf8_range.so.31.0.0
+-rwxr-xr-x	root/root	usr/lib/libutf8_range.so.31.0.0
+lrwxrwxrwx	root/root	usr/lib/libutf8_validity.so -> libutf8_validity.so.31.0.0
+-rwxr-xr-x	root/root	usr/lib/libutf8_validity.so.31.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_absl_check.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_absl_log.pc
@@ -2723,7 +2901,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_any_invocable.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_atomic_hook.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_bad_any_cast.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/absl_bad_any_cast_impl.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_bad_optional_access.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_bad_variant_access.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_base.pc
@@ -2794,13 +2971,15 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_container_defaults.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_function_defaults.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hash_policy_traits.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_hashtable_control_bytes.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hashtable_debug.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hashtable_debug_hooks.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_hashtablez_sampler.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/absl_if_constexpr.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_inlined_vector.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_inlined_vector_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_int128.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_iterator_traits_internal.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_iterator_traits_test_helper_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_kernel_timeout_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_layout.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_leak_check.pc
@@ -2826,6 +3005,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_internal_proto.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_internal_strip.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_internal_structured.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_internal_structured_proto.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_internal_voidify.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_severity.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_log_sink.pc
@@ -2855,6 +3035,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_distributions.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_distribution_caller.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_distribution_test_util.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_entropy_pool.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_fast_uniform_bits.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_fastmath.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_generate_real.pc
@@ -2863,7 +3044,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_nonsecure_base.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_pcg_engine.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_platform.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_pool_urbg.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_randen.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_randen_engine.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_internal_randen_hwaes.pc
@@ -2879,6 +3059,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_random_seed_sequences.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_raw_hash_map.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_raw_hash_set.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_raw_hash_set_resize_impl.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_raw_logging_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_sample_recorder.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_scoped_set_env.pc
@@ -2898,12 +3079,18 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_throw_delegate.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_time.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_time_zone.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_tracing_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_type_traits.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_utf8_for_code_point.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_utility.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_variant.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_vlog_config_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_vlog_is_on.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/absl_weakly_mixed_integer.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gmock.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gmock_main.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gtest.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gtest_main.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/highs.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/protobuf-lite.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/protobuf.pc
@@ -2912,6 +3099,9 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/utf8_range.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/libantlr4/
+-rw-r--r--	root/root	usr/share/doc/libantlr4/README.md
+-rw-r--r--	root/root	usr/share/doc/libantlr4/VERSION
 drwxr-xr-x	root/root	usr/share/doc/ortools/
 -rw-r--r--	root/root	usr/share/doc/ortools/LICENSE
 drwxr-xr-x	root/root	usr/share/eigen3/
@@ -2924,6 +3114,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/
 drwxr-xr-x	root/root	usr/share/minizinc/cp-sat/
 -rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_all_different_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_circuit.mzn
+-rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_count_eq.mzn
 -rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_cumulative.mzn
 -rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_cumulative_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/cp-sat/fzn_diffn.mzn

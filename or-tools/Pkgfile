@@ -2,10 +2,10 @@
 # URL         : https://developers.google.com/optimization
 # Maintainer  : camille, camille at lzr dot pw
 # Depends on  : cmake
-# Optional    : benchmark eigen3 protobuf re2 zlib
+# Optional    : benchmark eigen3 fuzztest highs protobuf re2 zlib
 
 name=or-tools
-version=9.12
+version=9.13
 release=1
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
@@ -41,6 +41,7 @@ build() {
 
     _build_flags benchmark -DBUILD_benchmark 
     _build_flags eigen     -DBUILD_Eigen3
+    _build_flags fuzztest  -DBUILD_fuzztest
     _build_flags highs     -DBUILD_HIGHS
     _build_flags protobuf  -DBUILD_Protobuf
     _build_flags re2       -DBUILD_re2
