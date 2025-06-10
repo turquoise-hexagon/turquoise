@@ -4,7 +4,7 @@
 
 name=googletest
 version=1.17.0
-release=1
+release=2
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
 build() {
@@ -14,7 +14,8 @@ build() {
 
     cmake ..                        \
         -DCMAKE_INSTALL_PREFIX=/usr \
-        -DCMAKE_BUILD_TYPE=Release
+        -DCMAKE_BUILD_TYPE=Release  \
+        -DCMAKE_POSITION_INDEPENDENT_CODE=On
 
     make
     make DESTDIR="$PKG" install
