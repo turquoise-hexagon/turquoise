@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw9cWzUtOoNnHiEsmgsM4+TievFt8nGJNjm7AkTJsbYBcor6SqkcrfZUkaOGLFnw3MGNlJ5agmWa41vJs5bPB2ww=
-SHA256 (Pkgfile) = e87600389daefe8199048972f44821b15da8a14731b41788b5d0acd4bc16ff33
-SHA256 (.footprint) = e1512bffcd386a5d3598a57079d38035efa048e5c5fc63b2f3a7c7351cf51a10
-SHA256 (libass-0.17.3.tar.gz) = da7c348deb6fa6c24507afab2dee7545ba5dd5bbf90a137bfe9e738f7df68537
+RWTOjBUiTG/Uw7urzHC3suDN74kTiFh3cSsa8GAf/Yn0pdC4WlqndZG0M1BQgaMursrLA6IyXP01cF0jSER67a64wu6G+Mjg+Ao=
+SHA256 (Pkgfile) = 900a50ea6feb144c21be27800838c07f429d199849ad067572f31e8a1d8de37b
+SHA256 (.footprint) = 063a5367da3eae332ac6ca0537308831bb49c3319b3e276f5f14ad4cf942e062
+SHA256 (libass-0.17.4.tar.gz) = a886b3b80867f437bc55cff3280a652bfa0d37b43d2aff39ddf3c4f288b8c5a8
