@@ -2,12 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fzn-cp-sat
 -rwxr-xr-x	root/root	usr/bin/highs
-lrwxrwxrwx	root/root	usr/bin/protoc -> protoc-31.0.0
--rwxr-xr-x	root/root	usr/bin/protoc-31.0.0
-lrwxrwxrwx	root/root	usr/bin/protoc-gen-upb -> protoc-gen-upb-31.0.0
--rwxr-xr-x	root/root	usr/bin/protoc-gen-upb-31.0.0
-lrwxrwxrwx	root/root	usr/bin/protoc-gen-upbdefs -> protoc-gen-upbdefs-31.0.0
--rwxr-xr-x	root/root	usr/bin/protoc-gen-upbdefs-31.0.0
+lrwxrwxrwx	root/root	usr/bin/protoc -> protoc-31.1.0
+-rwxr-xr-x	root/root	usr/bin/protoc-31.1.0
+lrwxrwxrwx	root/root	usr/bin/protoc-gen-upb -> protoc-gen-upb-31.1.0
+-rwxr-xr-x	root/root	usr/bin/protoc-gen-upb-31.1.0
+lrwxrwxrwx	root/root	usr/bin/protoc-gen-upbdefs -> protoc-gen-upbdefs-31.1.0
+-rwxr-xr-x	root/root	usr/bin/protoc-gen-upbdefs-31.1.0
 -rwxr-xr-x	root/root	usr/bin/sat_runner
 -rwxr-xr-x	root/root	usr/bin/solve
 -rwxr-xr-x	root/root	usr/bin/vector_bin_packing
@@ -1344,6 +1344,7 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/compiler/ruby/
 -rw-r--r--	root/root	usr/include/google/protobuf/has_bits.h
 -rw-r--r--	root/root	usr/include/google/protobuf/implicit_weak_message.h
 -rw-r--r--	root/root	usr/include/google/protobuf/inlined_string_field.h
+-rw-r--r--	root/root	usr/include/google/protobuf/internal_feature_helper.h
 -rw-r--r--	root/root	usr/include/google/protobuf/internal_visibility.h
 drwxr-xr-x	root/root	usr/include/google/protobuf/io/
 -rw-r--r--	root/root	usr/include/google/protobuf/io/coded_stream.h
@@ -1587,6 +1588,7 @@ drwxr-xr-x	root/root	usr/include/highs/mip/
 -rw-r--r--	root/root	usr/include/highs/mip/HighsTableauSeparator.h
 -rw-r--r--	root/root	usr/include/highs/mip/HighsTransformedLp.h
 -rw-r--r--	root/root	usr/include/highs/mip/MipTimer.h
+-rw-r--r--	root/root	usr/include/highs/mip/feasibilityjump.hh
 drwxr-xr-x	root/root	usr/include/highs/model/
 -rw-r--r--	root/root	usr/include/highs/model/HighsHessian.h
 -rw-r--r--	root/root	usr/include/highs/model/HighsHessianUtils.h
@@ -1667,9 +1669,9 @@ drwxr-xr-x	root/root	usr/include/highs/simplex/
 -rw-r--r--	root/root	usr/include/highs/simplex/SimplexConst.h
 -rw-r--r--	root/root	usr/include/highs/simplex/SimplexStruct.h
 -rw-r--r--	root/root	usr/include/highs/simplex/SimplexTimer.h
-drwxr-xr-x	root/root	usr/include/highs/test/
--rw-r--r--	root/root	usr/include/highs/test/DevKkt.h
--rw-r--r--	root/root	usr/include/highs/test/KktCh2.h
+drwxr-xr-x	root/root	usr/include/highs/test_kkt/
+-rw-r--r--	root/root	usr/include/highs/test_kkt/DevKkt.h
+-rw-r--r--	root/root	usr/include/highs/test_kkt/KktCh2.h
 drwxr-xr-x	root/root	usr/include/highs/util/
 -rw-r--r--	root/root	usr/include/highs/util/FactorTimer.h
 -rw-r--r--	root/root	usr/include/highs/util/HFactor.h
@@ -2653,6 +2655,7 @@ drwxr-xr-x	root/root	usr/lib/cmake/absl/
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/highs/
+-rw-r--r--	root/root	usr/lib/cmake/highs/highs-config-version.cmake
 -rw-r--r--	root/root	usr/lib/cmake/highs/highs-config.cmake
 -rw-r--r--	root/root	usr/lib/cmake/highs/highs-targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/highs/highs-targets.cmake
@@ -2869,28 +2872,28 @@ lrwxrwxrwx	root/root	usr/lib/libgtest.so -> libgtest.so.1.17.0
 lrwxrwxrwx	root/root	usr/lib/libgtest_main.so -> libgtest_main.so.1.17.0
 -rwxr-xr-x	root/root	usr/lib/libgtest_main.so.1.17.0
 lrwxrwxrwx	root/root	usr/lib/libhighs.so -> libhighs.so.1
-lrwxrwxrwx	root/root	usr/lib/libhighs.so.1 -> libhighs.so.1.10.0
--rwxr-xr-x	root/root	usr/lib/libhighs.so.1.10.0
+lrwxrwxrwx	root/root	usr/lib/libhighs.so.1 -> libhighs.so.1.11.0
+-rwxr-xr-x	root/root	usr/lib/libhighs.so.1.11.0
 lrwxrwxrwx	root/root	usr/lib/libortools.so -> libortools.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.13.9999
--rwxr-xr-x	root/root	usr/lib/libortools.so.9.13.9999
+lrwxrwxrwx	root/root	usr/lib/libortools.so.9 -> libortools.so.9.14.9999
+-rwxr-xr-x	root/root	usr/lib/libortools.so.9.14.9999
 lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so -> libortools_flatzinc.so.9
-lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.13.9999
--rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.13.9999
-lrwxrwxrwx	root/root	usr/lib/libprotobuf-lite.so -> libprotobuf-lite.so.31.0.0
--rwxr-xr-x	root/root	usr/lib/libprotobuf-lite.so.31.0.0
-lrwxrwxrwx	root/root	usr/lib/libprotobuf.so -> libprotobuf.so.31.0.0
--rwxr-xr-x	root/root	usr/lib/libprotobuf.so.31.0.0
-lrwxrwxrwx	root/root	usr/lib/libprotoc.so -> libprotoc.so.31.0.0
--rwxr-xr-x	root/root	usr/lib/libprotoc.so.31.0.0
+lrwxrwxrwx	root/root	usr/lib/libortools_flatzinc.so.9 -> libortools_flatzinc.so.9.14.9999
+-rwxr-xr-x	root/root	usr/lib/libortools_flatzinc.so.9.14.9999
+lrwxrwxrwx	root/root	usr/lib/libprotobuf-lite.so -> libprotobuf-lite.so.31.1.0
+-rwxr-xr-x	root/root	usr/lib/libprotobuf-lite.so.31.1.0
+lrwxrwxrwx	root/root	usr/lib/libprotobuf.so -> libprotobuf.so.31.1.0
+-rwxr-xr-x	root/root	usr/lib/libprotobuf.so.31.1.0
+lrwxrwxrwx	root/root	usr/lib/libprotoc.so -> libprotoc.so.31.1.0
+-rwxr-xr-x	root/root	usr/lib/libprotoc.so.31.1.0
 lrwxrwxrwx	root/root	usr/lib/libre2.so -> libre2.so.11
 lrwxrwxrwx	root/root	usr/lib/libre2.so.11 -> libre2.so.11.0.0
 -rwxr-xr-x	root/root	usr/lib/libre2.so.11.0.0
 -rw-r--r--	root/root	usr/lib/libupb.a
-lrwxrwxrwx	root/root	usr/lib/libutf8_range.so -> libutf8_range.so.31.0.0
--rwxr-xr-x	root/root	usr/lib/libutf8_range.so.31.0.0
-lrwxrwxrwx	root/root	usr/lib/libutf8_validity.so -> libutf8_validity.so.31.0.0
--rwxr-xr-x	root/root	usr/lib/libutf8_validity.so.31.0.0
+lrwxrwxrwx	root/root	usr/lib/libutf8_range.so -> libutf8_range.so.31.1.0
+-rwxr-xr-x	root/root	usr/lib/libutf8_range.so.31.1.0
+lrwxrwxrwx	root/root	usr/lib/libutf8_validity.so -> libutf8_validity.so.31.1.0
+-rwxr-xr-x	root/root	usr/lib/libutf8_validity.so.31.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_absl_check.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_absl_log.pc
