@@ -4,8 +4,8 @@
 # Depends on  : spirv-headers spirv-tools cmake
 
 name=glslang
-commit=c39c0fea849b42980886b7344119067251ce2bf5
-version=20250425
+commit=8a85691a0740d390761a1008b4696f57facd02c4
+version=20250627
 release=1
 source=("https://github.com/KhronosGroup/glslang/archive/$commit.tar.gz")
 
