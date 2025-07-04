@@ -1,0 +1,18 @@
+# Description : An framework to make 2D games in Lua
+# URL         : https://love2d.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : lua libmodplug libtheora mpg123
+
+name=love
+version=11.5
+release=1
+source=("https://github.com/${name}2d/$love/releases/download/$version/$name-$version-linux-src.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}
