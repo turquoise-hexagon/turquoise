@@ -255,7 +255,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/api.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/arabic.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/autocmd.txt
--rw-r--r--	root/root	usr/share/nvim/runtime/doc/builtin.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/change.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/channel.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/cmdline.txt
@@ -273,7 +272,6 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/digraph.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/editing.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/editorconfig.txt
--rw-r--r--	root/root	usr/share/nvim/runtime/doc/eval.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/faq.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/filetype.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/fold.txt
@@ -383,6 +381,8 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/doc/
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vi_diff.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vietnamese.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vim_diff.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/vimeval.txt
+-rw-r--r--	root/root	usr/share/nvim/runtime/doc/vimfn.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/visual.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/vvars.txt
 -rw-r--r--	root/root	usr/share/nvim/runtime/doc/windows.txt
@@ -2106,6 +2106,8 @@ drwxr-xr-x	root/root	usr/share/nvim/runtime/tutor/
 drwxr-xr-x	root/root	usr/share/nvim/runtime/tutor/en/
 -rw-r--r--	root/root	usr/share/nvim/runtime/tutor/en/vim-01-beginner.tutor
 -rw-r--r--	root/root	usr/share/nvim/runtime/tutor/en/vim-01-beginner.tutor.json
+-rw-r--r--	root/root	usr/share/nvim/runtime/tutor/en/vim-02-beginner.tutor
+-rw-r--r--	root/root	usr/share/nvim/runtime/tutor/en/vim-02-beginner.tutor.json
 drwxr-xr-x	root/root	usr/share/nvim/runtime/tutor/ja/
 -rw-r--r--	root/root	usr/share/nvim/runtime/tutor/ja/vim-01-beginner.tutor
 -rw-r--r--	root/root	usr/share/nvim/runtime/tutor/ja/vim-01-beginner.tutor.json
