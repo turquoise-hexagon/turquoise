@@ -4,7 +4,7 @@
 # Depends on  : ncurses
 
 name=readline
-version=8.3.0
+version=8.3.1
 release=1
 source=(
 "https://ftpmirror.gnu.org/gnu/$name/$name-${version%.*}.tar.gz"
@@ -13,7 +13,7 @@ inputrc
 )
 
 build() {
-    cd "$name-${version%.0}"
+    cd "$name-${version%.*}"
 
     # patch
     shopt -s nullglob
