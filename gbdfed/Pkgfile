@@ -6,11 +6,14 @@
 name=gbdfed
 commit=de63fa3531c1872da41548e46bfcbe28d9ba5d6f
 version=20180408
-release=1
+release=2
 source=("https://github.com/andrewshadura/gbdfed/archive/$commit.tar.gz")
 
 build() {
     cd "$name-$commit"
+
+    # lord have mercy upon my soul
+    sed -i 's/-DGDK_DISABLE_DEPRECATED//' Makefile.in
 
     ./configure --prefix=/usr
 
