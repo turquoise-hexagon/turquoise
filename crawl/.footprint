@@ -52,6 +52,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/zh/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/zh/wpnnoise.txt
 drwxr-xr-x	root/root	usr/share/crawl/dat/defaults/
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/autopickup_exceptions.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/defaults/consumable_shortcuts.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/glyph_colours.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/menu_colours.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/defaults/messages.txt
@@ -110,7 +111,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/branches/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/tomb.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/vaults.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/vaults_rooms_empty.des
--rw-r--r--	root/root	usr/share/crawl/dat/des/branches/vaults_rooms_ghost.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/vaults_rooms_hard.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/vaults_rooms_standard.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/branches/zot.des
@@ -148,6 +148,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/portals/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/desolation.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/gauntlet.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/icecave.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/portals/necropolis.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/ossuary.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/sewer.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/trove.des
@@ -205,7 +206,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/variable/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/d_encompass.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/float.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/geyser.des
--rw-r--r--	root/root	usr/share/crawl/dat/des/variable/ghost.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/grated_community.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/large_abstract.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/large_themed.des
@@ -263,7 +263,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/dist_bones/
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Lair-3
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Lair-4
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Lair-5
--rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Lair-6
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Orc
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Pan
 -rw-r--r--	root/root	usr/share/crawl/dat/dist_bones/bones.store.Shoals
@@ -373,6 +372,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_baconkid_gastronok.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_baconkid_mnoleg.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_benadryl_antaeus.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_benadryl_oni.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_dragon.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_evil_mage.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_denzi_invasion.png

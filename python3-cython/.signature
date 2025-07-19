@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw54LFE+jWnE2djfdwxVKXw1mvjwbEDr3SDLWwimtGgrhcyGjSJyuInRNYjQy1AgDvSkwAOfW3jEBHquuaJV5BgY=
-SHA256 (Pkgfile) = 906205df483277667c949f56f215b19122820db49474141fa601f09ec4308051
-SHA256 (.footprint) = 92260d7e97c99baaa1ea16cf341f5de680835f2972547b618833db61c5b14511
-SHA256 (Cython-3.0.10.tar.gz) = dcc96739331fb854dcf503f94607576cfe8488066c61ca50dfd55836f132de99
