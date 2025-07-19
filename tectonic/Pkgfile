@@ -1,12 +1,12 @@
 # Description : A modernized, complete, self-contained TeX/LaTeX engine
 # URL         : https://tectonic-typesetting.github.io
 # Maintainer  : camille, camille at lzr dot pw
-# Depends on  : rust harfbuzz harfbuzz-icu graphite
+# Depends on  : rust harfbuzz icu harfbuzz-icu graphite
 
 name=tectonic
 commit=d1ee37974a508c9fc093c408f109c85f9f287e96
 version=20241014
-release=1
+release=2
 source=("https://github.com/$name-typesetting/$name/archive/$commit.tar.gz")
 
 build() {
