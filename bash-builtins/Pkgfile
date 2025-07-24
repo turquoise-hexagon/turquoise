@@ -4,7 +4,7 @@
 # Depends on  : bash
 
 name=bash-builtins
-version=5.2
+version=5.3
 release=1
 source=("http://ftp.gnu.org/gnu/${name%-*}/${name%-*}-$version.tar.gz")
 
