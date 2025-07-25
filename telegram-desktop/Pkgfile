@@ -4,8 +4,8 @@
 # Depends on  : libxkbcommon wayland-protocols gtk3
 
 name=telegram-desktop
-version=5.16.4
-release=2
+version=5.16.6
+release=1
 source=("https://github.com/${name/-}/tdesktop/releases/download/v$version/tsetup.$version.tar.xz")
 
 build() {
