@@ -6,7 +6,7 @@
 
 name=or-tools
 version=9.14
-release=1
+release=2
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
 build() {
@@ -39,13 +39,14 @@ build() {
         args+=("$2=$bool")
     }
 
-    _build_flags benchmark -DBUILD_benchmark 
-    _build_flags eigen     -DBUILD_Eigen3
-    _build_flags fuzztest  -DBUILD_fuzztest
-    _build_flags highs     -DBUILD_HIGHS
-    _build_flags protobuf  -DBUILD_Protobuf
-    _build_flags re2       -DBUILD_re2
-    _build_flags zlib      -DBUILD_ZLIB
+    _build_flags benchmark  -DBUILD_benchmark 
+    _build_flags eigen      -DBUILD_Eigen3
+    _build_flags fuzztest   -DBUILD_fuzztest
+    _build_flags googletest -DBUILD_googletest
+    _build_flags highs      -DBUILD_HIGHS
+    _build_flags protobuf   -DBUILD_Protobuf
+    _build_flags re2        -DBUILD_re2
+    _build_flags zlib       -DBUILD_ZLIB
 
     cmake .. "${args[@]}"
 

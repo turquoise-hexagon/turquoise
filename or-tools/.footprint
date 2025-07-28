@@ -1228,25 +1228,6 @@ drwxr-xr-x	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/Spline.h
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/SplineFitting.h
 -rw-r--r--	root/root	usr/include/eigen3/unsupported/Eigen/src/Splines/SplineFwd.h
-drwxr-xr-x	root/root	usr/include/gmock/
--rw-r--r--	root/root	usr/include/gmock/gmock-actions.h
--rw-r--r--	root/root	usr/include/gmock/gmock-cardinalities.h
--rw-r--r--	root/root	usr/include/gmock/gmock-function-mocker.h
--rw-r--r--	root/root	usr/include/gmock/gmock-matchers.h
--rw-r--r--	root/root	usr/include/gmock/gmock-more-actions.h
--rw-r--r--	root/root	usr/include/gmock/gmock-more-matchers.h
--rw-r--r--	root/root	usr/include/gmock/gmock-nice-strict.h
--rw-r--r--	root/root	usr/include/gmock/gmock-spec-builders.h
--rw-r--r--	root/root	usr/include/gmock/gmock.h
-drwxr-xr-x	root/root	usr/include/gmock/internal/
-drwxr-xr-x	root/root	usr/include/gmock/internal/custom/
--rw-r--r--	root/root	usr/include/gmock/internal/custom/README.md
--rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-generated-actions.h
--rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-matchers.h
--rw-r--r--	root/root	usr/include/gmock/internal/custom/gmock-port.h
--rw-r--r--	root/root	usr/include/gmock/internal/gmock-internal-utils.h
--rw-r--r--	root/root	usr/include/gmock/internal/gmock-port.h
--rw-r--r--	root/root	usr/include/gmock/internal/gmock-pp.h
 drwxr-xr-x	root/root	usr/include/google/
 drwxr-xr-x	root/root	usr/include/google/protobuf/
 -rw-r--r--	root/root	usr/include/google/protobuf/any.h
@@ -1429,33 +1410,6 @@ drwxr-xr-x	root/root	usr/include/google/protobuf/util/
 -rw-r--r--	root/root	usr/include/google/protobuf/wire_format_lite.h
 -rw-r--r--	root/root	usr/include/google/protobuf/wrappers.pb.h
 -rw-r--r--	root/root	usr/include/google/protobuf/wrappers.proto
-drwxr-xr-x	root/root	usr/include/gtest/
--rw-r--r--	root/root	usr/include/gtest/gtest-assertion-result.h
--rw-r--r--	root/root	usr/include/gtest/gtest-death-test.h
--rw-r--r--	root/root	usr/include/gtest/gtest-matchers.h
--rw-r--r--	root/root	usr/include/gtest/gtest-message.h
--rw-r--r--	root/root	usr/include/gtest/gtest-param-test.h
--rw-r--r--	root/root	usr/include/gtest/gtest-printers.h
--rw-r--r--	root/root	usr/include/gtest/gtest-spi.h
--rw-r--r--	root/root	usr/include/gtest/gtest-test-part.h
--rw-r--r--	root/root	usr/include/gtest/gtest-typed-test.h
--rw-r--r--	root/root	usr/include/gtest/gtest.h
--rw-r--r--	root/root	usr/include/gtest/gtest_pred_impl.h
--rw-r--r--	root/root	usr/include/gtest/gtest_prod.h
-drwxr-xr-x	root/root	usr/include/gtest/internal/
-drwxr-xr-x	root/root	usr/include/gtest/internal/custom/
--rw-r--r--	root/root	usr/include/gtest/internal/custom/README.md
--rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest-port.h
--rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest-printers.h
--rw-r--r--	root/root	usr/include/gtest/internal/custom/gtest.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-death-test-internal.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-filepath.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-internal.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-param-util.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-port-arch.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-port.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-string.h
--rw-r--r--	root/root	usr/include/gtest/internal/gtest-type-util.h
 drwxr-xr-x	root/root	usr/include/highs/
 -rw-r--r--	root/root	usr/include/highs/HConfig.h
 -rw-r--r--	root/root	usr/include/highs/Highs.h
@@ -2644,11 +2598,6 @@ drwxr-xr-x	root/root	usr/include/upb/wire/internal/
 -rw-r--r--	root/root	usr/include/utf8_validity.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/GTest/
--rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/GTest/GTestConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/GTest/GTestTargets.cmake
 drwxr-xr-x	root/root	usr/lib/cmake/absl/
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/absl/abslConfigVersion.cmake
@@ -2863,14 +2812,6 @@ lrwxrwxrwx	root/root	usr/lib/libabsl_vlog_config_internal.so -> libabsl_vlog_con
 -rw-r--r--	root/root	usr/lib/libantlr4-runtime.a
 lrwxrwxrwx	root/root	usr/lib/libantlr4-runtime.so -> libantlr4-runtime.so.4.12.0
 -rwxr-xr-x	root/root	usr/lib/libantlr4-runtime.so.4.12.0
-lrwxrwxrwx	root/root	usr/lib/libgmock.so -> libgmock.so.1.17.0
--rwxr-xr-x	root/root	usr/lib/libgmock.so.1.17.0
-lrwxrwxrwx	root/root	usr/lib/libgmock_main.so -> libgmock_main.so.1.17.0
--rwxr-xr-x	root/root	usr/lib/libgmock_main.so.1.17.0
-lrwxrwxrwx	root/root	usr/lib/libgtest.so -> libgtest.so.1.17.0
--rwxr-xr-x	root/root	usr/lib/libgtest.so.1.17.0
-lrwxrwxrwx	root/root	usr/lib/libgtest_main.so -> libgtest_main.so.1.17.0
--rwxr-xr-x	root/root	usr/lib/libgtest_main.so.1.17.0
 lrwxrwxrwx	root/root	usr/lib/libhighs.so -> libhighs.so.1
 lrwxrwxrwx	root/root	usr/lib/libhighs.so.1 -> libhighs.so.1.11.0
 -rwxr-xr-x	root/root	usr/lib/libhighs.so.1.11.0
@@ -3090,10 +3031,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_vlog_config_internal.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_vlog_is_on.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/absl_weakly_mixed_integer.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gmock.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gmock_main.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtest.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtest_main.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/highs.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/protobuf-lite.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/protobuf.pc
