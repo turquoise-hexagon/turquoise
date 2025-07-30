@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw04IhcX+d7SFdaCQXi5Iq8PzgGwWsernzC62LVqizi53LYnvJ3Ain2y3cWxqUYvhjmnGsyg2Y2wj5uCiFyKnogw=
-SHA256 (Pkgfile) = 52ac402839a2dd88a0f2ec09fedfa6085a99a6bee22188da6a34ab2540ddc8bb
-SHA256 (.footprint) = 13839798121e45681a67a8510ce5db8519eebf1f001f49bbd90860f4cee0bac7
-SHA256 (docutils-0.21.2.tar.gz) = 3a6b18732edf182daa3cd12775bbb338cf5691468f91eeeb109deff6ebfa986f
+RWTOjBUiTG/Uw1xXN7OPtDBKeLSODJa4XZFYwu8olC9PvkH5yDpfB6Mk2koV0lBdtAMZtJcw9Ok0ehSLM37IUHXLcDRhGx0inwU=
+SHA256 (Pkgfile) = 431b53793e40762f75703000c3b5200ac3a009e5ab875bf2b439aff8a64a9ab5
+SHA256 (.footprint) = 9d1819602a76f700efcf08b12edaf8c8b46bb0bbd0aab5f0f095fda7fa4241e1
+SHA256 (docutils-0.22.tar.gz) = ba9d57750e92331ebe7c08a1bbf7a7f8143b86c476acd51528b042216a6aad0f

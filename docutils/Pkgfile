@@ -4,7 +4,7 @@
 # Depends on  : python3 python3-build python3-installer
 
 name=docutils
-version=0.21.2
+version=0.22
 release=1
 source=("https://files.pythonhosted.org/packages/source/d/$name/$name-$version.tar.gz")
 
