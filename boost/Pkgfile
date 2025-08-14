@@ -4,8 +4,8 @@
 # Depends on  : python3
 
 name=boost
-version=1.88.0
-release=2
+version=1.89.0
+release=1
 source=(
 "https://archives.$name.io/release/$version/source/${name}_${version//./_}.tar.bz2"
 any_iterator.patch
