@@ -24,21 +24,21 @@ drwxr-xr-x	root/root	usr/lib/cmake/z3/
 -rw-r--r--	root/root	usr/lib/cmake/z3/Z3Targets-relwithdebinfo.cmake
 -rw-r--r--	root/root	usr/lib/cmake/z3/Z3Targets.cmake
 lrwxrwxrwx	root/root	usr/lib/libz3.so -> libz3.so.4.15
-lrwxrwxrwx	root/root	usr/lib/libz3.so.4.15 -> libz3.so.4.15.2.0
--rwxr-xr-x	root/root	usr/lib/libz3.so.4.15.2.0
+lrwxrwxrwx	root/root	usr/lib/libz3.so.4.15 -> libz3.so.4.15.3.0
+-rwxr-xr-x	root/root	usr/lib/libz3.so.4.15.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/z3.pc
-drwxr-xr-x	root/root	usr/lib/python3.10/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/z3/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/__init__.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3consts.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3core.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3num.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3poly.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3printer.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3rcf.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3test.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3types.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/z3/z3util.py
+drwxr-xr-x	root/root	usr/lib/python3.12/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/z3/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/__init__.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3consts.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3core.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3num.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3poly.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3printer.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3rcf.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3test.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3types.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3util.py
