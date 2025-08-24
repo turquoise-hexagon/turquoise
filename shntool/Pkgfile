@@ -1,0 +1,17 @@
+# Description : A multi-purpose WAVE data processing and reporting utility
+# URL         : http://shnutils.freeshell.org/shntool
+# Maintainer  : camille, camille at lzr dot pw
+
+name=shntool
+version=3.0.10
+release=1
+source=("http://shnutils.freeshell.org/$name/dist/src/$name-$version.tar.gz")
+
+build() {
+    cd "$name-$version"
+
+    ./configure --prefix=/usr
+
+    make
+    make DESTDIR="$PKG" install
+}

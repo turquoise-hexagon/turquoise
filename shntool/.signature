@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw70sd1efjmsf7rS8Caw1IzkjgWg3W9RteKZlLnnXYKPGy9XzgPvjFCqh9O2tNCEy+k8GL5WybXRCUL741QhsqQ4=
+SHA256 (Pkgfile) = 92870c58f7b41f3bfda707e794fea0425bc32913d38eea5773e8a095eb072569
+SHA256 (.footprint) = f2aa7954924d2609d9770a84aa470d182d65645b7797d16be76d140190ac673d
+SHA256 (shntool-3.0.10.tar.gz) = 74302eac477ca08fb2b42b9f154cc870593aec8beab308676e4373a5e4ca2102
