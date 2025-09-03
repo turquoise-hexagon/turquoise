@@ -1,5 +1,9 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw70sd1efjmsf7rS8Caw1IzkjgWg3W9RteKZlLnnXYKPGy9XzgPvjFCqh9O2tNCEy+k8GL5WybXRCUL741QhsqQ4=
-SHA256 (Pkgfile) = 92870c58f7b41f3bfda707e794fea0425bc32913d38eea5773e8a095eb072569
+RWTOjBUiTG/Uw3WizWqMMqtMIbv+UXTBO9ELyv17oY8f0JCat/KUu7KZd99UtPq0aMwQzZgJwVANtbLr8c4e/4zUHPBTl2rikQY=
+SHA256 (Pkgfile) = 5bcab544e2472e76e5de7bc02e8d9e8c9fe9f5b5ce8f9d5c13a71bca2321b241
 SHA256 (.footprint) = f2aa7954924d2609d9770a84aa470d182d65645b7797d16be76d140190ac673d
 SHA256 (shntool-3.0.10.tar.gz) = 74302eac477ca08fb2b42b9f154cc870593aec8beab308676e4373a5e4ca2102
+SHA256 (debian-patches-950803.patch) = 5c46f350de1e5299d8de6a729aa253a584eab157eeb49d4a0a910400a8a05d53
+SHA256 (debian-patches-no-cdquality-check.patch) = 819947915e196ed9b8b705de9a7a4b2712451309b6dec9bbf0dd7039fe79f1e0
+SHA256 (large-size.patch) = df2ff90079b7972f26a9808f6fdf02c72dbe16e60ce6db826ac7b6998f9f0d60
+SHA256 (large-times.patch) = 4409e9b7001dfbe0eb505a553a2433d2c7f1003c2334f81d3da8cd4b7d049c7c

@@ -1,0 +1,37 @@
+--- a/include/wave.h
++++ b/include/wave.h
+@@ -58,8 +58,9 @@
+ #define WAVE_FORMAT_MPEG                (0x0050)
+ #define WAVE_FORMAT_MPEGLAYER3          (0x0055)
+ #define WAVE_FORMAT_G726_ADPCM          (0x0064)
+ #define WAVE_FORMAT_G722_ADPCM          (0x0065)
++#define WAVE_FORMAT_EXTENSIBLE          (0xfffe)
+ 
+ #define CD_BLOCK_SIZE                   (2352)
+ #define CD_BLOCKS_PER_SEC               (75)
+ #define CD_BLOCK_ALIGN                  (4)
+--- a/src/core_wave.c
++++ b/src/core_wave.c
+@@ -166,8 +166,9 @@
+     return FALSE;
+   }
+ 
+   switch (info->wave_format) {
++    case WAVE_FORMAT_EXTENSIBLE:
+     case WAVE_FORMAT_PCM:
+       break;
+     default:
+       st_warning("unsupported format 0x%04x (%s) while processing file: [%s]",
+@@ -510,9 +511,11 @@
+       return "MPEG Layer 3";
+     case WAVE_FORMAT_G726_ADPCM:
+       return "G.726 ADPCM";
+     case WAVE_FORMAT_G722_ADPCM:
+-      return "G.722 ADPCM";
++      return "G.722 ADPCM";      
++    case WAVE_FORMAT_EXTENSIBLE:
++      return "WAVE Extensible format";
+   }
+   return "Unknown";
+ }
+ 

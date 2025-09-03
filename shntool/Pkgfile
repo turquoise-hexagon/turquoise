@@ -4,11 +4,21 @@
 
 name=shntool
 version=3.0.10
-release=1
-source=("http://shnutils.freeshell.org/$name/dist/src/$name-$version.tar.gz")
+release=2
+source=(
+"http://shnutils.freeshell.org/$name/dist/src/$name-$version.tar.gz"
+patches/debian-patches-950803.patch
+patches/debian-patches-no-cdquality-check.patch
+patches/large-size.patch
+patches/large-times.patch
+)
 
 build() {
     cd "$name-$version"
+
+    local patch; for patch in "$SRC/"*.patch; do
+        patch -p 1 -i "$patch"
+    done
 
     ./configure --prefix=/usr
 
