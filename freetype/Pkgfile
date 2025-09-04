@@ -6,12 +6,12 @@
 
 name=freetype
 version=2.13.3
-release=1
+release=2
 source=(
 "https://download.savannah.gnu.org/releases/$name/$name-$version.tar.gz"
-patches/001-enable-table-validation-modules.patch
-patches/002-enable-subpixel-rendering.patch
-patches/003-enable-long-pcf-family-names.patch
+patches/enable-table-validation-modules.patch
+patches/enable-subpixel-rendering.patch
+patches/enable-long-pcf-family-names.patch
 freetype2.sh
 )
 
