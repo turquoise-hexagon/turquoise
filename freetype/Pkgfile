@@ -5,8 +5,8 @@
 # Optional    : brotli harfbuzz
 
 name=freetype
-version=2.13.3
-release=2
+version=2.14.0
+release=1
 source=(
 "https://download.savannah.gnu.org/releases/$name/$name-$version.tar.gz"
 patches/enable-table-validation-modules.patch
