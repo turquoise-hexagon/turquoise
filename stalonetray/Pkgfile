@@ -3,9 +3,9 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=stalonetray
-version=0.8.5
+version=0.9.0
 release=1
-source=("https://github.com/kolbusa/$name/archive/v$version.tar.gz")
+source=("https://github.com/kolbusa/$name/archive/$version.tar.gz")
 
 build() {
     cd "$name-$version"
