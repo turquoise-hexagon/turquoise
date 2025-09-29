@@ -307,6 +307,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulative.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulative_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulatives.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/cumulatives_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/dag.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/decreasing.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/decreasing_bool.mzn
@@ -417,9 +418,12 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_at_most_set_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_capa.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_capa_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_capa_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_load.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_load_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_load_reif.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bin_packing_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bounded_dpath_enum.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_bounded_dpath_enum_reif.mzn
@@ -470,6 +474,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_cumulative_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_cumulatives.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_cumulatives_decomp.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_cumulatives_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_dag.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_dag_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_dconnected.mzn
