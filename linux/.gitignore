@@ -2,3 +2,5 @@
 !Pkgfile
 !post-install
 !README
+!.footprint
+!.signature
