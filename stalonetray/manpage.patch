@@ -1,0 +1,28 @@
+--- a/meson.build	2025-11-02 16:09:42.340866274 +0000
++++ b/meson.build	2025-11-02 16:10:09.475291302 +0000
+@@ -89,16 +89,16 @@
+ 
+ # == Documentation =============================================================
+ 
+-gen_manpage = find_program('generate-manpage.sh')
++# gen_manpage = find_program('generate-manpage.sh')
+ 
+-custom_target(
+-  'manpage',
+-  input: 'stalonetray.xml.in',
+-  output: 'stalonetray.1',
+-  command: [gen_manpage, '@INPUT@', '@OUTPUT@', meson.project_version()],
+-  install: true,
+-  install_dir: join_paths(get_option('prefix'), get_option('mandir'), 'man1'),
+-)
++# custom_target(
++#   'manpage',
++#   input: 'stalonetray.xml.in',
++#   output: 'stalonetray.1',
++#   command: [gen_manpage, '@INPUT@', '@OUTPUT@', meson.project_version()],
++#   install: true,
++#   install_dir: join_paths(get_option('prefix'), get_option('mandir'), 'man1'),
++# )
+ 
+ # == Sample Configuration ======================================================
+ 

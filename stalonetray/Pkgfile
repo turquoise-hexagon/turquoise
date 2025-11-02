@@ -3,22 +3,18 @@
 # Maintainer  : camille, camille at lzr dot pw
 
 name=stalonetray
-version=0.9.0
+version=1.0.1
 release=1
-source=("https://github.com/kolbusa/$name/archive/$version.tar.gz")
+source=(
+"https://github.com/d3adb5/$name/archive/$version.tar.gz"
+manpage.patch)
 
 build() {
     cd "$name-$version"
 
-    aclocal           \
-        && autoheader \
-        && autoconf   \
-        && automake --add-missing
+    patch -p 1 -i "$SRC/manpage.patch"
 
-    ./configure --prefix=/usr
-
-    sed -i -E 's/(man_MANS|doc_DIST).*/#&/g' Makefile
-
-    make
-    make DESTDIR="$PKG" install
+    meson setup build --prefix=/usr
+    meson compile -C build -j "${JOBS:-1}"
+    DESTDIR="$PKG" meson install -C build
 }
