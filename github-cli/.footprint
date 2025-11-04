@@ -109,6 +109,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-merge.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-ready.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-reopen.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-pr-revert.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-review.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-status.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-pr-unlock.1.gz
