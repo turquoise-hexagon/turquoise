@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/turquoise.pub
+RWTOjBUiTG/Uw2awoDf9YkGY2tE7VZoRFG7F6etfP2dqydNgTGuFfDOj7ur9EcO5dAf/13hgQ0B0Nek0ebyEPSCVx/CCBbz2cgs=
+SHA256 (Pkgfile) = c4789ea1780e4faf7854dd91d1d525ba666ba793ac52dadda231a42269c2dd55
+SHA256 (.footprint) = 5635df6782338dd97281ec12f6bdff55526c7a66c4af153c7d9d61e0af14fd20
+SHA256 (libbluray-1.4.0.tar.xz) = 77937baf07eadda4b2b311cf3af4c50269d2ea3165041f5843d96476c4c92777
