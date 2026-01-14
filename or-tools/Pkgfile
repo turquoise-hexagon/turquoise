@@ -5,8 +5,8 @@
 # Optional    : benchmark eigen3 fuzztest highs protobuf re2 zlib
 
 name=or-tools
-version=9.14
-release=2
+version=9.15
+release=1
 source=("https://github.com/google/$name/archive/v$version.tar.gz")
 
 build() {
