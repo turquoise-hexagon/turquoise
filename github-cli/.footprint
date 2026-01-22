@@ -52,6 +52,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-config-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-config-set.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-config.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-copilot.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-browse.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-create.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-exec.1.gz
