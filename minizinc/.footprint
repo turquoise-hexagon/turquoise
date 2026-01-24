@@ -667,6 +667,8 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_seq_precede_chain_set_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_set_member.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_set_member_reif.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_sliding_among_bool.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_sliding_among_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_sliding_sum.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_sliding_sum_reif.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_sort.mzn
@@ -843,6 +845,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/output/
 -rw-r--r--	root/root	usr/share/minizinc/std/roots_fn.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/seq_precede_chain.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/set_member.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/sliding_among.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/sliding_sum.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/solver_redefinitions.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/sort.mzn
