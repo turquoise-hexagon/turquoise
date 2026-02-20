@@ -4,7 +4,7 @@
 # Depends on  : cmake python3
 
 name=z3
-version=4.15.8
+version=4.16.0
 release=1
 source=("https://github.com/Z3Prover/$name/archive/refs/tags/$name-$version.tar.gz")
 
