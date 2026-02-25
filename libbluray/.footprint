@@ -17,7 +17,7 @@ drwxr-xr-x	root/root	usr/include/libbluray/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libbluray.a
 lrwxrwxrwx	root/root	usr/lib/libbluray.so -> libbluray.so.3
-lrwxrwxrwx	root/root	usr/lib/libbluray.so.3 -> libbluray.so.3.0.0
--rwxr-xr-x	root/root	usr/lib/libbluray.so.3.0.0
+lrwxrwxrwx	root/root	usr/lib/libbluray.so.3 -> libbluray.so.3.1.0
+-rwxr-xr-x	root/root	usr/lib/libbluray.so.3.1.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libbluray.pc
