@@ -201,6 +201,12 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-secret-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-secret-set.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-secret.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill-install.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill-preview.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill-publish.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill-search.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill-update.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-skill.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key-add.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key-delete.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-ssh-key-list.1.gz
