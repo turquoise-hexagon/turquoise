@@ -4,13 +4,12 @@
 # Depends on  : rust harfbuzz icu harfbuzz-icu graphite
 
 name=tectonic
-commit=1a99fcf50ed6a9c83796bb53605b2d3ec27c2f76
-version=20260413
+version=0.16.9
 release=1
-source=("https://github.com/$name-typesetting/$name/archive/$commit.tar.gz")
+source=("https://github.com/$name-typesetting/$name/archive/refs/tags/$name@$version.tar.gz")
 
 build() {
-    cd "$name-$commit"
+    cd "$name-$name-$version"
 
     cargo build   \
         --release \
