@@ -4,9 +4,9 @@
 # Depends on  : gtk
 
 name=gbdfed
-commit=de63fa3531c1872da41548e46bfcbe28d9ba5d6f
-version=20180408
-release=2
+commit=4c2721a2eae149480feed2cda40494964b426f72
+version=20260113
+release=1
 source=("https://github.com/andrewshadura/gbdfed/archive/$commit.tar.gz")
 
 build() {
