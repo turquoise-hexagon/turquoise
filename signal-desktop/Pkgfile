@@ -4,7 +4,7 @@
 # Depends on  : pnpm libxcrypt-compat
 
 name=signal-desktop
-version=7.87.0
+version=8.8.0
 release=1
 source=(
 "https://github.com/signalapp/$name/archive/v$version.tar.gz"
@@ -18,8 +18,10 @@ build() {
     export SOURCE_DATE_EPOCH=$(date +%s)
 
     # build
+    pnpm install --dir sticker-creator
     pnpm install
 
+    pnpm --prefix ./sticker-creator/ run build
     pnpm run build
 
     # install
