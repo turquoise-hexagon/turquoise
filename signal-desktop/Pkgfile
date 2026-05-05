@@ -1,0 +1,38 @@
+# Description :  A private messenger for Windows, macOS, and Linux
+# URL         : https://signal.org
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : pnpm libxcrypt-compat
+
+name=signal-desktop
+version=7.87.0
+release=1
+source=(
+"https://github.com/signalapp/$name/archive/v$version.tar.gz"
+"${name/-/.}"
+"$name")
+
+build() {
+    cd "Signal-Desktop-$version"
+
+    # fix
+    export SOURCE_DATE_EPOCH=$(date +%s)
+
+    # build
+    pnpm install
+
+    pnpm run build
+
+    # install
+    install -d "$PKG/usr/"{lib,bin}
+
+    cp -a release/linux-unpacked "$PKG/usr/lib/$name"
+    chmod u+s "$PKG/usr/lib/$name/chrome-sandbox"
+
+    install -Dm 755 "$SRC/$name" -t "$PKG/usr/bin"
+    install -Dm 644 "$SRC/${name/-/.}" -t "$PKG/usr/share/applications"
+
+    for i in 16 24 32 48 64 128 256 512 1024; do
+        install -Dm 644 "build/icons/png/${i}x${i}.png" \
+            "$PKG/usr/share/icons/hicolor/${i}x${i}/apps/$name.png"
+    done
+}
