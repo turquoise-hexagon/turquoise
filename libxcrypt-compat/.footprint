@@ -1,0 +1,3 @@
+drwxr-xr-x	root/root	lib/
+lrwxrwxrwx	root/root	lib/libcrypt.so.1 -> /home/pkgmk/work/libxcrypt-compat/pkg/lib/libxcrypt.so.1.1.0
+-rwxr-xr-x	root/root	lib/libcrypt.so.1.1.0
