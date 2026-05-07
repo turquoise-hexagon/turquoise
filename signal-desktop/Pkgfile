@@ -4,7 +4,7 @@
 # Depends on  : pnpm libxcrypt-compat
 
 name=signal-desktop
-version=8.8.0
+version=8.9.0
 release=1
 source=(
 "https://github.com/signalapp/$name/archive/v$version.tar.gz"
