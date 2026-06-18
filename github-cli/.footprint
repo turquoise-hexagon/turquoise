@@ -179,6 +179,8 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-license-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-license.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-list.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-repo-read-dir.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-repo-read-file.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-rename.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-set-default.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-repo-sync.1.gz
