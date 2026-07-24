@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/include/minizinc/algorithms/
 -rw-r--r--	root/root	usr/include/minizinc/astmap.hh
 -rw-r--r--	root/root	usr/include/minizinc/aststring.hh
 -rw-r--r--	root/root	usr/include/minizinc/astvec.hh
+-rw-r--r--	root/root	usr/include/minizinc/blackbox.hh
 -rw-r--r--	root/root	usr/include/minizinc/builtins.hh
 -rw-r--r--	root/root	usr/include/minizinc/chain_compressor.hh
 -rw-r--r--	root/root	usr/include/minizinc/config.hh
@@ -236,7 +237,9 @@ drwxr-xr-x	root/root	usr/share/minizinc/linear/
 drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_except.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/all_different_except.mzn.deprecated.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_except_0.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/all_different_except_0.mzn.deprecated.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_int.mzn.deprecated.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_set.mzn
@@ -307,7 +310,9 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulative.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulative_opt.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulatives.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/cumulatives.mzn.deprecated.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/cumulatives_opt.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/cumulatives_opt.mzn.deprecated.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/dag.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/decreasing.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/decreasing_bool.mzn
@@ -346,6 +351,13 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/experimental.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/
 -rw-r--r--	root/root	usr/share/minizinc/std/experimental/all.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/experimental/assume.mzn
+drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/assume/
+-rw-r--r--	root/root	usr/share/minizinc/std/experimental/assume/fzn_assume.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/experimental/blackbox.mzn
+drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/blackbox/
+-rw-r--r--	root/root	usr/share/minizinc/std/experimental/blackbox/fzn_blackbox.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/experimental/blackbox/fzn_blackbox_bounds.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/experimental/on_restart.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/experimental/on_restart/fzn_on_restart_complete.mzn
