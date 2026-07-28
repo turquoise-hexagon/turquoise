@@ -1,0 +1,23 @@
+# Description : A flashcard program
+# URL         : https://apps.ankiweb.net/
+# Maintainer  : camille, camille at lzr dot pw
+# Depends on  : krb5 xorg-libxkbfile xorg-libxshmfence xorg-xcb-util-cursor zstd
+
+name=anki
+version=26.05
+release=1
+source=("https://github.com/ankitects/$name/releases/download/$version/$name-$version-linux-x86_64.tar.zst")
+
+build() {
+    cd "$name-linux"
+
+    # fix
+    xdg-mime() { :; }
+    export -f xdg-mime
+
+    PREFIX="$PKG/usr/" ./install.sh
+
+    # fix
+    rm                             "$PKG/usr/bin/$name"
+    ln -s "/usr/share/$name/$name" "$PKG/usr/bin/$name"
+}
