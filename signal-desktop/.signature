@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw2Z4cjzehgVqS2zfXCTHxl4VMXsJ6q+bCeAYZhpygIht5Pumprg0WhbVYnaUCH8vQwxbA3UbGzI2XHRJGntDug0=
-SHA256 (Pkgfile) = d0fb6218a548624534260a6a11bbe4d046fc4fc49fc365ec5596ddf9968e0590
+RWTOjBUiTG/Uw1Bk8CqK4sjMi85Ss1kkT6qJWCUEhqg1G7OZ8nsiMe+0iaceyxaK/zo2pl/A4hJEVh/RGc1DFXP83BclllBSjQg=
+SHA256 (Pkgfile) = b6ae939d9b7da14c49dc12412bf123a02499bb0dcdc4de068502c3be53c8ffff
 SHA256 (.footprint) = f9a8bf7c5d942a8c0736aa00fdc25a25e4611c42eb18ebec2e8fa8c2ed8adbb8
-SHA256 (v8.20.0.tar.gz) = f7887c7f0ae93e2dadb58926ca76b3acfbb53bad8cdc94d4030cd5d5709ee7ff
+SHA256 (v8.21.0.tar.gz) = c50fa7885dc395c871aae1b522e3a39984bf0b4da53201adfac81e5ffae42d14
 SHA256 (signal.desktop) = 28133e799e0affe6d63e85b8ee63e2c3b3c3dbd107e9b41b1be511d70fd35556
 SHA256 (signal-desktop) = 3c222fe30780a5a895f235370911a65f79966ebabfd12803771a7c99f1618a17
