@@ -4,7 +4,7 @@
 # Depends on  : krb5 xorg-libxkbfile xorg-libxshmfence xorg-xcb-util-cursor zstd
 
 name=anki
-version=26.05
+version=26.08
 release=1
 source=("https://github.com/ankitects/$name/releases/download/$version/$name-$version-linux-x86_64.tar.zst")
 
