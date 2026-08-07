@@ -4,7 +4,7 @@
 # Depends on  : krb5 xorg-libxkbfile xorg-libxshmfence xorg-xcb-util-cursor zstd
 
 name=anki
-version=26.08
+version=26.08.1
 release=1
 source=("https://github.com/ankitects/$name/releases/download/$version/$name-$version-linux-x86_64.tar.zst")
 
@@ -18,6 +18,8 @@ build() {
     PREFIX="$PKG/usr/" ./install.sh
 
     # fix
-    rm                             "$PKG/usr/bin/$name"
+    rm "$PKG/usr/bin/$name"
     ln -s "/usr/share/$name/$name" "$PKG/usr/bin/$name"
+
+    find "$PKG" -type f -regex '.*\(LICENSE\|CHANGELOG\|README\).*' -delete
 }

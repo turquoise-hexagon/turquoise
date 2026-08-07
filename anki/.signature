@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw18iQYF+QKUk/TI0bcbFZ5OAZIscncH2DgumRyP6MDPbM7KDYhmYGgaHXHN2NqNrWOLQYT4OAiF1C+ED/GHb6w0=
-SHA256 (Pkgfile) = eb9037a3a3f06ce7dcfeec1fb63e4cf642a9d22bd745f340fc5355080e360117
-SHA256 (.footprint) = 25f17a433ff6d7f068925e44ad7de9b1e26cabb83f99c6a5055f0e9a40da6dfb
-SHA256 (anki-26.08-linux-x86_64.tar.zst) = 87589ce9942c98112bcbc7c8ed6cc4e7aa70252ea296d68d7f31c9054aa7630f
+RWTOjBUiTG/Uw+BOLflFAcIlPGjo92Y+P9Yc7dHLgRlAuEgmqynmyOS6muMDLVR07AJAgNWSAmNCpA5A+6W9Dm6e83ZHz4t1wgg=
+SHA256 (Pkgfile) = b17652ad0c0e0823e2eac005b9f5bbe1e5ba0b5bd7bfa442344f5fd70c1e80e0
+SHA256 (.footprint) = dd807a61a588bab8bbd80c5ca3b2671c107dd63b5bd3e8057437e9200ed105b4
+SHA256 (anki-26.08.1-linux-x86_64.tar.zst) = 88785a68b0e361ec173ff38410fe0ee4388b2723da0ef1cf0746c5e862e4a7df
