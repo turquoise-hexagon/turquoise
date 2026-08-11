@@ -4,7 +4,7 @@
 # Depends on  : tcl
 
 name=chicken
-version=5.4.0
+version=6.0.0
 release=1
 source=("https://code.call-cc.org/releases/$version/$name-$version.tar.gz")
 
