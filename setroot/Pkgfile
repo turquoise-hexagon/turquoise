@@ -4,17 +4,12 @@
 # Depends on  : imlib2 xorg-server
 
 name=setroot
-version=2.0.2
-release=2
-source=(
-"https://github.com/ttzhou/$name/archive/v$version.tar.gz"
-imlib2.patch
-)
+version=2.0.4
+release=1
+source=("https://github.com/ttzhou/$name/archive/v$version.tar.gz")
 
 build() {
     cd "$name-$version"
-
-    patch -p 1 -i "$SRC/imlib2.patch"
 
     make
     make DESTDIR="$PKG" PREFIX=/usr install
