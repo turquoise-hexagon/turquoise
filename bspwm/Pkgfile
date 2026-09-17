@@ -5,25 +5,23 @@
 
 name=bspwm
 version=git
-release=2
+release=3
 source=()
 
 download() {
-    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
-        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
-        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
-    else
-        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
-    fi
+    cd "$PKGMK_SOURCE_DIR"
 
-    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
+    if [[ -d $name-$version ]]; then
+        git -C "$name-$version" pull
+    else
+        git clone "$1" "$name-$version"
+    fi
 }
 
 build() {
-    download "https://github.com/baskerville/$name" master
+    download "https://github.com/baskerville/$name"
 
-    cd "$name"
+    cd "$name-$version"
 
     make
     make PREFIX=/usr DOCPREFIX="/usr/share/$name" DESTDIR="$PKG" install
