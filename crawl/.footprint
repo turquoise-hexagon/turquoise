@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/database/el/
 -rw-r--r--	root/root	usr/share/crawl/dat/database/gizmo.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/godname.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/godspeak.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/database/graffiti.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/help.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/insult.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/database/miscast.txt
@@ -147,6 +148,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/portals/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/crucible.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/desolation.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/gauntlet.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/portals/gulch.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/icecave.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/necropolis.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/portals/ossuary.des
@@ -201,7 +203,6 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/tutorial/
 drwxr-xr-x	root/root	usr/share/crawl/dat/des/variable/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/ambush.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/arcadia.des
--rw-r--r--	root/root	usr/share/crawl/dat/des/variable/cathedral_bats.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/compat.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/d_encompass.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/float.des
@@ -216,6 +217,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/des/variable/
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/polyominoes.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/the_bubble.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/the_grid.des
+-rw-r--r--	root/root	usr/share/crawl/dat/des/variable/wad_woods.des
 -rw-r--r--	root/root	usr/share/crawl/dat/des/variable/winding_woodlands.des
 drwxr-xr-x	root/root	usr/share/crawl/dat/descript/
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/ability.txt
@@ -224,10 +226,12 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/descript/
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/cards.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/clouds.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/commands.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/descript/egos.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/features.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/gods.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/hints.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/items.txt
+-rw-r--r--	root/root	usr/share/crawl/dat/descript/monstatus.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/monsters.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/mutations.txt
 -rw-r--r--	root/root	usr/share/crawl/dat/descript/passives.txt
@@ -390,6 +394,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_ignis_the_dying_flame.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_kaonedong_menkaure_prince_of_dust.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_king7artist_eustachio.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_lemurrobot_gozag_vaults.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_micah_c_ereshkigal.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_nibiki_octopode.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_omndra_zot_demon.png
@@ -403,6 +408,7 @@ drwxr-xr-x	root/root	usr/share/crawl/dat/tiles/
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_shadyamish_octm.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_white_noise_entering_the_dungeon.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_white_noise_grabbing_the_orb.png
+-rw-r--r--	root/root	usr/share/crawl/dat/tiles/title_ylam_formicid_shrikes.png
 -rw-r--r--	root/root	usr/share/crawl/dat/tiles/wall.png
 drwxr-xr-x	root/root	usr/share/crawl/docs/
 -rw-r--r--	root/root	usr/share/crawl/docs/CREDITS.txt
@@ -423,6 +429,7 @@ drwxr-xr-x	root/root	usr/share/crawl/docs/develop/
 drwxr-xr-x	root/root	usr/share/crawl/docs/develop/levels/
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/levels/advanced.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/levels/introduction.txt
+-rw-r--r--	root/root	usr/share/crawl/docs/develop/levels/reserved_monsters.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/levels/syntax.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/levels/triggerables.txt
 -rw-r--r--	root/root	usr/share/crawl/docs/develop/monster_creation.txt
