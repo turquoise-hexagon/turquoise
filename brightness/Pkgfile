@@ -5,25 +5,22 @@
 
 name=brightness
 version=git
-release=4
+release=5
 source=()
 
 download() {
-    if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-        git -C "$PKGMK_SOURCE_DIR/$name" fetch --depth 1
-        git -C "$PKGMK_SOURCE_DIR/$name" clean -f
-        git -C "$PKGMK_SOURCE_DIR/$name" reset --hard "origin/$2"
+    cd "$PKGMK_SOURCE_DIR"
+
+    if [[ -d $name-$version ]]; then
+        git -C "$name-$version" pull
     else
-        git -C "$PKGMK_SOURCE_DIR" clone --depth 1 "$1" -b "$2" "$name"
+        git clone "$1" "$name-$version"
     fi
-
-    cp -r "$PKGMK_SOURCE_DIR/$name" "$PKGMK_WORK_DIR/src/$name"
 }
-
 build() {
-    download "https://github.com/turquoise-hexagon/$name" master
+    download "https://github.com/turquoise-hexagon/$name"
 
-    cd "$name"
+    cd "$name-$version"
 
     make
     make DESTDIR="$PKG" install
