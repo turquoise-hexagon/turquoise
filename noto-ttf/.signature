@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw/fqPndHmDyiMNaEzaq/Xr4/nrzBJfd9a2EpVxYE3yljTCLFinTzDAhbESTMGkUe77y3MdGPlX6dpJny0KzgQQs=
-SHA256 (Pkgfile) = 7a368540b25618c21b86655ef0de8daeafaa2c3a7e5bb2bb3df70de16eec78e9
-SHA256 (.footprint) = 31de617417203f038e4937adde6d66d7955b43f54608deade9d68c02ccd5799b
-SHA256 (noto-monthly-release-23.10.1.tar.gz) = 3f1a466062552ccc45619b616a5a6171a064783f538f11495df36db7e6263ddd
+RWTOjBUiTG/Uw9UkHfTGEerVJ6lC1fT6H/8c4L10b40jw07fTmOGgrneT1CLmoy/KLt4WVEGOfRtUX9CxXQ/6d6mHmYDbGBLdQc=
+SHA256 (Pkgfile) = 1a28fa5af3260309dadbd15c72fedae080e1cec92b81313c20e051074bd8444f
+SHA256 (.footprint) = e61e32d254728fb28cb62c984a26269bda65ad6c2615b10866f8e8eadde99a2b
+SHA256 (noto-monthly-release-2026.09.01.tar.gz) = bf5c1a0bad647f4dd7d89f0907aeb0e1e3b0168548497ccd7b2105a7e41e7984

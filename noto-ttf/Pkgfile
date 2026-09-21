@@ -4,7 +4,7 @@
 # Depends on  : xorg-mkfontscale fontconfig
 
 name=noto-ttf
-version=23.10.1
+version=2026.09.01
 release=1
 source=("https://github.com/${name%-*}fonts/${name%-*}fonts.github.io/archive/refs/tags/${name%-*}-monthly-release-$version.tar.gz")
 
