@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/UwzkzF2Jw7fJ87FWDxGLzXD2R0lbgDinQsYBFWGyPjWx4bfY2uHuibUvxHTjyXV17iKeqA3hNXtwy+tyG/Zb9sQ4=
-SHA256 (Pkgfile) = 471061aeb6ae5ad1581be81d8a16948429de194b1cfcf6a89ea38d48813dc851
+RWTOjBUiTG/Uw5FRL6pEZLJXOVcacKSeFOyWYBBbws7Ce0zkLpezPLJCZxu4jUPlJrD/N8dEJID477dMYPZjWhbTHCO9DX2XzQ0=
+SHA256 (Pkgfile) = beb71c5d40cd1470135140936015fe4e82fcaf898c8b9cf478cab3bc16a7a569
 SHA256 (.footprint) = 586518b95b39673abdfa270a7f5fc56b0e960e37f5f12476560216109add914b
-SHA256 (fonttosfnt-fonttosfnt-1.2.3.tar.gz) = 25c954136308db5972376cea78d13d8a126e901d34bd30fd1231853a26f4e4e4
+SHA256 (fonttosfnt-fonttosfnt-1.2.5.tar.gz) = 338ca2234cd95dc550c68e6c9b5e1277d75e74df8e28cf692f297f445a0e6251
