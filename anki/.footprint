@@ -6,19 +6,15 @@ drwxr-xr-x	root/root	usr/share/anki/
 -rwxr-xr-x	root/root	usr/share/anki/anki
 -rw-r--r--	root/root	usr/share/anki/anki.xml
 drwxr-xr-x	root/root	usr/share/anki/app/
-drwxr-xr-x	root/root	usr/share/anki/app/anki-26.9.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app/anki-26.9.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app/anki-26.9.2.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/share/anki/app/anki-26.9.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app/anki-26.9.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app/anki-26.9.3.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app/anki/
 -rw-r--r--	root/root	usr/share/anki/app/anki/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app/anki/__main__.pyc
 -rw-r--r--	root/root	usr/share/anki/app/anki/app.pyc
 drwxr-xr-x	root/root	usr/share/anki/app_packages/
 -rw-rw-rw-	root/root	usr/share/anki/app_packages/.lock (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/MarkupSafe-3.0.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/MarkupSafe-3.0.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/MarkupSafe-3.0.2.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/share/anki/app_packages/MarkupSafe-3.0.2.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/PyQt6/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/PyQt6/Qt6/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/PyQt6/Qt6/lib/
@@ -2936,11 +2932,6 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/PySocks-1.7.1.dist-info/
 -rw-r--r--	root/root	usr/share/anki/app_packages/PySocks-1.7.1.dist-info/METADATA
 -rw-r--r--	root/root	usr/share/anki/app_packages/PySocks-1.7.1.dist-info/REQUESTED (EMPTY)
 -rw-r--r--	root/root	usr/share/anki/app_packages/PySocks-1.7.1.dist-info/top_level.txt
-drwxr-xr-x	root/root	usr/share/anki/app_packages/Send2Trash-1.8.3.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/Send2Trash-1.8.3.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/Send2Trash-1.8.3.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/share/anki/app_packages/Send2Trash-1.8.3.dist-info/entry_points.txt
--rw-r--r--	root/root	usr/share/anki/app_packages/Send2Trash-1.8.3.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/colors.pyc
 drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/
@@ -3141,14 +3132,14 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/im
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/assets/mathjax.JRJU_pr-.css
 drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/0LUgYjFq.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/A6ZHwSf3.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/B2SMVPDU.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/B4DUYwJg.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/B5jDKLVU.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/B7ztFlQD.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/B8YucDzq.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BAGU2G3S.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BCpxdeY9.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BHa3oI0R.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BMPj1lc-.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BOfLoE6V.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BPp_0J1K.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/BRA69Ktd.mjs
@@ -3166,8 +3157,8 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/im
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/C3wjVeW-.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CBJEYBJ9.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CFZbtptM.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CGvj2s97.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CHDykoHN.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CID7gJfl.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CRDDEv9N.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CbcwmbuO.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/CcaWrs5J.mjs
@@ -3212,23 +3203,23 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/im
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/xFM5jhR2.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/chunks/zV90OBRh.mjs
 drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/entry/
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/entry/app.nX5h_aqi.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/entry/start.C_3iI4IN.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/entry/app.D4P4U8k4.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/entry/start.BvMV78ow.mjs
 drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/0.oeR6AviD.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/1.BWWyMdB1.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/1.sHR1AQeY.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/10.clfKGedb.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/11.Dk12GI1P.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/12.BJw0yb6o.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/13.UUYZIwP_.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/14.Ce3jC3yc.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/2.YGC3ca9z.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/3.BPO08We8.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/4.CRR0uIi5.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/2.Dzm0FLnk.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/3.CnYVLtlu.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/4.LYtphkx2.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/5.CehlFnvq.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/6.BLuGqV8j.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/7.Cfk0MXYL.mjs
--rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/8.BNW1h7im.mjs
+-rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/8.uPHQ-e_9.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/immutable/nodes/9.AYW3C0RD.mjs
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/_app/version.json
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/data/web/sveltekit/index.html
@@ -3275,11 +3266,11 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/_aqt/forms/
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/forms/widgets_qt6.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/hooks.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/_aqt/props.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/anki-26.9.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.2.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.2.dist-info/direct_url.json
--rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.2.dist-info/uv_cache.json
+drwxr-xr-x	root/root	usr/share/anki/app_packages/anki-26.9.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.3.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.3.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/share/anki/app_packages/anki-26.9.3.dist-info/uv_cache.json
 drwxr-xr-x	root/root	usr/share/anki/app_packages/anki/
 -rw-r--r--	root/root	usr/share/anki/app_packages/anki/_backend.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/anki/_backend_generated.pyc
@@ -3355,12 +3346,12 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/anki/scheduler/
 -rw-r--r--	root/root	usr/share/anki/app_packages/anki/template.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/anki/types.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/anki/utils.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/direct_url.json
--rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/entry_points.txt
--rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.2.dist-info/uv_cache.json
+drwxr-xr-x	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/entry_points.txt
+-rw-r--r--	root/root	usr/share/anki/app_packages/aqt-26.9.3.dist-info/uv_cache.json
 drwxr-xr-x	root/root	usr/share/anki/app_packages/aqt/
 -rw-r--r--	root/root	usr/share/anki/app_packages/aqt/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/aqt/_macos_helper.pyc
@@ -3506,11 +3497,11 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/aqt/qt/
 -rw-r--r--	root/root	usr/share/anki/app_packages/aqt/webview.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/aqt/widgetgallery.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/aqt/winpaths.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/asgiref-3.11.1.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.11.1.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.11.1.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/asgiref-3.11.1.dist-info/licenses/
--rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.11.1.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/asgiref-3.12.1.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.12.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.12.1.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/asgiref-3.12.1.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/asgiref-3.12.1.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/asgiref/
 -rw-r--r--	root/root	usr/share/anki/app_packages/asgiref/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/asgiref/compatibility.pyc
@@ -3536,10 +3527,10 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/attr/
 -rw-r--r--	root/root	usr/share/anki/app_packages/attr/filters.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/attr/setters.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/attr/validators.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/attrs-25.3.0.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/attrs-25.3.0.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/attrs-25.3.0.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/attrs-25.3.0.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/attrs-26.1.0.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/attrs-26.1.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/attrs-26.1.0.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/attrs-26.1.0.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/attrs/
 -rw-r--r--	root/root	usr/share/anki/app_packages/attrs/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/attrs/converters.pyc
@@ -3577,26 +3568,27 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/bs4/builder/
 -rw-r--r--	root/root	usr/share/anki/app_packages/bs4/exceptions.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/bs4/filter.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/bs4/formatter.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/certifi-2025.6.15.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2025.6.15.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2025.6.15.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/certifi-2025.6.15.dist-info/licenses/
--rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2025.6.15.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/certifi-2026.7.22.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2026.7.22.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2026.7.22.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/certifi-2026.7.22.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/certifi-2026.7.22.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/certifi/
 -rw-r--r--	root/root	usr/share/anki/app_packages/certifi/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/certifi/__main__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/certifi/cacert.pem
 -rw-r--r--	root/root	usr/share/anki/app_packages/certifi/core.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/REQUESTED (EMPTY)
--rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/entry_points.txt
-drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/licenses/
--rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.4.2.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer-3.5.1.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/__main__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/api.pyc
+-rwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/cd.cpython-313-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/cd.pyc
 drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/cli/
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/cli/__init__.pyc
@@ -3605,14 +3597,13 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/cli/
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/legacy.pyc
 -rwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/md.cpython-313-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/md.pyc
--rwxr-xr-x	root/root	usr/share/anki/app_packages/charset_normalizer/md__mypyc.cpython-313-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/models.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/utils.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/charset_normalizer/version.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/click-8.3.1.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/click-8.3.1.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/click-8.3.1.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/click-8.3.1.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/click-8.5.0.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/click-8.5.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/click-8.5.0.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/click-8.5.0.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/click/
 -rw-r--r--	root/root	usr/share/anki/app_packages/click/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/click/_compat.pyc
@@ -3708,6 +3699,8 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/google/protobuf/internal/
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/enum_type_wrapper.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/extension_dict.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/field_mask.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/json_format_benchmark.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/message_benchmark.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/message_listener.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/python_edition_defaults.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/python_message.pyc
@@ -3715,7 +3708,9 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/google/protobuf/internal/
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/type_checkers.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/well_known_types.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/internal/wire_format.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/json_enumvalue_options_pb2.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/json_format.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/json_options_pb2.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/message.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/message_factory.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/proto.pyc
@@ -3742,12 +3737,15 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/google/protobuf/testdata/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/google/protobuf/util/
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/util/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/google/protobuf/wrappers_pb2.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/idna-3.15.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/idna-3.15.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/idna-3.15.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/idna-3.15.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/idna-3.19.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/idna-3.19.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/idna-3.19.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/share/anki/app_packages/idna-3.19.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/idna-3.19.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/idna/
 -rw-r--r--	root/root	usr/share/anki/app_packages/idna/__init__.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/idna/__main__.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/idna/cli.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/idna/codec.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/idna/compat.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/idna/core.pyc
@@ -3832,11 +3830,11 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema/benchmarks/issue232/
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema/exceptions.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema/protocols.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema/validators.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.4.1.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.4.1.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.4.1.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.4.1.dist-info/licenses/
--rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.4.1.dist-info/licenses/COPYING
+drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.9.1.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.9.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.9.1.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.9.1.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING
 drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications/
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/_core.pyc
@@ -3847,6 +3845,7 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications/schem
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/applicator
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/content
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/core
+-rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/format
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/meta-data
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft201909/vocabularies/validation
 drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/
@@ -3855,7 +3854,6 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/jsonschema_specifications/schem
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/applicator
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/content
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/core
--rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/format
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/format-annotation
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/format-assertion
 -rw-r--r--	root/root	usr/share/anki/app_packages/jsonschema_specifications/schemas/draft202012/vocabularies/meta-data
@@ -3910,45 +3908,56 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/markdown/extensions/
 -rw-r--r--	root/root	usr/share/anki/app_packages/markdown/test_tools.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/markdown/treeprocessors.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/markdown/util.pyc
+drwxr-xr-x	root/root	usr/share/anki/app_packages/markupsafe-3.0.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe-3.0.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe-3.0.3.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/markupsafe-3.0.3.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe-3.0.3.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/markupsafe/
 -rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe/_native.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/markupsafe/_speedups.c
 -rwxr-xr-x	root/root	usr/share/anki/app_packages/markupsafe/_speedups.cpython-313-x86_64-linux-gnu.so
-drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/licenses/
-drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/sboms/
--rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.11.9.dist-info/sboms/orjson.cyclonedx.json
+drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/sboms/
+-rw-r--r--	root/root	usr/share/anki/app_packages/orjson-3.12.0.dist-info/sboms/orjson.cyclonedx.json
 drwxr-xr-x	root/root	usr/share/anki/app_packages/orjson/
 -rw-r--r--	root/root	usr/share/anki/app_packages/orjson/__init__.pyc
 -rwxr-xr-x	root/root	usr/share/anki/app_packages/orjson/orjson.cpython-313-x86_64-linux-gnu.so
-drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging-25.0.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/packaging-25.0.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/packaging-25.0.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging-25.0.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging-26.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging-26.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging-26.3.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging-26.3.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging/
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_elffile.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_manylinux.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_musllinux.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_parser.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_ranges.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_structures.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/_tokenizer.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/dependency_groups.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/direct_url.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/errors.pyc
 drwxr-xr-x	root/root	usr/share/anki/app_packages/packaging/licenses/
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/licenses/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/licenses/_spdx.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/markers.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/metadata.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/pylock.pyc
+-rw-r--r--	root/root	usr/share/anki/app_packages/packaging/ranges.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/requirements.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/specifiers.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/tags.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/utils.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/packaging/version.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/protobuf-6.33.5.dist-info/
--rwxr-xr-x	root/root	usr/share/anki/app_packages/protobuf-6.33.5.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/protobuf-6.33.5.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/protobuf-7.36.1.dist-info/
+-rwxr-xr-x	root/root	usr/share/anki/app_packages/protobuf-7.36.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/protobuf-7.36.1.dist-info/REQUESTED (EMPTY)
 drwxr-xr-x	root/root	usr/share/anki/app_packages/pyqt6-6.11.0.dist-info/
 -rw-r--r--	root/root	usr/share/anki/app_packages/pyqt6-6.11.0.dist-info/METADATA
 -rw-r--r--	root/root	usr/share/anki/app_packages/pyqt6-6.11.0.dist-info/REQUESTED (EMPTY)
@@ -3969,11 +3978,11 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/pyqt6_webengine-6.11.0.dist-inf
 drwxr-xr-x	root/root	usr/share/anki/app_packages/pyqt6_webengine_qt6-6.11.2.dist-info/
 -rw-r--r--	root/root	usr/share/anki/app_packages/pyqt6_webengine_qt6-6.11.2.dist-info/METADATA
 -rw-r--r--	root/root	usr/share/anki/app_packages/pyqt6_webengine_qt6-6.11.2.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/referencing-0.36.2.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.36.2.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.36.2.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/referencing-0.36.2.dist-info/licenses/
--rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.36.2.dist-info/licenses/COPYING
+drwxr-xr-x	root/root	usr/share/anki/app_packages/referencing-0.37.0.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.37.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.37.0.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/referencing-0.37.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/referencing-0.37.0.dist-info/licenses/COPYING
 drwxr-xr-x	root/root	usr/share/anki/app_packages/referencing/
 -rw-r--r--	root/root	usr/share/anki/app_packages/referencing/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/referencing/_attrs.pyc
@@ -4011,14 +4020,21 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/requests/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds/
 -rw-r--r--	root/root	usr/share/anki/app_packages/rpds/__init__.pyc
 -rwxr-xr-x	root/root	usr/share/anki/app_packages/rpds/rpds.cpython-313-x86_64-linux-gnu.so
-drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds_py-0.25.1.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/rpds_py-0.25.1.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/rpds_py-0.25.1.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds_py-0.25.1.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/sboms/
+-rw-r--r--	root/root	usr/share/anki/app_packages/rpds_py-2026.6.3.dist-info/sboms/rpds-py.cyclonedx.json
+drwxr-xr-x	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/share/anki/app_packages/send2trash-2.1.0.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/share/anki/app_packages/send2trash/
 -rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/__main__.pyc
--rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/compat.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/exceptions.pyc
 drwxr-xr-x	root/root	usr/share/anki/app_packages/send2trash/mac/
 -rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/mac/__init__.pyc
@@ -4034,10 +4050,10 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/send2trash/win/
 -rw-r--r--	root/root	usr/share/anki/app_packages/send2trash/win/modern.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/socks.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/sockshandler.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/soupsieve-2.8.4.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve-2.8.4.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve-2.8.4.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/soupsieve-2.8.4.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/soupsieve-2.9.2.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve-2.9.2.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve-2.9.2.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/soupsieve-2.9.2.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/soupsieve/
 -rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/soupsieve/__meta__.pyc
@@ -4130,10 +4146,10 @@ drwxr-xr-x	root/root	usr/share/anki/app_packages/waitress/
 -rw-r--r--	root/root	usr/share/anki/app_packages/waitress/trigger.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/waitress/utilities.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/waitress/wasyncore.pyc
-drwxr-xr-x	root/root	usr/share/anki/app_packages/werkzeug-3.1.6.dist-info/
--rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug-3.1.6.dist-info/METADATA
--rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug-3.1.6.dist-info/REQUESTED (EMPTY)
-drwxr-xr-x	root/root	usr/share/anki/app_packages/werkzeug-3.1.6.dist-info/licenses/
+drwxr-xr-x	root/root	usr/share/anki/app_packages/werkzeug-3.1.8.dist-info/
+-rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug-3.1.8.dist-info/METADATA
+-rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug-3.1.8.dist-info/REQUESTED (EMPTY)
+drwxr-xr-x	root/root	usr/share/anki/app_packages/werkzeug-3.1.8.dist-info/licenses/
 drwxr-xr-x	root/root	usr/share/anki/app_packages/werkzeug/
 -rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug/__init__.pyc
 -rw-r--r--	root/root	usr/share/anki/app_packages/werkzeug/_internal.pyc
