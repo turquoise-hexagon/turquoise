@@ -10,8 +10,6 @@ drwxr-xr-x	root/root	usr/lib/signal-desktop/
 -rw-r--r--	root/root	usr/lib/signal-desktop/chrome_200_percent.pak
 -rwxr-xr-x	root/root	usr/lib/signal-desktop/chrome_crashpad_handler
 -rw-r--r--	root/root	usr/lib/signal-desktop/icudtl.dat
--rwxr-xr-x	root/root	usr/lib/signal-desktop/libEGL.so
--rwxr-xr-x	root/root	usr/lib/signal-desktop/libGLESv2.so
 -rwxr-xr-x	root/root	usr/lib/signal-desktop/libffmpeg.so
 -rwxr-xr-x	root/root	usr/lib/signal-desktop/libvk_swiftshader.so
 -rwxr-xr-x	root/root	usr/lib/signal-desktop/libvulkan.so.1
