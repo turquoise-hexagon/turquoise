@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/turquoise.pub
-RWTOjBUiTG/Uw+ZIwjBnLWeTQwvUuTzSm6zB1aZ/jWDn2n9M6XlPJtyXANsWrRh1MwhlCSE+YXPv977X1P0Ijy38xBdO5JOnMAE=
-SHA256 (Pkgfile) = 76982d3947bd225b93ae47f6f910b9de5be11d4c2b97e9599fc8a1fb4bf341d3
-SHA256 (.footprint) = b7bcc65c2e0940f37b6796530594f8033e579ae7b649ffa67b3de2b4e9cb3114
-SHA256 (freetype-2.14.3.tar.gz) = e61b31ab26358b946e767ed7eb7f4bb2e507da1cfefeb7a8861ace7fd5c899a1
+RWTOjBUiTG/Uw48QxrsnmYpbklOqIGLfwQ5zJZnw+TUFl93IXnY904ArvCA7TcK2TR57z1eXU3kagnYeESXCrOZxNu57Im9Zkw4=
+SHA256 (Pkgfile) = d4f3cbe52f0d1856a6315dd669b695bfd66e918df57fbc3fcaf7d0b878c24577
+SHA256 (.footprint) = 249da84863ed509b35b8d66063016483fdd91e48a5fcefcef21608284cd35d31
+SHA256 (freetype-2.15.0.tar.gz) = 9186627467a616d9a9e3e574748ac0c45fa77398e6364edef3041a8ba8d92f64
 SHA256 (enable-table-validation-modules.patch) = f41df4f336d5e82e58733c7a4594476c9216cfc85c096327745a7e1b559e17e1
 SHA256 (enable-subpixel-rendering.patch) = dc77c1cfee4bf8e7e0690628c95d211df09e0d0750e4c8f075b78b5f105514f7
 SHA256 (enable-long-pcf-family-names.patch) = 266384222f87a02fb02b2179828f6c26fe6d7b1fd09d1f7e3734e7fcb09cda2e
