@@ -24,15 +24,15 @@ drwxr-xr-x	root/root	usr/lib/cmake/z3/
 -rw-r--r--	root/root	usr/lib/cmake/z3/Z3Config.cmake
 -rw-r--r--	root/root	usr/lib/cmake/z3/Z3ConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libz3.so -> libz3.so.5.3
-lrwxrwxrwx	root/root	usr/lib/libz3.so.5.3 -> libz3.so.5.3.1.0
--rwxr-xr-x	root/root	usr/lib/libz3.so.5.3.1.0
+lrwxrwxrwx	root/root	usr/lib/libz3.so.5.3 -> libz3.so.5.3.2.0
+-rwxr-xr-x	root/root	usr/lib/libz3.so.5.3.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/z3.pc
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/z3/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/__init__.py
-lrwxrwxrwx	root/root	usr/lib/python3.12/site-packages/z3/libz3.so.5.3 -> /home/pkgmk/work/z3/src/z3-z3-5.3.1/build/libz3.so.5.3.1.0
+lrwxrwxrwx	root/root	usr/lib/python3.12/site-packages/z3/libz3.so.5.3 -> /home/pkgmk/work/z3/src/z3-z3-5.3.2/build/libz3.so.5.3.2.0
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3consts.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/z3/z3core.py
