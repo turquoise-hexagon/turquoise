@@ -59,6 +59,13 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/gh-discussion-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-discussion-view.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-discussion.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-listen.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-subscription-create.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-subscription-delete.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-subscription-list.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-subscription-view.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event-subscription.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/gh-event.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-browse.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-create.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/gh-extension-exec.1.gz
