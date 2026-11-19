@@ -11,8 +11,6 @@ drwxr-xr-x	root/root	usr/include/minizinc/_thirdparty/
 -rw-r--r--	root/root	usr/include/minizinc/_thirdparty/highs_interface.h
 -rw-r--r--	root/root	usr/include/minizinc/_thirdparty/miniz.h
 -rw-r--r--	root/root	usr/include/minizinc/_thirdparty/scip_interface.h
-drwxr-xr-x	root/root	usr/include/minizinc/_thirdparty/tree_sitter/
--rw-r--r--	root/root	usr/include/minizinc/_thirdparty/tree_sitter/api.h
 -rw-r--r--	root/root	usr/include/minizinc/_thirdparty/xpress_interface.h
 drwxr-xr-x	root/root	usr/include/minizinc/algorithms/
 -rw-r--r--	root/root	usr/include/minizinc/algorithms/min_cut.h
@@ -20,7 +18,6 @@ drwxr-xr-x	root/root	usr/include/minizinc/algorithms/
 -rw-r--r--	root/root	usr/include/minizinc/ast.hpp
 -rw-r--r--	root/root	usr/include/minizinc/astexception.hh
 -rw-r--r--	root/root	usr/include/minizinc/astiterator.hh
--rw-r--r--	root/root	usr/include/minizinc/astmap.hh
 -rw-r--r--	root/root	usr/include/minizinc/aststring.hh
 -rw-r--r--	root/root	usr/include/minizinc/astvec.hh
 -rw-r--r--	root/root	usr/include/minizinc/blackbox.hh
@@ -34,13 +31,15 @@ drwxr-xr-x	root/root	usr/include/minizinc/algorithms/
 -rw-r--r--	root/root	usr/include/minizinc/flat_exp.hh
 -rw-r--r--	root/root	usr/include/minizinc/flatten.hh
 -rw-r--r--	root/root	usr/include/minizinc/flatten_internal.hh
+-rw-r--r--	root/root	usr/include/minizinc/flatten_linear.hh
 -rw-r--r--	root/root	usr/include/minizinc/flattener.hh
--rw-r--r--	root/root	usr/include/minizinc/gc.hh
 -rw-r--r--	root/root	usr/include/minizinc/hash.hh
 -rw-r--r--	root/root	usr/include/minizinc/htmlprinter.hh
 -rw-r--r--	root/root	usr/include/minizinc/interrupt.hh
 -rw-r--r--	root/root	usr/include/minizinc/iter.hh
 -rw-r--r--	root/root	usr/include/minizinc/json_parser.hh
+-rw-r--r--	root/root	usr/include/minizinc/library_bundle.hh
+-rw-r--r--	root/root	usr/include/minizinc/memory.hh
 -rw-r--r--	root/root	usr/include/minizinc/model.hh
 -rw-r--r--	root/root	usr/include/minizinc/optimize.hh
 -rw-r--r--	root/root	usr/include/minizinc/optimize_constraints.hh
@@ -110,6 +109,7 @@ drwxr-xr-x	root/root	usr/lib64/cmake/libminizinc/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/minizinc/
 -rw-r--r--	root/root	usr/share/minizinc/Preferences.json
+-rw-r--r--	root/root	usr/share/minizinc/geas.lib.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/geas/
 -rw-r--r--	root/root	usr/share/minizinc/geas/fzn_all_different_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/geas/fzn_alldifferent_except_0.mzn
@@ -121,6 +121,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/geas/
 -rw-r--r--	root/root	usr/share/minizinc/geas/fzn_value_precede_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/geas/redefinitions-2.0.mzn
 -rw-r--r--	root/root	usr/share/minizinc/geas/redefinitions.mzn
+-rw-r--r--	root/root	usr/share/minizinc/gecode_presolver.lib.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/gecode_presolver/
 -rw-r--r--	root/root	usr/share/minizinc/gecode_presolver/fzn_all_different_int.mzn
 -rw-r--r--	root/root	usr/share/minizinc/gecode_presolver/fzn_all_equal_int.mzn
@@ -179,6 +180,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/gecode_presolver/
 -rw-r--r--	root/root	usr/share/minizinc/gecode_presolver/precedence.mzn
 -rw-r--r--	root/root	usr/share/minizinc/gecode_presolver/redefinitions-2.0.mzn
 -rw-r--r--	root/root	usr/share/minizinc/gecode_presolver/redefinitions.mzn
+-rw-r--r--	root/root	usr/share/minizinc/linear.lib.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/linear/
 -rw-r--r--	root/root	usr/share/minizinc/linear/CHANGELOG.txt
 -rw-r--r--	root/root	usr/share/minizinc/linear/domain_encodings.mzn
@@ -216,6 +218,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/linear/
 -rw-r--r--	root/root	usr/share/minizinc/linear/redefs_lin_imp.mzn
 -rw-r--r--	root/root	usr/share/minizinc/linear/redefs_lin_reifs.mzn
 -rw-r--r--	root/root	usr/share/minizinc/linear/subcircuit_wDummy.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std.lib.mzn
 drwxr-xr-x	root/root	usr/share/minizinc/std/
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/all_different_except.mzn
@@ -616,6 +619,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_opt_bool.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_opt_float.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_opt_int.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_opt_set.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_partiality.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_set.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_bool.mzn
@@ -624,6 +628,7 @@ drwxr-xr-x	root/root	usr/share/minizinc/std/experimental/on_restart/
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_opt_bool.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_opt_float.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_opt_int.mzn
+-rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_opt_set.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_if_then_else_var_set.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_increasing_bool.mzn
 -rw-r--r--	root/root	usr/share/minizinc/std/fzn_increasing_bool_opt.mzn
